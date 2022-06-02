@@ -1,0 +1,111 @@
+-I: Adding /Users/darian/anaconda3/envs/md/dat/leap/prep to search path.
+-I: Adding /Users/darian/anaconda3/envs/md/dat/leap/lib to search path.
+-I: Adding /Users/darian/anaconda3/envs/md/dat/leap/parm to search path.
+-I: Adding /Users/darian/anaconda3/envs/md/dat/leap/cmd to search path.
+-f: Source tleap.in.
+
+Welcome to LEaP!
+(no leaprc in search path)
+Sourcing: ./tleap.in
+----- Source: /Users/darian/anaconda3/envs/md/dat/leap/cmd/leaprc.protein.ff19SB
+----- Source of /Users/darian/anaconda3/envs/md/dat/leap/cmd/leaprc.protein.ff19SB done
+Log file: ./leap.log
+Loading parameters: /Users/darian/anaconda3/envs/md/dat/leap/parm/parm19.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA + ff19SB
+Loading parameters: /Users/darian/anaconda3/envs/md/dat/leap/parm/frcmod.ff19SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff19SB AA-specific backbone CMAPs for protein 07/25/2019
+Loading library: /Users/darian/anaconda3/envs/md/dat/leap/lib/amino19.lib
+Loading library: /Users/darian/anaconda3/envs/md/dat/leap/lib/aminoct12.lib
+Loading library: /Users/darian/anaconda3/envs/md/dat/leap/lib/aminont12.lib
+----- Source: /Users/darian/anaconda3/envs/md/dat/leap/cmd/leaprc.water.opc
+----- Source of /Users/darian/anaconda3/envs/md/dat/leap/cmd/leaprc.water.opc done
+Loading library: /Users/darian/anaconda3/envs/md/dat/leap/lib/atomic_ions.lib
+Loading library: /Users/darian/anaconda3/envs/md/dat/leap/lib/solvents.lib
+Loading parameters: /Users/darian/anaconda3/envs/md/dat/leap/parm/frcmod.opc
+Reading force field modification type file (frcmod)
+Reading title:
+Parameters for OPC water (JPCL, 2014, 5 (21), pp 3863-3871)
+Loading parameters: /Users/darian/anaconda3/envs/md/dat/leap/parm/frcmod.ionslm_126_opc
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of atomic ions for the OPC water model (12-6 set)
+----- Source: /Users/darian/anaconda3/envs/md/dat/leap/cmd/leaprc.gaff
+----- Source of /Users/darian/anaconda3/envs/md/dat/leap/cmd/leaprc.gaff done
+Log file: ./leap.log
+Loading parameters: /Users/darian/anaconda3/envs/md/dat/leap/parm/gaff.dat
+Reading title:
+AMBER General Force Field for organic molecules (Version 1.81, May 2017)
+----- Source: /Users/darian/anaconda3/envs/md/dat/leap/cmd/leaprc.gaff2
+----- Source of /Users/darian/anaconda3/envs/md/dat/leap/cmd/leaprc.gaff2 done
+Log file: ./leap.log
+Loading parameters: /Users/darian/anaconda3/envs/md/dat/leap/parm/gaff2.dat
+Reading title:
+AMBER General Force Field for organic molecules (Version 2.11, May 2016)
+Loading library: ../adp/adp_final.lib
+Loading parameters: ../adp/case2012.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Steinbrecher-Latzer-Case Phosphate Oxygen parameters (JCTC, 8, 4405-12, 2012)
+Loading PDB file: ./1ii6_leap.pdb
+  total atoms in file: 5833
+  Leap added 2 missing atoms according to residue templates:
+       2 H / lone pairs
+ (using default radius 1.500000 for O3B)
+ (using default radius 1.500000 for O2B)
+ (using default radius 1.500000 for O1B)
+ (using default radius 1.500000 for O2A)
+ (using default radius 1.500000 for O1A)
+ (using default radius 1.500000 for O3A)
+Scaling up box by a factor of 1.326907 to meet diagonal cut criterion
+  Solute vdw bounding box:              55.674 69.340 90.650
+  Total bounding box for atom centers:  122.496 122.496 122.496
+      (box expansion for 'iso' is  69.4%)
+  Solvent unit box:                     18.774 18.774 18.774
+ (using default radius 1.500000 for O3B)
+ (using default radius 1.500000 for O2B)
+ (using default radius 1.500000 for O1B)
+ (using default radius 1.500000 for O2A)
+ (using default radius 1.500000 for O1A)
+ (using default radius 1.500000 for O3A)
+  Volume: 941730.145 A^3 (oct)
+  Mass > 519316.987 amu,  Density > 0.916 g/cc
+      (type - hence mass - of one or more atoms could not be found)
+  Added 26530 residues.
+Checking Unit.
+
+/Users/darian/anaconda3/envs/md/bin/teLeap: Warning!
+There is a bond of 4.456 angstroms between C and N atoms:
+-------  .R<VAL 365>.A<C 15> and .R<ASN 366>.A<N 1>
+
+/Users/darian/anaconda3/envs/md/bin/teLeap: Note.
+Ignoring the warning from Unit Checking.
+
+Building topology.
+Building atom parameters.
+
+/Users/darian/anaconda3/envs/md/bin/teLeap: Error!
+For atom (.R<ADP 370>.A<O3A 1>) could not find vdW (or other) parameters for type (OZ)
+
+/Users/darian/anaconda3/envs/md/bin/teLeap: Error!
+For atom (.R<ADP 370>.A<O1A 3>) could not find vdW (or other) parameters for type (OF)
+
+/Users/darian/anaconda3/envs/md/bin/teLeap: Error!
+For atom (.R<ADP 370>.A<O2A 4>) could not find vdW (or other) parameters for type (OF)
+
+/Users/darian/anaconda3/envs/md/bin/teLeap: Error!
+For atom (.R<ADP 370>.A<O1B 33>) could not find vdW (or other) parameters for type (OG)
+
+/Users/darian/anaconda3/envs/md/bin/teLeap: Error!
+For atom (.R<ADP 370>.A<O2B 34>) could not find vdW (or other) parameters for type (OG)
+
+/Users/darian/anaconda3/envs/md/bin/teLeap: Error!
+For atom (.R<ADP 370>.A<O3B 35>) could not find vdW (or other) parameters for type (OG)
+
+/Users/darian/anaconda3/envs/md/bin/teLeap: Warning!
+Parameter file was not saved.
+	Quit
+
+Exiting LEaP: Errors = 6; Warnings = 2; Notes = 1.

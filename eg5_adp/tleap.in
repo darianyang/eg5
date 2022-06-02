@@ -1,0 +1,10 @@
+source leaprc.protein.ff19SB
+source leaprc.water.opc
+source leaprc.gaff
+source leaprc.gaff2
+loadoff ../adp/adp_final.lib
+loadamberparams ../adp/case2012.frcmod
+pdb = loadpdb 1ii6_leap.pdb
+solvateoct pdb SPCBOX 12.0
+saveamberparm pdb 1ii6_solv.prmtop 1ii6_solv.inpcrd
+quit
