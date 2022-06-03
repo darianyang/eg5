@@ -1,0 +1,14 @@
+-I: Adding /home/dty7/Apps/amber18/dat/leap/prep to search path.
+-I: Adding /home/dty7/Apps/amber18/dat/leap/lib to search path.
+-I: Adding /home/dty7/Apps/amber18/dat/leap/parm to search path.
+-I: Adding /home/dty7/Apps/amber18/dat/leap/cmd to search path.
+-f: Source tleap.in.
+
+Welcome to LEaP!
+(no leaprc in search path)
+Sourcing: ./tleap.in
+
+/home/dty7/Apps/amber18/bin/teLeap: Fatal Error!
+Could not open file leaprc.protein.ff19SB: not found
+
+Exiting LEaP: Errors = 1; Warnings = 0; Notes = 0.
