@@ -1,10 +1,9 @@
 source leaprc.protein.ff19SB
 source leaprc.water.opc
-source leaprc.gaff
-source leaprc.gaff2
-loadoff ../adp/adp_final.lib
-loadamberparams ../adp/case2012.frcmod
+loadamberprep ../adp/carlson/adp.prep
+loadamberparams ../adp/carlson/frcmod.phos
 pdb = loadpdb 1ii6_leap.pdb
-solvateoct pdb SPCBOX 12.0
+solvateoct pdb OPCBOX 12.0
 saveamberparm pdb 1ii6_solv.prmtop 1ii6_solv.inpcrd
+savepdb pdb 1ii6_solv.pdb
 quit

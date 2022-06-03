@@ -32,48 +32,26 @@ Loading parameters: /Users/darian/anaconda3/envs/md/dat/leap/parm/frcmod.ionslm_
 Reading force field modification type file (frcmod)
 Reading title:
 Li/Merz ion parameters of atomic ions for the OPC water model (12-6 set)
------ Source: /Users/darian/anaconda3/envs/md/dat/leap/cmd/leaprc.gaff
------ Source of /Users/darian/anaconda3/envs/md/dat/leap/cmd/leaprc.gaff done
-Log file: ./leap.log
-Loading parameters: /Users/darian/anaconda3/envs/md/dat/leap/parm/gaff.dat
-Reading title:
-AMBER General Force Field for organic molecules (Version 1.81, May 2017)
------ Source: /Users/darian/anaconda3/envs/md/dat/leap/cmd/leaprc.gaff2
------ Source of /Users/darian/anaconda3/envs/md/dat/leap/cmd/leaprc.gaff2 done
-Log file: ./leap.log
-Loading parameters: /Users/darian/anaconda3/envs/md/dat/leap/parm/gaff2.dat
-Reading title:
-AMBER General Force Field for organic molecules (Version 2.11, May 2016)
-Loading library: ../adp/adp_final.lib
-Loading parameters: ../adp/case2012.frcmod
+Loading Prep file: ../adp/carlson/adp.prep
+Loading parameters: ../adp/carlson/frcmod.phos
 Reading force field modification type file (frcmod)
 Reading title:
-Steinbrecher-Latzer-Case Phosphate Oxygen parameters (JCTC, 8, 4405-12, 2012)
+#  Modifications to the AMBER94 force field for polyphosphates
 Loading PDB file: ./1ii6_leap.pdb
+
+/Users/darian/anaconda3/envs/md/bin/teLeap: Warning!
+One sided connection. Residue (default_name) missing connect1 atom.
   total atoms in file: 5833
   Leap added 2 missing atoms according to residue templates:
        2 H / lone pairs
- (using default radius 1.500000 for O3B)
- (using default radius 1.500000 for O2B)
- (using default radius 1.500000 for O1B)
- (using default radius 1.500000 for O2A)
- (using default radius 1.500000 for O1A)
- (using default radius 1.500000 for O3A)
-Scaling up box by a factor of 1.326907 to meet diagonal cut criterion
-  Solute vdw bounding box:              55.674 69.340 90.650
-  Total bounding box for atom centers:  122.496 122.496 122.496
-      (box expansion for 'iso' is  69.4%)
-  Solvent unit box:                     18.774 18.774 18.774
- (using default radius 1.500000 for O3B)
- (using default radius 1.500000 for O2B)
- (using default radius 1.500000 for O1B)
- (using default radius 1.500000 for O2A)
- (using default radius 1.500000 for O1A)
- (using default radius 1.500000 for O3A)
-  Volume: 941730.145 A^3 (oct)
-  Mass > 519316.987 amu,  Density > 0.916 g/cc
-      (type - hence mass - of one or more atoms could not be found)
-  Added 26530 residues.
+Scaling up box by a factor of 1.327527 to meet diagonal cut criterion
+  Solute vdw bounding box:              55.674 69.252 90.650
+  Total bounding box for atom centers:  122.511 122.511 122.511
+      (box expansion for 'iso' is  69.6%)
+  Solvent unit box:                     18.865 18.478 19.006
+  Volume: 942071.037 A^3 (oct)
+  Total mass 521592.923 amu,  Density 0.919 g/cc
+  Added 26651 residues.
 Checking Unit.
 
 /Users/darian/anaconda3/envs/md/bin/teLeap: Warning!
@@ -81,31 +59,43 @@ There is a bond of 4.456 angstroms between C and N atoms:
 -------  .R<VAL 365>.A<C 15> and .R<ASN 366>.A<N 1>
 
 /Users/darian/anaconda3/envs/md/bin/teLeap: Note.
-Ignoring the warning from Unit Checking.
+Ignoring the warnings from Unit Checking.
 
 Building topology.
 Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+old PREP-specified impropers:
+ <ADP 370>:  C8   C4   N9   C1* 
+ <ADP 370>:  C6   H60  N6   H61 
+ <ADP 370>:  N7   N9   C8   H80 
+ <ADP 370>:  N1   N3   C2   H2  
+ <ADP 370>:  C5   N1   C6   N6  
+ total 1102 improper torsions applied
+ 5 improper torsions in old prep form
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
 
-/Users/darian/anaconda3/envs/md/bin/teLeap: Error!
-For atom (.R<ADP 370>.A<O3A 1>) could not find vdW (or other) parameters for type (OZ)
+	res	total affected
 
-/Users/darian/anaconda3/envs/md/bin/teLeap: Error!
-For atom (.R<ADP 370>.A<O1A 3>) could not find vdW (or other) parameters for type (OF)
-
-/Users/darian/anaconda3/envs/md/bin/teLeap: Error!
-For atom (.R<ADP 370>.A<O2A 4>) could not find vdW (or other) parameters for type (OF)
-
-/Users/darian/anaconda3/envs/md/bin/teLeap: Error!
-For atom (.R<ADP 370>.A<O1B 33>) could not find vdW (or other) parameters for type (OG)
-
-/Users/darian/anaconda3/envs/md/bin/teLeap: Error!
-For atom (.R<ADP 370>.A<O2B 34>) could not find vdW (or other) parameters for type (OG)
-
-/Users/darian/anaconda3/envs/md/bin/teLeap: Error!
-For atom (.R<ADP 370>.A<O3B 35>) could not find vdW (or other) parameters for type (OG)
+	CLYS	1
+	NMET	1
+  )
+ (no restraints)
+Writing pdb file: 1ii6_solv.pdb
+   printing CRYST1 record to PDB file with box info
 
 /Users/darian/anaconda3/envs/md/bin/teLeap: Warning!
-Parameter file was not saved.
+ Converting N-terminal residue name to PDB format: NMET -> MET
+
+/Users/darian/anaconda3/envs/md/bin/teLeap: Warning!
+ Converting C-terminal residue name to PDB format: CLYS -> LYS
 	Quit
 
-Exiting LEaP: Errors = 6; Warnings = 2; Notes = 1.
+Exiting LEaP: Errors = 0; Warnings = 4; Notes = 1.
