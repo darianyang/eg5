@@ -48,6 +48,14 @@ One sided connection. Residue (default_name) missing connect1 atom.
   total atoms in file: 5833
   Leap added 2 missing atoms according to residue templates:
        2 H / lone pairs
+Scaling up box by a factor of 1.327527 to meet diagonal cut criterion
+  Solute vdw bounding box:              55.674 69.252 90.650
+  Total bounding box for atom centers:  122.511 122.511 122.511
+      (box expansion for 'iso' is  69.6%)
+  Solvent unit box:                     18.865 18.478 19.006
+  Volume: 942071.037 A^3 (oct)
+  Total mass 521592.923 amu,  Density 0.919 g/cc
+  Added 26651 residues.
  0.000000 0 1 0
 0 Na+ ion required to neutralize.
 Adding 0 counter ions to "pdb" using 1A grid
@@ -57,141 +65,131 @@ addIons: 1st Ion & target unit have charges of the same sign:
      unit charge = -2.33147e-14; ion1 charge = -1;
      can't neutralize.
 Adding 57 counter ions to "pdb" using 1A grid
-Grid extends from solute vdw + 5.61  to  11.71
+Grid extends from solute vdw + 1.45  to  7.55
 Resolution:      1.00 Angstrom.
- (no solvent present)
 Calculating grid charges
-Placed Na+ in pdb at (64.76, 46.61, 1.11).
-Placed Na+ in pdb at (67.76, 58.61, 9.11).
-Placed Na+ in pdb at (54.76, 82.61, 17.11).
-Placed Na+ in pdb at (56.76, 65.61, 21.11).
-Placed Na+ in pdb at (73.76, 60.61, -3.89).
-Placed Na+ in pdb at (37.76, 85.61, 19.11).
-Placed Na+ in pdb at (61.76, 77.61, 5.11).
-Placed Na+ in pdb at (37.76, 76.61, 32.11).
-Placed Na+ in pdb at (43.76, 43.61, 19.11).
-Placed Na+ in pdb at (49.76, 32.61, 4.11).
-Placed Na+ in pdb at (47.76, 90.61, 34.11).
-Placed Na+ in pdb at (53.76, 47.61, -11.89).
-Placed Na+ in pdb at (35.76, 31.61, 12.11).
-Placed Na+ in pdb at (31.76, 48.61, -33.89).
-Placed Na+ in pdb at (71.76, 50.61, -11.89).
-Placed Na+ in pdb at (46.76, 80.61, 9.11).
-Placed Na+ in pdb at (47.76, 80.61, -29.89).
-Placed Na+ in pdb at (31.76, 75.61, 21.11).
-Placed Na+ in pdb at (25.76, 68.61, -39.89).
-Placed Na+ in pdb at (30.76, 32.61, -1.89).
-Placed Na+ in pdb at (62.76, 74.61, 17.11).
-Placed Na+ in pdb at (8.76, 118.61, -35.89).
-Placed Na+ in pdb at (73.76, 49.61, 3.11).
-Placed Na+ in pdb at (47.76, 92.61, 23.11).
-Placed Na+ in pdb at (35.76, 113.61, -30.89).
-Placed Na+ in pdb at (15.76, 76.61, -14.89).
-Placed Na+ in pdb at (34.76, 52.61, -56.89).
-Placed Na+ in pdb at (71.76, 71.61, -1.89).
-Placed Na+ in pdb at (25.76, 122.61, -53.89).
-Placed Na+ in pdb at (46.76, 21.61, -8.89).
-Placed Na+ in pdb at (48.76, 63.61, 36.11).
-Placed Na+ in pdb at (15.76, 49.61, 27.11).
-Placed Na+ in pdb at (22.76, 98.61, -47.89).
-Placed Na+ in pdb at (36.76, 30.61, -31.89).
-Placed Na+ in pdb at (61.76, 84.61, 34.11).
-Placed Na+ in pdb at (58.76, 49.61, 16.11).
-Placed Na+ in pdb at (55.76, 48.61, -46.89).
-Placed Na+ in pdb at (20.76, 75.61, -30.89).
-Placed Na+ in pdb at (21.76, 129.61, -37.89).
-Placed Na+ in pdb at (18.76, 32.61, -22.89).
-Placed Na+ in pdb at (16.76, 105.61, -22.89).
-Placed Na+ in pdb at (51.76, 30.61, 19.11).
-Placed Na+ in pdb at (3.76, 74.61, 0.11).
-Placed Na+ in pdb at (34.76, 67.61, -56.89).
-Placed Na+ in pdb at (17.76, 35.61, 15.11).
-Placed Na+ in pdb at (74.76, 63.61, -17.89).
-Placed Na+ in pdb at (30.76, 86.61, 30.11).
-Placed Na+ in pdb at (36.76, 111.61, -47.89).
-Placed Na+ in pdb at (62.76, 38.61, -31.89).
-Placed Na+ in pdb at (25.76, 99.61, -5.89).
-Placed Na+ in pdb at (23.76, 52.61, -47.89).
-Placed Na+ in pdb at (54.76, 89.61, -20.89).
-Placed Na+ in pdb at (11.76, 36.61, -5.89).
-Placed Na+ in pdb at (50.76, 78.61, 39.11).
-Placed Na+ in pdb at (41.76, 21.61, 5.11).
-Placed Na+ in pdb at (13.76, 115.61, -48.89).
-Placed Na+ in pdb at (28.76, 54.61, 29.11).
+Placed Na+ in pdb at (-8.33, -27.21, -25.00).
+Placed Na+ in pdb at (-28.33, -17.21, 17.00).
+Placed Na+ in pdb at (11.67, -6.21, -21.00).
+Placed Na+ in pdb at (-39.33, -27.21, 34.00).
+Placed Na+ in pdb at (10.67, 14.79, -13.00).
+Placed Na+ in pdb at (-22.33, -30.21, 12.00).
+Placed Na+ in pdb at (-30.33, 27.79, 48.00).
+Placed Na+ in pdb at (55.67, -23.21, -26.00).
+Placed Na+ in pdb at (-16.33, -21.21, 47.00).
+Placed Na+ in pdb at (2.67, -27.21, -2.00).
+Placed Na+ in pdb at (-55.33, -6.21, 33.00).
+Placed Na+ in pdb at (-40.33, 36.79, 35.00).
+Placed Na+ in pdb at (-18.33, -48.21, 31.00).
+Placed Na+ in pdb at (-16.33, 19.79, 61.00).
+Placed Na+ in pdb at (4.67, -13.21, 60.00).
+Placed Na+ in pdb at (15.67, 54.79, -28.00).
+Placed Na+ in pdb at (-41.33, 10.79, 49.00).
+Placed Na+ in pdb at (-55.33, 16.79, 20.00).
+Placed Na+ in pdb at (3.67, -34.21, 48.00).
+Placed Na+ in pdb at (-23.33, 48.79, 9.00).
+Placed Na+ in pdb at (41.67, -43.21, 24.00).
+Placed Na+ in pdb at (-15.33, 41.79, 48.00).
+Placed Na+ in pdb at (53.67, -3.21, -40.00).
+Placed Na+ in pdb at (-22.33, -35.21, -2.00).
+Placed Na+ in pdb at (41.67, -42.21, -3.00).
+Placed Na+ in pdb at (-16.33, -62.21, -19.00).
+Placed Na+ in pdb at (55.67, 30.79, -24.00).
+Placed Na+ in pdb at (-16.33, 1.79, 60.00).
+Placed Na+ in pdb at (-37.33, -6.21, 47.00).
+Placed Na+ in pdb at (-3.33, 56.79, -3.00).
+Placed Na+ in pdb at (-9.33, 30.79, -52.00).
+Placed Na+ in pdb at (-52.33, 19.79, 35.00).
+Placed Na+ in pdb at (18.67, -52.21, 37.00).
+Placed Na+ in pdb at (34.67, 45.79, -27.00).
+Placed Na+ in pdb at (-53.33, -32.21, 17.00).
+Placed Na+ in pdb at (5.67, 26.79, 48.00).
+Placed Na+ in pdb at (54.67, 20.79, 27.00).
+Placed Na+ in pdb at (-25.33, 43.79, -43.00).
+Placed Na+ in pdb at (11.67, 13.79, -55.00).
+Placed Na+ in pdb at (55.67, -23.21, 0.00).
+Placed Na+ in pdb at (-4.33, -60.21, 24.00).
+Placed Na+ in pdb at (5.67, -7.21, -21.00).
+Placed Na+ in pdb at (54.67, 21.79, 1.00).
+Placed Na+ in pdb at (-46.33, 35.79, -30.00).
+Placed Na+ in pdb at (5.67, 3.79, 61.00).
+Placed Na+ in pdb at (-2.33, 56.79, 23.00).
+Placed Na+ in pdb at (-55.33, 17.79, -7.00).
+Placed Na+ in pdb at (-14.33, -44.21, -35.00).
+Placed Na+ in pdb at (-25.33, 20.79, -56.00).
+Placed Na+ in pdb at (55.67, -17.21, 30.00).
+Placed Na+ in pdb at (-40.33, -47.21, -5.00).
+Placed Na+ in pdb at (34.67, 21.79, -41.00).
+Placed Na+ in pdb at (-2.33, -59.21, -3.00).
+Placed Na+ in pdb at (-55.33, -5.21, 7.00).
+Placed Na+ in pdb at (55.67, 0.79, -13.00).
+Placed Na+ in pdb at (12.67, 37.79, -41.00).
+Placed Na+ in pdb at (19.67, -51.21, 10.00).
 
 Done adding ions.
 Adding 57 counter ions to "pdb" using 1A grid
-Grid extends from solute vdw + 8.30  to  14.40
+Grid extends from solute vdw + 2.14  to  8.24
 Resolution:      1.00 Angstrom.
- (no solvent present)
 Calculating grid charges
-Placed Cl- in pdb at (19.36, 76.21, 8.71).
-Placed Cl- in pdb at (46.36, 27.21, 11.71).
-Placed Cl- in pdb at (20.36, 39.21, 2.71).
-Placed Cl- in pdb at (18.36, 124.21, -47.29).
-Placed Cl- in pdb at (52.36, 42.21, -20.29).
-Placed Cl- in pdb at (28.36, 60.21, -53.29).
-Placed Cl- in pdb at (46.36, 89.21, 13.71).
-Placed Cl- in pdb at (20.36, 85.21, -27.29).
-Placed Cl- in pdb at (18.36, 33.21, -12.29).
-Placed Cl- in pdb at (56.36, 80.21, -23.29).
-Placed Cl- in pdb at (26.36, 46.21, 24.71).
-Placed Cl- in pdb at (31.36, 103.21, -47.29).
-Placed Cl- in pdb at (60.36, 46.21, -38.29).
-Placed Cl- in pdb at (54.36, 71.21, 33.71).
-Placed Cl- in pdb at (23.36, 101.21, -15.29).
-Placed Cl- in pdb at (67.36, 48.21, 10.71).
-Placed Cl- in pdb at (77.36, 68.21, -9.29).
-Placed Cl- in pdb at (27.36, 77.21, 29.71).
-Placed Cl- in pdb at (16.36, 71.21, -23.29).
-Placed Cl- in pdb at (35.36, 119.21, -41.29).
-Placed Cl- in pdb at (28.36, 34.21, -25.29).
-Placed Cl- in pdb at (9.36, 65.21, 7.71).
-Placed Cl- in pdb at (41.36, 80.21, -40.29).
-Placed Cl- in pdb at (62.36, 82.21, 23.71).
-Placed Cl- in pdb at (53.36, 40.21, 19.71).
-Placed Cl- in pdb at (31.36, 47.21, -44.29).
-Placed Cl- in pdb at (12.36, 110.21, -40.29).
-Placed Cl- in pdb at (32.36, 25.21, 4.71).
-Placed Cl- in pdb at (29.36, 86.21, 0.71).
-Placed Cl- in pdb at (63.36, 63.21, -23.29).
-Placed Cl- in pdb at (39.36, 85.21, 36.71).
-Placed Cl- in pdb at (47.36, 61.21, -48.29).
-Placed Cl- in pdb at (50.36, 23.21, 0.71).
-Placed Cl- in pdb at (43.36, 93.21, -19.29).
-Placed Cl- in pdb at (10.36, 78.21, -6.29).
-Placed Cl- in pdb at (55.36, 88.21, 40.71).
-Placed Cl- in pdb at (22.36, 113.21, -53.29).
-Placed Cl- in pdb at (20.36, 60.21, 26.71).
-Placed Cl- in pdb at (65.36, 79.21, -4.29).
-Placed Cl- in pdb at (29.36, 72.21, -49.29).
-Placed Cl- in pdb at (16.36, 123.21, -31.29).
-Placed Cl- in pdb at (27.36, 34.21, 16.71).
-Placed Cl- in pdb at (79.36, 52.21, -5.29).
-Placed Cl- in pdb at (66.36, 65.21, 16.71).
-Placed Cl- in pdb at (13.36, 45.21, -10.29).
-Placed Cl- in pdb at (65.36, 44.21, -24.29).
-Placed Cl- in pdb at (38.36, 93.21, 25.71).
-Placed Cl- in pdb at (22.36, 59.21, -40.29).
-Placed Cl- in pdb at (13.36, 43.21, 19.71).
-Placed Cl- in pdb at (39.36, 60.21, -61.29).
-Placed Cl- in pdb at (40.36, 59.21, 33.71).
-Placed Cl- in pdb at (44.36, 36.21, -34.29).
-Placed Cl- in pdb at (28.36, 128.21, -45.29).
-Placed Cl- in pdb at (30.36, 110.21, -23.29).
-Placed Cl- in pdb at (38.36, 25.21, -12.29).
-Placed Cl- in pdb at (5.36, 119.21, -45.29).
-Placed Cl- in pdb at (51.36, 70.21, -39.29).
+Placed Cl- in pdb at (-18.57, -62.46, -15.69).
+Placed Cl- in pdb at (-0.57, -32.46, 47.31).
+Placed Cl- in pdb at (9.43, 11.54, -56.69).
+Placed Cl- in pdb at (55.43, 1.54, -16.69).
+Placed Cl- in pdb at (24.43, 42.54, -32.69).
+Placed Cl- in pdb at (2.43, 5.54, 62.31).
+Placed Cl- in pdb at (22.43, -49.46, 8.31).
+Placed Cl- in pdb at (-53.57, 28.54, -13.69).
+Placed Cl- in pdb at (24.43, 19.54, -45.69).
+Placed Cl- in pdb at (-21.57, 50.54, 6.31).
+Placed Cl- in pdb at (-12.57, -42.46, -37.69).
+Placed Cl- in pdb at (55.43, -22.46, -3.69).
+Placed Cl- in pdb at (-32.57, 30.54, 46.31).
+Placed Cl- in pdb at (0.43, -57.46, -4.69).
+Placed Cl- in pdb at (-5.57, 32.54, -49.69).
+Placed Cl- in pdb at (56.43, 21.54, 4.31).
+Placed Cl- in pdb at (-13.57, 22.54, 60.31).
+Placed Cl- in pdb at (18.43, -50.46, -31.69).
+Placed Cl- in pdb at (56.43, -14.46, 32.31).
+Placed Cl- in pdb at (-54.57, 6.54, 25.31).
+Placed Cl- in pdb at (-15.57, -50.46, 32.31).
+Placed Cl- in pdb at (-43.57, 37.54, 33.31).
+Placed Cl- in pdb at (55.43, 33.54, -21.69).
+Placed Cl- in pdb at (18.43, -50.46, -5.69).
+Placed Cl- in pdb at (-22.57, 22.54, -57.69).
+Placed Cl- in pdb at (-42.57, -46.46, -10.69).
+Placed Cl- in pdb at (3.43, 29.54, 49.31).
+Placed Cl- in pdb at (-43.57, 37.54, -31.69).
+Placed Cl- in pdb at (24.43, -3.46, -58.69).
+Placed Cl- in pdb at (-0.57, 58.54, 20.31).
+Placed Cl- in pdb at (-42.57, 7.54, 50.31).
+Placed Cl- in pdb at (44.43, -43.46, 26.31).
+Placed Cl- in pdb at (55.43, 20.54, 23.31).
+Placed Cl- in pdb at (40.43, -43.46, -16.69).
+Placed Cl- in pdb at (-30.57, -23.46, -40.69).
+Placed Cl- in pdb at (-4.57, 12.54, 0.31).
+Placed Cl- in pdb at (35.43, 48.54, -24.69).
+Placed Cl- in pdb at (55.43, -5.46, -37.69).
+Placed Cl- in pdb at (-54.57, 7.54, 1.31).
+Placed Cl- in pdb at (-12.57, 44.54, 47.31).
+Placed Cl- in pdb at (-54.57, 22.54, 34.31).
+Placed Cl- in pdb at (39.43, -43.46, 7.31).
+Placed Cl- in pdb at (-6.57, 55.54, -0.69).
+Placed Cl- in pdb at (-7.57, -61.46, 25.31).
+Placed Cl- in pdb at (45.43, 2.54, -47.69).
+Placed Cl- in pdb at (21.43, -54.46, 36.31).
+Placed Cl- in pdb at (-23.57, 45.54, -45.69).
+Placed Cl- in pdb at (-53.57, -10.46, -12.69).
+Placed Cl- in pdb at (19.43, -5.46, 63.31).
+Placed Cl- in pdb at (46.43, 23.54, -35.69).
+Placed Cl- in pdb at (14.43, 40.54, -42.69).
+Placed Cl- in pdb at (58.43, -23.46, -23.69).
+Placed Cl- in pdb at (-54.57, -31.46, 20.31).
+Placed Cl- in pdb at (-19.57, 0.54, 61.31).
+Placed Cl- in pdb at (55.43, 29.54, -5.69).
+Placed Cl- in pdb at (-41.57, -48.46, -1.69).
+Placed Cl- in pdb at (55.43, -15.46, 21.31).
 
 Done adding ions.
-Scaling up box by a factor of 1.377498 to meet diagonal cut criterion
-  Solute vdw bounding box:              76.355 88.188 113.817
-  Total bounding box for atom centers:  146.876 146.876 146.876
-      (box expansion for 'iso' is  62.6%)
-  Solvent unit box:                     18.865 18.478 19.006
-  Volume: 1616840.668 A^3 (oct)
-  Total mass 896341.859 amu,  Density 0.921 g/cc
-  Added 47267 residues.
 Checking Unit.
 
 /Users/darian/anaconda3/envs/md/bin/teLeap: Warning!
