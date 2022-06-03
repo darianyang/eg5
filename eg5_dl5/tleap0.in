@@ -1,0 +1,10 @@
+source leaprc.protein.ff19SB
+source leaprc.water.opc
+loadamberprep ../adp/carlson/adp.prep
+loadamberparams ../adp/carlson/frcmod.phos
+loadamberparams frcmod.ionslm_1264_opc
+pdb = loadpdb 1ii6_leap_loopy1H.pdb
+#charge pdb
+#check pdb
+savepdb pdb 1ii6_dl5_leap.pdb
+quit
