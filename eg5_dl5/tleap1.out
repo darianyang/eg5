@@ -60,259 +60,136 @@ addIons: 1st Ion & target unit have charges of the same sign:
 Adding 3 counter ions to "pdb" using 1A grid
 Grid extends from solute vdw + 2.14  to  8.24
 Resolution:      1.00 Angstrom.
-Solvent present: replacing closest with ion
-	 when steric overlaps occur
 Calculating grid charges
-(Replacing solvent molecule)
-Placed Cl- in pdb at (-27.02, -5.15, -10.66).
-(Replacing solvent molecule)
-Placed Cl- in pdb at (-26.31, -5.34, -3.84).
-(No solvent overlap)
-Placed Cl- in pdb at (-27.07, -9.76, -18.08).
+Placed Cl- in pdb at (-54.10, 30.13, -12.52).
+Placed Cl- in pdb at (39.90, -42.87, -18.52).
+Placed Cl- in pdb at (1.90, 11.13, -59.52).
 
 Done adding ions.
 Adding 57 counter ions to "pdb" using 1A grid
-Grid extends from solute vdw + 5.61  to  11.76
+Grid extends from solute vdw + 1.45  to  7.59
 Resolution:      1.00 Angstrom.
-Solvent present: replacing closest with ion
-	 when steric overlaps occur
 Calculating grid charges
-(Replacing solvent molecule)
-Placed Na+ in pdb at (-21.69, -21.19, 28.08).
-(Replacing solvent molecule)
-Placed Na+ in pdb at (-42.60, -22.60, 11.03).
-(Replacing solvent molecule)
-Placed Na+ in pdb at (-21.11, -35.21, 19.16).
-(Replacing solvent molecule)
-Placed Na+ in pdb at (-29.61, -10.52, 18.78).
-(Replacing solvent molecule)
-Placed Na+ in pdb at (-25.52, -40.03, -5.43).
-(Replacing solvent molecule)
-Placed Na+ in pdb at (-8.11, -22.36, 25.31).
-(Replacing solvent molecule)
-Placed Na+ in pdb at (-5.13, -44.26, -13.71).
-(Replacing solvent molecule)
-Placed Na+ in pdb at (-43.35, -21.77, -21.27).
-(Replacing solvent molecule)
-Placed Na+ in pdb at (-40.86, -20.16, 31.36).
-(Replacing solvent molecule)
-Placed Na+ in pdb at (3.21, -36.65, 6.77).
-(Replacing solvent molecule)
-Placed Na+ in pdb at (-16.49, -45.16, -21.80).
-(Replacing solvent molecule)
-Placed Na+ in pdb at (14.87, -6.10, -23.72).
-(Replacing solvent molecule)
-Placed Na+ in pdb at (-34.41, -11.76, 8.80).
-(Replacing solvent molecule)
-Placed Na+ in pdb at (-9.44, -31.20, -29.19).
-(Replacing solvent molecule)
-Placed Na+ in pdb at (12.30, 11.65, -15.29).
-(Replacing solvent molecule)
-Placed Na+ in pdb at (14.35, 8.13, 7.89).
-(Replacing solvent molecule)
-Placed Na+ in pdb at (-32.32, -13.45, 29.81).
-(Replacing solvent molecule)
-Placed Na+ in pdb at (4.05, -35.46, -5.14).
-(Replacing solvent molecule)
-Placed Na+ in pdb at (-15.87, 13.38, -10.33).
-(Replacing solvent molecule)
-Placed Na+ in pdb at (-38.37, -32.15, 17.27).
-(No solvent overlap)
-Placed Na+ in pdb at (-9.58, 54.72, 10.41).
-(Replacing solvent molecule)
-Placed Na+ in pdb at (-29.80, -6.68, -23.06).
-(Replacing solvent molecule)
-Placed Na+ in pdb at (-13.23, -43.23, 8.41).
-(Replacing solvent molecule)
-Placed Na+ in pdb at (2.00, 36.03, 23.16).
-(Replacing solvent molecule)
-Placed Na+ in pdb at (-17.05, -10.57, 19.24).
-(Replacing solvent molecule)
-Placed Na+ in pdb at (34.91, 6.51, -27.03).
-(Replacing solvent molecule)
-Placed Na+ in pdb at (7.52, -45.41, -27.43).
-(Replacing solvent molecule)
-Placed Na+ in pdb at (15.17, 57.99, 19.54).
-(Replacing solvent molecule)
-Placed Na+ in pdb at (-31.26, 0.62, -5.09).
-(Replacing solvent molecule)
-Placed Na+ in pdb at (-15.71, -28.83, 29.18).
-(Replacing solvent molecule)
-Placed Na+ in pdb at (4.34, 18.73, -11.92).
-(Replacing solvent molecule)
-Placed Na+ in pdb at (19.92, -22.23, -32.60).
-(Replacing solvent molecule)
-Placed Na+ in pdb at (16.93, -29.33, 20.31).
-(Replacing solvent molecule)
-Placed Na+ in pdb at (-41.98, -14.48, 18.48).
-(Replacing solvent molecule)
-Placed Na+ in pdb at (4.33, 45.90, -0.19).
-(Replacing solvent molecule)
-Placed Na+ in pdb at (38.59, -10.99, -10.41).
-(No solvent overlap)
-Placed Na+ in pdb at (-34.58, -31.28, 37.41).
-(Replacing solvent molecule)
-Placed Na+ in pdb at (-17.91, -53.94, -10.31).
-(Replacing solvent molecule)
-Placed Na+ in pdb at (-1.93, 53.77, 24.28).
-(Replacing solvent molecule)
-Placed Na+ in pdb at (3.31, -14.19, -42.79).
-(Replacing solvent molecule)
-Placed Na+ in pdb at (-31.13, -34.79, -30.97).
-(Replacing solvent molecule)
-Placed Na+ in pdb at (29.16, 17.98, -15.59).
-(Replacing solvent molecule)
-Placed Na+ in pdb at (17.29, 40.95, 15.84).
-(Replacing solvent molecule)
-Placed Na+ in pdb at (-29.16, 9.52, -20.18).
-(Replacing solvent molecule)
-Placed Na+ in pdb at (-3.50, -43.61, 18.92).
-(Replacing solvent molecule)
-Placed Na+ in pdb at (-20.19, 22.14, 13.22).
-(Replacing solvent molecule)
-Placed Na+ in pdb at (31.74, -31.94, -6.73).
-(Replacing solvent molecule)
-Placed Na+ in pdb at (8.96, 1.60, 21.83).
-(Replacing solvent molecule)
-Placed Na+ in pdb at (-41.01, -31.98, -10.94).
-(Replacing solvent molecule)
-Placed Na+ in pdb at (-18.02, -16.79, -40.98).
-(Replacing solvent molecule)
-Placed Na+ in pdb at (19.75, 10.16, -30.25).
-(Replacing solvent molecule)
-Placed Na+ in pdb at (-11.07, 37.84, 6.32).
-(Replacing solvent molecule)
-Placed Na+ in pdb at (-31.64, -43.68, 11.82).
-(Replacing solvent molecule)
-Placed Na+ in pdb at (5.35, -48.69, -0.19).
-(Replacing solvent molecule)
-Placed Na+ in pdb at (-9.30, -47.42, -29.51).
-(No solvent overlap)
-Placed Na+ in pdb at (5.42, 58.72, 8.41).
-(Replacing solvent molecule)
-Placed Na+ in pdb at (-37.32, -14.59, 38.67).
+Placed Na+ in pdb at (-13.70, -21.22, 25.13).
+Placed Na+ in pdb at (-17.70, -36.22, -14.87).
+Placed Na+ in pdb at (12.30, -7.22, -19.87).
+Placed Na+ in pdb at (7.30, -24.22, -4.87).
+Placed Na+ in pdb at (-5.70, -22.22, 19.13).
+Placed Na+ in pdb at (-21.70, -35.22, -1.87).
+Placed Na+ in pdb at (-27.70, -17.22, 18.13).
+Placed Na+ in pdb at (10.30, 15.78, -11.87).
+Placed Na+ in pdb at (-38.70, 34.78, 36.13).
+Placed Na+ in pdb at (-11.70, -38.22, 3.13).
+Placed Na+ in pdb at (-39.70, -27.22, 34.13).
+Placed Na+ in pdb at (10.30, -17.22, 6.13).
+Placed Na+ in pdb at (-38.70, -5.22, 47.13).
+Placed Na+ in pdb at (-57.70, 29.78, -12.87).
+Placed Na+ in pdb at (-28.70, 26.78, 49.13).
+Placed Na+ in pdb at (-34.70, -26.22, 18.13).
+Placed Na+ in pdb at (10.30, 36.78, -39.87).
+Placed Na+ in pdb at (3.30, -16.22, 58.13).
+Placed Na+ in pdb at (-23.70, 48.78, 9.13).
+Placed Na+ in pdb at (-55.70, -7.22, 33.13).
+Placed Na+ in pdb at (54.30, -25.22, -26.87).
+Placed Na+ in pdb at (11.30, 13.78, -54.87).
+Placed Na+ in pdb at (-16.70, -21.22, 47.13).
+Placed Na+ in pdb at (-16.70, 42.78, 48.13).
+Placed Na+ in pdb at (16.30, 54.78, -27.87).
+Placed Na+ in pdb at (-51.70, 19.78, 35.13).
+Placed Na+ in pdb at (41.30, -45.22, -20.87).
+Placed Na+ in pdb at (53.30, 4.78, 15.13).
+Placed Na+ in pdb at (-1.70, 56.78, -3.87).
+Placed Na+ in pdb at (54.30, -1.22, -40.87).
+Placed Na+ in pdb at (19.30, -50.22, 36.13).
+Placed Na+ in pdb at (-15.70, 18.78, 61.13).
+Placed Na+ in pdb at (-8.70, 29.78, -52.87).
+Placed Na+ in pdb at (-5.70, -35.22, -15.87).
+Placed Na+ in pdb at (-17.70, -43.22, 34.13).
+Placed Na+ in pdb at (55.30, 29.78, -22.87).
+Placed Na+ in pdb at (55.30, -23.22, 0.13).
+Placed Na+ in pdb at (54.30, 20.78, 27.13).
+Placed Na+ in pdb at (5.30, 3.78, 61.13).
+Placed Na+ in pdb at (-39.70, 11.78, 49.13).
+Placed Na+ in pdb at (-24.70, 43.78, -42.87).
+Placed Na+ in pdb at (-55.70, 15.78, 20.13).
+Placed Na+ in pdb at (54.30, 21.78, 1.13).
+Placed Na+ in pdb at (54.30, -16.22, 28.13).
+Placed Na+ in pdb at (-9.70, -23.22, -25.87).
+Placed Na+ in pdb at (-0.70, 13.78, -59.87).
+Placed Na+ in pdb at (-17.70, -2.22, 57.13).
+Placed Na+ in pdb at (-4.70, -59.22, 23.13).
+Placed Na+ in pdb at (-55.70, 15.78, -6.87).
+Placed Na+ in pdb at (20.30, -49.22, -15.87).
+Placed Na+ in pdb at (-2.70, 56.78, 23.13).
+Placed Na+ in pdb at (34.30, 22.78, -38.87).
+Placed Na+ in pdb at (3.30, -34.22, 48.13).
+Placed Na+ in pdb at (-46.70, 12.78, -42.87).
+Placed Na+ in pdb at (-51.70, -39.22, 8.13).
+Placed Na+ in pdb at (-52.70, -8.22, 4.13).
+Placed Na+ in pdb at (32.30, 44.78, -26.87).
 
 Done adding ions.
 Adding 57 counter ions to "pdb" using 1A grid
-Grid extends from solute vdw + 8.30  to  14.44
+Grid extends from solute vdw + 2.14  to  8.29
 Resolution:      1.00 Angstrom.
-Solvent present: replacing closest with ion
-	 when steric overlaps occur
 Calculating grid charges
-(Replacing solvent molecule)
-Placed Cl- in pdb at (-22.53, -12.08, 27.46).
-(Replacing solvent molecule)
-Placed Cl- in pdb at (-2.78, 51.70, 4.94).
-(Replacing solvent molecule)
-Placed Cl- in pdb at (17.68, 18.33, -16.11).
-(Replacing solvent molecule)
-Placed Cl- in pdb at (-15.38, -39.12, -31.14).
-(Replacing solvent molecule)
-Placed Cl- in pdb at (-2.05, -44.26, 9.50).
-(Replacing solvent molecule)
-Placed Cl- in pdb at (-12.97, 26.81, 10.00).
-(Replacing solvent molecule)
-Placed Cl- in pdb at (-33.32, -32.48, -7.28).
-(No solvent overlap)
-Placed Cl- in pdb at (5.21, 59.62, 18.77).
-(Replacing solvent molecule)
-Placed Cl- in pdb at (20.70, 12.68, 2.61).
-(Replacing solvent molecule)
-Placed Cl- in pdb at (-32.33, -3.03, 3.88).
-(Replacing solvent molecule)
-Placed Cl- in pdb at (-8.66, -15.72, -38.11).
-(Replacing solvent molecule)
-Placed Cl- in pdb at (-11.63, -52.20, -15.22).
-(Replacing solvent molecule)
-Placed Cl- in pdb at (-23.76, -30.42, 33.14).
-(Replacing solvent molecule)
-Placed Cl- in pdb at (22.04, -33.24, -8.02).
-(Replacing solvent molecule)
-Placed Cl- in pdb at (-27.23, 11.94, -10.49).
-(Replacing solvent molecule)
-Placed Cl- in pdb at (-22.00, -44.26, 15.02).
-(Replacing solvent molecule)
-Placed Cl- in pdb at (27.95, 11.09, -24.60).
-(Replacing solvent molecule)
-Placed Cl- in pdb at (12.55, 41.46, 24.88).
-(Replacing solvent molecule)
-Placed Cl- in pdb at (-42.50, -10.88, 30.90).
-(Replacing solvent molecule)
-Placed Cl- in pdb at (-3.80, 22.52, -5.01).
-(Replacing solvent molecule)
-Placed Cl- in pdb at (-33.95, -27.29, -25.35).
-(Replacing solvent molecule)
-Placed Cl- in pdb at (34.17, -15.00, -5.18).
-(Replacing solvent molecule)
-Placed Cl- in pdb at (3.81, -44.83, -10.39).
-(Replacing solvent molecule)
-Placed Cl- in pdb at (-39.16, -15.63, 2.49).
-(Replacing solvent molecule)
-Placed Cl- in pdb at (11.02, -19.05, -33.67).
-(Replacing solvent molecule)
-Placed Cl- in pdb at (11.94, 50.14, 5.52).
-(Replacing solvent molecule)
-Placed Cl- in pdb at (0.88, 11.40, 18.86).
-(Replacing solvent molecule)
-Placed Cl- in pdb at (1.60, -24.41, 24.29).
-(Replacing solvent molecule)
-Placed Cl- in pdb at (-42.82, -25.53, 20.43).
-(Replacing solvent molecule)
-Placed Cl- in pdb at (11.66, 7.13, -22.90).
-(Replacing solvent molecule)
-Placed Cl- in pdb at (-4.55, 43.07, 23.55).
-(Replacing solvent molecule)
-Placed Cl- in pdb at (-34.79, 0.66, -19.94).
-(Replacing solvent molecule)
-Placed Cl- in pdb at (20.93, -16.44, 9.46).
-(No solvent overlap)
-Placed Cl- in pdb at (-40.79, -24.38, 40.77).
-(Replacing solvent molecule)
-Placed Cl- in pdb at (-18.77, -21.89, -33.70).
-(No solvent overlap)
-Placed Cl- in pdb at (-5.79, -60.38, -25.23).
-(Replacing solvent molecule)
-Placed Cl- in pdb at (31.42, -3.68, -11.74).
-(No solvent overlap)
-Placed Cl- in pdb at (-1.79, 69.62, 6.77).
-(Replacing solvent molecule)
-Placed Cl- in pdb at (-39.64, -39.41, 9.17).
-(Replacing solvent molecule)
-Placed Cl- in pdb at (12.31, -35.78, 14.06).
-(Replacing solvent molecule)
-Placed Cl- in pdb at (-0.37, -42.16, -31.14).
-(Replacing solvent molecule)
-Placed Cl- in pdb at (-23.44, 3.76, 8.80).
-(No solvent overlap)
-Placed Cl- in pdb at (5.21, 63.62, 20.77).
-(Replacing solvent molecule)
-Placed Cl- in pdb at (15.50, 0.42, 13.45).
-(Replacing solvent molecule)
-Placed Cl- in pdb at (-49.55, -26.04, -14.39).
-(No solvent overlap)
-Placed Cl- in pdb at (-0.79, 65.62, 20.77).
-(Replacing solvent molecule)
-Placed Cl- in pdb at (-23.08, -49.56, -3.07).
-(Replacing solvent molecule)
-Placed Cl- in pdb at (20.79, -14.06, -25.26).
-(Replacing solvent molecule)
-Placed Cl- in pdb at (-20.13, 11.12, -18.45).
-(Replacing solvent molecule)
-Placed Cl- in pdb at (-11.68, -39.93, 22.53).
-(Replacing solvent molecule)
-Placed Cl- in pdb at (-3.46, 38.74, 0.85).
-(Replacing solvent molecule)
-Placed Cl- in pdb at (-6.75, -10.40, 23.02).
-(Replacing solvent molecule)
-Placed Cl- in pdb at (26.01, 5.53, -33.30).
-(Replacing solvent molecule)
-Placed Cl- in pdb at (-28.39, -18.37, 36.09).
-(Replacing solvent molecule)
-Placed Cl- in pdb at (19.14, 48.59, 20.98).
-(Replacing solvent molecule)
-Placed Cl- in pdb at (31.00, -24.59, -12.29).
-(Replacing solvent molecule)
-Placed Cl- in pdb at (-27.93, -39.54, -22.20).
+Placed Cl- in pdb at (37.02, 25.09, -37.56).
+Placed Cl- in pdb at (22.02, -49.91, 33.44).
+Placed Cl- in pdb at (55.02, -15.91, 21.44).
+Placed Cl- in pdb at (-53.98, 6.09, 27.44).
+Placed Cl- in pdb at (55.02, 6.09, 7.44).
+Placed Cl- in pdb at (24.02, -49.91, -15.56).
+Placed Cl- in pdb at (2.02, 5.09, 62.44).
+Placed Cl- in pdb at (30.02, 43.09, -29.56).
+Placed Cl- in pdb at (-5.98, 32.09, -51.56).
+Placed Cl- in pdb at (-14.98, -4.91, 58.44).
+Placed Cl- in pdb at (55.02, -22.91, -3.56).
+Placed Cl- in pdb at (-53.98, 6.09, 1.44).
+Placed Cl- in pdb at (-0.98, -33.91, 47.44).
+Placed Cl- in pdb at (8.02, 36.09, -42.56).
+Placed Cl- in pdb at (-43.98, -26.91, 33.44).
+Placed Cl- in pdb at (56.02, 27.09, -20.56).
+Placed Cl- in pdb at (-13.98, 45.09, 47.44).
+Placed Cl- in pdb at (54.02, -15.91, -30.56).
+Placed Cl- in pdb at (-20.98, 50.09, 6.44).
+Placed Cl- in pdb at (45.02, 4.09, -45.56).
+Placed Cl- in pdb at (56.02, 22.09, 4.44).
+Placed Cl- in pdb at (-44.98, 16.09, -43.56).
+Placed Cl- in pdb at (-2.98, -58.91, 8.44).
+Placed Cl- in pdb at (16.02, 52.09, -30.56).
+Placed Cl- in pdb at (-53.98, -34.91, 0.44).
+Placed Cl- in pdb at (-5.98, 56.09, 24.44).
+Placed Cl- in pdb at (8.02, 12.09, -56.56).
+Placed Cl- in pdb at (-52.98, 23.09, 34.44).
+Placed Cl- in pdb at (-6.98, -60.91, 25.44).
+Placed Cl- in pdb at (-13.98, 22.09, 61.44).
+Placed Cl- in pdb at (18.02, -50.91, -5.56).
+Placed Cl- in pdb at (56.02, -12.91, 28.44).
+Placed Cl- in pdb at (-40.98, 11.09, 52.44).
+Placed Cl- in pdb at (-53.98, -17.91, 13.44).
+Placed Cl- in pdb at (-23.98, 46.09, -45.56).
+Placed Cl- in pdb at (18.02, -50.91, 20.44).
+Placed Cl- in pdb at (-10.98, -15.91, -52.56).
+Placed Cl- in pdb at (20.02, -4.91, 62.44).
+Placed Cl- in pdb at (-53.98, -17.91, -13.56).
+Placed Cl- in pdb at (23.02, -5.91, -61.56).
+Placed Cl- in pdb at (57.02, 19.09, 25.44).
+Placed Cl- in pdb at (18.02, -50.91, -31.56).
+Placed Cl- in pdb at (-29.98, -37.91, 32.44).
+Placed Cl- in pdb at (-7.98, -38.91, -40.56).
+Placed Cl- in pdb at (40.02, -42.91, 7.44).
+Placed Cl- in pdb at (-0.98, 59.09, -6.56).
+Placed Cl- in pdb at (-28.98, -46.91, -27.56).
+Placed Cl- in pdb at (46.02, 27.09, -32.56).
+Placed Cl- in pdb at (-1.98, 33.09, 49.44).
+Placed Cl- in pdb at (-58.98, 17.09, -7.56).
+Placed Cl- in pdb at (0.02, -16.91, 59.44).
+Placed Cl- in pdb at (-31.98, 26.09, 50.44).
+Placed Cl- in pdb at (-31.98, -0.91, -52.56).
+Placed Cl- in pdb at (43.02, -47.91, -22.56).
+Placed Cl- in pdb at (-50.98, -40.91, 11.44).
+Placed Cl- in pdb at (49.02, 41.09, 4.44).
+Placed Cl- in pdb at (-41.98, -5.91, 48.44).
 
 Done adding ions.
 Checking Unit.
