@@ -41,26 +41,22 @@ Loading parameters: /Users/darian/anaconda3/envs/md/dat/leap/parm/frcmod.ionslm_
 Reading force field modification type file (frcmod)
 Reading title:
 Li/Merz ion parameters of atomic ions for the OPC water model (12-6-4 set)
-Loading PDB file: ./1ii6_leap_loopy1H.pdb
-  Added missing heavy atom: .R<CHIE 360>.A<OXT 18>
+Loading PDB file: ./1ii6_his_loopy1H_forleap.pdb
+  Added missing heavy atom: .R<CLYS 360>.A<OXT 23>
 
 /Users/darian/anaconda3/envs/md/bin/teLeap: Warning!
 One sided connection. Residue (default_name) missing connect1 atom.
-Created a new atom named: HN62 within residue: .R<ADP 362>
-Created a new atom named: HN61 within residue: .R<ADP 362>
-Created a new atom named: H8 within residue: .R<ADP 362>
-  total atoms in file: 5653
-  Leap added 72 missing atoms according to residue templates:
+  total atoms in file: 5705
+  Leap added 17 missing atoms according to residue templates:
        1 Heavy
-       71 H / lone pairs
-  The file contained 3 atoms not in residue templates
+       16 H / lone pairs
 Writing pdb file: 1ii6_dl5_leap.pdb
 
 /Users/darian/anaconda3/envs/md/bin/teLeap: Warning!
  Converting N-terminal residue name to PDB format: NMET -> MET
 
 /Users/darian/anaconda3/envs/md/bin/teLeap: Warning!
- Converting C-terminal residue name to PDB format: CHIE -> HIE
+ Converting C-terminal residue name to PDB format: CLYS -> LYS
 	Quit
 
 Exiting LEaP: Errors = 0; Warnings = 3; Notes = 0.
