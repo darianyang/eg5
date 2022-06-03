@@ -1,0 +1,66 @@
+-I: Adding /Users/darian/anaconda3/envs/md/dat/leap/prep to search path.
+-I: Adding /Users/darian/anaconda3/envs/md/dat/leap/lib to search path.
+-I: Adding /Users/darian/anaconda3/envs/md/dat/leap/parm to search path.
+-I: Adding /Users/darian/anaconda3/envs/md/dat/leap/cmd to search path.
+-f: Source tleap0.in.
+
+Welcome to LEaP!
+(no leaprc in search path)
+Sourcing: ./tleap0.in
+----- Source: /Users/darian/anaconda3/envs/md/dat/leap/cmd/leaprc.protein.ff19SB
+----- Source of /Users/darian/anaconda3/envs/md/dat/leap/cmd/leaprc.protein.ff19SB done
+Log file: ./leap.log
+Loading parameters: /Users/darian/anaconda3/envs/md/dat/leap/parm/parm19.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA + ff19SB
+Loading parameters: /Users/darian/anaconda3/envs/md/dat/leap/parm/frcmod.ff19SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff19SB AA-specific backbone CMAPs for protein 07/25/2019
+Loading library: /Users/darian/anaconda3/envs/md/dat/leap/lib/amino19.lib
+Loading library: /Users/darian/anaconda3/envs/md/dat/leap/lib/aminoct12.lib
+Loading library: /Users/darian/anaconda3/envs/md/dat/leap/lib/aminont12.lib
+----- Source: /Users/darian/anaconda3/envs/md/dat/leap/cmd/leaprc.water.opc
+----- Source of /Users/darian/anaconda3/envs/md/dat/leap/cmd/leaprc.water.opc done
+Loading library: /Users/darian/anaconda3/envs/md/dat/leap/lib/atomic_ions.lib
+Loading library: /Users/darian/anaconda3/envs/md/dat/leap/lib/solvents.lib
+Loading parameters: /Users/darian/anaconda3/envs/md/dat/leap/parm/frcmod.opc
+Reading force field modification type file (frcmod)
+Reading title:
+Parameters for OPC water (JPCL, 2014, 5 (21), pp 3863-3871)
+Loading parameters: /Users/darian/anaconda3/envs/md/dat/leap/parm/frcmod.ionslm_126_opc
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of atomic ions for the OPC water model (12-6 set)
+Loading Prep file: ../adp/carlson/adp.prep
+Loading parameters: ../adp/carlson/frcmod.phos
+Reading force field modification type file (frcmod)
+Reading title:
+#  Modifications to the AMBER94 force field for polyphosphates
+Loading parameters: /Users/darian/anaconda3/envs/md/dat/leap/parm/frcmod.ionslm_1264_opc
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of atomic ions for the OPC water model (12-6-4 set)
+Loading PDB file: ./1ii6_leap_loopy1H.pdb
+  Added missing heavy atom: .R<CHIE 360>.A<OXT 18>
+
+/Users/darian/anaconda3/envs/md/bin/teLeap: Warning!
+One sided connection. Residue (default_name) missing connect1 atom.
+Created a new atom named: HN62 within residue: .R<ADP 362>
+Created a new atom named: HN61 within residue: .R<ADP 362>
+Created a new atom named: H8 within residue: .R<ADP 362>
+  total atoms in file: 5653
+  Leap added 72 missing atoms according to residue templates:
+       1 Heavy
+       71 H / lone pairs
+  The file contained 3 atoms not in residue templates
+Writing pdb file: 1ii6_dl5_leap.pdb
+
+/Users/darian/anaconda3/envs/md/bin/teLeap: Warning!
+ Converting N-terminal residue name to PDB format: NMET -> MET
+
+/Users/darian/anaconda3/envs/md/bin/teLeap: Warning!
+ Converting C-terminal residue name to PDB format: CHIE -> HIE
+	Quit
+
+Exiting LEaP: Errors = 0; Warnings = 3; Notes = 0.
