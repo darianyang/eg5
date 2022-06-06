@@ -41,8 +41,8 @@ Loading parameters: /Users/darian/anaconda3/envs/md/dat/leap/parm/frcmod.ionslm_
 Reading force field modification type file (frcmod)
 Reading title:
 Li/Merz ion parameters of atomic ions for the OPC water model (12-6-4 set)
-Loading PDB file: ./1ii6_his_loopy1H_forleap.pdb
-  Added missing heavy atom: .R<CLYS 360>.A<OXT 23>
+Loading PDB file: ./1ii6_his_loopy1H_renumH_forleap.pdb
+  Added missing heavy atom: .R<CLYS 361>.A<OXT 23>
 
 /Users/darian/anaconda3/envs/md/bin/teLeap: Warning!
 One sided connection. Residue (default_name) missing connect1 atom.
@@ -50,6 +50,8 @@ One sided connection. Residue (default_name) missing connect1 atom.
   Leap added 17 missing atoms according to residue templates:
        1 Heavy
        16 H / lone pairs
+Total unperturbed charge:   3.000000
+Total perturbed charge:     3.000000
 Writing pdb file: 1ii6_dl5_leap.pdb
 
 /Users/darian/anaconda3/envs/md/bin/teLeap: Warning!

@@ -5,6 +5,6 @@ loadamberparams ../adp/carlson/frcmod.phos
 loadamberparams frcmod.ionslm_1264_opc
 pdb = loadpdb 1ii6_his_loopy1H_renumH_forleap.pdb
 charge pdb
-check pdb
+#check pdb
 savepdb pdb 1ii6_dl5_leap.pdb
 quit
