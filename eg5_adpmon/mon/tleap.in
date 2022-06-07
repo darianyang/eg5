@@ -1,0 +1,8 @@
+source leaprc.gaff2
+loadAmberParams mon.frcmod
+mon = loadmol2 mon.mol2
+check mon
+# note that the unit name must be capitalized
+# or at least match the PDB file restype
+saveOff mon mon.lib
+quit
