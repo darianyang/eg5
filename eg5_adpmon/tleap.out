@@ -1,0 +1,290 @@
+-I: Adding /Users/darian/anaconda3/envs/md/dat/leap/prep to search path.
+-I: Adding /Users/darian/anaconda3/envs/md/dat/leap/lib to search path.
+-I: Adding /Users/darian/anaconda3/envs/md/dat/leap/parm to search path.
+-I: Adding /Users/darian/anaconda3/envs/md/dat/leap/cmd to search path.
+-f: Source tleap.in.
+
+Welcome to LEaP!
+(no leaprc in search path)
+Sourcing: ./tleap.in
+----- Source: /Users/darian/anaconda3/envs/md/dat/leap/cmd/leaprc.protein.ff19SB
+----- Source of /Users/darian/anaconda3/envs/md/dat/leap/cmd/leaprc.protein.ff19SB done
+Log file: ./leap.log
+Loading parameters: /Users/darian/anaconda3/envs/md/dat/leap/parm/parm19.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA + ff19SB
+Loading parameters: /Users/darian/anaconda3/envs/md/dat/leap/parm/frcmod.ff19SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff19SB AA-specific backbone CMAPs for protein 07/25/2019
+Loading library: /Users/darian/anaconda3/envs/md/dat/leap/lib/amino19.lib
+Loading library: /Users/darian/anaconda3/envs/md/dat/leap/lib/aminoct12.lib
+Loading library: /Users/darian/anaconda3/envs/md/dat/leap/lib/aminont12.lib
+----- Source: /Users/darian/anaconda3/envs/md/dat/leap/cmd/leaprc.water.opc
+----- Source of /Users/darian/anaconda3/envs/md/dat/leap/cmd/leaprc.water.opc done
+Loading library: /Users/darian/anaconda3/envs/md/dat/leap/lib/atomic_ions.lib
+Loading library: /Users/darian/anaconda3/envs/md/dat/leap/lib/solvents.lib
+Loading parameters: /Users/darian/anaconda3/envs/md/dat/leap/parm/frcmod.opc
+Reading force field modification type file (frcmod)
+Reading title:
+Parameters for OPC water (JPCL, 2014, 5 (21), pp 3863-3871)
+Loading parameters: /Users/darian/anaconda3/envs/md/dat/leap/parm/frcmod.ionslm_126_opc
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of atomic ions for the OPC water model (12-6 set)
+Loading Prep file: ../adp/carlson/adp.prep
+Loading parameters: ../adp/carlson/frcmod.phos
+Reading force field modification type file (frcmod)
+Reading title:
+#  Modifications to the AMBER94 force field for polyphosphates
+Loading library: ./mon/mon.lib
+Loading parameters: ./mon/mon.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading parameters: /Users/darian/anaconda3/envs/md/dat/leap/parm/frcmod.ionslm_1264_opc
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of atomic ions for the OPC water model (12-6-4 set)
+Loading PDB file: ./1x88_leap.pdb
+
+/Users/darian/anaconda3/envs/md/bin/teLeap: Warning!
+One sided connection. Residue (default_name) missing connect1 atom.
+Created a new atom named: O5' within residue: .R<ADP 370>
+Created a new atom named: C5' within residue: .R<ADP 370>
+Created a new atom named: C4' within residue: .R<ADP 370>
+Created a new atom named: O4' within residue: .R<ADP 370>
+Created a new atom named: C3' within residue: .R<ADP 370>
+Created a new atom named: O3' within residue: .R<ADP 370>
+Created a new atom named: C2' within residue: .R<ADP 370>
+Created a new atom named: O2' within residue: .R<ADP 370>
+Created a new atom named: C1' within residue: .R<ADP 370>
+Created a new atom named: HO3' within residue: .R<ADP 370>
+Created a new atom named: HO2' within residue: .R<ADP 370>
+Created a new atom named: HN62 within residue: .R<ADP 370>
+Created a new atom named: HN61 within residue: .R<ADP 370>
+Created a new atom named: H5'2 within residue: .R<ADP 370>
+Created a new atom named: H5'1 within residue: .R<ADP 370>
+Created a new atom named: H8 within residue: .R<ADP 370>
+Created a new atom named: H4' within residue: .R<ADP 370>
+Created a new atom named: H3' within residue: .R<ADP 370>
+Created a new atom named: H2' within residue: .R<ADP 370>
+Created a new atom named: H1' within residue: .R<ADP 370>
+  Added missing heavy atom: .R<ADP 370>.A<C1* 16>
+  Added missing heavy atom: .R<ADP 370>.A<O4* 15>
+  Added missing heavy atom: .R<ADP 370>.A<C2* 36>
+  Added missing heavy atom: .R<ADP 370>.A<C4* 13>
+  Added missing heavy atom: .R<ADP 370>.A<C3* 32>
+  Added missing heavy atom: .R<ADP 370>.A<O2* 38>
+  Added missing heavy atom: .R<ADP 370>.A<C5* 10>
+  Added missing heavy atom: .R<ADP 370>.A<O3* 34>
+  Added missing heavy atom: .R<ADP 370>.A<O5* 9>
+
+/Users/darian/anaconda3/envs/md/bin/teLeap: Warning!
+One sided connection. Residue (UNL) missing connect0 atom.
+Created a new atom named: N8 within residue: .R<UNL 371>
+Created a new atom named: N10 within residue: .R<UNL 371>
+Created a new atom named: O13 within residue: .R<UNL 371>
+Created a new atom named: C14 within residue: .R<UNL 371>
+Created a new atom named: O15 within residue: .R<UNL 371>
+Created a new atom named: C16 within residue: .R<UNL 371>
+Created a new atom named: C17 within residue: .R<UNL 371>
+Created a new atom named: C18 within residue: .R<UNL 371>
+Created a new atom named: O19 within residue: .R<UNL 371>
+Created a new atom named: S20 within residue: .R<UNL 371>
+Created a new atom named: HN10 within residue: .R<UNL 371>
+Created a new atom named: H183 within residue: .R<UNL 371>
+Created a new atom named: H182 within residue: .R<UNL 371>
+Created a new atom named: H181 within residue: .R<UNL 371>
+Created a new atom named: H173 within residue: .R<UNL 371>
+Created a new atom named: H172 within residue: .R<UNL 371>
+Created a new atom named: H171 within residue: .R<UNL 371>
+Created a new atom named: H162 within residue: .R<UNL 371>
+Created a new atom named: H161 within residue: .R<UNL 371>
+Created a new atom named: HN8 within residue: .R<UNL 371>
+  Added missing heavy atom: .R<UNL 371>.A<O2 19>
+  Added missing heavy atom: .R<UNL 371>.A<C13 20>
+  Added missing heavy atom: .R<UNL 371>.A<C8 14>
+  Added missing heavy atom: .R<UNL 371>.A<C10 16>
+  Added missing heavy atom: .R<UNL 371>.A<N1 12>
+  Added missing heavy atom: .R<UNL 371>.A<N 9>
+  Added missing heavy atom: .R<UNL 371>.A<S 11>
+  Added missing heavy atom: .R<UNL 371>.A<C 1>
+  Added missing heavy atom: .R<UNL 371>.A<O 3>
+  Added missing heavy atom: .R<UNL 371>.A<O1 5>
+  total atoms in file: 5869
+  Leap added 42 missing atoms according to residue templates:
+       19 Heavy
+       23 H / lone pairs
+  The file contained 40 atoms not in residue templates
+Total unperturbed charge:  -0.002001
+Total perturbed charge:    -0.002001
+ (using default radius 1.500000 for O5')
+ (using default radius 1.500000 for C5')
+ (using default radius 1.500000 for C4')
+ (using default radius 1.500000 for O4')
+ (using default radius 1.500000 for C3')
+ (using default radius 1.500000 for O3')
+ (using default radius 1.500000 for C2')
+ (using default radius 1.500000 for O2')
+ (using default radius 1.500000 for C1')
+ (using default radius 1.500000 for HO3')
+ (using default radius 1.500000 for HO2')
+ (using default radius 1.500000 for C13)
+ (using default radius 1.500000 for O2)
+ (using default radius 1.500000 for C12)
+ (using default radius 1.500000 for C11)
+ (using default radius 1.500000 for C10)
+ (using default radius 1.500000 for C9)
+ (using default radius 1.500000 for C8)
+ (using default radius 1.500000 for C7)
+ (using default radius 1.500000 for N1)
+ (using default radius 1.500000 for S)
+ (using default radius 1.500000 for C6)
+ (using default radius 1.500000 for N)
+ (using default radius 1.500000 for C5)
+ (using default radius 1.500000 for C4)
+ (using default radius 1.500000 for C3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for O)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C)
+ (using default radius 1.500000 for N8)
+ (using default radius 1.500000 for N10)
+ (using default radius 1.500000 for O13)
+ (using default radius 1.500000 for C14)
+ (using default radius 1.500000 for O15)
+ (using default radius 1.500000 for C16)
+ (using default radius 1.500000 for C17)
+ (using default radius 1.500000 for C18)
+ (using default radius 1.500000 for O19)
+ (using default radius 1.500000 for S20)
+Scaling up box by a factor of 1.272200 to meet diagonal cut criterion
+  Solute vdw bounding box:              104.014 72.579 56.765
+  Total bounding box for atom centers:  134.547 134.547 134.547
+      (box expansion for 'iso' is 101.1%)
+  Solvent unit box:                     18.865 18.478 19.006
+ (using default radius 1.500000 for O5')
+ (using default radius 1.500000 for C5')
+ (using default radius 1.500000 for C4')
+ (using default radius 1.500000 for O4')
+ (using default radius 1.500000 for C3')
+ (using default radius 1.500000 for O3')
+ (using default radius 1.500000 for C2')
+ (using default radius 1.500000 for O2')
+ (using default radius 1.500000 for C1')
+ (using default radius 1.500000 for HO3')
+ (using default radius 1.500000 for HO2')
+ (using default radius 1.500000 for C13)
+ (using default radius 1.500000 for O2)
+ (using default radius 1.500000 for C12)
+ (using default radius 1.500000 for C11)
+ (using default radius 1.500000 for C10)
+ (using default radius 1.500000 for C9)
+ (using default radius 1.500000 for C8)
+ (using default radius 1.500000 for C7)
+ (using default radius 1.500000 for N1)
+ (using default radius 1.500000 for S)
+ (using default radius 1.500000 for C6)
+ (using default radius 1.500000 for N)
+ (using default radius 1.500000 for C5)
+ (using default radius 1.500000 for C4)
+ (using default radius 1.500000 for C3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for O)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C)
+ (using default radius 1.500000 for N8)
+ (using default radius 1.500000 for N10)
+ (using default radius 1.500000 for O13)
+ (using default radius 1.500000 for C14)
+ (using default radius 1.500000 for O15)
+ (using default radius 1.500000 for C16)
+ (using default radius 1.500000 for C17)
+ (using default radius 1.500000 for C18)
+ (using default radius 1.500000 for O19)
+ (using default radius 1.500000 for S20)
+  Volume: 1245198.550 A^3 (oct)
+  Mass > 693033.179 amu,  Density > 0.924 g/cc
+      (type - hence mass - of one or more atoms could not be found)
+  Added 36167 residues.
+Checking Unit.
+
+/Users/darian/anaconda3/envs/md/bin/teLeap: Warning!
+There is a bond of 3.693 angstroms between C9 and C10 atoms:
+-------  .R<UNL 371>.A<C9 15> and .R<UNL 371>.A<C10 16>
+
+/Users/darian/anaconda3/envs/md/bin/teLeap: Warning!
+There is a bond of 5.066 angstroms between C8 and C9 atoms:
+-------  .R<UNL 371>.A<C8 14> and .R<UNL 371>.A<C9 15>
+
+/Users/darian/anaconda3/envs/md/bin/teLeap: Warning!
+There is a bond of 3.794 angstroms between C7 and C8 atoms:
+-------  .R<UNL 371>.A<C7 13> and .R<UNL 371>.A<C8 14>
+
+/Users/darian/anaconda3/envs/md/bin/teLeap: Warning!
+There is a bond of 5.024 angstroms between C6 and N1 atoms:
+-------  .R<UNL 371>.A<C6 10> and .R<UNL 371>.A<N1 12>
+
+/Users/darian/anaconda3/envs/md/bin/teLeap: Warning!
+There is a bond of 4.756 angstroms between C5 and H7 atoms:
+-------  .R<UNL 371>.A<C5 8> and .R<UNL 371>.A<H7 28>
+
+/Users/darian/anaconda3/envs/md/bin/teLeap: Warning!
+There is a bond of 3.788 angstroms between C4 and N atoms:
+-------  .R<UNL 371>.A<C4 7> and .R<UNL 371>.A<N 9>
+
+/Users/darian/anaconda3/envs/md/bin/teLeap: Warning!
+There is a bond of 0.142 angstroms between C1 and O atoms:
+-------  .R<UNL 371>.A<C1 2> and .R<UNL 371>.A<O 3>
+
+/Users/darian/anaconda3/envs/md/bin/teLeap: Warning!
+There is a bond of 3.286 angstroms between C1 and H3 atoms:
+-------  .R<UNL 371>.A<C1 2> and .R<UNL 371>.A<H3 24>
+FATAL:  Atom .R<ADP 370>.A<O5' 40> does not have a type.
+FATAL:  Atom .R<ADP 370>.A<C5' 41> does not have a type.
+FATAL:  Atom .R<ADP 370>.A<C4' 42> does not have a type.
+FATAL:  Atom .R<ADP 370>.A<O4' 43> does not have a type.
+FATAL:  Atom .R<ADP 370>.A<C3' 44> does not have a type.
+FATAL:  Atom .R<ADP 370>.A<O3' 45> does not have a type.
+FATAL:  Atom .R<ADP 370>.A<C2' 46> does not have a type.
+FATAL:  Atom .R<ADP 370>.A<O2' 47> does not have a type.
+FATAL:  Atom .R<ADP 370>.A<C1' 48> does not have a type.
+FATAL:  Atom .R<ADP 370>.A<HO3' 49> does not have a type.
+FATAL:  Atom .R<ADP 370>.A<HO2' 50> does not have a type.
+FATAL:  Atom .R<ADP 370>.A<HN62 51> does not have a type.
+FATAL:  Atom .R<ADP 370>.A<HN61 52> does not have a type.
+FATAL:  Atom .R<ADP 370>.A<H5'2 53> does not have a type.
+FATAL:  Atom .R<ADP 370>.A<H5'1 54> does not have a type.
+FATAL:  Atom .R<ADP 370>.A<H8 55> does not have a type.
+FATAL:  Atom .R<ADP 370>.A<H4' 56> does not have a type.
+FATAL:  Atom .R<ADP 370>.A<H3' 57> does not have a type.
+FATAL:  Atom .R<ADP 370>.A<H2' 58> does not have a type.
+FATAL:  Atom .R<ADP 370>.A<H1' 59> does not have a type.
+FATAL:  Atom .R<UNL 371>.A<N8 37> does not have a type.
+FATAL:  Atom .R<UNL 371>.A<N10 38> does not have a type.
+FATAL:  Atom .R<UNL 371>.A<O13 39> does not have a type.
+FATAL:  Atom .R<UNL 371>.A<C14 40> does not have a type.
+FATAL:  Atom .R<UNL 371>.A<O15 41> does not have a type.
+FATAL:  Atom .R<UNL 371>.A<C16 42> does not have a type.
+FATAL:  Atom .R<UNL 371>.A<C17 43> does not have a type.
+FATAL:  Atom .R<UNL 371>.A<C18 44> does not have a type.
+FATAL:  Atom .R<UNL 371>.A<O19 45> does not have a type.
+FATAL:  Atom .R<UNL 371>.A<S20 46> does not have a type.
+FATAL:  Atom .R<UNL 371>.A<HN10 47> does not have a type.
+FATAL:  Atom .R<UNL 371>.A<H183 48> does not have a type.
+FATAL:  Atom .R<UNL 371>.A<H182 49> does not have a type.
+FATAL:  Atom .R<UNL 371>.A<H181 50> does not have a type.
+FATAL:  Atom .R<UNL 371>.A<H173 51> does not have a type.
+FATAL:  Atom .R<UNL 371>.A<H172 52> does not have a type.
+FATAL:  Atom .R<UNL 371>.A<H171 53> does not have a type.
+FATAL:  Atom .R<UNL 371>.A<H162 54> does not have a type.
+FATAL:  Atom .R<UNL 371>.A<H161 55> does not have a type.
+FATAL:  Atom .R<UNL 371>.A<HN8 56> does not have a type.
+
+/Users/darian/anaconda3/envs/md/bin/teLeap: Fatal Error!
+Failed to generate parameters
+
+Exiting LEaP: Errors = 1; Warnings = 10; Notes = 0.
