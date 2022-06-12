@@ -43,14 +43,14 @@ Reading title:
 Li/Merz ion parameters of atomic ions for the OPC water model (12-6-4 set)
 Loading PDB file: ./1ii6_dl5_leap.pdb
   total atoms in file: 5722
-Scaling up box by a factor of 1.323244 to meet diagonal cut criterion
-  Solute vdw bounding box:              52.000 69.143 90.512
-  Total bounding box for atom centers:  122.270 122.270 122.270
-      (box expansion for 'iso' is  76.9%)
+Scaling up box by a factor of 1.318860 to meet diagonal cut criterion
+  Solute vdw bounding box:              52.219 69.701 91.269
+  Total bounding box for atom centers:  122.922 122.922 122.922
+      (box expansion for 'iso' is  77.7%)
   Solvent unit box:                     18.865 18.478 19.006
-  Volume: 936576.818 A^3 (oct)
-  Total mass 519157.643 amu,  Density 0.920 g/cc
-  Added 26564 residues.
+  Volume: 951509.441 A^3 (oct)
+  Total mass 527174.763 amu,  Density 0.920 g/cc
+  Added 27009 residues.
 
 /Users/darian/anaconda3/envs/md/bin/teLeap: Warning!
 addIons: 1st Ion & target unit have charges of the same sign:
@@ -61,181 +61,12 @@ Adding 3 counter ions to "pdb" using 1A grid
 Grid extends from solute vdw + 2.14  to  8.24
 Resolution:      1.00 Angstrom.
 Calculating grid charges
-Placed Cl- in pdb at (-54.10, 30.13, -12.52).
-Placed Cl- in pdb at (39.90, -42.87, -18.52).
-Placed Cl- in pdb at (1.90, 11.13, -59.52).
+Placed Cl- in pdb at (-54.09, 6.43, -25.62).
+Placed Cl- in pdb at (1.91, 9.43, -61.62).
+Placed Cl- in pdb at (18.91, -50.57, -5.62).
 
 Done adding ions.
 Adding 57 counter ions to "pdb" using 1A grid
 Grid extends from solute vdw + 1.45  to  7.59
 Resolution:      1.00 Angstrom.
 Calculating grid charges
-Placed Na+ in pdb at (-13.70, -21.22, 25.13).
-Placed Na+ in pdb at (-17.70, -36.22, -14.87).
-Placed Na+ in pdb at (12.30, -7.22, -19.87).
-Placed Na+ in pdb at (7.30, -24.22, -4.87).
-Placed Na+ in pdb at (-5.70, -22.22, 19.13).
-Placed Na+ in pdb at (-21.70, -35.22, -1.87).
-Placed Na+ in pdb at (-27.70, -17.22, 18.13).
-Placed Na+ in pdb at (10.30, 15.78, -11.87).
-Placed Na+ in pdb at (-38.70, 34.78, 36.13).
-Placed Na+ in pdb at (-11.70, -38.22, 3.13).
-Placed Na+ in pdb at (-39.70, -27.22, 34.13).
-Placed Na+ in pdb at (10.30, -17.22, 6.13).
-Placed Na+ in pdb at (-38.70, -5.22, 47.13).
-Placed Na+ in pdb at (-57.70, 29.78, -12.87).
-Placed Na+ in pdb at (-28.70, 26.78, 49.13).
-Placed Na+ in pdb at (-34.70, -26.22, 18.13).
-Placed Na+ in pdb at (10.30, 36.78, -39.87).
-Placed Na+ in pdb at (3.30, -16.22, 58.13).
-Placed Na+ in pdb at (-23.70, 48.78, 9.13).
-Placed Na+ in pdb at (-55.70, -7.22, 33.13).
-Placed Na+ in pdb at (54.30, -25.22, -26.87).
-Placed Na+ in pdb at (11.30, 13.78, -54.87).
-Placed Na+ in pdb at (-16.70, -21.22, 47.13).
-Placed Na+ in pdb at (-16.70, 42.78, 48.13).
-Placed Na+ in pdb at (16.30, 54.78, -27.87).
-Placed Na+ in pdb at (-51.70, 19.78, 35.13).
-Placed Na+ in pdb at (41.30, -45.22, -20.87).
-Placed Na+ in pdb at (53.30, 4.78, 15.13).
-Placed Na+ in pdb at (-1.70, 56.78, -3.87).
-Placed Na+ in pdb at (54.30, -1.22, -40.87).
-Placed Na+ in pdb at (19.30, -50.22, 36.13).
-Placed Na+ in pdb at (-15.70, 18.78, 61.13).
-Placed Na+ in pdb at (-8.70, 29.78, -52.87).
-Placed Na+ in pdb at (-5.70, -35.22, -15.87).
-Placed Na+ in pdb at (-17.70, -43.22, 34.13).
-Placed Na+ in pdb at (55.30, 29.78, -22.87).
-Placed Na+ in pdb at (55.30, -23.22, 0.13).
-Placed Na+ in pdb at (54.30, 20.78, 27.13).
-Placed Na+ in pdb at (5.30, 3.78, 61.13).
-Placed Na+ in pdb at (-39.70, 11.78, 49.13).
-Placed Na+ in pdb at (-24.70, 43.78, -42.87).
-Placed Na+ in pdb at (-55.70, 15.78, 20.13).
-Placed Na+ in pdb at (54.30, 21.78, 1.13).
-Placed Na+ in pdb at (54.30, -16.22, 28.13).
-Placed Na+ in pdb at (-9.70, -23.22, -25.87).
-Placed Na+ in pdb at (-0.70, 13.78, -59.87).
-Placed Na+ in pdb at (-17.70, -2.22, 57.13).
-Placed Na+ in pdb at (-4.70, -59.22, 23.13).
-Placed Na+ in pdb at (-55.70, 15.78, -6.87).
-Placed Na+ in pdb at (20.30, -49.22, -15.87).
-Placed Na+ in pdb at (-2.70, 56.78, 23.13).
-Placed Na+ in pdb at (34.30, 22.78, -38.87).
-Placed Na+ in pdb at (3.30, -34.22, 48.13).
-Placed Na+ in pdb at (-46.70, 12.78, -42.87).
-Placed Na+ in pdb at (-51.70, -39.22, 8.13).
-Placed Na+ in pdb at (-52.70, -8.22, 4.13).
-Placed Na+ in pdb at (32.30, 44.78, -26.87).
-
-Done adding ions.
-Adding 57 counter ions to "pdb" using 1A grid
-Grid extends from solute vdw + 2.14  to  8.29
-Resolution:      1.00 Angstrom.
-Calculating grid charges
-Placed Cl- in pdb at (37.02, 25.09, -37.56).
-Placed Cl- in pdb at (22.02, -49.91, 33.44).
-Placed Cl- in pdb at (55.02, -15.91, 21.44).
-Placed Cl- in pdb at (-53.98, 6.09, 27.44).
-Placed Cl- in pdb at (55.02, 6.09, 7.44).
-Placed Cl- in pdb at (24.02, -49.91, -15.56).
-Placed Cl- in pdb at (2.02, 5.09, 62.44).
-Placed Cl- in pdb at (30.02, 43.09, -29.56).
-Placed Cl- in pdb at (-5.98, 32.09, -51.56).
-Placed Cl- in pdb at (-14.98, -4.91, 58.44).
-Placed Cl- in pdb at (55.02, -22.91, -3.56).
-Placed Cl- in pdb at (-53.98, 6.09, 1.44).
-Placed Cl- in pdb at (-0.98, -33.91, 47.44).
-Placed Cl- in pdb at (8.02, 36.09, -42.56).
-Placed Cl- in pdb at (-43.98, -26.91, 33.44).
-Placed Cl- in pdb at (56.02, 27.09, -20.56).
-Placed Cl- in pdb at (-13.98, 45.09, 47.44).
-Placed Cl- in pdb at (54.02, -15.91, -30.56).
-Placed Cl- in pdb at (-20.98, 50.09, 6.44).
-Placed Cl- in pdb at (45.02, 4.09, -45.56).
-Placed Cl- in pdb at (56.02, 22.09, 4.44).
-Placed Cl- in pdb at (-44.98, 16.09, -43.56).
-Placed Cl- in pdb at (-2.98, -58.91, 8.44).
-Placed Cl- in pdb at (16.02, 52.09, -30.56).
-Placed Cl- in pdb at (-53.98, -34.91, 0.44).
-Placed Cl- in pdb at (-5.98, 56.09, 24.44).
-Placed Cl- in pdb at (8.02, 12.09, -56.56).
-Placed Cl- in pdb at (-52.98, 23.09, 34.44).
-Placed Cl- in pdb at (-6.98, -60.91, 25.44).
-Placed Cl- in pdb at (-13.98, 22.09, 61.44).
-Placed Cl- in pdb at (18.02, -50.91, -5.56).
-Placed Cl- in pdb at (56.02, -12.91, 28.44).
-Placed Cl- in pdb at (-40.98, 11.09, 52.44).
-Placed Cl- in pdb at (-53.98, -17.91, 13.44).
-Placed Cl- in pdb at (-23.98, 46.09, -45.56).
-Placed Cl- in pdb at (18.02, -50.91, 20.44).
-Placed Cl- in pdb at (-10.98, -15.91, -52.56).
-Placed Cl- in pdb at (20.02, -4.91, 62.44).
-Placed Cl- in pdb at (-53.98, -17.91, -13.56).
-Placed Cl- in pdb at (23.02, -5.91, -61.56).
-Placed Cl- in pdb at (57.02, 19.09, 25.44).
-Placed Cl- in pdb at (18.02, -50.91, -31.56).
-Placed Cl- in pdb at (-29.98, -37.91, 32.44).
-Placed Cl- in pdb at (-7.98, -38.91, -40.56).
-Placed Cl- in pdb at (40.02, -42.91, 7.44).
-Placed Cl- in pdb at (-0.98, 59.09, -6.56).
-Placed Cl- in pdb at (-28.98, -46.91, -27.56).
-Placed Cl- in pdb at (46.02, 27.09, -32.56).
-Placed Cl- in pdb at (-1.98, 33.09, 49.44).
-Placed Cl- in pdb at (-58.98, 17.09, -7.56).
-Placed Cl- in pdb at (0.02, -16.91, 59.44).
-Placed Cl- in pdb at (-31.98, 26.09, 50.44).
-Placed Cl- in pdb at (-31.98, -0.91, -52.56).
-Placed Cl- in pdb at (43.02, -47.91, -22.56).
-Placed Cl- in pdb at (-50.98, -40.91, 11.44).
-Placed Cl- in pdb at (49.02, 41.09, 4.44).
-Placed Cl- in pdb at (-41.98, -5.91, 48.44).
-
-Done adding ions.
-Checking Unit.
-
-/Users/darian/anaconda3/envs/md/bin/teLeap: Warning!
-There is a bond of 4.456 angstroms between C and N atoms:
--------  .R<VAL 358>.A<C 15> and .R<ASN 359>.A<N 1>
-
-/Users/darian/anaconda3/envs/md/bin/teLeap: Note.
-Ignoring the warnings from Unit Checking.
-
-Building topology.
-Building atom parameters.
-Building bond parameters.
-Building angle parameters.
-Building proper torsion parameters.
-Building improper torsion parameters.
-old PREP-specified impropers:
- <ADP 363>:  C8   C4   N9   C1* 
- <ADP 363>:  C6   H60  N6   H61 
- <ADP 363>:  N7   N9   C8   H80 
- <ADP 363>:  N1   N3   C2   H2  
- <ADP 363>:  C5   N1   C6   N6  
- total 1076 improper torsions applied
- 5 improper torsions in old prep form
-Building H-Bond parameters.
-Incorporating Non-Bonded adjustments.
-Not Marking per-residue atom chain types.
-Marking per-residue atom chain types.
-  (Residues lacking connect0/connect1 - 
-   these don't have chain types marked:
-
-	res	total affected
-
-	CLYS	1
-	NMET	1
-  )
- (no restraints)
-Writing pdb file: 1ii6_dl5_solv.pdb
-   printing CRYST1 record to PDB file with box info
-
-/Users/darian/anaconda3/envs/md/bin/teLeap: Warning!
- Converting N-terminal residue name to PDB format: NMET -> MET
-
-/Users/darian/anaconda3/envs/md/bin/teLeap: Warning!
- Converting C-terminal residue name to PDB format: CLYS -> LYS
-	Quit
-
-Exiting LEaP: Errors = 0; Warnings = 4; Notes = 1.
