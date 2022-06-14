@@ -1,3 +1,4 @@
+source leaprc.gaff2
 source leaprc.protein.ff19SB
 source leaprc.water.opc
 loadamberprep ../adp/carlson/adp.prep
@@ -9,10 +10,10 @@ pdb = loadpdb 1x88_leap.pdb
 charge pdb
 #check pdb
 solvateoct pdb OPCBOX 12.0
-#addions2 pdb Na+ 0
-#addions2 pdb Cl- 0
-#addions2 pdb Na+ 57
-#addions2 pdb Cl- 57
+addions2 pdb Na+ 0
+addions2 pdb Cl- 0
+addions2 pdb Na+ 75
+addions2 pdb Cl- 75
 saveamberparm pdb 1x88_solv.prmtop 1x88_solv.inpcrd
 savepdb pdb 1x88_solv.pdb
 quit
