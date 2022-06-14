@@ -1,0 +1,226 @@
+-I: Adding /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/prep to search path.
+-I: Adding /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/lib to search path.
+-I: Adding /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/parm to search path.
+-I: Adding /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/cmd to search path.
+-f: Source ipq-addions2.in.
+
+Welcome to LEaP!
+(no leaprc in search path)
+Sourcing: ./ipq-addions2.in
+----- Source: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/cmd/leaprc.protein.ff15ipq
+----- Source of /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/cmd/leaprc.protein.ff15ipq done
+Log file: ./leap.log
+Loading parameters: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/parm/parm15ipq_10.3.dat
+Reading title:
+Parm15 developmental parameter set
+Loading library: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/lib/amino15ipq_10.0.lib
+Loading library: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/lib/aminoct15ipq_10.0.lib
+Loading library: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/lib/aminont15ipq_10.0.lib
+----- Source: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/cmd/leaprc.water.spceb
+----- Source of /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/cmd/leaprc.water.spceb done
+Loading library: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/lib/atomic_ions.lib
+Loading library: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/lib/solvents.lib
+Loading parameters: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/parm/frcmod.spceb
+Reading force field modification type file (frcmod)
+Reading title:
+SPC/Eb water model; Takemura et al. J Phys Chem B 116 6279-6287 (2012)
+Loading parameters: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/parm/frcmod.ionsjc_spce
+Reading force field modification type file (frcmod)
+Reading title:
+Monovalent ion parameters for Ewald and SPC/E water from Joung & Cheatham JPCB (2008)
+Loading parameters: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/parm/frcmod.ions234lm_126_spce
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of divalent to tetravalent ions for SPC/E water model (12-6 normal usage set)
+Loading Prep file: /ihome/lchong/dty7/eg5/adp/carlson/adp.prep
+Loading parameters: /ihome/lchong/dty7/eg5/adp/carlson/frcmod.phos
+Reading force field modification type file (frcmod)
+Reading title:
+#  Modifications to the AMBER94 force field for polyphosphates
+Loading PDB file: ./1ii6_leap.pdb
+
+/ihome/lchong/dty7/Apps/anaconda3/envs/md/bin/teLeap: Warning!
+One sided connection. Residue (default_name) missing connect1 atom.
+  total atoms in file: 5835
+Scaling up box by a factor of 1.337770 to meet diagonal cut criterion
+  Solute vdw bounding box:              55.851 69.336 90.708
+  Total bounding box for atom centers:  122.815 122.815 122.815
+      (box expansion for 'iso' is  69.0%)
+  Solvent unit box:                     18.774 18.774 18.774
+  Volume: 949048.602 A^3 (oct)
+  Total mass 522799.995 amu,  Density 0.915 g/cc
+  Added 26718 residues.
+ 0.000000 0 1 0
+0 Na+ ion required to neutralize.
+Adding 0 counter ions to "pdb" using 1A grid
+
+/ihome/lchong/dty7/Apps/anaconda3/envs/md/bin/teLeap: Warning!
+addIons: 1st Ion & target unit have charges of the same sign:
+     unit charge = -5.55112e-15; ion1 charge = -1;
+     can't neutralize.
+Adding 57 counter ions to "pdb" using 1A grid
+Grid extends from solute vdw + 1.21  to  7.31
+Resolution:      1.00 Angstrom.
+Calculating grid charges
+Placed Na+ in pdb at (-38.49, -13.47, 12.08).
+Placed Na+ in pdb at (3.51, -39.47, 6.08).
+Placed Na+ in pdb at (-16.49, -21.47, 24.08).
+Placed Na+ in pdb at (-15.49, -38.47, 6.08).
+Placed Na+ in pdb at (-0.49, -26.47, -1.92).
+Placed Na+ in pdb at (7.51, 4.53, 1.08).
+Placed Na+ in pdb at (-9.49, -27.47, -25.92).
+Placed Na+ in pdb at (-4.49, -34.47, 12.08).
+Placed Na+ in pdb at (-23.49, -29.47, 15.08).
+Placed Na+ in pdb at (7.51, -25.47, -2.92).
+Placed Na+ in pdb at (-7.49, -39.47, -15.92).
+Placed Na+ in pdb at (1.51, -25.47, 20.08).
+Placed Na+ in pdb at (-20.49, -38.47, -7.92).
+Placed Na+ in pdb at (5.51, -6.47, -19.92).
+Placed Na+ in pdb at (-25.49, -20.47, 18.08).
+Placed Na+ in pdb at (25.51, -18.47, 55.08).
+Placed Na+ in pdb at (25.51, -41.47, 42.08).
+Placed Na+ in pdb at (26.51, 14.53, 47.08).
+Placed Na+ in pdb at (5.51, -33.47, 13.08).
+Placed Na+ in pdb at (-33.49, -24.47, -12.92).
+Placed Na+ in pdb at (-12.49, 33.53, 51.08).
+Placed Na+ in pdb at (8.51, 9.53, -5.92).
+Placed Na+ in pdb at (-42.49, -44.47, 22.08).
+Placed Na+ in pdb at (36.51, -26.47, 41.08).
+Placed Na+ in pdb at (48.51, 22.53, 34.08).
+Placed Na+ in pdb at (-11.49, 5.53, -6.92).
+Placed Na+ in pdb at (-13.49, -31.47, 44.08).
+Placed Na+ in pdb at (5.51, -20.47, -9.92).
+Placed Na+ in pdb at (-54.49, 2.53, 40.08).
+Placed Na+ in pdb at (26.51, 37.53, 34.08).
+Placed Na+ in pdb at (20.51, -3.47, -58.92).
+Placed Na+ in pdb at (-12.49, -21.47, 19.08).
+Placed Na+ in pdb at (3.51, 6.53, 60.08).
+Placed Na+ in pdb at (47.51, -33.47, 28.08).
+Placed Na+ in pdb at (3.51, 52.53, 33.08).
+Placed Na+ in pdb at (47.51, -10.47, 42.08).
+Placed Na+ in pdb at (3.51, -56.47, 30.08).
+Placed Na+ in pdb at (-0.49, 10.53, -58.92).
+Placed Na+ in pdb at (-55.49, 24.53, -3.92).
+Placed Na+ in pdb at (-15.49, 45.53, 47.08).
+Placed Na+ in pdb at (21.51, 41.53, -30.92).
+Placed Na+ in pdb at (-55.49, -22.47, 23.08).
+Placed Na+ in pdb at (7.51, -23.47, 57.08).
+Placed Na+ in pdb at (-54.49, -34.47, -17.92).
+Placed Na+ in pdb at (-37.49, 13.53, -49.92).
+Placed Na+ in pdb at (-55.49, 23.53, 23.08).
+Placed Na+ in pdb at (35.51, 48.53, 24.08).
+Placed Na+ in pdb at (42.51, 4.53, -44.92).
+Placed Na+ in pdb at (-34.49, -17.47, 43.08).
+Placed Na+ in pdb at (25.51, -48.47, -36.92).
+Placed Na+ in pdb at (3.51, 30.53, 47.08).
+Placed Na+ in pdb at (-10.49, 54.53, 0.08).
+Placed Na+ in pdb at (-31.49, -53.47, -19.92).
+Placed Na+ in pdb at (-55.49, 0.53, -40.92).
+Placed Na+ in pdb at (-0.49, 33.53, -45.92).
+Placed Na+ in pdb at (37.51, 50.53, -1.92).
+Placed Na+ in pdb at (-14.49, -7.47, 57.08).
+
+Done adding ions.
+Adding 57 counter ions to "pdb" using 1A grid
+Grid extends from solute vdw + 2.71  to  8.81
+Resolution:      1.00 Angstrom.
+Calculating grid charges
+Placed Cl- in pdb at (-11.30, 44.03, 47.59).
+Placed Cl- in pdb at (-30.30, -56.97, -18.41).
+Placed Cl- in pdb at (-55.30, 19.03, 22.59).
+Placed Cl- in pdb at (-36.30, 17.03, -51.41).
+Placed Cl- in pdb at (40.70, -26.97, 40.59).
+Placed Cl- in pdb at (1.70, 33.03, -49.41).
+Placed Cl- in pdb at (-10.30, -33.97, 44.59).
+Placed Cl- in pdb at (-14.30, 54.03, -2.41).
+Placed Cl- in pdb at (44.70, 8.03, -44.41).
+Placed Cl- in pdb at (28.70, -47.97, -34.41).
+Placed Cl- in pdb at (1.70, 10.03, -62.41).
+Placed Cl- in pdb at (27.70, 36.03, 37.59).
+Placed Cl- in pdb at (1.70, -58.97, 27.59).
+Placed Cl- in pdb at (-41.30, -47.97, 23.59).
+Placed Cl- in pdb at (-31.30, -19.97, 44.59).
+Placed Cl- in pdb at (-14.30, 36.03, 53.59).
+Placed Cl- in pdb at (-57.30, -1.97, -38.41).
+Placed Cl- in pdb at (-57.30, -25.97, 22.59).
+Placed Cl- in pdb at (21.70, -4.97, -62.41).
+Placed Cl- in pdb at (27.70, 13.03, 50.59).
+Placed Cl- in pdb at (40.70, 50.03, 0.59).
+Placed Cl- in pdb at (-56.30, 6.03, 39.59).
+Placed Cl- in pdb at (10.70, -25.97, 57.59).
+Placed Cl- in pdb at (22.70, 45.03, -32.41).
+Placed Cl- in pdb at (-57.30, 21.03, -4.41).
+Placed Cl- in pdb at (48.70, -8.97, 45.59).
+Placed Cl- in pdb at (1.70, 31.03, 50.59).
+Placed Cl- in pdb at (26.70, -39.97, 45.59).
+Placed Cl- in pdb at (-17.30, -4.97, 58.59).
+Placed Cl- in pdb at (51.70, -33.97, 27.59).
+Placed Cl- in pdb at (49.70, 21.03, 37.59).
+Placed Cl- in pdb at (36.70, 52.03, 25.59).
+Placed Cl- in pdb at (-56.30, -30.97, -18.41).
+Placed Cl- in pdb at (1.70, 7.03, 63.59).
+Placed Cl- in pdb at (29.70, -17.97, 54.59).
+Placed Cl- in pdb at (4.70, 54.03, 36.59).
+Placed Cl- in pdb at (-41.30, 12.03, -49.41).
+Placed Cl- in pdb at (-26.30, -33.97, -36.41).
+Placed Cl- in pdb at (-7.30, 57.03, 0.59).
+Placed Cl- in pdb at (6.70, -56.97, 32.59).
+Placed Cl- in pdb at (-5.30, -25.97, -49.41).
+Placed Cl- in pdb at (-5.30, -2.97, -62.41).
+Placed Cl- in pdb at (-48.30, -17.97, -36.41).
+Placed Cl- in pdb at (23.70, -51.97, -37.41).
+Placed Cl- in pdb at (35.70, 54.03, -2.41).
+Placed Cl- in pdb at (22.70, 0.03, -58.41).
+Placed Cl- in pdb at (-57.30, 27.03, 22.59).
+Placed Cl- in pdb at (4.70, -20.97, 58.59).
+Placed Cl- in pdb at (33.70, 22.03, -39.41).
+Placed Cl- in pdb at (-27.30, -9.97, -49.41).
+Placed Cl- in pdb at (-57.30, 28.03, -4.41).
+Placed Cl- in pdb at (54.70, -28.97, -8.41).
+Placed Cl- in pdb at (3.70, 21.03, 52.59).
+Placed Cl- in pdb at (-5.30, -48.97, -36.41).
+Placed Cl- in pdb at (54.70, 17.03, -8.41).
+Placed Cl- in pdb at (-60.30, 7.03, -41.41).
+Placed Cl- in pdb at (28.70, -47.97, 5.59).
+
+Done adding ions.
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+old PREP-specified impropers:
+ <ADP 370>:  C8   C4   N9   C1* 
+ <ADP 370>:  C6   H60  N6   H61 
+ <ADP 370>:  N7   N9   C8   H80 
+ <ADP 370>:  N1   N3   C2   H2  
+ <ADP 370>:  C5   N1   C6   N6  
+ total 1098 improper torsions applied
+ 5 improper torsions in old prep form
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	CLYS	1
+	NMET	1
+	WAT	26718
+  )
+ (no restraints)
+Writing pdb file: 1ii6_solv.pdb
+   printing CRYST1 record to PDB file with box info
+
+/ihome/lchong/dty7/Apps/anaconda3/envs/md/bin/teLeap: Warning!
+ Converting N-terminal residue name to PDB format: NMET -> MET
+
+/ihome/lchong/dty7/Apps/anaconda3/envs/md/bin/teLeap: Warning!
+ Converting C-terminal residue name to PDB format: CLYS -> LYS
+	Quit
+
+Exiting LEaP: Errors = 0; Warnings = 4; Notes = 0.

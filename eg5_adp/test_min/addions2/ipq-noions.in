@@ -1,0 +1,13 @@
+source leaprc.protein.ff15ipq
+source leaprc.water.spceb
+loadamberprep /ihome/lchong/dty7/eg5/adp/carlson/adp.prep
+loadamberparams /ihome/lchong/dty7/eg5/adp/carlson/frcmod.phos
+pdb = loadpdb 1ii6_leap.pdb
+#charge pdb
+#check pdb
+solvateoct pdb SPCBOX 12.0
+addions pdb Na+ 0
+addions pdb Cl- 0
+saveamberparm pdb 1ii6_solv.prmtop 1ii6_solv.inpcrd
+savepdb pdb 1ii6_solv.pdb
+quit

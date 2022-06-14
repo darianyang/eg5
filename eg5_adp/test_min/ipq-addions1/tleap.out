@@ -1,0 +1,344 @@
+-I: Adding /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/prep to search path.
+-I: Adding /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/lib to search path.
+-I: Adding /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/parm to search path.
+-I: Adding /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/cmd to search path.
+-f: Source ipq-addions1.in.
+
+Welcome to LEaP!
+(no leaprc in search path)
+Sourcing: ./ipq-addions1.in
+----- Source: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/cmd/leaprc.protein.ff15ipq
+----- Source of /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/cmd/leaprc.protein.ff15ipq done
+Log file: ./leap.log
+Loading parameters: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/parm/parm15ipq_10.3.dat
+Reading title:
+Parm15 developmental parameter set
+Loading library: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/lib/amino15ipq_10.0.lib
+Loading library: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/lib/aminoct15ipq_10.0.lib
+Loading library: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/lib/aminont15ipq_10.0.lib
+----- Source: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/cmd/leaprc.water.spceb
+----- Source of /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/cmd/leaprc.water.spceb done
+Loading library: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/lib/atomic_ions.lib
+Loading library: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/lib/solvents.lib
+Loading parameters: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/parm/frcmod.spceb
+Reading force field modification type file (frcmod)
+Reading title:
+SPC/Eb water model; Takemura et al. J Phys Chem B 116 6279-6287 (2012)
+Loading parameters: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/parm/frcmod.ionsjc_spce
+Reading force field modification type file (frcmod)
+Reading title:
+Monovalent ion parameters for Ewald and SPC/E water from Joung & Cheatham JPCB (2008)
+Loading parameters: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/parm/frcmod.ions234lm_126_spce
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of divalent to tetravalent ions for SPC/E water model (12-6 normal usage set)
+Loading Prep file: /ihome/lchong/dty7/eg5/adp/carlson/adp.prep
+Loading parameters: /ihome/lchong/dty7/eg5/adp/carlson/frcmod.phos
+Reading force field modification type file (frcmod)
+Reading title:
+#  Modifications to the AMBER94 force field for polyphosphates
+Loading PDB file: ./1ii6_leap.pdb
+
+/ihome/lchong/dty7/Apps/anaconda3/envs/md/bin/teLeap: Warning!
+One sided connection. Residue (default_name) missing connect1 atom.
+  total atoms in file: 5835
+Scaling up box by a factor of 1.337770 to meet diagonal cut criterion
+  Solute vdw bounding box:              55.851 69.336 90.708
+  Total bounding box for atom centers:  122.815 122.815 122.815
+      (box expansion for 'iso' is  69.0%)
+  Solvent unit box:                     18.774 18.774 18.774
+  Volume: 949048.602 A^3 (oct)
+  Total mass 522799.995 amu,  Density 0.915 g/cc
+  Added 26718 residues.
+ 0.000000 0 1 0
+0 Na+ ion required to neutralize.
+Adding 0 counter ions to "pdb" using 1A grid
+
+/ihome/lchong/dty7/Apps/anaconda3/envs/md/bin/teLeap: Warning!
+addIons: 1st Ion & target unit have charges of the same sign:
+     unit charge = -5.55112e-15; ion1 charge = -1;
+     can't neutralize.
+Adding 57 counter ions to "pdb" using 1A grid
+Grid extends from solute vdw + 4.69  to  10.79
+Resolution:      1.00 Angstrom.
+Solvent present: replacing closest with ion
+	 when steric overlaps occur
+Calculating grid charges
+(Replacing solvent molecule)
+Placed Na+ in pdb at (1.62, -39.39, 2.96).
+(Replacing solvent molecule)
+Placed Na+ in pdb at (-10.77, -21.32, 23.63).
+(Replacing solvent molecule)
+Placed Na+ in pdb at (-5.14, -36.94, 13.89).
+(Replacing solvent molecule)
+Placed Na+ in pdb at (-24.22, -31.99, 17.28).
+(Replacing solvent molecule)
+Placed Na+ in pdb at (-34.93, -9.07, 14.72).
+(Replacing solvent molecule)
+Placed Na+ in pdb at (5.42, -31.67, 17.17).
+(Replacing solvent molecule)
+Placed Na+ in pdb at (-39.89, -19.83, 8.83).
+(Replacing solvent molecule)
+Placed Na+ in pdb at (-24.47, -36.87, -6.79).
+(Replacing solvent molecule)
+Placed Na+ in pdb at (-23.63, -21.22, 26.94).
+(Replacing solvent molecule)
+Placed Na+ in pdb at (-43.55, -20.45, 29.36).
+(Replacing solvent molecule)
+Placed Na+ in pdb at (2.95, -46.04, 1.46).
+(Replacing solvent molecule)
+Placed Na+ in pdb at (-6.62, -42.67, -15.26).
+(Replacing solvent molecule)
+Placed Na+ in pdb at (14.70, -6.15, -23.32).
+(Replacing solvent molecule)
+Placed Na+ in pdb at (-19.16, -41.49, -23.04).
+(Replacing solvent molecule)
+Placed Na+ in pdb at (-33.21, -13.11, 26.15).
+(Replacing solvent molecule)
+Placed Na+ in pdb at (5.96, -28.15, -6.91).
+(Replacing solvent molecule)
+Placed Na+ in pdb at (-9.48, -32.06, -27.79).
+(Replacing solvent molecule)
+Placed Na+ in pdb at (12.78, -36.78, 12.45).
+(Replacing solvent molecule)
+Placed Na+ in pdb at (20.85, 13.31, -18.29).
+(Replacing solvent molecule)
+Placed Na+ in pdb at (-17.32, -8.62, 16.89).
+(Replacing solvent molecule)
+Placed Na+ in pdb at (10.81, 2.22, 6.91).
+(Replacing solvent molecule)
+Placed Na+ in pdb at (-40.54, -27.59, 16.87).
+(Replacing solvent molecule)
+Placed Na+ in pdb at (-14.07, 14.02, -12.62).
+(Replacing solvent molecule)
+Placed Na+ in pdb at (-2.25, 36.72, 23.13).
+(Replacing solvent molecule)
+Placed Na+ in pdb at (5.90, -3.35, -22.77).
+(Replacing solvent molecule)
+Placed Na+ in pdb at (-15.98, -29.27, 27.16).
+(No solvent overlap)
+Placed Na+ in pdb at (-7.23, 56.45, 9.17).
+(Replacing solvent molecule)
+Placed Na+ in pdb at (2.95, -44.51, 13.58).
+(Replacing solvent molecule)
+Placed Na+ in pdb at (17.05, 53.63, 12.60).
+(Replacing solvent molecule)
+Placed Na+ in pdb at (-15.06, -42.44, 5.15).
+(Replacing solvent molecule)
+Placed Na+ in pdb at (3.23, -43.34, -30.01).
+(Replacing solvent molecule)
+Placed Na+ in pdb at (-43.62, -12.68, 16.91).
+(Replacing solvent molecule)
+Placed Na+ in pdb at (-44.79, -24.57, -23.64).
+(Replacing solvent molecule)
+Placed Na+ in pdb at (33.44, 4.17, -26.87).
+(Replacing solvent molecule)
+Placed Na+ in pdb at (-2.08, 39.66, 4.46).
+(Replacing solvent molecule)
+Placed Na+ in pdb at (-2.03, -26.72, 25.71).
+(Replacing solvent molecule)
+Placed Na+ in pdb at (4.96, 53.45, 26.79).
+(Replacing solvent molecule)
+Placed Na+ in pdb at (34.81, -13.95, -11.95).
+(Replacing solvent molecule)
+Placed Na+ in pdb at (-30.58, -35.63, 9.84).
+(Replacing solvent molecule)
+Placed Na+ in pdb at (16.58, -23.36, -33.86).
+(Replacing solvent molecule)
+Placed Na+ in pdb at (-21.92, -53.75, -11.88).
+(Replacing solvent molecule)
+Placed Na+ in pdb at (-35.31, -29.20, 33.03).
+(Replacing solvent molecule)
+Placed Na+ in pdb at (15.68, 36.31, 6.72).
+(Replacing solvent molecule)
+Placed Na+ in pdb at (-32.08, 11.83, -20.00).
+(Replacing solvent molecule)
+Placed Na+ in pdb at (-0.68, -12.18, -41.25).
+(Replacing solvent molecule)
+Placed Na+ in pdb at (-20.88, 21.60, 9.11).
+(Replacing solvent molecule)
+Placed Na+ in pdb at (-32.12, -30.07, -33.37).
+(Replacing solvent molecule)
+Placed Na+ in pdb at (12.46, -24.06, 2.96).
+(Replacing solvent molecule)
+Placed Na+ in pdb at (23.04, 14.31, 12.42).
+(Replacing solvent molecule)
+Placed Na+ in pdb at (-39.55, -12.14, 36.09).
+(Replacing solvent molecule)
+Placed Na+ in pdb at (30.36, 14.62, -12.79).
+(No solvent overlap)
+Placed Na+ in pdb at (4.77, 60.45, 12.17).
+(Replacing solvent molecule)
+Placed Na+ in pdb at (-8.32, -48.90, -26.34).
+(Replacing solvent molecule)
+Placed Na+ in pdb at (-44.21, -27.23, -8.94).
+(Replacing solvent molecule)
+Placed Na+ in pdb at (9.42, 31.46, 22.51).
+(Replacing solvent molecule)
+Placed Na+ in pdb at (26.03, -31.48, -10.33).
+(Replacing solvent molecule)
+Placed Na+ in pdb at (-19.74, 2.69, -29.99).
+
+Done adding ions.
+Adding 57 counter ions to "pdb" using 1A grid
+Grid extends from solute vdw + 10.49  to  16.59
+Resolution:      1.00 Angstrom.
+Solvent present: replacing closest with ion
+	 when steric overlaps occur
+Calculating grid charges
+(Replacing solvent molecule)
+Placed Cl- in pdb at (13.48, -31.32, -14.69).
+(Replacing solvent molecule)
+Placed Cl- in pdb at (12.78, 25.68, 9.84).
+(Replacing solvent molecule)
+Placed Cl- in pdb at (-36.90, 1.75, -2.62).
+(Replacing solvent molecule)
+Placed Cl- in pdb at (-36.03, -32.94, -3.75).
+(Replacing solvent molecule)
+Placed Cl- in pdb at (-11.97, 8.68, -24.78).
+(Replacing solvent molecule)
+Placed Cl- in pdb at (22.12, -3.50, 6.55).
+(Replacing solvent molecule)
+Placed Cl- in pdb at (-29.29, -20.34, 36.36).
+(Replacing solvent molecule)
+Placed Cl- in pdb at (-21.85, -23.25, -34.95).
+(Replacing solvent molecule)
+Placed Cl- in pdb at (-6.40, -50.47, 8.58).
+(Replacing solvent molecule)
+Placed Cl- in pdb at (7.18, 40.23, 29.30).
+(Replacing solvent molecule)
+Placed Cl- in pdb at (32.92, -7.08, -20.09).
+(Replacing solvent molecule)
+Placed Cl- in pdb at (-9.07, -5.61, -35.13).
+(Replacing solvent molecule)
+Placed Cl- in pdb at (-16.93, 3.06, 13.77).
+(Replacing solvent molecule)
+Placed Cl- in pdb at (-35.62, -35.70, 22.81).
+(Replacing solvent molecule)
+Placed Cl- in pdb at (23.11, -31.58, 2.64).
+(Replacing solvent molecule)
+Placed Cl- in pdb at (12.61, 48.04, 4.69).
+(Replacing solvent molecule)
+Placed Cl- in pdb at (-11.07, -52.91, -16.06).
+(Replacing solvent molecule)
+Placed Cl- in pdb at (-37.62, -0.43, -21.35).
+(Replacing solvent molecule)
+Placed Cl- in pdb at (24.62, 16.10, -0.69).
+(Replacing solvent molecule)
+Placed Cl- in pdb at (-38.20, -33.56, -21.91).
+(No solvent overlap)
+Placed Cl- in pdb at (-3.38, 59.65, 21.16).
+(Replacing solvent molecule)
+Placed Cl- in pdb at (8.79, -13.22, -39.06).
+(Replacing solvent molecule)
+Placed Cl- in pdb at (-7.89, -36.85, 26.85).
+(Replacing solvent molecule)
+Placed Cl- in pdb at (-14.75, 28.11, 0.72).
+(Replacing solvent molecule)
+Placed Cl- in pdb at (-44.04, -4.51, 25.13).
+(Replacing solvent molecule)
+Placed Cl- in pdb at (-14.60, -42.05, -33.31).
+(Replacing solvent molecule)
+Placed Cl- in pdb at (29.69, 16.52, -24.26).
+(Replacing solvent molecule)
+Placed Cl- in pdb at (19.65, -19.05, 12.43).
+(Replacing solvent molecule)
+Placed Cl- in pdb at (-47.26, -17.88, 0.72).
+(Replacing solvent molecule)
+Placed Cl- in pdb at (25.87, -26.32, -20.64).
+(Replacing solvent molecule)
+Placed Cl- in pdb at (12.61, 59.93, 22.59).
+(Replacing solvent molecule)
+Placed Cl- in pdb at (-9.48, -8.69, 25.70).
+(Replacing solvent molecule)
+Placed Cl- in pdb at (-24.62, -48.38, -0.56).
+(Replacing solvent molecule)
+Placed Cl- in pdb at (-25.34, 17.24, -10.52).
+(Replacing solvent molecule)
+Placed Cl- in pdb at (8.29, -31.99, -35.83).
+(Replacing solvent molecule)
+Placed Cl- in pdb at (0.10, 25.79, 23.68).
+(Replacing solvent molecule)
+Placed Cl- in pdb at (11.07, 6.34, -27.38).
+(Replacing solvent molecule)
+Placed Cl- in pdb at (-3.20, 50.20, -1.39).
+(Replacing solvent molecule)
+Placed Cl- in pdb at (-51.25, -20.32, 21.19).
+(Replacing solvent molecule)
+Placed Cl- in pdb at (14.77, 8.37, 16.32).
+(Replacing solvent molecule)
+Placed Cl- in pdb at (8.59, -39.93, 23.13).
+(Replacing solvent molecule)
+Placed Cl- in pdb at (-35.47, -19.47, -30.29).
+(Replacing solvent molecule)
+Placed Cl- in pdb at (35.77, 4.32, -10.69).
+(Replacing solvent molecule)
+Placed Cl- in pdb at (3.00, -47.63, -10.56).
+(Replacing solvent molecule)
+Placed Cl- in pdb at (15.42, 39.88, 18.06).
+(Replacing solvent molecule)
+Placed Cl- in pdb at (-9.39, -24.16, 36.83).
+(Replacing solvent molecule)
+Placed Cl- in pdb at (34.65, -25.19, -7.56).
+(No solvent overlap)
+Placed Cl- in pdb at (-42.38, -22.35, 41.16).
+(Replacing solvent molecule)
+Placed Cl- in pdb at (-26.67, -44.59, -15.54).
+(Replacing solvent molecule)
+Placed Cl- in pdb at (0.58, 23.76, -8.76).
+(Replacing solvent molecule)
+Placed Cl- in pdb at (-26.46, 10.62, -31.54).
+(No solvent overlap)
+Placed Cl- in pdb at (-3.38, -64.35, -23.84).
+(Replacing solvent molecule)
+Placed Cl- in pdb at (-13.30, 38.19, 16.17).
+(Replacing solvent molecule)
+Placed Cl- in pdb at (-49.88, -19.24, -14.66).
+(Replacing solvent molecule)
+Placed Cl- in pdb at (-28.41, -5.44, 21.77).
+(Replacing solvent molecule)
+Placed Cl- in pdb at (11.56, -50.46, 8.77).
+(No solvent overlap)
+Placed Cl- in pdb at (-2.38, 66.65, 5.16).
+
+Done adding ions.
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+old PREP-specified impropers:
+ <ADP 370>:  C8   C4   N9   C1* 
+ <ADP 370>:  C6   H60  N6   H61 
+ <ADP 370>:  N7   N9   C8   H80 
+ <ADP 370>:  N1   N3   C2   H2  
+ <ADP 370>:  C5   N1   C6   N6  
+ total 1098 improper torsions applied
+ 5 improper torsions in old prep form
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	CLYS	1
+	NMET	1
+	WAT	26610
+  )
+ (no restraints)
+Writing pdb file: 1ii6_solv.pdb
+   printing CRYST1 record to PDB file with box info
+
+/ihome/lchong/dty7/Apps/anaconda3/envs/md/bin/teLeap: Warning!
+ Converting N-terminal residue name to PDB format: NMET -> MET
+
+/ihome/lchong/dty7/Apps/anaconda3/envs/md/bin/teLeap: Warning!
+ Converting C-terminal residue name to PDB format: CLYS -> LYS
+	Quit
+
+Exiting LEaP: Errors = 0; Warnings = 4; Notes = 0.
