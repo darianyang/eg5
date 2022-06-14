@@ -37,3 +37,5 @@ $DO_PARALLEL \
             -i 02_min.in -o 02_min.out \
             -p ${PDB}.prmtop -c ${PDB}.inpcrd -r 02_min.rst &&
 printf "\ndone min\n\n" 
+
+ambpdb -p ${PDB}_solv.prmtop -c 02_min.rst > 02_min.pdb

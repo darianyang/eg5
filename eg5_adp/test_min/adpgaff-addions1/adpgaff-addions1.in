@@ -1,0 +1,17 @@
+source leaprc.gaff2
+source leaprc.protein.ff19SB
+source leaprc.water.opc
+loadoff /ihome/lchong/dty7/eg5/eg5_adp/test_min/adpgaff2/adp.lib
+loadamberparams /ihome/lchong/dty7/eg5/eg5_adp/test_min/adpgaff2/adp.frcmod
+loadamberparams frcmod.ionslm_1264_opc
+pdb = loadpdb 1ii6_leap.pdb
+#charge pdb
+#check pdb
+solvateoct pdb OPCBOX 12.0
+addions pdb Na+ 0
+addions pdb Cl- 0
+addions pdb Na+ 57
+addions pdb Cl- 57
+saveamberparm pdb 1ii6_solv.prmtop 1ii6_solv.inpcrd
+savepdb pdb 1ii6_solv.pdb
+quit
