@@ -1,0 +1,8 @@
+source leaprc.gaff2
+loadAmberParams adp.frcmod
+adp = loadmol2 adp.mol2
+check adp
+# note that the unit name must be capitalized
+# or at least match the PDB file restype
+saveOff adp adp.lib
+quit
