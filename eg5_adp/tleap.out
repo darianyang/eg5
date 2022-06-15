@@ -1,34 +1,34 @@
--I: Adding /Users/darian/anaconda3/envs/md/dat/leap/prep to search path.
--I: Adding /Users/darian/anaconda3/envs/md/dat/leap/lib to search path.
--I: Adding /Users/darian/anaconda3/envs/md/dat/leap/parm to search path.
--I: Adding /Users/darian/anaconda3/envs/md/dat/leap/cmd to search path.
+-I: Adding /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/prep to search path.
+-I: Adding /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/lib to search path.
+-I: Adding /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/parm to search path.
+-I: Adding /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/cmd to search path.
 -f: Source tleap.in.
 
 Welcome to LEaP!
 (no leaprc in search path)
 Sourcing: ./tleap.in
------ Source: /Users/darian/anaconda3/envs/md/dat/leap/cmd/leaprc.protein.ff19SB
------ Source of /Users/darian/anaconda3/envs/md/dat/leap/cmd/leaprc.protein.ff19SB done
+----- Source: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/cmd/leaprc.protein.ff19SB
+----- Source of /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/cmd/leaprc.protein.ff19SB done
 Log file: ./leap.log
-Loading parameters: /Users/darian/anaconda3/envs/md/dat/leap/parm/parm19.dat
+Loading parameters: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/parm/parm19.dat
 Reading title:
 PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA + ff19SB
-Loading parameters: /Users/darian/anaconda3/envs/md/dat/leap/parm/frcmod.ff19SB
+Loading parameters: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/parm/frcmod.ff19SB
 Reading force field modification type file (frcmod)
 Reading title:
 ff19SB AA-specific backbone CMAPs for protein 07/25/2019
-Loading library: /Users/darian/anaconda3/envs/md/dat/leap/lib/amino19.lib
-Loading library: /Users/darian/anaconda3/envs/md/dat/leap/lib/aminoct12.lib
-Loading library: /Users/darian/anaconda3/envs/md/dat/leap/lib/aminont12.lib
------ Source: /Users/darian/anaconda3/envs/md/dat/leap/cmd/leaprc.water.opc
------ Source of /Users/darian/anaconda3/envs/md/dat/leap/cmd/leaprc.water.opc done
-Loading library: /Users/darian/anaconda3/envs/md/dat/leap/lib/atomic_ions.lib
-Loading library: /Users/darian/anaconda3/envs/md/dat/leap/lib/solvents.lib
-Loading parameters: /Users/darian/anaconda3/envs/md/dat/leap/parm/frcmod.opc
+Loading library: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/lib/amino19.lib
+Loading library: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/lib/aminoct12.lib
+Loading library: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/lib/aminont12.lib
+----- Source: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/cmd/leaprc.water.opc
+----- Source of /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/cmd/leaprc.water.opc done
+Loading library: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/lib/atomic_ions.lib
+Loading library: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/lib/solvents.lib
+Loading parameters: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/parm/frcmod.opc
 Reading force field modification type file (frcmod)
 Reading title:
 Parameters for OPC water (JPCL, 2014, 5 (21), pp 3863-3871)
-Loading parameters: /Users/darian/anaconda3/envs/md/dat/leap/parm/frcmod.ionslm_126_opc
+Loading parameters: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/parm/frcmod.ionslm_126_opc
 Reading force field modification type file (frcmod)
 Reading title:
 Li/Merz ion parameters of atomic ions for the OPC water model (12-6 set)
@@ -37,13 +37,13 @@ Loading parameters: ../adp/carlson/frcmod.phos
 Reading force field modification type file (frcmod)
 Reading title:
 #  Modifications to the AMBER94 force field for polyphosphates
-Loading parameters: /Users/darian/anaconda3/envs/md/dat/leap/parm/frcmod.ionslm_1264_opc
+Loading parameters: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/parm/frcmod.ionslm_1264_opc
 Reading force field modification type file (frcmod)
 Reading title:
 Li/Merz ion parameters of atomic ions for the OPC water model (12-6-4 set)
 Loading PDB file: ./1ii6_leap.pdb
 
-/Users/darian/anaconda3/envs/md/bin/teLeap: Warning!
+/ihome/lchong/dty7/Apps/anaconda3/envs/md/bin/teLeap: Warning!
 One sided connection. Residue (default_name) missing connect1 atom.
   total atoms in file: 5835
 Scaling up box by a factor of 1.337770 to meet diagonal cut criterion
@@ -58,7 +58,7 @@ Scaling up box by a factor of 1.337770 to meet diagonal cut criterion
 0 Na+ ion required to neutralize.
 Adding 0 counter ions to "pdb" using 1A grid
 
-/Users/darian/anaconda3/envs/md/bin/teLeap: Warning!
+/ihome/lchong/dty7/Apps/anaconda3/envs/md/bin/teLeap: Warning!
 addIons: 1st Ion & target unit have charges of the same sign:
      unit charge = -2.33147e-14; ion1 charge = -1;
      can't neutralize.
@@ -134,8 +134,8 @@ Placed Cl- in pdb at (56.42, -3.58, 9.36).
 Placed Cl- in pdb at (56.42, -26.58, -3.64).
 Placed Cl- in pdb at (9.42, 52.42, 34.36).
 Placed Cl- in pdb at (-44.58, 16.42, -42.64).
-Placed Cl- in pdb at (-42.58, 15.42, 46.36).
 Placed Cl- in pdb at (36.42, -45.58, -2.64).
+Placed Cl- in pdb at (-42.58, 15.42, 46.36).
 Placed Cl- in pdb at (55.42, -23.58, 22.36).
 Placed Cl- in pdb at (31.42, 13.42, 48.36).
 Placed Cl- in pdb at (-53.58, 23.42, 33.36).
@@ -190,7 +190,7 @@ Placed Cl- in pdb at (22.42, -51.58, -13.64).
 Done adding ions.
 Checking Unit.
 
-/Users/darian/anaconda3/envs/md/bin/teLeap: Note.
+/ihome/lchong/dty7/Apps/anaconda3/envs/md/bin/teLeap: Note.
 Ignoring the warnings from Unit Checking.
 
 Building topology.
@@ -223,10 +223,10 @@ Marking per-residue atom chain types.
 Writing pdb file: 1ii6_solv.pdb
    printing CRYST1 record to PDB file with box info
 
-/Users/darian/anaconda3/envs/md/bin/teLeap: Warning!
+/ihome/lchong/dty7/Apps/anaconda3/envs/md/bin/teLeap: Warning!
  Converting N-terminal residue name to PDB format: NMET -> MET
 
-/Users/darian/anaconda3/envs/md/bin/teLeap: Warning!
+/ihome/lchong/dty7/Apps/anaconda3/envs/md/bin/teLeap: Warning!
  Converting C-terminal residue name to PDB format: CLYS -> LYS
 	Quit
 
