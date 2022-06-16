@@ -43,7 +43,7 @@ printf "\nstart restrained system heat in\n\n"
 $DO_PARALLEL \
     $SANDER -O \
             -i 03_eq1.in -o 03_eq1.out \
-	    -x 03_eq1.nc \
+	        -x 03_eq1.nc \
             -p ${PDB}.prmtop -c 02_min.rst -r 03_eq1.rst -ref 02_min.rst &&
 printf "\ndone restrained system heat in\n\n" 
 
@@ -52,7 +52,7 @@ printf "\nstart restrained equil\n\n"
 $DO_PARALLEL \
     $SANDER  -O \
             -i 04_eq2.in -o 04_eq2.out \
-	    -x 04_eq2.nc \
+	        -x 04_eq2.nc \
             -p ${PDB}.prmtop -c 03_eq1.rst -r 04_eq2.rst -ref 03_eq1.rst &&
 printf "\ndone restrained equil\n\n" 
 
@@ -61,7 +61,7 @@ printf "\nstart unrestrained equil\n\n"
 $DO_PARALLEL \
     $SANDER -O \
             -i 05_eq3.in -o 05_eq3.out \
-	    -x 05_eq3.nc \
+	        -x 05_eq3.nc \
             -p ${PDB}.prmtop -c 04_eq2.rst -r 05_eq3.rst &&
 printf "\ndone unrestrained equil\n\n"
 

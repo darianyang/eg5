@@ -1,0 +1,86 @@
+-I: Adding /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/prep to search path.
+-I: Adding /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/lib to search path.
+-I: Adding /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/parm to search path.
+-I: Adding /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/cmd to search path.
+-f: Source tleap.in.
+
+Welcome to LEaP!
+(no leaprc in search path)
+Sourcing: ./tleap.in
+----- Source: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/cmd/leaprc.gaff2
+----- Source of /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/cmd/leaprc.gaff2 done
+Log file: ./leap.log
+Loading parameters: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/parm/gaff2.dat
+Reading title:
+AMBER General Force Field for organic molecules (Version 2.11, May 2016)
+----- Source: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/cmd/leaprc.protein.ff19SB
+----- Source of /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/cmd/leaprc.protein.ff19SB done
+Log file: ./leap.log
+Loading parameters: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/parm/parm19.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA + ff19SB
+Loading parameters: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/parm/frcmod.ff19SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff19SB AA-specific backbone CMAPs for protein 07/25/2019
+Loading library: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/lib/amino19.lib
+Loading library: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/lib/aminoct12.lib
+Loading library: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/lib/aminont12.lib
+----- Source: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/cmd/leaprc.water.opc
+----- Source of /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/cmd/leaprc.water.opc done
+Loading library: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/lib/atomic_ions.lib
+Loading library: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/lib/solvents.lib
+Loading parameters: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/parm/frcmod.opc
+Reading force field modification type file (frcmod)
+Reading title:
+Parameters for OPC water (JPCL, 2014, 5 (21), pp 3863-3871)
+Loading parameters: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/parm/frcmod.ionslm_126_opc
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of atomic ions for the OPC water model (12-6 set)
+Loading Prep file: ../../../adp/carlson/adp.prep
+Loading parameters: ../../../adp/carlson/frcmod.phos
+Reading force field modification type file (frcmod)
+Reading title:
+#  Modifications to the AMBER94 force field for polyphosphates
+Loading library: ../../mon/mon.lib
+Loading parameters: ../../mon/mon.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading parameters: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/parm/frcmod.ionslm_1264_opc
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of atomic ions for the OPC water model (12-6-4 set)
+Loading PDB file: ./1x88_leap.pdb
+
+/ihome/lchong/dty7/Apps/anaconda3/envs/md/bin/teLeap: Warning!
+One sided connection. Residue (default_name) missing connect1 atom.
+
+/ihome/lchong/dty7/Apps/anaconda3/envs/md/bin/teLeap: Warning!
+One sided connection. Residue (MON) missing connect0 atom.
+  total atoms in file: 5870
+  Leap added 1 missing atom according to residue templates:
+       1 H / lone pairs
+Total unperturbed charge:  -0.001001
+Total perturbed charge:    -0.001001
+Scaling up box by a factor of 1.274232 to meet diagonal cut criterion
+  Solute vdw bounding box:              103.884 72.464 56.846
+  Total bounding box for atom centers:  134.466 134.466 134.466
+      (box expansion for 'iso' is 100.7%)
+  Solvent unit box:                     18.865 18.478 19.006
+  Volume: 1242960.972 A^3 (oct)
+  Total mass 691902.263 amu,  Density 0.924 g/cc
+  Added 36088 residues.
+ 0.001001 0 1 0
+0 Na+ ion required to neutralize.
+Adding 0 counter ions to "pdb" using 1A grid
+
+/ihome/lchong/dty7/Apps/anaconda3/envs/md/bin/teLeap: Warning!
+addIons: 1st Ion & target unit have charges of the same sign:
+     unit charge = -0.001001; ion1 charge = -1;
+     can't neutralize.
+Adding 75 counter ions to "pdb" using 1A grid
+Grid extends from solute vdw + 1.45  to  7.55
+Resolution:      1.00 Angstrom.
+Calculating grid charges

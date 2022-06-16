@@ -1,0 +1,37 @@
+Warning: When compiling code please add the following flags to nvcc:
+         -gencode arch=compute_35,code=[compute_35,sm_35] \
+         -gencode arch=compute_61,code=[compute_61,sm_61] 
+         -gencode arch=compute_70,code=[compute_70,sm_70] 
++ export 'DO_PARALLEL=mpirun -np 8'
++ DO_PARALLEL='mpirun -np 8'
++ SANDER=pmemd.MPI
++ PDB=eg5_2020_solv
++ printf '\nstart min\n\n'
++ pmemd -O -i 02_min.in -o 02_min.out -p eg5_2020_solv.prmtop -c eg5_2020_solv.inpcrd -r 02_min.rst
+forrtl: severe (64): input conversion error, unit 8, file /ihome/lchong/dty7/eg5/eg5_adp/md_test2020/v00/eg5_2020_solv.prmtop
+Image              PC                Routine            Line        Source             
+libifcoremt.so.5   00007F869A9EF98F  for__io_return        Unknown  Unknown
+libifcoremt.so.5   00007F869AA34A59  for_read_seq_fmt_     Unknown  Unknown
+libifcoremt.so.5   00007F869AA31C89  for_read_seq_fmt      Unknown  Unknown
+pmemd              000000000079C16D  Unknown               Unknown  Unknown
+pmemd              0000000000416858  Unknown               Unknown  Unknown
+pmemd              00000000004057A5  Unknown               Unknown  Unknown
+pmemd              000000000040566E  Unknown               Unknown  Unknown
+libc-2.17.so       00007F869998F555  __libc_start_main     Unknown  Unknown
+pmemd              0000000000405579  Unknown               Unknown  Unknown
++ printf '\nstart restrained system heat in\n\n'
++ mpirun -np 8 pmemd.MPI -O -i 03_eq1.in -o 03_eq1.out -x 03_eq1.nc -p eg5_2020_solv.prmtop -c 02_min.rst -r 03_eq1.rst -ref 02_min.rst
+
+  Unit    9 Error on OPEN: 02_min.rst                                                                                                                                                                                                                                                      
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0
++ printf '\nstart restrained equil\n\n'
++ mpirun -np 8 pmemd.MPI -O -i 04_eq2.in -o 04_eq2.out -x 04_eq2.nc -p eg5_2020_solv.prmtop -c 03_eq1.rst -r 04_eq2.rst -ref 03_eq1.rst
+
+  Unit    9 Error on OPEN: 03_eq1.rst                                                                                                                                                                                                                                                      
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0
++ printf '\nstart unrestrained equil\n\n'
++ mpirun -np 8 pmemd.MPI -O -i 05_eq3.in -o 05_eq3.out -x 05_eq3.nc -p eg5_2020_solv.prmtop -c 04_eq2.rst -r 05_eq3.rst
+
+  Unit    9 Error on OPEN: 04_eq2.rst                                                                                                                                                                                                                                                      
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0
+/var/spool/slurmd/job26730/slurm_script: line 71: syntax error: unexpected end of file
