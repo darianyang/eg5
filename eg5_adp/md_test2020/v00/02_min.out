@@ -1,0 +1,68 @@
+
+          -------------------------------------------------------
+          Amber 18 PMEMD                              2018
+          -------------------------------------------------------
+
+| PMEMD implementation of SANDER, Release 18
+
+| Run on 06/16/2022 at 11:11:18
+
+|   Executable path: pmemd
+| Working directory: /ihome/lchong/dty7/eg5/eg5_adp/md_test2020/v00
+|          Hostname: smp-n123
+
+  [-O]verwriting output
+
+File Assignments:
+|   MDIN: 02_min.in                                                             
+|  MDOUT: 02_min.out                                                            
+| INPCRD: eg5_2020_solv.inpcrd                                                  
+|   PARM: eg5_2020_solv.prmtop                                                  
+| RESTRT: 02_min.rst                                                            
+|   REFC: refc                                                                  
+|  MDVEL: mdvel                                                                 
+|   MDEN: mden                                                                  
+|  MDCRD: mdcrd                                                                 
+| MDINFO: mdinfo                                                                
+|  MDFRC: mdfrc                                                                 
+
+ 
+ Here is the input file:
+ 
+Unrestrained 10000 step minimization, 500 SD                                   
+&cntrl                                                                         
+  imin      = 1,                                                               
+  irest     = 0,                                                               
+  ntx       = 1,                                                               
+  ntmin     = 1,                                                               
+  maxcyc    = 10000,                                                           
+  ncyc      = 500,                                                             
+  ntr       = 0,                                                               
+  ntb       = 1,                                                               
+  ntf       = 1,                                                               
+  ntc       = 1,                                                               
+  cut       = 10.0,                                                            
+  ntpr      = 1,                                                               
+  ntxo      = 2,                                                               
+  ntwr      = 10000,                                                           
+  ioutfm    = 1,                                                               
+  ntwx      = 0,                                                               
+  iwrap     = 1,                                                               
+&end                                                                           
+
+
+Note: ig = -1. Setting random seed to   230580 based on wallclock time in 
+      microseconds.
+| irandom = 1, using AMBER's internal random number generator (default).
+ 
+ 
+| Conditional Compilation Defines Used:
+| PUBFFT
+| BINTRAJ
+| MKL
+| EMIL
+ 
+| Largest sphere to fit in unit cell has radius =    45.062
+
+|  INFO: Old style PARM file read
+

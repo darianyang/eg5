@@ -2,9 +2,8 @@
 # multi_set_and_run.sh
 # set up and run multiple (5) replicates of each system
 
-#SYSTEMS=(noions addions1 addions2 ipq-noions ipq-addions1 ipq-addions2)
-SYSTEMS=(adpgaff-noions adpgaff-addions1 adpgaff-addions2)
-PDB=1ii6
+SYSTEMS=(v00)
+PDB=1x88
 
 # go to target directory
 for SYS in ${SYSTEMS[@]} ; do
@@ -21,11 +20,9 @@ for SYS in ${SYSTEMS[@]} ; do
     # formatting
     bash temp_sed.sh ${PDB} v00
     # make the inital parm and crd files
-    tleap -f ${SYS}.in > tleap.out
+    tleap -f tleap.in > tleap.out
     # submit the prep run, which submits the prod after finishing
     #sbatch prep_mpi.slurm
-    sbatch min.slurm
-    #ambpdb -p ${PDB}_solv.prmtop -c 02_min.rst > 02_min.pdb
 
     echo "FINISHED SYSTEM : $SYS"
     cd ..

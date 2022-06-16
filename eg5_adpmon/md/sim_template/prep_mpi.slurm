@@ -2,8 +2,8 @@
 #SBATCH --job-name=PDB_TEMP_PREP
 #SBATCH --nodes=1 
 #SBATCH --ntasks-per-node=8
-#SBATCH --cluster=smp
-#SBATCH --partition=smp 
+#SBATCH --cluster=invest
+#SBATCH --partition=lchong
 #SBATCH --time=23:59:59 
 #SBATCH --mail-user=dty7@pitt.edu
 #SBATCH --mail-type=END,FAIL
