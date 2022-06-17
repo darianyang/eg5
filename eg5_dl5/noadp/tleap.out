@@ -1,34 +1,34 @@
--I: Adding /Users/darian/anaconda3/envs/md/dat/leap/prep to search path.
--I: Adding /Users/darian/anaconda3/envs/md/dat/leap/lib to search path.
--I: Adding /Users/darian/anaconda3/envs/md/dat/leap/parm to search path.
--I: Adding /Users/darian/anaconda3/envs/md/dat/leap/cmd to search path.
+-I: Adding /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/prep to search path.
+-I: Adding /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/lib to search path.
+-I: Adding /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/parm to search path.
+-I: Adding /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/cmd to search path.
 -f: Source tleap.in.
 
 Welcome to LEaP!
 (no leaprc in search path)
 Sourcing: ./tleap.in
------ Source: /Users/darian/anaconda3/envs/md/dat/leap/cmd/leaprc.protein.ff19SB
------ Source of /Users/darian/anaconda3/envs/md/dat/leap/cmd/leaprc.protein.ff19SB done
+----- Source: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/cmd/leaprc.protein.ff19SB
+----- Source of /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/cmd/leaprc.protein.ff19SB done
 Log file: ./leap.log
-Loading parameters: /Users/darian/anaconda3/envs/md/dat/leap/parm/parm19.dat
+Loading parameters: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/parm/parm19.dat
 Reading title:
 PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA + ff19SB
-Loading parameters: /Users/darian/anaconda3/envs/md/dat/leap/parm/frcmod.ff19SB
+Loading parameters: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/parm/frcmod.ff19SB
 Reading force field modification type file (frcmod)
 Reading title:
 ff19SB AA-specific backbone CMAPs for protein 07/25/2019
-Loading library: /Users/darian/anaconda3/envs/md/dat/leap/lib/amino19.lib
-Loading library: /Users/darian/anaconda3/envs/md/dat/leap/lib/aminoct12.lib
-Loading library: /Users/darian/anaconda3/envs/md/dat/leap/lib/aminont12.lib
------ Source: /Users/darian/anaconda3/envs/md/dat/leap/cmd/leaprc.water.opc
------ Source of /Users/darian/anaconda3/envs/md/dat/leap/cmd/leaprc.water.opc done
-Loading library: /Users/darian/anaconda3/envs/md/dat/leap/lib/atomic_ions.lib
-Loading library: /Users/darian/anaconda3/envs/md/dat/leap/lib/solvents.lib
-Loading parameters: /Users/darian/anaconda3/envs/md/dat/leap/parm/frcmod.opc
+Loading library: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/lib/amino19.lib
+Loading library: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/lib/aminoct12.lib
+Loading library: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/lib/aminont12.lib
+----- Source: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/cmd/leaprc.water.opc
+----- Source of /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/cmd/leaprc.water.opc done
+Loading library: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/lib/atomic_ions.lib
+Loading library: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/lib/solvents.lib
+Loading parameters: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/parm/frcmod.opc
 Reading force field modification type file (frcmod)
 Reading title:
 Parameters for OPC water (JPCL, 2014, 5 (21), pp 3863-3871)
-Loading parameters: /Users/darian/anaconda3/envs/md/dat/leap/parm/frcmod.ionslm_126_opc
+Loading parameters: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/parm/frcmod.ionslm_126_opc
 Reading force field modification type file (frcmod)
 Reading title:
 Li/Merz ion parameters of atomic ions for the OPC water model (12-6 set)
@@ -37,165 +37,230 @@ Loading parameters: ../../adp/carlson/frcmod.phos
 Reading force field modification type file (frcmod)
 Reading title:
 #  Modifications to the AMBER94 force field for polyphosphates
-Loading parameters: /Users/darian/anaconda3/envs/md/dat/leap/parm/frcmod.ionslm_1264_opc
+Loading parameters: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/parm/frcmod.ionslm_1264_opc
 Reading force field modification type file (frcmod)
 Reading title:
 Li/Merz ion parameters of atomic ions for the OPC water model (12-6-4 set)
 Loading PDB file: ./1ii6_dl5apo_leap.pdb
   total atoms in file: 5682
-Scaling up box by a factor of 1.319154 to meet diagonal cut criterion
+Total unperturbed charge:   4.000000
+Total perturbed charge:     4.000000
+Scaling up box by a factor of 1.313068 to meet diagonal cut criterion
   Solute vdw bounding box:              52.287 69.763 91.295
-  Total bounding box for atom centers:  122.954 122.954 122.954
-      (box expansion for 'iso' is  77.6%)
+  Total bounding box for atom centers:  143.817 143.817 143.817
+      (box expansion for 'iso' is  61.4%)
   Solvent unit box:                     18.865 18.478 19.006
-  Volume: 952256.459 A^3 (oct)
-  Total mass 527140.640 amu,  Density 0.919 g/cc
-  Added 27032 residues.
-
-/Users/darian/anaconda3/envs/md/bin/teLeap: Warning!
-addIons: 1st Ion & target unit have charges of the same sign:
-     unit charge = 4; ion1 charge = 1;
-     can't neutralize.
+  Volume: 1518556.220 A^3 (oct)
+  Total mass 848780.288 amu,  Density 0.928 g/cc
+  Added 44885 residues.
 4 Cl- ions required to neutralize.
 Adding 4 counter ions to "pdb" using 1A grid
 Grid extends from solute vdw + 2.14  to  8.13
 Resolution:      1.00 Angstrom.
 Calculating grid charges
-Placed Cl- in pdb at (-53.99, 6.50, -25.51).
-Placed Cl- in pdb at (18.01, -50.50, -32.51).
-Placed Cl- in pdb at (2.01, 8.50, -62.51).
-Placed Cl- in pdb at (-2.99, -58.50, 7.49).
+Placed Cl- in pdb at (27.60, -36.26, -59.13).
+Placed Cl- in pdb at (49.60, -28.26, -46.13).
+Placed Cl- in pdb at (1.60, 48.74, -49.13).
+Placed Cl- in pdb at (44.60, 17.74, -49.13).
 
 Done adding ions.
-Adding 57 counter ions to "pdb" using 1A grid
+Adding 91 counter ions to "pdb" using 1A grid
 Grid extends from solute vdw + 1.45  to  7.59
 Resolution:      1.00 Angstrom.
 Calculating grid charges
-Placed Na+ in pdb at (-35.58, -26.97, 13.03).
-Placed Na+ in pdb at (-26.58, -16.97, 18.03).
-Placed Na+ in pdb at (-1.58, -24.97, -5.97).
-Placed Na+ in pdb at (-17.58, -36.97, -13.97).
-Placed Na+ in pdb at (-12.58, -20.97, 25.03).
-Placed Na+ in pdb at (0.42, -37.97, -2.97).
-Placed Na+ in pdb at (12.42, -8.97, -19.97).
-Placed Na+ in pdb at (-11.58, -23.97, -24.97).
-Placed Na+ in pdb at (-21.58, -34.97, -1.97).
-Placed Na+ in pdb at (55.42, 0.03, -40.97).
-Placed Na+ in pdb at (-17.58, -42.97, 34.03).
-Placed Na+ in pdb at (-40.58, 33.03, 36.03).
-Placed Na+ in pdb at (-40.58, 13.03, 48.03).
-Placed Na+ in pdb at (-16.58, 43.03, 48.03).
-Placed Na+ in pdb at (-39.58, -28.97, 33.03).
-Placed Na+ in pdb at (4.42, -10.97, 61.03).
-Placed Na+ in pdb at (-57.58, 6.03, -25.97).
-Placed Na+ in pdb at (-15.58, 18.03, 62.03).
-Placed Na+ in pdb at (-23.58, 49.03, -16.97).
-Placed Na+ in pdb at (4.42, -35.97, 47.03).
-Placed Na+ in pdb at (-9.58, 29.03, -54.97).
-Placed Na+ in pdb at (-54.58, -4.97, 7.03).
-Placed Na+ in pdb at (54.42, 21.03, 27.03).
-Placed Na+ in pdb at (-54.58, 14.03, 19.03).
-Placed Na+ in pdb at (19.42, -50.97, -15.97).
-Placed Na+ in pdb at (55.42, 30.03, -22.97).
-Placed Na+ in pdb at (-1.58, 57.03, -2.97).
-Placed Na+ in pdb at (-11.58, -37.97, 3.03).
-Placed Na+ in pdb at (55.42, -16.97, 30.03).
-Placed Na+ in pdb at (-55.58, -6.97, 33.03).
-Placed Na+ in pdb at (-55.58, 16.03, -6.97).
-Placed Na+ in pdb at (-16.58, -20.97, 47.03).
-Placed Na+ in pdb at (18.42, -51.97, -35.97).
-Placed Na+ in pdb at (55.42, 22.03, -0.97).
-Placed Na+ in pdb at (-3.58, -59.97, 24.03).
-Placed Na+ in pdb at (34.42, 45.03, -27.97).
-Placed Na+ in pdb at (-54.58, -27.97, 20.03).
-Placed Na+ in pdb at (54.42, -1.97, 12.03).
-Placed Na+ in pdb at (1.42, 12.03, -62.97).
-Placed Na+ in pdb at (6.42, 50.03, 34.03).
-Placed Na+ in pdb at (-5.58, -35.97, -14.97).
-Placed Na+ in pdb at (-16.58, 2.03, 60.03).
-Placed Na+ in pdb at (56.42, -24.97, -25.97).
-Placed Na+ in pdb at (-42.58, -45.97, 23.03).
-Placed Na+ in pdb at (41.42, -42.97, -2.97).
-Placed Na+ in pdb at (7.42, 26.03, 48.03).
-Placed Na+ in pdb at (-3.58, -59.97, -1.97).
-Placed Na+ in pdb at (-24.58, 44.03, -42.97).
-Placed Na+ in pdb at (-38.58, -3.97, 48.03).
-Placed Na+ in pdb at (20.42, -49.97, 10.03).
-Placed Na+ in pdb at (-5.58, -20.97, 19.03).
-Placed Na+ in pdb at (-2.58, 57.03, -29.97).
-Placed Na+ in pdb at (-29.58, 29.03, 48.03).
-Placed Na+ in pdb at (-46.58, 13.03, -42.97).
-Placed Na+ in pdb at (55.42, 6.03, -9.97).
-Placed Na+ in pdb at (27.42, 12.03, 48.03).
-Placed Na+ in pdb at (-47.58, 40.03, 24.03).
+Placed Na+ in pdb at (-16.86, -22.73, 25.40).
+Placed Na+ in pdb at (0.14, -27.73, -1.60).
+Placed Na+ in pdb at (-7.86, -28.73, -22.60).
+Placed Na+ in pdb at (-12.86, -42.73, -16.60).
+Placed Na+ in pdb at (11.14, 1.27, 4.40).
+Placed Na+ in pdb at (-0.86, -21.73, -9.60).
+Placed Na+ in pdb at (-55.86, -30.73, 36.40).
+Placed Na+ in pdb at (-43.86, 51.27, -18.60).
+Placed Na+ in pdb at (-10.86, 5.27, -6.60).
+Placed Na+ in pdb at (-0.86, 66.27, 8.40).
+Placed Na+ in pdb at (-22.86, 59.27, -32.60).
+Placed Na+ in pdb at (-24.86, 58.27, 48.40).
+Placed Na+ in pdb at (-12.86, -37.73, 50.40).
+Placed Na+ in pdb at (-0.86, 66.27, -17.60).
+Placed Na+ in pdb at (-23.86, 7.27, -73.60).
+Placed Na+ in pdb at (-34.86, -20.73, 11.40).
+Placed Na+ in pdb at (46.14, 15.27, -51.60).
+Placed Na+ in pdb at (29.14, -7.73, 69.40).
+Placed Na+ in pdb at (-55.86, 37.27, 36.40).
+Placed Na+ in pdb at (-63.86, -34.73, 10.40).
+Placed Na+ in pdb at (30.14, 61.27, 29.40).
+Placed Na+ in pdb at (8.14, -53.73, 49.40).
+Placed Na+ in pdb at (-22.86, 58.27, -4.60).
+Placed Na+ in pdb at (-34.86, -44.73, 37.40).
+Placed Na+ in pdb at (-64.86, -8.73, -5.60).
+Placed Na+ in pdb at (10.14, -30.73, 63.40).
+Placed Na+ in pdb at (-13.86, -62.73, 35.40).
+Placed Na+ in pdb at (-55.86, 14.27, 49.40).
+Placed Na+ in pdb at (8.14, 54.27, 42.40).
+Placed Na+ in pdb at (-64.86, -31.73, -17.60).
+Placed Na+ in pdb at (-46.86, 50.27, 35.40).
+Placed Na+ in pdb at (-33.86, -21.73, 50.40).
+Placed Na+ in pdb at (51.14, 0.27, 56.40).
+Placed Na+ in pdb at (30.14, 39.27, 42.40).
+Placed Na+ in pdb at (-42.86, 1.27, -60.60).
+Placed Na+ in pdb at (4.14, -38.73, -15.60).
+Placed Na+ in pdb at (5.14, 41.27, -51.60).
+Placed Na+ in pdb at (-63.86, 34.27, -0.60).
+Placed Na+ in pdb at (-42.86, 29.27, 51.40).
+Placed Na+ in pdb at (63.14, 7.27, -24.60).
+Placed Na+ in pdb at (-59.86, -41.73, 28.40).
+Placed Na+ in pdb at (-61.86, 6.27, -27.60).
+Placed Na+ in pdb at (51.14, -30.73, -48.60).
+Placed Na+ in pdb at (-20.86, -16.73, -60.60).
+Placed Na+ in pdb at (-62.86, 13.27, 10.40).
+Placed Na+ in pdb at (-0.86, 65.27, 35.40).
+Placed Na+ in pdb at (-64.86, 10.27, 37.40).
+Placed Na+ in pdb at (-43.86, -22.73, -46.60).
+Placed Na+ in pdb at (29.14, -38.73, -61.60).
+Placed Na+ in pdb at (8.14, 31.27, 55.40).
+Placed Na+ in pdb at (51.14, 46.27, 29.40).
+Placed Na+ in pdb at (-0.86, -8.73, -73.60).
+Placed Na+ in pdb at (-61.86, -16.73, 12.40).
+Placed Na+ in pdb at (-32.86, 44.27, 51.40).
+Placed Na+ in pdb at (0.14, -55.73, -46.60).
+Placed Na+ in pdb at (-64.86, 35.27, 21.40).
+Placed Na+ in pdb at (-15.86, 57.27, -51.60).
+Placed Na+ in pdb at (13.14, -9.73, -17.60).
+Placed Na+ in pdb at (22.14, 73.27, -4.60).
+Placed Na+ in pdb at (29.14, 16.27, 56.40).
+Placed Na+ in pdb at (-21.86, -37.73, -46.60).
+Placed Na+ in pdb at (-64.86, -8.73, -30.60).
+Placed Na+ in pdb at (63.14, -38.73, 2.40).
+Placed Na+ in pdb at (-17.86, 34.27, -64.60).
+Placed Na+ in pdb at (-33.86, 21.27, 64.40).
+Placed Na+ in pdb at (-21.86, 59.27, 25.40).
+Placed Na+ in pdb at (-21.86, -60.73, -33.60).
+Placed Na+ in pdb at (15.14, 71.27, -27.60).
+Placed Na+ in pdb at (-55.86, -9.73, 51.40).
+Placed Na+ in pdb at (-14.86, -16.73, 63.40).
+Placed Na+ in pdb at (50.14, 23.27, 43.40).
+Placed Na+ in pdb at (63.14, 31.27, -11.60).
+Placed Na+ in pdb at (63.14, -15.73, -37.60).
+Placed Na+ in pdb at (-0.86, -32.73, -59.60).
+Placed Na+ in pdb at (-60.86, 29.27, -14.60).
+Placed Na+ in pdb at (34.14, 65.27, -16.60).
+Placed Na+ in pdb at (63.14, -38.73, -24.60).
+Placed Na+ in pdb at (-4.86, -39.73, -11.60).
+Placed Na+ in pdb at (-12.86, 45.27, 55.40).
+Placed Na+ in pdb at (-63.86, -11.73, 23.40).
+Placed Na+ in pdb at (-34.86, -2.73, 63.40).
+Placed Na+ in pdb at (2.14, 52.27, -49.60).
+Placed Na+ in pdb at (8.14, 7.27, 69.40).
+Placed Na+ in pdb at (-45.86, -57.73, -19.60).
+Placed Na+ in pdb at (48.14, 34.27, -37.60).
+Placed Na+ in pdb at (-37.86, -57.73, 29.40).
+Placed Na+ in pdb at (24.14, -57.73, -29.60).
+Placed Na+ in pdb at (64.14, -39.73, 27.40).
+Placed Na+ in pdb at (-54.86, 29.27, -42.60).
+Placed Na+ in pdb at (20.14, -21.73, -72.60).
+Placed Na+ in pdb at (63.14, 37.27, 16.40).
 
 Done adding ions.
-Adding 57 counter ions to "pdb" using 1A grid
+Adding 91 counter ions to "pdb" using 1A grid
 Grid extends from solute vdw + 2.14  to  8.29
 Resolution:      1.00 Angstrom.
 Calculating grid charges
-Placed Cl- in pdb at (10.13, 28.34, 47.33).
-Placed Cl- in pdb at (56.13, -3.66, 9.33).
-Placed Cl- in pdb at (55.13, 22.34, -4.67).
-Placed Cl- in pdb at (-42.87, 15.34, 46.33).
-Placed Cl- in pdb at (-31.87, 31.34, 46.33).
-Placed Cl- in pdb at (-18.87, -23.66, -6.67).
-Placed Cl- in pdb at (-53.87, -16.66, 14.33).
-Placed Cl- in pdb at (19.13, -50.66, 21.33).
-Placed Cl- in pdb at (56.13, -13.66, 31.33).
-Placed Cl- in pdb at (40.13, -42.66, -18.67).
-Placed Cl- in pdb at (1.13, -12.66, 61.33).
-Placed Cl- in pdb at (56.13, 3.34, -7.67).
-Placed Cl- in pdb at (-44.87, 16.34, -42.67).
-Placed Cl- in pdb at (2.13, 13.34, -59.67).
-Placed Cl- in pdb at (24.13, 13.34, 49.33).
-Placed Cl- in pdb at (8.13, 53.34, 34.33).
-Placed Cl- in pdb at (20.13, -50.66, -4.67).
-Placed Cl- in pdb at (56.13, 33.34, -21.67).
-Placed Cl- in pdb at (56.13, 19.34, 24.33).
-Placed Cl- in pdb at (-6.87, -60.66, 25.33).
-Placed Cl- in pdb at (25.13, 43.34, -31.67).
-Placed Cl- in pdb at (-20.87, 45.34, -44.67).
-Placed Cl- in pdb at (39.13, -43.66, 7.33).
-Placed Cl- in pdb at (-13.87, 45.34, 47.33).
-Placed Cl- in pdb at (-6.87, -61.66, -2.67).
-Placed Cl- in pdb at (-53.87, 29.34, 15.33).
-Placed Cl- in pdb at (-19.87, 3.34, 61.33).
-Placed Cl- in pdb at (15.13, -53.66, -35.67).
-Placed Cl- in pdb at (-19.87, -21.66, 48.33).
-Placed Cl- in pdb at (-22.87, 51.34, -19.67).
-Placed Cl- in pdb at (-54.87, 6.34, 25.33).
-Placed Cl- in pdb at (46.13, 3.34, -46.67).
-Placed Cl- in pdb at (23.13, -50.66, 12.33).
-Placed Cl- in pdb at (-12.87, 27.34, -56.67).
-Placed Cl- in pdb at (55.13, 7.34, 8.33).
-Placed Cl- in pdb at (-41.87, -4.66, 49.33).
-Placed Cl- in pdb at (-54.87, -1.66, 5.33).
-Placed Cl- in pdb at (57.13, -27.66, -23.67).
-Placed Cl- in pdb at (-1.87, 59.34, -32.67).
-Placed Cl- in pdb at (19.13, -5.66, 63.33).
-Placed Cl- in pdb at (25.13, 20.34, -44.67).
-Placed Cl- in pdb at (-31.87, -47.66, -25.67).
-Placed Cl- in pdb at (-45.87, -46.66, 24.33).
-Placed Cl- in pdb at (-0.87, 59.34, -5.67).
-Placed Cl- in pdb at (-12.87, 20.34, 61.33).
-Placed Cl- in pdb at (-2.87, -58.66, -18.67).
-Placed Cl- in pdb at (1.13, -36.66, 48.33).
-Placed Cl- in pdb at (-30.87, -23.66, -40.67).
-Placed Cl- in pdb at (27.13, -3.66, -58.67).
-Placed Cl- in pdb at (29.13, 56.34, 5.33).
-Placed Cl- in pdb at (-43.87, 31.34, 35.33).
-Placed Cl- in pdb at (55.13, 6.34, -18.67).
-Placed Cl- in pdb at (-42.87, -29.66, 34.33).
-Placed Cl- in pdb at (55.13, -16.66, 21.33).
-Placed Cl- in pdb at (-58.87, 15.34, -5.67).
-Placed Cl- in pdb at (46.13, 26.34, -33.67).
-Placed Cl- in pdb at (-20.87, -43.66, 35.33).
+Placed Cl- in pdb at (0.85, 53.58, -46.29).
+Placed Cl- in pdb at (16.85, -19.42, -72.29).
+Placed Cl- in pdb at (-21.15, 60.58, 28.71).
+Placed Cl- in pdb at (63.85, -14.42, -34.29).
+Placed Cl- in pdb at (-57.15, 40.58, 35.71).
+Placed Cl- in pdb at (48.85, 37.58, -36.29).
+Placed Cl- in pdb at (48.85, 22.58, 46.71).
+Placed Cl- in pdb at (-17.15, 37.58, -63.29).
+Placed Cl- in pdb at (-33.15, -20.42, 53.71).
+Placed Cl- in pdb at (63.85, -38.42, 6.71).
+Placed Cl- in pdb at (24.85, -60.42, -27.29).
+Placed Cl- in pdb at (50.85, 44.58, 32.71).
+Placed Cl- in pdb at (-2.15, 66.58, 38.71).
+Placed Cl- in pdb at (-25.15, -36.42, -47.29).
+Placed Cl- in pdb at (27.85, 15.58, 59.71).
+Placed Cl- in pdb at (-36.15, -55.42, 31.71).
+Placed Cl- in pdb at (63.85, 8.58, -19.29).
+Placed Cl- in pdb at (-4.15, -25.42, -27.29).
+Placed Cl- in pdb at (-64.15, 30.58, -15.29).
+Placed Cl- in pdb at (64.85, -36.42, -22.29).
+Placed Cl- in pdb at (-64.15, -14.42, 10.71).
+Placed Cl- in pdb at (6.85, 10.58, 70.71).
+Placed Cl- in pdb at (-59.15, 15.58, 48.71).
+Placed Cl- in pdb at (38.85, -43.42, -46.29).
+Placed Cl- in pdb at (-6.15, -47.42, -48.29).
+Placed Cl- in pdb at (18.85, 72.58, -27.29).
+Placed Cl- in pdb at (62.85, 28.58, -4.29).
+Placed Cl- in pdb at (0.85, 25.58, -62.29).
+Placed Cl- in pdb at (-12.15, -36.42, 53.71).
+Placed Cl- in pdb at (-45.15, -60.42, -17.29).
+Placed Cl- in pdb at (-35.15, 24.58, 63.71).
+Placed Cl- in pdb at (-47.15, -21.42, -47.29).
+Placed Cl- in pdb at (-34.15, -43.42, 40.71).
+Placed Cl- in pdb at (64.85, 36.58, 19.71).
+Placed Cl- in pdb at (20.85, 74.58, -1.29).
+Placed Cl- in pdb at (-27.15, 6.58, -72.29).
+Placed Cl- in pdb at (65.85, -41.42, 24.71).
+Placed Cl- in pdb at (-3.15, -35.42, -60.29).
+Placed Cl- in pdb at (8.85, 34.58, 56.71).
+Placed Cl- in pdb at (-54.15, 31.58, -45.29).
+Placed Cl- in pdb at (37.85, -21.42, -59.29).
+Placed Cl- in pdb at (-53.15, -10.42, 53.71).
+Placed Cl- in pdb at (57.85, -36.42, -34.29).
+Placed Cl- in pdb at (-34.15, 47.58, 50.71).
+Placed Cl- in pdb at (32.85, 68.58, -17.29).
+Placed Cl- in pdb at (24.85, -9.42, 73.71).
+Placed Cl- in pdb at (-25.15, -59.42, -34.29).
+Placed Cl- in pdb at (25.85, 59.58, 33.71).
+Placed Cl- in pdb at (-68.15, -9.42, -29.29).
+Placed Cl- in pdb at (-64.15, 33.58, 17.71).
+Placed Cl- in pdb at (-3.15, -11.42, -74.29).
+Placed Cl- in pdb at (-4.15, 65.58, -16.29).
+Placed Cl- in pdb at (-34.15, -5.42, 65.71).
+Placed Cl- in pdb at (-14.15, 48.58, 56.71).
+Placed Cl- in pdb at (-15.15, 60.58, -50.29).
+Placed Cl- in pdb at (13.85, -63.42, 40.71).
+Placed Cl- in pdb at (-55.15, -29.42, 39.71).
+Placed Cl- in pdb at (22.85, 56.58, -36.29).
+Placed Cl- in pdb at (15.85, -39.42, -61.29).
+Placed Cl- in pdb at (46.85, -1.42, 60.71).
+Placed Cl- in pdb at (-68.15, -7.42, -6.29).
+Placed Cl- in pdb at (58.85, -14.42, -46.29).
+Placed Cl- in pdb at (10.85, -33.42, 65.71).
+Placed Cl- in pdb at (-27.15, -8.42, -62.29).
+Placed Cl- in pdb at (-26.15, 57.58, -3.29).
+Placed Cl- in pdb at (2.85, -58.42, -46.29).
+Placed Cl- in pdb at (30.85, 42.58, 43.71).
+Placed Cl- in pdb at (-67.15, 7.58, 36.71).
+Placed Cl- in pdb at (1.85, 41.58, -53.29).
+Placed Cl- in pdb at (-64.15, -38.42, 11.71).
+Placed Cl- in pdb at (-44.15, 32.58, 50.71).
+Placed Cl- in pdb at (63.85, 32.58, -15.29).
+Placed Cl- in pdb at (-64.15, 8.58, -29.29).
+Placed Cl- in pdb at (13.85, -63.42, 14.71).
+Placed Cl- in pdb at (8.85, 57.58, 43.71).
+Placed Cl- in pdb at (-68.15, -32.42, -16.29).
+Placed Cl- in pdb at (25.85, -14.42, -73.29).
+Placed Cl- in pdb at (-17.15, -19.42, 62.71).
+Placed Cl- in pdb at (36.85, -53.42, -5.29).
+Placed Cl- in pdb at (-50.15, 48.58, 35.71).
+Placed Cl- in pdb at (21.85, 32.58, -50.29).
+Placed Cl- in pdb at (-66.15, 31.58, -1.29).
+Placed Cl- in pdb at (-67.15, -12.42, 24.71).
+Placed Cl- in pdb at (43.85, 14.58, -54.29).
+Placed Cl- in pdb at (34.85, -55.42, 27.71).
+Placed Cl- in pdb at (-19.15, -19.42, -62.29).
+Placed Cl- in pdb at (-15.15, -63.42, 38.71).
+Placed Cl- in pdb at (-28.15, 59.58, 47.71).
+Placed Cl- in pdb at (0.85, 2.58, -75.29).
+Placed Cl- in pdb at (-61.15, -42.42, 31.71).
+Placed Cl- in pdb at (63.85, -16.42, 5.71).
 
 Done adding ions.
 Checking Unit.
 
-/Users/darian/anaconda3/envs/md/bin/teLeap: Note.
+/ihome/lchong/dty7/Apps/anaconda3/envs/md/bin/teLeap: Note.
 Ignoring the warnings from Unit Checking.
 
 Building topology.
@@ -221,11 +286,11 @@ Marking per-residue atom chain types.
 Writing pdb file: 1ii6_dl5apo_solv.pdb
    printing CRYST1 record to PDB file with box info
 
-/Users/darian/anaconda3/envs/md/bin/teLeap: Warning!
+/ihome/lchong/dty7/Apps/anaconda3/envs/md/bin/teLeap: Warning!
  Converting N-terminal residue name to PDB format: NMET -> MET
 
-/Users/darian/anaconda3/envs/md/bin/teLeap: Warning!
+/ihome/lchong/dty7/Apps/anaconda3/envs/md/bin/teLeap: Warning!
  Converting C-terminal residue name to PDB format: CLYS -> LYS
 	Quit
 
-Exiting LEaP: Errors = 0; Warnings = 3; Notes = 1.
+Exiting LEaP: Errors = 0; Warnings = 2; Notes = 1.

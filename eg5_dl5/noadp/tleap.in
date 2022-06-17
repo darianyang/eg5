@@ -4,13 +4,12 @@ loadamberprep ../../adp/carlson/adp.prep
 loadamberparams ../../adp/carlson/frcmod.phos
 loadamberparams frcmod.ionslm_1264_opc
 pdb = loadpdb 1ii6_dl5apo_leap.pdb
-#charge pdb
+charge pdb
 #check pdb
-solvateoct pdb OPCBOX 12.0
-addions2 pdb Na+ 0
+solvateoct pdb OPCBOX 20.0
 addions2 pdb Cl- 0
-addions2 pdb Na+ 57
-addions2 pdb Cl- 57
+addions2 pdb Na+ 91
+addions2 pdb Cl- 91
 saveamberparm pdb 1ii6_dl5apo_solv.prmtop 1ii6_dl5apo_solv.inpcrd
 savepdb pdb 1ii6_dl5apo_solv.pdb
 quit
