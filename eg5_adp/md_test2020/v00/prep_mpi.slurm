@@ -32,8 +32,8 @@ PDB="eg5_2020_solv"
 
 # 10000 step minimization (500 steepest descent)
 printf "\nstart min\n\n" 
-#$DO_PARALLEL \
-    pmemd -O \
+$DO_PARALLEL \
+    $SANDER -O \
             -i 02_min.in -o 02_min.out \
             -p ${PDB}.prmtop -c ${PDB}.inpcrd -r 02_min.rst &&
 printf "\ndone min\n\n" 

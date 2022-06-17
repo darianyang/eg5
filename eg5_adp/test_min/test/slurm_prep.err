@@ -8,3 +8,4 @@ Warning: When compiling code please add the following flags to nvcc:
 + PDB=1ii6_solv
 + printf '\nstart min\n\n'
 + mpirun -np 8 pmemd.MPI -O -i 02_min.in -o 02_min.out -p 1ii6_solv.prmtop -c 1ii6_solv.inpcrd -r 02_min.rst
++ printf '\ndone min\n\n'

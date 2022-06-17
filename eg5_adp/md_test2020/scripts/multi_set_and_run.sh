@@ -14,13 +14,13 @@ for SYS in ${SYSTEMS[@]} ; do
     cd $SYS
     echo -e "\nRUNNING SYSTEM : $SYS"
 
-    cp -v ../${PDB}_solv.* .
+    cp -v ../${PDB}_leap.pdb .
     cp ../sim_template/* .
 
     # formatting
     bash temp_sed.sh ${PDB} v00
     # make the inital parm and crd files
-    #tleap -f ${SYS}.in > tleap.out
+    tleap -f tleap.in > tleap.out
     # submit the prep run, which submits the prod after finishing
     #sbatch prep_mpi.slurm
 
