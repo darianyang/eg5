@@ -1,16 +1,16 @@
--I: Adding /Users/darian/anaconda3/envs/md/dat/leap/prep to search path.
--I: Adding /Users/darian/anaconda3/envs/md/dat/leap/lib to search path.
--I: Adding /Users/darian/anaconda3/envs/md/dat/leap/parm to search path.
--I: Adding /Users/darian/anaconda3/envs/md/dat/leap/cmd to search path.
+-I: Adding /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/prep to search path.
+-I: Adding /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/lib to search path.
+-I: Adding /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/parm to search path.
+-I: Adding /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/cmd to search path.
 -f: Source tleap.in.
 
 Welcome to LEaP!
 (no leaprc in search path)
 Sourcing: ./tleap.in
------ Source: /Users/darian/anaconda3/envs/md/dat/leap/cmd/leaprc.gaff2
------ Source of /Users/darian/anaconda3/envs/md/dat/leap/cmd/leaprc.gaff2 done
+----- Source: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/cmd/leaprc.gaff2
+----- Source of /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/cmd/leaprc.gaff2 done
 Log file: ./leap.log
-Loading parameters: /Users/darian/anaconda3/envs/md/dat/leap/parm/gaff2.dat
+Loading parameters: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/parm/gaff2.dat
 Reading title:
 AMBER General Force Field for organic molecules (Version 2.11, May 2016)
 Loading parameters: ./mon.frcmod
@@ -24,7 +24,6 @@ Checking parameters for unit 'mon'.
 Checking for bond parameters.
 Checking for angle parameters.
 Unit is OK.
- Creating mon.lib
 Building topology.
 Building atom parameters.
 	Quit
