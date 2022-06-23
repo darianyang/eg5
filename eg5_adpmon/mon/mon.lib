@@ -1,6 +1,6 @@
 !!index array str
- "mon"
-!entry.mon.unit.atoms table  str name  str type  int typex  int resx  int flags  int seq  int elmnt  dbl chg
+ "MON"
+!entry.MON.unit.atoms table  str name  str type  int typex  int resx  int flags  int seq  int elmnt  dbl chg
  "C1" "ca" 0 1 131072 1 6 -0.153000
  "C2" "ca" 0 1 131072 2 6 -0.088300
  "C3" "ca" 0 1 131072 3 6 -0.195000
@@ -37,7 +37,7 @@
  "H3" "ha" 0 1 131072 34 1 0.159000
  "H1" "ha" 0 1 131072 35 1 0.136000
  "H13" "ho" 0 1 131072 36 1 0.423000
-!entry.mon.unit.atomspertinfo table  str pname  str ptype  int ptypex  int pelmnt  dbl pchg
+!entry.MON.unit.atomspertinfo table  str pname  str ptype  int ptypex  int pelmnt  dbl pchg
  "C1" "ca" 0 -1 0.0
  "C2" "ca" 0 -1 0.0
  "C3" "ca" 0 -1 0.0
@@ -74,18 +74,18 @@
  "H3" "ha" 0 -1 0.0
  "H1" "ha" 0 -1 0.0
  "H13" "ho" 0 -1 0.0
-!entry.mon.unit.boundbox array dbl
+!entry.MON.unit.boundbox array dbl
  -1.000000
  0.0
  0.0
  0.0
  0.0
-!entry.mon.unit.childsequence single int
+!entry.MON.unit.childsequence single int
  2
-!entry.mon.unit.connect array int
+!entry.MON.unit.connect array int
  0
  0
-!entry.mon.unit.connectivity table  int atom1x  int atom2x  int flags
+!entry.MON.unit.connectivity table  int atom1x  int atom2x  int flags
  1 2 4
  1 6 4
  1 35 1
@@ -123,7 +123,7 @@
  18 22 1
  18 23 1
  18 24 1
-!entry.mon.unit.hierarchy table  str abovetype  int abovex  str belowtype  int belowx
+!entry.MON.unit.hierarchy table  str abovetype  int abovex  str belowtype  int belowx
  "U" 0 "R" 1
  "R" 1 "A" 1
  "R" 1 "A" 2
@@ -161,9 +161,9 @@
  "R" 1 "A" 34
  "R" 1 "A" 35
  "R" 1 "A" 36
-!entry.mon.unit.name single str
+!entry.MON.unit.name single str
  "MON"
-!entry.mon.unit.positions table  dbl x  dbl y  dbl z
+!entry.MON.unit.positions table  dbl x  dbl y  dbl z
  40.150000 25.243000 112.181000
  41.191000 25.774000 111.424000
  42.205000 26.494000 112.047000
@@ -200,19 +200,19 @@
  42.931000 26.864000 111.520000
  39.443000 24.741000 111.747000
  43.839000 27.725000 113.484000
-!entry.mon.unit.residueconnect table  int c1x  int c2x  int c3x  int c4x  int c5x  int c6x
+!entry.MON.unit.residueconnect table  int c1x  int c2x  int c3x  int c4x  int c5x  int c6x
  0 0 0 0 0 0
-!entry.mon.unit.residues table  str name  int seq  int childseq  int startatomx  str restype  int imagingx
+!entry.MON.unit.residues table  str name  int seq  int childseq  int startatomx  str restype  int imagingx
  "MON" 1 37 1 "?" 0
-!entry.mon.unit.residuesPdbSequenceNumber array int
+!entry.MON.unit.residuesPdbSequenceNumber array int
  0
-!entry.mon.unit.solventcap array dbl
+!entry.MON.unit.solventcap array dbl
  -1.000000
  0.0
  0.0
  0.0
  0.0
-!entry.mon.unit.velocities table  dbl x  dbl y  dbl z
+!entry.MON.unit.velocities table  dbl x  dbl y  dbl z
  0.0 0.0 0.0
  0.0 0.0 0.0
  0.0 0.0 0.0

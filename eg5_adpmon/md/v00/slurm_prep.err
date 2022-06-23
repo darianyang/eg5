@@ -6,14 +6,8 @@ Warning: When compiling code please add the following flags to nvcc:
 + DO_PARALLEL='mpirun -np 8'
 + SANDER=pmemd.MPI
 + PDB=1x88_solv
-+ printf '\nstart min\n\n'
-+ mpirun -np 8 pmemd.MPI -O -i 02_min.in -o 02_min.out -p 1x88_solv.prmtop -c 1x88_solv.inpcrd -r 02_min.rst
-+ printf '\ndone min\n\n'
-+ printf '\nstart restrained system heat in\n\n'
-+ mpirun -np 8 pmemd.MPI -O -i 03_eq1.in -o 03_eq1.out -x 03_eq1.nc -p 1x88_solv.prmtop -c 02_min.rst -r 03_eq1.rst -ref 02_min.rst
-+ printf '\ndone restrained system heat in\n\n'
-+ printf '\nstart restrained equil\n\n'
-+ mpirun -np 8 pmemd.MPI -O -i 04_eq2.in -o 04_eq2.out -x 04_eq2.nc -p 1x88_solv.prmtop -c 03_eq1.rst -r 04_eq2.rst -ref 03_eq1.rst
-+ printf '\ndone restrained equil\n\n'
 + printf '\nstart unrestrained equil\n\n'
 + mpirun -np 8 pmemd.MPI -O -i 05_eq3.in -o 05_eq3.out -x 05_eq3.nc -p 1x88_solv.prmtop -c 04_eq2.rst -r 05_eq3.rst
++ printf '\ndone unrestrained equil\n\n'
++ printf '\nSUBMITTING PROD RUN\n'
++ sbatch h2p_1gpu_prod_06.slurm

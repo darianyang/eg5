@@ -9,11 +9,11 @@ loadamberparams frcmod.ionslm_1264_opc
 pdb = loadpdb 1x88_leap.pdb
 charge pdb
 #check pdb
-solvateoct pdb OPCBOX 12.0
+solvateoct pdb OPCBOX 20.0
 addions2 pdb Na+ 0
 addions2 pdb Cl- 0
-addions2 pdb Na+ 75
-addions2 pdb Cl- 75
+addions2 pdb Na+ 114
+addions2 pdb Cl- 114
 saveamberparm pdb 1x88_solv.prmtop 1x88_solv.inpcrd
 savepdb pdb 1x88_solv.pdb
 quit
