@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/jet/home/dyang4/chonglab/eg5/eg5_adpmon/we/eg5_template/common_files/analyze_sasa.py", line 51, in <module>
+    receptor = calc_sasa("resid 23 to 29 or resid 71 to 77 or resid 80 or resid 102 to 117 or resid 131 or resid 231 to 232 or resid 264 to 269 or resid 273 or resid 332 or resid 334 to 337")
+  File "/jet/home/dyang4/chonglab/eg5/eg5_adpmon/we/eg5_template/common_files/analyze_sasa.py", line 22, in calc_sasa
+    traj_parent = mdtraj.load("parent.ncrst", top="./eg5_holo.prmtop") 
+  File "/jet/home/dyang4/Apps/anaconda3/lib/python3.9/site-packages/mdtraj/core/trajectory.py", line 396, in load
+    kwargs["top"] = _parse_topology(kwargs.get("top", filename_or_filenames[0]), **topkwargs)
+  File "/jet/home/dyang4/Apps/anaconda3/lib/python3.9/site-packages/mdtraj/core/trajectory.py", line 177, in _parse_topology
+    topology = load_prmtop(top, **kwargs)
+  File "/jet/home/dyang4/Apps/anaconda3/lib/python3.9/site-packages/mdtraj/formats/prmtop.py", line 123, in load_prmtop
+    with open(filename, 'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './eg5_holo.prmtop'
+cat: rec_sasa.dat: No such file or directory
+cat: lig_sasa.dat: No such file or directory

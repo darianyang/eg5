@@ -53,7 +53,7 @@ COMMAND="$COMMAND go\n"
 
 echo -e $COMMAND | $CPPTRAJ
 
-#python $WEST_SIM_ROOT/common_files/analyze_sasa.py
+python $WEST_SIM_ROOT/common_files/analyze_sasa.py $WEST_CURRENT_SEG_DATA_REF
 
 paste <(cat pcoord.dat | tail -n +2 | awk '{print $2}') <(cat pcoord.dat | tail -n +2 | awk {'print $3'}) <(cat pcoord.dat | tail -n +2 | awk '{print $6}') > $WEST_PCOORD_RETURN
 
@@ -68,8 +68,8 @@ cat auxdata_ene.dat | tail -n +2 | awk {'print $28'} > $WEST_COMPLEX_ENE_RETURN
 cat auxdata_sasa.dat | tail -n +2 | awk {'print $2'} > $WEST_RECEPT_SASA_CPT_RETURN
 cat auxdata_sasa.dat | tail -n +2 | awk {'print $3'} > $WEST_LIGAND_SASA_CPT_RETURN
 
-#cat rec_sasa.dat > $WEST_RECEPT_SASA_MDT_RETURN
-#cat lig_sasa.dat > $WEST_LIGAND_SASA_MDT_RETURN
+cat rec_sasa.dat > $WEST_RECEPT_SASA_MDT_RETURN
+cat lig_sasa.dat > $WEST_LIGAND_SASA_MDT_RETURN
 
 cp eg5_holo.prmtop $WEST_TRAJECTORY_RETURN
 cp seg.nc $WEST_TRAJECTORY_RETURN

@@ -4,7 +4,8 @@
 #module purge
 #module load gcc/8.2.0 openmpi/4.0.3 amber/20
 #module unload python
-conda activate
+source ~/.bashrc
+conda activate base
 module load cuda/10.2.0
 #module load intel-mpi
 #export CUDA_HOME=/opt/packages/cuda/8.0

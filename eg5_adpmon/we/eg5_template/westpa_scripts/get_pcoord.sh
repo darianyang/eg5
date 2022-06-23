@@ -29,15 +29,21 @@ COMMAND="${COMMAND} go"
 
 echo -e "${COMMAND}" | $CPPTRAJ
 
+
 paste <(cat pcoord.dat | tail -n +2 | awk '{print $2}') <(cat pcoord.dat | tail -n +2 | awk {'print $3'}) <(cat pcoord.dat | tail -n +2 | awk '{print $6}') > $WEST_PCOORD_RETURN
 
-#rm pcoord.dat auxdata_rmsd.dat auxdata_ene.dat auxdata_sasa.dat
+
+#rm pcoord.dat auxdata_rmsd.dat auxdata_ene.dat auxdata_sasa.dat rec_sasa.dat lig_sasa.dat
 
 cp $WEST_SIM_ROOT/common_files/eg5_holo.prmtop $WEST_TRAJECTORY_RETURN
 cp $WEST_STRUCT_DATA_REF $WEST_TRAJECTORY_RETURN
 
 cp $WEST_SIM_ROOT/common_files/eg5_holo.prmtop $WEST_RESTART_RETURN
 cp $WEST_STRUCT_DATA_REF $WEST_RESTART_RETURN/parent.ncrst
+
+#python $WEST_SIM_ROOT/common_files/analyze_sasa.py
+#cat rec_sasa.dat
+#cat lig_sasa.dat
 
 if [ -n "$SEG_DEBUG" ] ; then
   head -v $WEST_PCOORD_RETURN
