@@ -22,12 +22,12 @@ def calc_sasa(selection):
     wpath = sys.argv[1]
 
     # load the parent rst frame and current segment coords
-    #traj_parent = mdtraj.load(f"{wpath}/parent.ncrst", top="eg5_holo.prmtop") 
-    #traj_segment = mdtraj.load(f"{wpath}/seg.nc", top="eg5_holo.prmtop")
-    #traj = traj_parent+traj_segment
+    traj_parent = mdtraj.load(f"{wpath}/parent.ncrst", top="eg5_holo.prmtop") 
+    traj_segment = mdtraj.load(f"{wpath}/seg.nc", top="eg5_holo.prmtop")
+    traj = traj_parent+traj_segment
 
     #traj = mdtraj.load(f"{wpath}/eg5_2022.pdb")
-    traj = mdtraj.load("../bstates/05_eq3.ncrst", top="1x88_solv.prmtop")
+    #traj = mdtraj.load("../bstates/05_eq3.ncrst", top="1x88_solv.prmtop")
 
     # select a portion of the entire system
     # note that some amber models (e.g. TIP4P) will have virtual sites (VS)
