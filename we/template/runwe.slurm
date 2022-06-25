@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=1x88_we_eg5_adp_unbinding_VER
+#SBATCH --job-name=WE_RUN_REP_VER_1x88_we_eg5_adp_unbinding
 #SBATCH --output=job_logs/slurm.out
 #SBATCH --error=job_logs/slurm.err
 #SBATCH --mail-user=dty7@pitt.edu

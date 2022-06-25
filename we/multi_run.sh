@@ -7,7 +7,7 @@ for V in {00..04} ; do
     # create new dir if needed
     if [ ! -d v$V ] ; then
         cp -r template v$V &&
-        sed -i "s/VER/v$V/" v$V/runwe.slurm
+        sed -i "s/WE_RUN_REP_VER/v$V/" v$V/runwe.slurm
     fi
     cd v$V
 
