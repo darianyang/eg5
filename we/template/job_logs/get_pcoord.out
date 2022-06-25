@@ -4,8 +4,8 @@ CPPTRAJ: Trajectory Analysis. V18.01
      | \/ | \/ | \/ | 
     _|_/\_|_/\_|_/\_|_
 
-| Date/time: 06/25/22 13:00:31
-| Available memory: 98.639 GB
+| Date/time: 06/25/22 13:18:18
+| Available memory: 107.436 GB
 
 INPUT: Reading input from 'STDIN'
   [parm /jet/home/dyang4/chonglab/eg5/we/template/common_files/1x88_solv.prmtop]
@@ -2847,7 +2847,7 @@ Warning:  after the RMS-fit is performed.
 100% Complete.
 
 Read 1 frames and processed 1 frames.
-TIME: Avg. throughput= 5.6753 frames / second.
+TIME: Avg. throughput= 7.1531 frames / second.
 
 ACTION OUTPUT:
     CONTACTS: Contacts_00005
@@ -5651,14 +5651,14 @@ DATAFILES (3 total):
 
 RUN TIMING:
 TIME:		Init               : 0.0000 s (  0.01%)
-TIME:		Trajectory Process : 0.1762 s ( 97.43%)
-TIME:		Action Post        : 0.0036 s (  1.97%)
+TIME:		Trajectory Process : 0.1398 s ( 96.87%)
+TIME:		Action Post        : 0.0036 s (  2.48%)
 TIME:		Analysis           : 0.0000 s (  0.00%)
-TIME:		Data File Write    : 0.0010 s (  0.55%)
+TIME:		Data File Write    : 0.0008 s (  0.58%)
 TIME:		Other              : 0.0001 s (  0.00%)
-TIME:	Run Total 0.1809 s
+TIME:	Run Total 0.1443 s
 ---------- RUN END ---------------------------------------------------
-TIME: Total execution time: 1.0354 seconds.
+TIME: Total execution time: 0.4480 seconds.
 --------------------------------------------------------------------------------
 To cite CPPTRAJ use:
 Daniel R. Roe and Thomas E. Cheatham, III, "PTRAJ and CPPTRAJ: Software for

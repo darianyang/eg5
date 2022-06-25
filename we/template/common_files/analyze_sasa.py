@@ -45,13 +45,15 @@ def calc_sasa(selection):
     # convert nm^2 to Angstroms^2 and return
     return sasa * 10**2 
 
-prot = calc_sasa("resid 23 to 29 or resid 71 to 77 or resid 80 \
-                  or resid 102 to 117 or resid 131 or resid 231 \
-                  to 232 or resid 264 to 269 or resid 273 or \
-                  resid 332 or resid 334 to 337")
+prot = calc_sasa("resid 1 to 368")
+recept = calc_sasa("resid 23 to 29 or resid 71 to 77 or resid 80 \
+                    or resid 102 to 117 or resid 131 or resid 231 \
+                    to 232 or resid 264 to 269 or resid 273 or \
+                    resid 332 or resid 334 to 337")
 adp = calc_sasa("resname ADP")
 mon = calc_sasa("resname MON")
 
 np.savetxt("prot_sasa.dat", prot) 
+np.savetxt("recept_sasa.dat", recept) 
 np.savetxt("adp_sasa.dat", adp)
 np.savetxt("mon_sasa.dat", mon)

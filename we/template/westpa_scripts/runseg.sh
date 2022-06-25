@@ -59,6 +59,7 @@ COMMAND="$COMMAND energy mon-ene :371 out auxdata_ene.dat \n"
 COMMAND="$COMMAND surf rec-sasa :24-30,72-78,81,103-118,132,232-233,265-270,274,333,335-338 out auxdata_sasa.dat \n"
 COMMAND="$COMMAND surf adp-sasa :370 out auxdata_sasa.dat \n"
 COMMAND="$COMMAND surf mon-sasa :371 out auxdata_sasa.dat \n"
+COMMAND="$COMMAND surf prot-sasa :1-368 out auxdata_sasa.dat \n"
 COMMAND="$COMMAND go\n"
 
 echo -e $COMMAND | $CPPTRAJ
@@ -85,8 +86,10 @@ cat auxdata_ene.dat | tail -n +2 | awk {'print $37'} > $WEST_MON_ENE_RETURN
 cat auxdata_sasa.dat | tail -n +2 | awk {'print $2'} > $WEST_RECEPT_SASA_CPT_RETURN
 cat auxdata_sasa.dat | tail -n +2 | awk {'print $3'} > $WEST_ADP_SASA_CPT_RETURN
 cat auxdata_sasa.dat | tail -n +2 | awk {'print $4'} > $WEST_MON_SASA_CPT_RETURN
+cat auxdata_sasa.dat | tail -n +2 | awk {'print $5'} > $WEST_PROT_SASA_CPT_RETURN
 
-cat rec_sasa.dat > $WEST_RECEPT_SASA_MDT_RETURN
+cat prot_sasa.dat > $WEST_PROT_SASA_MDT_RETURN
+cat recept_sasa.dat > $WEST_RECEPT_SASA_MDT_RETURN
 cat adp_sasa.dat > $WEST_ADP_SASA_MDT_RETURN
 cat mon_sasa.dat > $WEST_MON_SASA_MDT_RETURN
 
