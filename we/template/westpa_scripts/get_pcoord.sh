@@ -22,6 +22,7 @@ echo -e "${COMMAND}" | $CPPTRAJ
 paste <(cat pcoord.dat | tail -n +2 | awk '{print $2}') <(cat pcoord.dat | tail -n +2 | awk {'print $3'}) <(cat pcoord.dat | tail -n +2 | awk '{print $6}') > $WEST_PCOORD_RETURN
 
 #rm pcoord.dat auxdata_rmsd.dat auxdata_ene.dat auxdata_sasa.dat
+rm pcoord.dat
 
 cp $WEST_SIM_ROOT/common_files/1x88_solv.prmtop $WEST_TRAJECTORY_RETURN
 cp $WEST_STRUCT_DATA_REF $WEST_TRAJECTORY_RETURN

@@ -22,8 +22,8 @@ def calc_sasa(selection):
     wpath = sys.argv[1]
 
     # load the parent rst frame and current segment coords
-    traj_parent = mdtraj.load(f"{wpath}/parent.ncrst", top="eg5_holo.prmtop") 
-    traj_segment = mdtraj.load(f"{wpath}/seg.nc", top="eg5_holo.prmtop")
+    traj_parent = mdtraj.load(f"{wpath}/parent.ncrst", top="1x88_solv.prmtop") 
+    traj_segment = mdtraj.load(f"{wpath}/seg.nc", top="1x88_solv.prmtop")
     traj = traj_parent+traj_segment
 
     #traj = mdtraj.load(f"{wpath}/eg5_2022.pdb")
