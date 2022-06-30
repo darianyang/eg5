@@ -1,0 +1,11 @@
+Updating system with the options from the configuration file
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmp4em5agrg': ValueError('progress coordinate data has incorrect shape (5, 3) [expected (6, 3)] Check pcoord.err or seg_logs for more information.')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmp5crvppf0': ValueError('cannot reshape array of size 0 into shape (6,3)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmpatdlb27k': ValueError('cannot reshape array of size 0 into shape (6,3)')
+-- WARNING  [westpa.work_managers.zeromq.core] -- sending SIGKILL to worker process 52812
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmpq5msk3lo': ValueError('cannot reshape array of size 0 into shape (6,3)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmpxfr28_vn': ValueError('cannot reshape array of size 0 into shape (6,3)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmp56fjc579': ValueError('cannot reshape array of size 0 into shape (6,3)')
+-- WARNING  [westpa.work_managers.zeromq.core.ZMQWorker.b4593133-1a25-4431-bdb7-3c74e3e79ac7] -- sending SIGKILL to worker process 52865
+-- WARNING  [westpa.work_managers.zeromq.core] -- sending SIGKILL to worker process 52814
+-- WARNING  [westpa.work_managers.zeromq.core] -- sending SIGKILL to worker process 52841

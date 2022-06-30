@@ -8,7 +8,7 @@
 #SBATCH --ntasks-per-node=8
 #SBATCH --partition=GPU
 #SBATCH --gpus=8
-#SBATCH --time=48:00:00
+#SBATCH --time=24:00:00
 
 set -x
 cd $SLURM_SUBMIT_DIR
