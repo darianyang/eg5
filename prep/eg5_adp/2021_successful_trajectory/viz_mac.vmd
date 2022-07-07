@@ -295,8 +295,8 @@ display aodirect 0.300000
 display dof on
 display dof_fnumber 64.000000
 display dof_focaldist 0.700000
-mol new /Users/darian/github/eg5/eg5_adp/2021_successful_trajectory/trace_12_270_dry.prmtop type parm7 first 0 last -1 step 1 filebonds 1 autobonds 1 waitfor all
-mol addfile /Users/darian/github/eg5/eg5_adp/2021_successful_trajectory/trace_12_270_dry.dcd type dcd first 0 last -1 step 1 filebonds 1 autobonds 1 waitfor all
+mol new /Users/darian/github/eg5/prep/eg5_adp/2021_successful_trajectory/trace_12_270_dry.prmtop type parm7 first 0 last -1 step 1 filebonds 1 autobonds 1 waitfor all
+mol addfile /Users/darian/github/eg5/prep/eg5_adp/2021_successful_trajectory/trace_12_270_dry.dcd type dcd first 0 last -1 step 1 filebonds 1 autobonds 1 waitfor all
 mol delrep 0 top
 mol representation NewCartoon 0.300000 10.000000 4.100000 0
 mol color ColorID 8
