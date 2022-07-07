@@ -1,0 +1,15 @@
+source leaprc.protein.ff19SB
+source leaprc.water.opc
+loadamberprep ../adp/carlson/adp.prep
+loadamberparams ../adp/carlson/frcmod.phos
+loadamberparams frcmod.ionslm_1264_opc
+pdb = loadpdb 1ii6_dl5_leap.pdb
+charge pdb
+#check pdb
+solvateoct pdb OPCBOX 20.0
+addions2 pdb Cl- 0
+addions2 pdb Na+ 91
+addions2 pdb Cl- 91
+saveamberparm pdb 1ii6_dl5_solv.prmtop 1ii6_dl5_solv.inpcrd
+savepdb pdb 1ii6_dl5_solv.pdb
+quit

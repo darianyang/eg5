@@ -1,6 +1,0 @@
-parm trace_12_270_dry.prmtop
-trajin trace_12_270_dry.dcd
-rms first
-matrix :*@CA :*@CA correl out correl.dat byres
-go
-quit

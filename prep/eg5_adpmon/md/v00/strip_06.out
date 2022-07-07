@@ -1,0 +1,77 @@
+
+CPPTRAJ: Trajectory Analysis. V6.2.7
+    ___  ___  ___  ___
+     | \/ | \/ | \/ | 
+    _|_/\_|_/\_|_/\_|_
+
+| Date/time: 06/23/22 16:59:58
+| Available memory: 807.246 GB
+
+INPUT: Reading input from 'strip_06.in'
+  [parm 1x88_solv.prmtop]
+	Reading '1x88_solv.prmtop' as Amber Topology
+	Radius Set: modified Bondi radii (mbondi)
+  [trajin 06_prod.nc]
+	Reading '06_prod.nc' as Amber NetCDF
+  [autoimage]
+    AUTOIMAGE: To box center based on center of mass, anchor is first molecule.
+  [strip :WAT,Na+,Cl- parmout 1x88_dry.prmtop]
+    STRIP: Stripping atoms in mask [:WAT,Na+,Cl-]
+	Writing 'stripped' topology file with name '1x88_dry.prmtop'
+  [trajout 06_prod_dry.nc]
+	Writing '06_prod_dry.nc' as Amber NetCDF
+  [go]
+---------- RUN BEGIN -------------------------------------------------
+
+PARAMETER FILES (1 total):
+ 0: 1x88_solv.prmtop, 232203 atoms, 57125 res, box: Truncated octahedron, 56758 mol, 56526 solvent
+
+INPUT TRAJECTORIES (1 total):
+ 0: '06_prod.nc' is a NetCDF AMBER trajectory with coordinates, time, box, Parm 1x88_solv.prmtop (Truncated octahedron box) (reading 200000 of 200000)
+  Coordinate processing will occur on 200000 frames.
+
+OUTPUT TRAJECTORIES (1 total):
+  '06_prod_dry.nc' (200000 frames) is a NetCDF AMBER trajectory
+
+BEGIN TRAJECTORY PROCESSING:
+.....................................................
+ACTION SETUP FOR PARM '1x88_solv.prmtop' (2 actions):
+  0: [autoimage]
+	Original box is truncated octahedron, turning on 'familiar'.
+	Using first molecule as anchor.
+	2 molecules are fixed to anchor: 3 4
+	56755 molecules are mobile.
+  1: [strip :WAT,Na+,Cl- parmout 1x88_dry.prmtop]
+	Stripping 226332 atoms.
+	Stripped topology: 5871 atoms, 371 res, box: Truncated octahedron, 4 mol
+	Writing topology 0 (1x88_solv.prmtop) to '1x88_dry.prmtop' with format Amber Topology
+	Memory used by full exclusion list: 128.248 kB
+.....................................................
+ACTIVE OUTPUT TRAJECTORIES (1):
+  06_prod_dry.nc (coordinates, time, box)
+----- 06_prod.nc (1-200000, 1) -----
+ 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% Complete.
+
+Read 200000 frames and processed 200000 frames.
+TIME: Avg. throughput= 65.3694 frames / second.
+
+ACTION OUTPUT:
+TIME: Analyses took 0.0000 seconds.
+
+RUN TIMING:
+TIME:		Init               : 0.0000 s (  0.00%)
+TIME:		Trajectory Process : 3059.5369 s ( 99.99%)
+TIME:		Action Post        : 0.0000 s (  0.00%)
+TIME:		Analysis           : 0.0000 s (  0.00%)
+TIME:		Data File Write    : 0.0000 s (  0.00%)
+TIME:		Other              : 0.1662 s (  0.00%)
+TIME:	Run Total 3059.7032 s
+---------- RUN END ---------------------------------------------------
+  [quit]
+TIME: Total execution time: 3060.0026 seconds.
+--------------------------------------------------------------------------------
+To cite CPPTRAJ use:
+Daniel R. Roe and Thomas E. Cheatham, III, "PTRAJ and CPPTRAJ: Software for
+  Processing and Analysis of Molecular Dynamics Trajectory Data". J. Chem.
+  Theory Comput., 2013, 9 (7), pp 3084-3095.
+

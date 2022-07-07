@@ -1,0 +1,7 @@
+parm 1x88_apo_solv.prmtop
+trajin 06_prod.nc
+autoimage
+strip :WAT,Na+,Cl- parmout 1x88_apo_dry.prmtop
+trajout 06_prod_dry.nc
+go
+quit

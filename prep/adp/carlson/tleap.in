@@ -1,0 +1,6 @@
+source leaprc.protein.ff19SB
+loadamberprep adp.prep
+loadamberparams frcmod.phos
+adp = loadpdb ../adp.pdb
+savepdb adp adp_carl.pdb
+quit

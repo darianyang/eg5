@@ -1,0 +1,23 @@
+Warning: When compiling code please add the following flags to nvcc:
+         -gencode arch=compute_35,code=[compute_35,sm_35] \
+         -gencode arch=compute_61,code=[compute_61,sm_61] 
+         -gencode arch=compute_70,code=[compute_70,sm_70] 
++ SANDER=pmemd.cuda
++ INP=06_prod.in
++ TOP=1x88_solv.prmtop
++ CRD=05_eq3.rst
++ OUT=06_prod
++ pmemd.cuda -O -i 06_prod.in -p 1x88_solv.prmtop -c 05_eq3.rst -r 06_prod.rst -o 06_prod.out -e 06_prod.ene -v 06_prod.vel -inf 06_prod.nfo -x 06_prod.nc
+slurmstepd: error: *** JOB 309641 ON gpu-n20 CANCELLED AT 2022-06-21T13:12:44 ***
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
++ echo 'parm 1x88_solv.prmtop'
++ echo 'trajin 06_prod.nc'
++ echo autoimage
++ echo 'strip :WAT,Na+,Cl- parmout 1x88_dry.prmtop'
++ echo 'trajout 06_prod_dry.nc'
++ echo go
++ echo quit
++ cpptraj -i strip_06.in
++ '[' -f 06_prod_dry.nc ']'
++ rm 06_prod.nc
++ mv 06_prod_dry.nc 06_prod.nc

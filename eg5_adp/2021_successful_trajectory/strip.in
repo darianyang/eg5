@@ -1,6 +1,0 @@
-parm eg5.prmtop
-trajin trace_trial12_270.dcd
-strip :WAT,Cl-,Na+ parmout trace_12_270_dry.prmtop
-trajout trace_12_270_dry.dcd
-go
-quit
