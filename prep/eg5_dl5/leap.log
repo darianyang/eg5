@@ -14643,3 +14643,1614 @@ Writing pdb file: 1ii6_dl5_solv.pdb
 	Quit
 
 Exiting LEaP: Errors = 0; Warnings = 2; Notes = 1.
+log started: Thu Jul 14 16:52:54 2022
+
+Log file: ./leap.log
+>> #
+>> # ----- leaprc for loading the ff19SB force field
+>> # ----- NOTE: this is designed for PDB format 3!
+>> #
+>> #	load atom type hybridizations
+>> #
+>> addAtomTypes {
+>> 	{ "H"   "H" "sp3" }
+>> 	{ "HO"  "H" "sp3" }
+>> 	{ "HS"  "H" "sp3" }
+>> 	{ "H1"  "H" "sp3" }
+>> 	{ "H2"  "H" "sp3" }
+>> 	{ "H3"  "H" "sp3" }
+>> 	{ "H4"  "H" "sp3" }
+>> 	{ "H5"  "H" "sp3" }
+>> 	{ "HW"  "H" "sp3" }
+>> 	{ "HC"  "H" "sp3" }
+>> 	{ "HA"  "H" "sp3" }
+>> 	{ "HP"  "H" "sp3" }
+>> 	{ "HZ"  "H" "sp3" }
+>> 	{ "OH"  "O" "sp3" }
+>> 	{ "OS"  "O" "sp3" }
+>> 	{ "O"   "O" "sp2" }
+>> 	{ "O2"  "O" "sp2" }
+>> 	{ "OP"  "O" "sp2" }
+>> 	{ "OW"  "O" "sp3" }
+>> 	{ "CT"  "C" "sp3" }
+>> 	{ "CX"  "C" "sp3" }
+>> 	{ "XC"  "C" "sp3" }
+>> 	{ "C8"  "C" "sp3" }
+>> 	{ "2C"  "C" "sp3" }
+>> 	{ "3C"  "C" "sp3" }
+>> 	{ "CH"  "C" "sp3" }
+>> 	{ "CS"  "C" "sp2" }
+>> 	{ "C"   "C" "sp2" }
+>> 	{ "CO"   "C" "sp2" }
+>> 	{ "C*"  "C" "sp2" }
+>> 	{ "CA"  "C" "sp2" }
+>> 	{ "CB"  "C" "sp2" }
+>> 	{ "CC"  "C" "sp2" }
+>> 	{ "CN"  "C" "sp2" }
+>> 	{ "CM"  "C" "sp2" }
+>> 	{ "CK"  "C" "sp2" }
+>> 	{ "CQ"  "C" "sp2" }
+>> 	{ "CD"  "C" "sp2" }
+>> 	{ "C5"  "C" "sp2" }
+>> 	{ "C4"  "C" "sp2" }
+>> 	{ "CP"  "C" "sp2" }
+>> 	{ "CI"  "C" "sp3" }
+>> 	{ "CJ"  "C" "sp2" }
+>> 	{ "CW"  "C" "sp2" }
+>> 	{ "CV"  "C" "sp2" }
+>> 	{ "CR"  "C" "sp2" }
+>> 	{ "CA"  "C" "sp2" }
+>> 	{ "CY"  "C" "sp2" }
+>> 	{ "C0"  "Ca" "sp3" }
+>> 	{ "MG"  "Mg" "sp3" }
+>> 	{ "N"   "N" "sp2" }
+>> 	{ "NA"  "N" "sp2" }
+>> 	{ "N2"  "N" "sp2" }
+>> 	{ "N*"  "N" "sp2" }
+>> 	{ "NP"  "N" "sp2" }
+>> 	{ "NQ"  "N" "sp2" }
+>> 	{ "NB"  "N" "sp2" }
+>> 	{ "NC"  "N" "sp2" }
+>> 	{ "NT"  "N" "sp3" }
+>> 	{ "NY"  "N" "sp2" }
+>> 	{ "N3"  "N" "sp3" }
+>> 	{ "S"   "S" "sp3" }
+>> 	{ "SH"  "S" "sp3" }
+>> 	{ "P"   "P" "sp3" }
+>> 	{ "LP"  ""  "sp3" }
+>> 	{ "EP"  ""  "sp3" }
+>> 	{ "F"   "F" "sp3" }
+>> 	{ "Cl"  "Cl" "sp3" }
+>> 	{ "Br"  "Br" "sp3" }
+>> 	{ "I"   "I"  "sp3" }
+>> }
+>> #
+>> #	Load the main parameter set.
+>> #
+>> set default cmap on
+>> parm19 = loadamberparams parm19.dat
+Loading parameters: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/parm/parm19.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA + ff19SB
+(UNKNOWN ATOM TYPE: Zn)
+(UNKNOWN ATOM TYPE: EP)
+>> frcmod19SB = loadamberparams frcmod.ff19SB
+Loading parameters: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/parm/frcmod.ff19SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff19SB AA-specific backbone CMAPs for protein 07/25/2019
+>> #
+>> #	Load main chain and terminating amino acid libraries
+>> #
+>> loadOff amino19.lib
+Loading library: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/lib/amino19.lib
+Loading: ALA
+Loading: ARG
+Loading: ASH
+Loading: ASN
+Loading: ASP
+Loading: CYM
+Loading: CYS
+Loading: CYX
+Loading: GLH
+Loading: GLN
+Loading: GLU
+Loading: GLY
+Loading: HID
+Loading: HIE
+Loading: HIP
+Loading: HYP
+Loading: ILE
+Loading: LEU
+Loading: LYN
+Loading: LYS
+Loading: MET
+Loading: PHE
+Loading: PRO
+Loading: SER
+Loading: THR
+Loading: TRP
+Loading: TYR
+Loading: VAL
+>> loadOff aminoct12.lib
+Loading library: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/lib/aminoct12.lib
+Loading: CALA
+Loading: CARG
+Loading: CASN
+Loading: CASP
+Loading: CCYS
+Loading: CCYX
+Loading: CGLN
+Loading: CGLU
+Loading: CGLY
+Loading: CHID
+Loading: CHIE
+Loading: CHIP
+Loading: CHYP
+Loading: CILE
+Loading: CLEU
+Loading: CLYS
+Loading: CMET
+Loading: CPHE
+Loading: CPRO
+Loading: CSER
+Loading: CTHR
+Loading: CTRP
+Loading: CTYR
+Loading: CVAL
+Loading: NHE
+Loading: NME
+>> loadOff aminont12.lib
+Loading library: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/lib/aminont12.lib
+Loading: ACE
+Loading: NALA
+Loading: NARG
+Loading: NASN
+Loading: NASP
+Loading: NCYS
+Loading: NCYX
+Loading: NGLN
+Loading: NGLU
+Loading: NGLY
+Loading: NHID
+Loading: NHIE
+Loading: NHIP
+Loading: NILE
+Loading: NLEU
+Loading: NLYS
+Loading: NMET
+Loading: NPHE
+Loading: NPRO
+Loading: NSER
+Loading: NTHR
+Loading: NTRP
+Loading: NTYR
+Loading: NVAL
+>> 
+>> #
+>> #	Define the PDB name map for the amino acids
+>> #
+>> addPdbResMap {
+>>   { 0 "HYP" "NHYP" } { 1 "HYP" "CHYP" }
+>>   { 0 "ALA" "NALA" } { 1 "ALA" "CALA" }
+>>   { 0 "ARG" "NARG" } { 1 "ARG" "CARG" }
+>>   { 0 "ASN" "NASN" } { 1 "ASN" "CASN" }
+>>   { 0 "ASP" "NASP" } { 1 "ASP" "CASP" }
+>>   { 0 "CYS" "NCYS" } { 1 "CYS" "CCYS" }
+>>   { 0 "CYX" "NCYX" } { 1 "CYX" "CCYX" }
+>>   { 0 "GLN" "NGLN" } { 1 "GLN" "CGLN" }
+>>   { 0 "GLU" "NGLU" } { 1 "GLU" "CGLU" }
+>>   { 0 "GLY" "NGLY" } { 1 "GLY" "CGLY" }
+>>   { 0 "HID" "NHID" } { 1 "HID" "CHID" }
+>>   { 0 "HIE" "NHIE" } { 1 "HIE" "CHIE" }
+>>   { 0 "HIP" "NHIP" } { 1 "HIP" "CHIP" }
+>>   { 0 "ILE" "NILE" } { 1 "ILE" "CILE" }
+>>   { 0 "LEU" "NLEU" } { 1 "LEU" "CLEU" }
+>>   { 0 "LYS" "NLYS" } { 1 "LYS" "CLYS" }
+>>   { 0 "MET" "NMET" } { 1 "MET" "CMET" }
+>>   { 0 "PHE" "NPHE" } { 1 "PHE" "CPHE" }
+>>   { 0 "PRO" "NPRO" } { 1 "PRO" "CPRO" }
+>>   { 0 "SER" "NSER" } { 1 "SER" "CSER" }
+>>   { 0 "THR" "NTHR" } { 1 "THR" "CTHR" }
+>>   { 0 "TRP" "NTRP" } { 1 "TRP" "CTRP" }
+>>   { 0 "TYR" "NTYR" } { 1 "TYR" "CTYR" }
+>>   { 0 "VAL" "NVAL" } { 1 "VAL" "CVAL" }
+>>   { 0 "HIS" "NHIS" } { 1 "HIS" "CHIS" }
+>> }
+>> 
+>> #
+>> # assume that most often proteins use HIE
+>> #
+>> NHIS = NHIE
+>> HIS = HIE
+>> CHIS = CHIE
+> 
+> source leaprc.water.opc
+----- Source: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/cmd/leaprc.water.opc
+----- Source of /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/cmd/leaprc.water.opc done
+>> #
+>> #  Load OPC water model and ions for OPC + Li/Merz ion parameters
+>> #  (-1 to +4, 12-6 normal usage set)
+>> # 
+>> addAtomTypes {
+>> 	{ "F-"   "F" "sp3" }
+>> 	{ "Cl-"  "Cl" "sp3" }
+>> 	{ "Br-"  "Br" "sp3" }
+>> 	{ "I-"   "I"  "sp3" }
+>> 	{ "Li+"  "Li"  "sp3" }
+>> 	{ "Na+"  "Na"  "sp3" }
+>> 	{ "K+"  "K"  "sp3" }
+>> 	{ "Rb+"  "Rb"  "sp3" }
+>> 	{ "Cs+"  "Cs"  "sp3" }
+>> 	{ "Mg+"  "Mg"  "sp3" }
+>>     { "Tl+"  "Tl"  "sp3" }
+>>     { "Cu+"  "Cu"  "sp3" }
+>>     { "Ag+"  "Ag"  "sp3" }
+>>     { "Be2+" "Be"  "sp3" }
+>>     { "Cu2+" "Cu"  "sp3" }
+>>     { "Ni2+" "Ni"  "sp3" }
+>>     { "Pt2+" "Pt"  "sp3" }
+>>     { "Zn2+" "Zn"  "sp3" }
+>>     { "Co2+" "Co"  "sp3" }
+>>     { "Pd2+" "Pd"  "sp3" }
+>>     { "Ag2+" "Ag"  "sp3" }
+>>     { "Cr2+" "Cr"  "sp3" }
+>>     { "Fe2+" "Fe"  "sp3" }
+>>     { "Mg2+" "Mg"  "sp3" }
+>>     { "V2+"  "V"   "sp3" }
+>>     { "Mn2+" "Mn"  "sp3" }
+>>     { "Hg2+" "Hg"  "sp3" }
+>>     { "Cd2+" "Cd"  "sp3" }
+>>     { "Yb2+" "Yb"  "sp3" }
+>>     { "Ca2+" "Ca"  "sp3" }
+>>     { "Sn2+" "Sn"  "sp3" }
+>>     { "Pb2+" "Pb"  "sp3" }
+>>     { "Eu2+" "Eu"  "sp3" }
+>>     { "Sr2+" "Sr"  "sp3" }
+>>     { "Sm2+" "Sm"  "sp3" }
+>>     { "Ba2+" "Ba"  "sp3" }
+>>     { "Ra2+" "Ra"  "sp3" }
+>>     { "Al3+" "Al"  "sp3" }
+>>     { "Fe3+" "Fe"  "sp3" }
+>>     { "Cr3+" "Cr"  "sp3" }
+>>     { "In3+" "In"  "sp3" }
+>>     { "Tl3+" "Tl"  "sp3" }
+>>     { "Y3+"  "Y"   "sp3" }
+>>     { "La3+" "La"  "sp3" }
+>>     { "Ce3+" "Ce"  "sp3" }
+>>     { "Pr3+" "Pr"  "sp3" }
+>>     { "Nd3+" "Nd"  "sp3" }
+>>     { "Sm3+" "Sm"  "sp3" }
+>>     { "Eu3+" "Eu"  "sp3" }
+>>     { "Gd3+" "Gd"  "sp3" }
+>>     { "Tb3+" "Tb"  "sp3" }
+>>     { "Dy3+" "Dy"  "sp3" }
+>>     { "Er3+" "Er"  "sp3" }
+>>     { "Tm3+" "Tm"  "sp3" }
+>>     { "Lu3+" "Lu"  "sp3" }
+>>     { "Hf4+" "Hf"  "sp3" }
+>>     { "Zr4+" "Zr"  "sp3" }
+>>     { "Ce4+" "Ce"  "sp3" }
+>>     { "U4+"  "U"   "sp3" }
+>>     { "Pu4+" "Pu"  "sp3" }
+>>     { "Th4+" "Th"  "sp3" }
+>>     { "OW"   "O"   "sp3" }
+>>     { "HW"   "H"   "sp3" }
+>>     { "EP"   ""    "sp3" }
+>> }
+>> loadOff atomic_ions.lib
+Loading library: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/lib/atomic_ions.lib
+Loading: AG
+Loading: AL
+Loading: Ag
+Loading: BA
+Loading: BR
+Loading: Be
+Loading: CA
+Loading: CD
+Loading: CE
+Loading: CL
+Loading: CO
+Loading: CR
+Loading: CS
+Loading: CU
+Loading: CU1
+Loading: Ce
+Loading: Cl-
+Loading: Cr
+Loading: Dy
+Loading: EU
+Loading: EU3
+Loading: Er
+Loading: F
+Loading: FE
+Loading: FE2
+Loading: GD3
+Loading: H3O+
+Loading: HE+
+Loading: HG
+Loading: HZ+
+Loading: Hf
+Loading: IN
+Loading: IOD
+Loading: K
+Loading: K+
+Loading: LA
+Loading: LI
+Loading: LU
+Loading: MG
+Loading: MN
+Loading: NA
+Loading: NH4
+Loading: NI
+Loading: Na+
+Loading: Nd
+Loading: PB
+Loading: PD
+Loading: PR
+Loading: PT
+Loading: Pu
+Loading: RB
+Loading: Ra
+Loading: SM
+Loading: SR
+Loading: Sm
+Loading: Sn
+Loading: TB
+Loading: TL
+Loading: Th
+Loading: Tl
+Loading: Tm
+Loading: U4+
+Loading: V2+
+Loading: Y
+Loading: YB2
+Loading: ZN
+Loading: Zr
+>> loadOff solvents.lib
+Loading library: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/lib/solvents.lib
+Loading: CHCL3BOX
+Loading: DC4
+Loading: FB3
+Loading: FB3BOX
+Loading: FB4
+Loading: FB4BOX
+Loading: MEOHBOX
+Loading: NMABOX
+Loading: O3P
+Loading: OP3
+Loading: OPC
+Loading: OPC3BOX
+Loading: OPCBOX
+Loading: PL3
+Loading: POL3BOX
+Loading: QSPCFWBOX
+Loading: SPC
+Loading: SPCBOX
+Loading: SPCFWBOX
+Loading: SPF
+Loading: SPG
+Loading: T4E
+Loading: TIP3PBOX
+Loading: TIP3PFBOX
+Loading: TIP4PBOX
+Loading: TIP4PEWBOX
+Loading: TIP5PBOX
+Loading: TP3
+Loading: TP4
+Loading: TP5
+Loading: TPF
+>> HOH = OPC
+>> WAT = OPC
+>> loadAmberParams frcmod.opc
+Loading parameters: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/parm/frcmod.opc
+Reading force field modification type file (frcmod)
+Reading title:
+Parameters for OPC water (JPCL, 2014, 5 (21), pp 3863-3871)
+(UNKNOWN ATOM TYPE: EP)
+>> loadAmberParams frcmod.ionslm_126_opc
+Loading parameters: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/parm/frcmod.ionslm_126_opc
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of atomic ions for the OPC water model (12-6 set)
+>> 
+> 
+> loadamberprep ../adp/carlson/adp.prep
+Loading Prep file: ../adp/carlson/adp.prep
+(UNKNOWN ATOM TYPE: O3)
+(UNKNOWN ATOM TYPE: O3)
+(UNKNOWN ATOM TYPE: O3)
+Loaded UNIT: ADP
+> loadamberparams ../adp/carlson/frcmod.phos
+Loading parameters: ../adp/carlson/frcmod.phos
+Reading force field modification type file (frcmod)
+Reading title:
+#  Modifications to the AMBER94 force field for polyphosphates
+(UNKNOWN ATOM TYPE: O3)
+> loadamberparams frcmod.ionslm_1264_opc
+Loading parameters: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/parm/frcmod.ionslm_1264_opc
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of atomic ions for the OPC water model (12-6-4 set)
+> pdb = loadpdb 1ii6_dl5_leap.pdb
+Loading PDB file: ./1ii6_dl5_leap.pdb
+Matching PDB residue names to LEaP variables.
+Mapped residue MET, term: Terminal/beginning, seq. number: 0 to: NMET.
+Mapped residue LYS, term: Terminal/last, seq. number: 360 to: CLYS.
+  total atoms in file: 5722
+> charge pdb
+Total unperturbed charge:   3.000000
+Total perturbed charge:     3.000000
+> #check pdb
+> solvateoct pdb OPCBOX 16.0
+Scaling up box by a factor of 1.316506 to meet diagonal cut criterion
+  Solute vdw bounding box:              52.219 69.701 91.269
+  Total bounding box for atom centers:  133.397 133.397 133.397
+      (box expansion for 'iso' is  68.7%)
+  Solvent unit box:                     18.865 18.478 19.006
+The number of boxes:  x= 8  y= 8  z= 8
+  Volume: 1213786.044 A^3 (oct)
+  Total mass 676365.259 amu,  Density 0.925 g/cc
+  Added 35290 residues.
+> addions2 pdb Cl- 0
+3 Cl- ions required to neutralize.
+Adding 3 counter ions to "pdb" using 1A grid
+Total solute charge:   3.00  Max atom radius:   2.10
+Grid extends from solute vdw + 2.14  to  8.24
+Box:
+   enclosing:  -66.09 -75.98 -78.35   65.91 75.75 78.41
+   sized:			      189.91 180.02 177.65
+   edge:        256.00
+Resolution:      1.00 Angstrom.
+Tree depth: 8
+Volume =  2.05% of box, grid points 344213
+Calculating grid charges
+log started: Thu Jul 14 16:53:38 2022
+
+Log file: ./leap.log
+>> #
+>> # ----- leaprc for loading the ff19SB force field
+>> # ----- NOTE: this is designed for PDB format 3!
+>> #
+>> #	load atom type hybridizations
+>> #
+>> addAtomTypes {
+>> 	{ "H"   "H" "sp3" }
+>> 	{ "HO"  "H" "sp3" }
+>> 	{ "HS"  "H" "sp3" }
+>> 	{ "H1"  "H" "sp3" }
+>> 	{ "H2"  "H" "sp3" }
+>> 	{ "H3"  "H" "sp3" }
+>> 	{ "H4"  "H" "sp3" }
+>> 	{ "H5"  "H" "sp3" }
+>> 	{ "HW"  "H" "sp3" }
+>> 	{ "HC"  "H" "sp3" }
+>> 	{ "HA"  "H" "sp3" }
+>> 	{ "HP"  "H" "sp3" }
+>> 	{ "HZ"  "H" "sp3" }
+>> 	{ "OH"  "O" "sp3" }
+>> 	{ "OS"  "O" "sp3" }
+>> 	{ "O"   "O" "sp2" }
+>> 	{ "O2"  "O" "sp2" }
+>> 	{ "OP"  "O" "sp2" }
+>> 	{ "OW"  "O" "sp3" }
+>> 	{ "CT"  "C" "sp3" }
+>> 	{ "CX"  "C" "sp3" }
+>> 	{ "XC"  "C" "sp3" }
+>> 	{ "C8"  "C" "sp3" }
+>> 	{ "2C"  "C" "sp3" }
+>> 	{ "3C"  "C" "sp3" }
+>> 	{ "CH"  "C" "sp3" }
+>> 	{ "CS"  "C" "sp2" }
+>> 	{ "C"   "C" "sp2" }
+>> 	{ "CO"   "C" "sp2" }
+>> 	{ "C*"  "C" "sp2" }
+>> 	{ "CA"  "C" "sp2" }
+>> 	{ "CB"  "C" "sp2" }
+>> 	{ "CC"  "C" "sp2" }
+>> 	{ "CN"  "C" "sp2" }
+>> 	{ "CM"  "C" "sp2" }
+>> 	{ "CK"  "C" "sp2" }
+>> 	{ "CQ"  "C" "sp2" }
+>> 	{ "CD"  "C" "sp2" }
+>> 	{ "C5"  "C" "sp2" }
+>> 	{ "C4"  "C" "sp2" }
+>> 	{ "CP"  "C" "sp2" }
+>> 	{ "CI"  "C" "sp3" }
+>> 	{ "CJ"  "C" "sp2" }
+>> 	{ "CW"  "C" "sp2" }
+>> 	{ "CV"  "C" "sp2" }
+>> 	{ "CR"  "C" "sp2" }
+>> 	{ "CA"  "C" "sp2" }
+>> 	{ "CY"  "C" "sp2" }
+>> 	{ "C0"  "Ca" "sp3" }
+>> 	{ "MG"  "Mg" "sp3" }
+>> 	{ "N"   "N" "sp2" }
+>> 	{ "NA"  "N" "sp2" }
+>> 	{ "N2"  "N" "sp2" }
+>> 	{ "N*"  "N" "sp2" }
+>> 	{ "NP"  "N" "sp2" }
+>> 	{ "NQ"  "N" "sp2" }
+>> 	{ "NB"  "N" "sp2" }
+>> 	{ "NC"  "N" "sp2" }
+>> 	{ "NT"  "N" "sp3" }
+>> 	{ "NY"  "N" "sp2" }
+>> 	{ "N3"  "N" "sp3" }
+>> 	{ "S"   "S" "sp3" }
+>> 	{ "SH"  "S" "sp3" }
+>> 	{ "P"   "P" "sp3" }
+>> 	{ "LP"  ""  "sp3" }
+>> 	{ "EP"  ""  "sp3" }
+>> 	{ "F"   "F" "sp3" }
+>> 	{ "Cl"  "Cl" "sp3" }
+>> 	{ "Br"  "Br" "sp3" }
+>> 	{ "I"   "I"  "sp3" }
+>> }
+>> #
+>> #	Load the main parameter set.
+>> #
+>> set default cmap on
+>> parm19 = loadamberparams parm19.dat
+Loading parameters: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/parm/parm19.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA + ff19SB
+(UNKNOWN ATOM TYPE: Zn)
+(UNKNOWN ATOM TYPE: EP)
+>> frcmod19SB = loadamberparams frcmod.ff19SB
+Loading parameters: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/parm/frcmod.ff19SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff19SB AA-specific backbone CMAPs for protein 07/25/2019
+>> #
+>> #	Load main chain and terminating amino acid libraries
+>> #
+>> loadOff amino19.lib
+Loading library: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/lib/amino19.lib
+Loading: ALA
+Loading: ARG
+Loading: ASH
+Loading: ASN
+Loading: ASP
+Loading: CYM
+Loading: CYS
+Loading: CYX
+Loading: GLH
+Loading: GLN
+Loading: GLU
+Loading: GLY
+Loading: HID
+Loading: HIE
+Loading: HIP
+Loading: HYP
+Loading: ILE
+Loading: LEU
+Loading: LYN
+Loading: LYS
+Loading: MET
+Loading: PHE
+Loading: PRO
+Loading: SER
+Loading: THR
+Loading: TRP
+Loading: TYR
+Loading: VAL
+>> loadOff aminoct12.lib
+Loading library: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/lib/aminoct12.lib
+Loading: CALA
+Loading: CARG
+Loading: CASN
+Loading: CASP
+Loading: CCYS
+Loading: CCYX
+Loading: CGLN
+Loading: CGLU
+Loading: CGLY
+Loading: CHID
+Loading: CHIE
+Loading: CHIP
+Loading: CHYP
+Loading: CILE
+Loading: CLEU
+Loading: CLYS
+Loading: CMET
+Loading: CPHE
+Loading: CPRO
+Loading: CSER
+Loading: CTHR
+Loading: CTRP
+Loading: CTYR
+Loading: CVAL
+Loading: NHE
+Loading: NME
+>> loadOff aminont12.lib
+Loading library: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/lib/aminont12.lib
+Loading: ACE
+Loading: NALA
+Loading: NARG
+Loading: NASN
+Loading: NASP
+Loading: NCYS
+Loading: NCYX
+Loading: NGLN
+Loading: NGLU
+Loading: NGLY
+Loading: NHID
+Loading: NHIE
+Loading: NHIP
+Loading: NILE
+Loading: NLEU
+Loading: NLYS
+Loading: NMET
+Loading: NPHE
+Loading: NPRO
+Loading: NSER
+Loading: NTHR
+Loading: NTRP
+Loading: NTYR
+Loading: NVAL
+>> 
+>> #
+>> #	Define the PDB name map for the amino acids
+>> #
+>> addPdbResMap {
+>>   { 0 "HYP" "NHYP" } { 1 "HYP" "CHYP" }
+>>   { 0 "ALA" "NALA" } { 1 "ALA" "CALA" }
+>>   { 0 "ARG" "NARG" } { 1 "ARG" "CARG" }
+>>   { 0 "ASN" "NASN" } { 1 "ASN" "CASN" }
+>>   { 0 "ASP" "NASP" } { 1 "ASP" "CASP" }
+>>   { 0 "CYS" "NCYS" } { 1 "CYS" "CCYS" }
+>>   { 0 "CYX" "NCYX" } { 1 "CYX" "CCYX" }
+>>   { 0 "GLN" "NGLN" } { 1 "GLN" "CGLN" }
+>>   { 0 "GLU" "NGLU" } { 1 "GLU" "CGLU" }
+>>   { 0 "GLY" "NGLY" } { 1 "GLY" "CGLY" }
+>>   { 0 "HID" "NHID" } { 1 "HID" "CHID" }
+>>   { 0 "HIE" "NHIE" } { 1 "HIE" "CHIE" }
+>>   { 0 "HIP" "NHIP" } { 1 "HIP" "CHIP" }
+>>   { 0 "ILE" "NILE" } { 1 "ILE" "CILE" }
+>>   { 0 "LEU" "NLEU" } { 1 "LEU" "CLEU" }
+>>   { 0 "LYS" "NLYS" } { 1 "LYS" "CLYS" }
+>>   { 0 "MET" "NMET" } { 1 "MET" "CMET" }
+>>   { 0 "PHE" "NPHE" } { 1 "PHE" "CPHE" }
+>>   { 0 "PRO" "NPRO" } { 1 "PRO" "CPRO" }
+>>   { 0 "SER" "NSER" } { 1 "SER" "CSER" }
+>>   { 0 "THR" "NTHR" } { 1 "THR" "CTHR" }
+>>   { 0 "TRP" "NTRP" } { 1 "TRP" "CTRP" }
+>>   { 0 "TYR" "NTYR" } { 1 "TYR" "CTYR" }
+>>   { 0 "VAL" "NVAL" } { 1 "VAL" "CVAL" }
+>>   { 0 "HIS" "NHIS" } { 1 "HIS" "CHIS" }
+>> }
+>> 
+>> #
+>> # assume that most often proteins use HIE
+>> #
+>> NHIS = NHIE
+>> HIS = HIE
+>> CHIS = CHIE
+> 
+> source leaprc.water.opc
+----- Source: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/cmd/leaprc.water.opc
+----- Source of /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/cmd/leaprc.water.opc done
+>> #
+>> #  Load OPC water model and ions for OPC + Li/Merz ion parameters
+>> #  (-1 to +4, 12-6 normal usage set)
+>> # 
+>> addAtomTypes {
+>> 	{ "F-"   "F" "sp3" }
+>> 	{ "Cl-"  "Cl" "sp3" }
+>> 	{ "Br-"  "Br" "sp3" }
+>> 	{ "I-"   "I"  "sp3" }
+>> 	{ "Li+"  "Li"  "sp3" }
+>> 	{ "Na+"  "Na"  "sp3" }
+>> 	{ "K+"  "K"  "sp3" }
+>> 	{ "Rb+"  "Rb"  "sp3" }
+>> 	{ "Cs+"  "Cs"  "sp3" }
+>> 	{ "Mg+"  "Mg"  "sp3" }
+>>     { "Tl+"  "Tl"  "sp3" }
+>>     { "Cu+"  "Cu"  "sp3" }
+>>     { "Ag+"  "Ag"  "sp3" }
+>>     { "Be2+" "Be"  "sp3" }
+>>     { "Cu2+" "Cu"  "sp3" }
+>>     { "Ni2+" "Ni"  "sp3" }
+>>     { "Pt2+" "Pt"  "sp3" }
+>>     { "Zn2+" "Zn"  "sp3" }
+>>     { "Co2+" "Co"  "sp3" }
+>>     { "Pd2+" "Pd"  "sp3" }
+>>     { "Ag2+" "Ag"  "sp3" }
+>>     { "Cr2+" "Cr"  "sp3" }
+>>     { "Fe2+" "Fe"  "sp3" }
+>>     { "Mg2+" "Mg"  "sp3" }
+>>     { "V2+"  "V"   "sp3" }
+>>     { "Mn2+" "Mn"  "sp3" }
+>>     { "Hg2+" "Hg"  "sp3" }
+>>     { "Cd2+" "Cd"  "sp3" }
+>>     { "Yb2+" "Yb"  "sp3" }
+>>     { "Ca2+" "Ca"  "sp3" }
+>>     { "Sn2+" "Sn"  "sp3" }
+>>     { "Pb2+" "Pb"  "sp3" }
+>>     { "Eu2+" "Eu"  "sp3" }
+>>     { "Sr2+" "Sr"  "sp3" }
+>>     { "Sm2+" "Sm"  "sp3" }
+>>     { "Ba2+" "Ba"  "sp3" }
+>>     { "Ra2+" "Ra"  "sp3" }
+>>     { "Al3+" "Al"  "sp3" }
+>>     { "Fe3+" "Fe"  "sp3" }
+>>     { "Cr3+" "Cr"  "sp3" }
+>>     { "In3+" "In"  "sp3" }
+>>     { "Tl3+" "Tl"  "sp3" }
+>>     { "Y3+"  "Y"   "sp3" }
+>>     { "La3+" "La"  "sp3" }
+>>     { "Ce3+" "Ce"  "sp3" }
+>>     { "Pr3+" "Pr"  "sp3" }
+>>     { "Nd3+" "Nd"  "sp3" }
+>>     { "Sm3+" "Sm"  "sp3" }
+>>     { "Eu3+" "Eu"  "sp3" }
+>>     { "Gd3+" "Gd"  "sp3" }
+>>     { "Tb3+" "Tb"  "sp3" }
+>>     { "Dy3+" "Dy"  "sp3" }
+>>     { "Er3+" "Er"  "sp3" }
+>>     { "Tm3+" "Tm"  "sp3" }
+>>     { "Lu3+" "Lu"  "sp3" }
+>>     { "Hf4+" "Hf"  "sp3" }
+>>     { "Zr4+" "Zr"  "sp3" }
+>>     { "Ce4+" "Ce"  "sp3" }
+>>     { "U4+"  "U"   "sp3" }
+>>     { "Pu4+" "Pu"  "sp3" }
+>>     { "Th4+" "Th"  "sp3" }
+>>     { "OW"   "O"   "sp3" }
+>>     { "HW"   "H"   "sp3" }
+>>     { "EP"   ""    "sp3" }
+>> }
+>> loadOff atomic_ions.lib
+Loading library: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/lib/atomic_ions.lib
+Loading: AG
+Loading: AL
+Loading: Ag
+Loading: BA
+Loading: BR
+Loading: Be
+Loading: CA
+Loading: CD
+Loading: CE
+Loading: CL
+Loading: CO
+Loading: CR
+Loading: CS
+Loading: CU
+Loading: CU1
+Loading: Ce
+Loading: Cl-
+Loading: Cr
+Loading: Dy
+Loading: EU
+Loading: EU3
+Loading: Er
+Loading: F
+Loading: FE
+Loading: FE2
+Loading: GD3
+Loading: H3O+
+Loading: HE+
+Loading: HG
+Loading: HZ+
+Loading: Hf
+Loading: IN
+Loading: IOD
+Loading: K
+Loading: K+
+Loading: LA
+Loading: LI
+Loading: LU
+Loading: MG
+Loading: MN
+Loading: NA
+Loading: NH4
+Loading: NI
+Loading: Na+
+Loading: Nd
+Loading: PB
+Loading: PD
+Loading: PR
+Loading: PT
+Loading: Pu
+Loading: RB
+Loading: Ra
+Loading: SM
+Loading: SR
+Loading: Sm
+Loading: Sn
+Loading: TB
+Loading: TL
+Loading: Th
+Loading: Tl
+Loading: Tm
+Loading: U4+
+Loading: V2+
+Loading: Y
+Loading: YB2
+Loading: ZN
+Loading: Zr
+>> loadOff solvents.lib
+Loading library: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/lib/solvents.lib
+Loading: CHCL3BOX
+Loading: DC4
+Loading: FB3
+Loading: FB3BOX
+Loading: FB4
+Loading: FB4BOX
+Loading: MEOHBOX
+Loading: NMABOX
+Loading: O3P
+Loading: OP3
+Loading: OPC
+Loading: OPC3BOX
+Loading: OPCBOX
+Loading: PL3
+Loading: POL3BOX
+Loading: QSPCFWBOX
+Loading: SPC
+Loading: SPCBOX
+Loading: SPCFWBOX
+Loading: SPF
+Loading: SPG
+Loading: T4E
+Loading: TIP3PBOX
+Loading: TIP3PFBOX
+Loading: TIP4PBOX
+Loading: TIP4PEWBOX
+Loading: TIP5PBOX
+Loading: TP3
+Loading: TP4
+Loading: TP5
+Loading: TPF
+>> HOH = OPC
+>> WAT = OPC
+>> loadAmberParams frcmod.opc
+Loading parameters: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/parm/frcmod.opc
+Reading force field modification type file (frcmod)
+Reading title:
+Parameters for OPC water (JPCL, 2014, 5 (21), pp 3863-3871)
+(UNKNOWN ATOM TYPE: EP)
+>> loadAmberParams frcmod.ionslm_126_opc
+Loading parameters: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/parm/frcmod.ionslm_126_opc
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of atomic ions for the OPC water model (12-6 set)
+>> 
+> 
+> loadamberprep ../adp/carlson/adp.prep
+Loading Prep file: ../adp/carlson/adp.prep
+(UNKNOWN ATOM TYPE: O3)
+(UNKNOWN ATOM TYPE: O3)
+(UNKNOWN ATOM TYPE: O3)
+Loaded UNIT: ADP
+> loadamberparams ../adp/carlson/frcmod.phos
+Loading parameters: ../adp/carlson/frcmod.phos
+Reading force field modification type file (frcmod)
+Reading title:
+#  Modifications to the AMBER94 force field for polyphosphates
+(UNKNOWN ATOM TYPE: O3)
+> loadamberparams frcmod.ionslm_1264_opc
+Loading parameters: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/parm/frcmod.ionslm_1264_opc
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of atomic ions for the OPC water model (12-6-4 set)
+> pdb = loadpdb 1ii6_dl5_leap.pdb
+Loading PDB file: ./1ii6_dl5_leap.pdb
+Matching PDB residue names to LEaP variables.
+Mapped residue MET, term: Terminal/beginning, seq. number: 0 to: NMET.
+Mapped residue LYS, term: Terminal/last, seq. number: 360 to: CLYS.
+  total atoms in file: 5722
+> charge pdb
+Total unperturbed charge:   3.000000
+Total perturbed charge:     3.000000
+> #check pdb
+> solvateoct pdb OPCBOX 16.0
+Scaling up box by a factor of 1.316506 to meet diagonal cut criterion
+  Solute vdw bounding box:              52.219 69.701 91.269
+  Total bounding box for atom centers:  133.397 133.397 133.397
+      (box expansion for 'iso' is  68.7%)
+  Solvent unit box:                     18.865 18.478 19.006
+The number of boxes:  x= 8  y= 8  z= 8
+  Volume: 1213786.044 A^3 (oct)
+  Total mass 676365.259 amu,  Density 0.925 g/cc
+  Added 35290 residues.
+> addions2 pdb Cl- 0
+3 Cl- ions required to neutralize.
+Adding 3 counter ions to "pdb" using 1A grid
+Total solute charge:   3.00  Max atom radius:   2.10
+Grid extends from solute vdw + 2.14  to  8.24
+Box:
+   enclosing:  -66.09 -75.98 -78.35   65.91 75.75 78.41
+   sized:			      189.91 180.02 177.65
+   edge:        256.00
+Resolution:      1.00 Angstrom.
+Tree depth: 8
+Volume =  2.05% of box, grid points 344213
+Calculating grid charges
+log started: Thu Jul 14 16:58:19 2022
+
+Log file: ./leap.log
+>> #
+>> # ----- leaprc for loading the ff19SB force field
+>> # ----- NOTE: this is designed for PDB format 3!
+>> #
+>> #	load atom type hybridizations
+>> #
+>> addAtomTypes {
+>> 	{ "H"   "H" "sp3" }
+>> 	{ "HO"  "H" "sp3" }
+>> 	{ "HS"  "H" "sp3" }
+>> 	{ "H1"  "H" "sp3" }
+>> 	{ "H2"  "H" "sp3" }
+>> 	{ "H3"  "H" "sp3" }
+>> 	{ "H4"  "H" "sp3" }
+>> 	{ "H5"  "H" "sp3" }
+>> 	{ "HW"  "H" "sp3" }
+>> 	{ "HC"  "H" "sp3" }
+>> 	{ "HA"  "H" "sp3" }
+>> 	{ "HP"  "H" "sp3" }
+>> 	{ "HZ"  "H" "sp3" }
+>> 	{ "OH"  "O" "sp3" }
+>> 	{ "OS"  "O" "sp3" }
+>> 	{ "O"   "O" "sp2" }
+>> 	{ "O2"  "O" "sp2" }
+>> 	{ "OP"  "O" "sp2" }
+>> 	{ "OW"  "O" "sp3" }
+>> 	{ "CT"  "C" "sp3" }
+>> 	{ "CX"  "C" "sp3" }
+>> 	{ "XC"  "C" "sp3" }
+>> 	{ "C8"  "C" "sp3" }
+>> 	{ "2C"  "C" "sp3" }
+>> 	{ "3C"  "C" "sp3" }
+>> 	{ "CH"  "C" "sp3" }
+>> 	{ "CS"  "C" "sp2" }
+>> 	{ "C"   "C" "sp2" }
+>> 	{ "CO"   "C" "sp2" }
+>> 	{ "C*"  "C" "sp2" }
+>> 	{ "CA"  "C" "sp2" }
+>> 	{ "CB"  "C" "sp2" }
+>> 	{ "CC"  "C" "sp2" }
+>> 	{ "CN"  "C" "sp2" }
+>> 	{ "CM"  "C" "sp2" }
+>> 	{ "CK"  "C" "sp2" }
+>> 	{ "CQ"  "C" "sp2" }
+>> 	{ "CD"  "C" "sp2" }
+>> 	{ "C5"  "C" "sp2" }
+>> 	{ "C4"  "C" "sp2" }
+>> 	{ "CP"  "C" "sp2" }
+>> 	{ "CI"  "C" "sp3" }
+>> 	{ "CJ"  "C" "sp2" }
+>> 	{ "CW"  "C" "sp2" }
+>> 	{ "CV"  "C" "sp2" }
+>> 	{ "CR"  "C" "sp2" }
+>> 	{ "CA"  "C" "sp2" }
+>> 	{ "CY"  "C" "sp2" }
+>> 	{ "C0"  "Ca" "sp3" }
+>> 	{ "MG"  "Mg" "sp3" }
+>> 	{ "N"   "N" "sp2" }
+>> 	{ "NA"  "N" "sp2" }
+>> 	{ "N2"  "N" "sp2" }
+>> 	{ "N*"  "N" "sp2" }
+>> 	{ "NP"  "N" "sp2" }
+>> 	{ "NQ"  "N" "sp2" }
+>> 	{ "NB"  "N" "sp2" }
+>> 	{ "NC"  "N" "sp2" }
+>> 	{ "NT"  "N" "sp3" }
+>> 	{ "NY"  "N" "sp2" }
+>> 	{ "N3"  "N" "sp3" }
+>> 	{ "S"   "S" "sp3" }
+>> 	{ "SH"  "S" "sp3" }
+>> 	{ "P"   "P" "sp3" }
+>> 	{ "LP"  ""  "sp3" }
+>> 	{ "EP"  ""  "sp3" }
+>> 	{ "F"   "F" "sp3" }
+>> 	{ "Cl"  "Cl" "sp3" }
+>> 	{ "Br"  "Br" "sp3" }
+>> 	{ "I"   "I"  "sp3" }
+>> }
+>> #
+>> #	Load the main parameter set.
+>> #
+>> set default cmap on
+>> parm19 = loadamberparams parm19.dat
+Loading parameters: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/parm/parm19.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA + ff19SB
+(UNKNOWN ATOM TYPE: Zn)
+(UNKNOWN ATOM TYPE: EP)
+>> frcmod19SB = loadamberparams frcmod.ff19SB
+Loading parameters: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/parm/frcmod.ff19SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff19SB AA-specific backbone CMAPs for protein 07/25/2019
+>> #
+>> #	Load main chain and terminating amino acid libraries
+>> #
+>> loadOff amino19.lib
+Loading library: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/lib/amino19.lib
+Loading: ALA
+Loading: ARG
+Loading: ASH
+Loading: ASN
+Loading: ASP
+Loading: CYM
+Loading: CYS
+Loading: CYX
+Loading: GLH
+Loading: GLN
+Loading: GLU
+Loading: GLY
+Loading: HID
+Loading: HIE
+Loading: HIP
+Loading: HYP
+Loading: ILE
+Loading: LEU
+Loading: LYN
+Loading: LYS
+Loading: MET
+Loading: PHE
+Loading: PRO
+Loading: SER
+Loading: THR
+Loading: TRP
+Loading: TYR
+Loading: VAL
+>> loadOff aminoct12.lib
+Loading library: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/lib/aminoct12.lib
+Loading: CALA
+Loading: CARG
+Loading: CASN
+Loading: CASP
+Loading: CCYS
+Loading: CCYX
+Loading: CGLN
+Loading: CGLU
+Loading: CGLY
+Loading: CHID
+Loading: CHIE
+Loading: CHIP
+Loading: CHYP
+Loading: CILE
+Loading: CLEU
+Loading: CLYS
+Loading: CMET
+Loading: CPHE
+Loading: CPRO
+Loading: CSER
+Loading: CTHR
+Loading: CTRP
+Loading: CTYR
+Loading: CVAL
+Loading: NHE
+Loading: NME
+>> loadOff aminont12.lib
+Loading library: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/lib/aminont12.lib
+Loading: ACE
+Loading: NALA
+Loading: NARG
+Loading: NASN
+Loading: NASP
+Loading: NCYS
+Loading: NCYX
+Loading: NGLN
+Loading: NGLU
+Loading: NGLY
+Loading: NHID
+Loading: NHIE
+Loading: NHIP
+Loading: NILE
+Loading: NLEU
+Loading: NLYS
+Loading: NMET
+Loading: NPHE
+Loading: NPRO
+Loading: NSER
+Loading: NTHR
+Loading: NTRP
+Loading: NTYR
+Loading: NVAL
+>> 
+>> #
+>> #	Define the PDB name map for the amino acids
+>> #
+>> addPdbResMap {
+>>   { 0 "HYP" "NHYP" } { 1 "HYP" "CHYP" }
+>>   { 0 "ALA" "NALA" } { 1 "ALA" "CALA" }
+>>   { 0 "ARG" "NARG" } { 1 "ARG" "CARG" }
+>>   { 0 "ASN" "NASN" } { 1 "ASN" "CASN" }
+>>   { 0 "ASP" "NASP" } { 1 "ASP" "CASP" }
+>>   { 0 "CYS" "NCYS" } { 1 "CYS" "CCYS" }
+>>   { 0 "CYX" "NCYX" } { 1 "CYX" "CCYX" }
+>>   { 0 "GLN" "NGLN" } { 1 "GLN" "CGLN" }
+>>   { 0 "GLU" "NGLU" } { 1 "GLU" "CGLU" }
+>>   { 0 "GLY" "NGLY" } { 1 "GLY" "CGLY" }
+>>   { 0 "HID" "NHID" } { 1 "HID" "CHID" }
+>>   { 0 "HIE" "NHIE" } { 1 "HIE" "CHIE" }
+>>   { 0 "HIP" "NHIP" } { 1 "HIP" "CHIP" }
+>>   { 0 "ILE" "NILE" } { 1 "ILE" "CILE" }
+>>   { 0 "LEU" "NLEU" } { 1 "LEU" "CLEU" }
+>>   { 0 "LYS" "NLYS" } { 1 "LYS" "CLYS" }
+>>   { 0 "MET" "NMET" } { 1 "MET" "CMET" }
+>>   { 0 "PHE" "NPHE" } { 1 "PHE" "CPHE" }
+>>   { 0 "PRO" "NPRO" } { 1 "PRO" "CPRO" }
+>>   { 0 "SER" "NSER" } { 1 "SER" "CSER" }
+>>   { 0 "THR" "NTHR" } { 1 "THR" "CTHR" }
+>>   { 0 "TRP" "NTRP" } { 1 "TRP" "CTRP" }
+>>   { 0 "TYR" "NTYR" } { 1 "TYR" "CTYR" }
+>>   { 0 "VAL" "NVAL" } { 1 "VAL" "CVAL" }
+>>   { 0 "HIS" "NHIS" } { 1 "HIS" "CHIS" }
+>> }
+>> 
+>> #
+>> # assume that most often proteins use HIE
+>> #
+>> NHIS = NHIE
+>> HIS = HIE
+>> CHIS = CHIE
+> 
+> source leaprc.water.opc
+----- Source: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/cmd/leaprc.water.opc
+----- Source of /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/cmd/leaprc.water.opc done
+>> #
+>> #  Load OPC water model and ions for OPC + Li/Merz ion parameters
+>> #  (-1 to +4, 12-6 normal usage set)
+>> # 
+>> addAtomTypes {
+>> 	{ "F-"   "F" "sp3" }
+>> 	{ "Cl-"  "Cl" "sp3" }
+>> 	{ "Br-"  "Br" "sp3" }
+>> 	{ "I-"   "I"  "sp3" }
+>> 	{ "Li+"  "Li"  "sp3" }
+>> 	{ "Na+"  "Na"  "sp3" }
+>> 	{ "K+"  "K"  "sp3" }
+>> 	{ "Rb+"  "Rb"  "sp3" }
+>> 	{ "Cs+"  "Cs"  "sp3" }
+>> 	{ "Mg+"  "Mg"  "sp3" }
+>>     { "Tl+"  "Tl"  "sp3" }
+>>     { "Cu+"  "Cu"  "sp3" }
+>>     { "Ag+"  "Ag"  "sp3" }
+>>     { "Be2+" "Be"  "sp3" }
+>>     { "Cu2+" "Cu"  "sp3" }
+>>     { "Ni2+" "Ni"  "sp3" }
+>>     { "Pt2+" "Pt"  "sp3" }
+>>     { "Zn2+" "Zn"  "sp3" }
+>>     { "Co2+" "Co"  "sp3" }
+>>     { "Pd2+" "Pd"  "sp3" }
+>>     { "Ag2+" "Ag"  "sp3" }
+>>     { "Cr2+" "Cr"  "sp3" }
+>>     { "Fe2+" "Fe"  "sp3" }
+>>     { "Mg2+" "Mg"  "sp3" }
+>>     { "V2+"  "V"   "sp3" }
+>>     { "Mn2+" "Mn"  "sp3" }
+>>     { "Hg2+" "Hg"  "sp3" }
+>>     { "Cd2+" "Cd"  "sp3" }
+>>     { "Yb2+" "Yb"  "sp3" }
+>>     { "Ca2+" "Ca"  "sp3" }
+>>     { "Sn2+" "Sn"  "sp3" }
+>>     { "Pb2+" "Pb"  "sp3" }
+>>     { "Eu2+" "Eu"  "sp3" }
+>>     { "Sr2+" "Sr"  "sp3" }
+>>     { "Sm2+" "Sm"  "sp3" }
+>>     { "Ba2+" "Ba"  "sp3" }
+>>     { "Ra2+" "Ra"  "sp3" }
+>>     { "Al3+" "Al"  "sp3" }
+>>     { "Fe3+" "Fe"  "sp3" }
+>>     { "Cr3+" "Cr"  "sp3" }
+>>     { "In3+" "In"  "sp3" }
+>>     { "Tl3+" "Tl"  "sp3" }
+>>     { "Y3+"  "Y"   "sp3" }
+>>     { "La3+" "La"  "sp3" }
+>>     { "Ce3+" "Ce"  "sp3" }
+>>     { "Pr3+" "Pr"  "sp3" }
+>>     { "Nd3+" "Nd"  "sp3" }
+>>     { "Sm3+" "Sm"  "sp3" }
+>>     { "Eu3+" "Eu"  "sp3" }
+>>     { "Gd3+" "Gd"  "sp3" }
+>>     { "Tb3+" "Tb"  "sp3" }
+>>     { "Dy3+" "Dy"  "sp3" }
+>>     { "Er3+" "Er"  "sp3" }
+>>     { "Tm3+" "Tm"  "sp3" }
+>>     { "Lu3+" "Lu"  "sp3" }
+>>     { "Hf4+" "Hf"  "sp3" }
+>>     { "Zr4+" "Zr"  "sp3" }
+>>     { "Ce4+" "Ce"  "sp3" }
+>>     { "U4+"  "U"   "sp3" }
+>>     { "Pu4+" "Pu"  "sp3" }
+>>     { "Th4+" "Th"  "sp3" }
+>>     { "OW"   "O"   "sp3" }
+>>     { "HW"   "H"   "sp3" }
+>>     { "EP"   ""    "sp3" }
+>> }
+>> loadOff atomic_ions.lib
+Loading library: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/lib/atomic_ions.lib
+Loading: AG
+Loading: AL
+Loading: Ag
+Loading: BA
+Loading: BR
+Loading: Be
+Loading: CA
+Loading: CD
+Loading: CE
+Loading: CL
+Loading: CO
+Loading: CR
+Loading: CS
+Loading: CU
+Loading: CU1
+Loading: Ce
+Loading: Cl-
+Loading: Cr
+Loading: Dy
+Loading: EU
+Loading: EU3
+Loading: Er
+Loading: F
+Loading: FE
+Loading: FE2
+Loading: GD3
+Loading: H3O+
+Loading: HE+
+Loading: HG
+Loading: HZ+
+Loading: Hf
+Loading: IN
+Loading: IOD
+Loading: K
+Loading: K+
+Loading: LA
+Loading: LI
+Loading: LU
+Loading: MG
+Loading: MN
+Loading: NA
+Loading: NH4
+Loading: NI
+Loading: Na+
+Loading: Nd
+Loading: PB
+Loading: PD
+Loading: PR
+Loading: PT
+Loading: Pu
+Loading: RB
+Loading: Ra
+Loading: SM
+Loading: SR
+Loading: Sm
+Loading: Sn
+Loading: TB
+Loading: TL
+Loading: Th
+Loading: Tl
+Loading: Tm
+Loading: U4+
+Loading: V2+
+Loading: Y
+Loading: YB2
+Loading: ZN
+Loading: Zr
+>> loadOff solvents.lib
+Loading library: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/lib/solvents.lib
+Loading: CHCL3BOX
+Loading: DC4
+Loading: FB3
+Loading: FB3BOX
+Loading: FB4
+Loading: FB4BOX
+Loading: MEOHBOX
+Loading: NMABOX
+Loading: O3P
+Loading: OP3
+Loading: OPC
+Loading: OPC3BOX
+Loading: OPCBOX
+Loading: PL3
+Loading: POL3BOX
+Loading: QSPCFWBOX
+Loading: SPC
+Loading: SPCBOX
+Loading: SPCFWBOX
+Loading: SPF
+Loading: SPG
+Loading: T4E
+Loading: TIP3PBOX
+Loading: TIP3PFBOX
+Loading: TIP4PBOX
+Loading: TIP4PEWBOX
+Loading: TIP5PBOX
+Loading: TP3
+Loading: TP4
+Loading: TP5
+Loading: TPF
+>> HOH = OPC
+>> WAT = OPC
+>> loadAmberParams frcmod.opc
+Loading parameters: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/parm/frcmod.opc
+Reading force field modification type file (frcmod)
+Reading title:
+Parameters for OPC water (JPCL, 2014, 5 (21), pp 3863-3871)
+(UNKNOWN ATOM TYPE: EP)
+>> loadAmberParams frcmod.ionslm_126_opc
+Loading parameters: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/parm/frcmod.ionslm_126_opc
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of atomic ions for the OPC water model (12-6 set)
+>> 
+> 
+> loadamberprep ../adp/carlson/adp.prep
+Loading Prep file: ../adp/carlson/adp.prep
+(UNKNOWN ATOM TYPE: O3)
+(UNKNOWN ATOM TYPE: O3)
+(UNKNOWN ATOM TYPE: O3)
+Loaded UNIT: ADP
+> loadamberparams ../adp/carlson/frcmod.phos
+Loading parameters: ../adp/carlson/frcmod.phos
+Reading force field modification type file (frcmod)
+Reading title:
+#  Modifications to the AMBER94 force field for polyphosphates
+(UNKNOWN ATOM TYPE: O3)
+> loadamberparams frcmod.ionslm_1264_opc
+Loading parameters: /ihome/lchong/dty7/Apps/anaconda3/envs/md/dat/leap/parm/frcmod.ionslm_1264_opc
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of atomic ions for the OPC water model (12-6-4 set)
+> pdb = loadpdb 1ii6_dl5_leap.pdb
+Loading PDB file: ./1ii6_dl5_leap.pdb
+Matching PDB residue names to LEaP variables.
+Mapped residue MET, term: Terminal/beginning, seq. number: 0 to: NMET.
+Mapped residue LYS, term: Terminal/last, seq. number: 360 to: CLYS.
+  total atoms in file: 5722
+> charge pdb
+Total unperturbed charge:   3.000000
+Total perturbed charge:     3.000000
+> #check pdb
+> solvateoct pdb OPCBOX 16.0
+Scaling up box by a factor of 1.316506 to meet diagonal cut criterion
+  Solute vdw bounding box:              52.219 69.701 91.269
+  Total bounding box for atom centers:  133.397 133.397 133.397
+      (box expansion for 'iso' is  68.7%)
+  Solvent unit box:                     18.865 18.478 19.006
+The number of boxes:  x= 8  y= 8  z= 8
+  Volume: 1213786.044 A^3 (oct)
+  Total mass 676365.259 amu,  Density 0.925 g/cc
+  Added 35290 residues.
+> addions2 pdb Cl- 0
+3 Cl- ions required to neutralize.
+Adding 3 counter ions to "pdb" using 1A grid
+Total solute charge:   3.00  Max atom radius:   2.10
+Grid extends from solute vdw + 2.14  to  8.24
+Box:
+   enclosing:  -66.09 -75.98 -78.35   65.91 75.75 78.41
+   sized:			      189.91 180.02 177.65
+   edge:        256.00
+Resolution:      1.00 Angstrom.
+Tree depth: 8
+Volume =  2.05% of box, grid points 344213
+Calculating grid charges
+Placed Cl- in pdb at (34.91, -49.98, -5.35).
+Placed Cl- in pdb at (56.91, -41.98, -18.35).
+Placed Cl- in pdb at (57.91, -0.98, -19.35).
+
+Done adding ions.
+> addions2 pdb Na+ 73
+Adding 73 counter ions to "pdb" using 1A grid
+Total solute charge:  -0.00  Max atom radius:   2.14
+Grid extends from solute vdw + 1.45  to  7.59
+Box:
+   enclosing:  -65.44 -75.33 -77.70   65.50 75.10 77.76
+   sized:			      190.56 180.67 178.30
+   edge:        256.00
+Resolution:      1.00 Angstrom.
+Tree depth: 8
+Volume =  2.08% of box, grid points 349049
+Calculating grid charges
+Placed Na+ in pdb at (-16.44, -22.33, 25.30).
+Placed Na+ in pdb at (-0.44, -27.33, -3.70).
+Placed Na+ in pdb at (10.56, 2.67, 5.30).
+Placed Na+ in pdb at (-35.44, -20.33, 12.30).
+Placed Na+ in pdb at (-8.44, -30.33, -22.70).
+Placed Na+ in pdb at (-13.44, -39.33, 10.30).
+Placed Na+ in pdb at (3.56, -21.33, -7.70).
+Placed Na+ in pdb at (-53.44, 6.67, 47.30).
+Placed Na+ in pdb at (-31.44, 37.67, 47.30).
+Placed Na+ in pdb at (-31.44, 15.67, 61.30).
+Placed Na+ in pdb at (-24.44, -29.33, 18.30).
+Placed Na+ in pdb at (57.56, -40.33, -24.70).
+Placed Na+ in pdb at (58.56, -40.33, 1.30).
+Placed Na+ in pdb at (58.56, -2.33, -22.70).
+Placed Na+ in pdb at (-10.44, -66.33, -16.70).
+Placed Na+ in pdb at (-56.44, -9.33, 44.30).
+Placed Na+ in pdb at (33.56, -50.33, -16.70).
+Placed Na+ in pdb at (31.56, 8.67, -53.70).
+Placed Na+ in pdb at (-12.44, -36.33, 46.30).
+Placed Na+ in pdb at (-24.44, -15.33, -1.70).
+Placed Na+ in pdb at (-40.44, 48.67, 9.30).
+Placed Na+ in pdb at (11.56, -58.33, -3.70).
+Placed Na+ in pdb at (3.56, 29.67, -52.70).
+Placed Na+ in pdb at (-12.44, -13.33, 59.30).
+Placed Na+ in pdb at (-19.44, 56.67, -3.70).
+Placed Na+ in pdb at (-34.44, -48.33, 31.30).
+Placed Na+ in pdb at (-52.44, 31.67, 35.30).
+Placed Na+ in pdb at (3.56, 52.67, -39.70).
+Placed Na+ in pdb at (-4.44, -39.33, -9.70).
+Placed Na+ in pdb at (-56.44, -43.33, 1.30).
+Placed Na+ in pdb at (11.56, -46.33, 48.30).
+Placed Na+ in pdb at (2.56, 64.67, -16.70).
+Placed Na+ in pdb at (58.56, 35.67, -11.70).
+Placed Na+ in pdb at (42.56, 35.67, 35.30).
+Placed Na+ in pdb at (-34.44, -25.33, 44.30).
+Placed Na+ in pdb at (-18.44, 56.67, 23.30).
+Placed Na+ in pdb at (-12.44, 15.67, -67.70).
+Placed Na+ in pdb at (45.56, -6.33, 54.30).
+Placed Na+ in pdb at (9.56, -17.33, 6.30).
+Placed Na+ in pdb at (57.56, -11.33, -37.70).
+Placed Na+ in pdb at (24.56, 37.67, -39.70).
+Placed Na+ in pdb at (-41.44, 24.67, 48.30).
+Placed Na+ in pdb at (11.56, -9.33, -18.70).
+Placed Na+ in pdb at (-56.44, -27.33, 34.30).
+Placed Na+ in pdb at (9.56, -28.33, 60.30).
+Placed Na+ in pdb at (8.56, 0.67, -67.70).
+Placed Na+ in pdb at (-8.44, -65.33, 12.30).
+Placed Na+ in pdb at (34.56, -45.33, 41.30).
+Placed Na+ in pdb at (45.56, -1.33, -52.70).
+Placed Na+ in pdb at (20.56, 50.67, 35.30).
+Placed Na+ in pdb at (58.56, 35.67, 14.30).
+Placed Na+ in pdb at (-57.44, -40.33, -25.70).
+Placed Na+ in pdb at (24.56, -16.33, 66.30).
+Placed Na+ in pdb at (-45.44, 46.67, -27.70).
+Placed Na+ in pdb at (11.56, -58.33, -30.70).
+Placed Na+ in pdb at (2.56, 64.67, 9.30).
+Placed Na+ in pdb at (-33.44, 3.67, 61.30).
+Placed Na+ in pdb at (58.56, 11.67, 29.30).
+Placed Na+ in pdb at (-58.44, -16.33, 17.30).
+Placed Na+ in pdb at (-20.44, 56.67, -28.70).
+Placed Na+ in pdb at (55.56, -42.33, 24.30).
+Placed Na+ in pdb at (21.56, 3.67, 61.30).
+Placed Na+ in pdb at (58.56, 12.67, -24.70).
+Placed Na+ in pdb at (-21.44, 55.67, 41.30).
+Placed Na+ in pdb at (37.56, -52.33, -4.70).
+Placed Na+ in pdb at (-7.44, -60.33, 34.30).
+Placed Na+ in pdb at (-16.44, 42.67, -53.70).
+Placed Na+ in pdb at (23.56, 13.67, -52.70).
+Placed Na+ in pdb at (42.56, 53.67, 12.30).
+Placed Na+ in pdb at (45.56, -31.33, 40.30).
+Placed Na+ in pdb at (-42.44, 46.67, 31.30).
+Placed Na+ in pdb at (-58.44, 6.67, 30.30).
+Placed Na+ in pdb at (-0.44, 19.67, 61.30).
+
+Done adding ions.
+> addions2 pdb Cl- 73
+Adding 73 counter ions to "pdb" using 1A grid
+Total solute charge:  73.00  Max atom radius:   2.14
+Grid extends from solute vdw + 2.14  to  8.29
+Box:
+   enclosing:  -66.72 -76.03 -78.39   66.85 75.79 78.45
+   sized:			      189.28 179.97 177.61
+   edge:        256.00
+Resolution:      1.00 Angstrom.
+Tree depth: 8
+Volume =  2.10% of box, grid points 352280
+Calculating grid charges
+Placed Cl- in pdb at (22.28, 11.97, -56.39).
+Placed Cl- in pdb at (16.28, 52.97, 34.61).
+Placed Cl- in pdb at (23.28, 34.97, -42.39).
+Placed Cl- in pdb at (1.28, 49.97, -42.39).
+Placed Cl- in pdb at (-4.72, -65.03, 12.61).
+Placed Cl- in pdb at (53.28, -43.03, 27.61).
+Placed Cl- in pdb at (58.28, 32.97, 6.61).
+Placed Cl- in pdb at (10.28, -2.03, -69.39).
+Placed Cl- in pdb at (14.28, -58.03, -33.39).
+Placed Cl- in pdb at (-3.72, 20.97, 62.61).
+Placed Cl- in pdb at (59.28, 13.97, -31.39).
+Placed Cl- in pdb at (24.28, 5.97, 60.61).
+Placed Cl- in pdb at (-31.72, -28.03, 44.61).
+Placed Cl- in pdb at (37.28, 38.97, 33.61).
+Placed Cl- in pdb at (-34.72, 36.97, 48.61).
+Placed Cl- in pdb at (6.28, -60.03, 0.61).
+Placed Cl- in pdb at (40.28, 6.97, -52.39).
+Placed Cl- in pdb at (56.28, -43.03, 7.61).
+Placed Cl- in pdb at (-12.72, -68.03, -14.39).
+Placed Cl- in pdb at (59.28, 35.97, -15.39).
+Placed Cl- in pdb at (-11.72, 12.97, -70.39).
+Placed Cl- in pdb at (36.28, -52.03, -18.39).
+Placed Cl- in pdb at (37.28, -43.03, 40.61).
+Placed Cl- in pdb at (60.28, -12.03, -35.39).
+Placed Cl- in pdb at (58.28, 9.97, 19.61).
+Placed Cl- in pdb at (-59.72, -17.03, 20.61).
+Placed Cl- in pdb at (-56.72, 5.97, 48.61).
+Placed Cl- in pdb at (-23.72, 55.97, -27.39).
+Placed Cl- in pdb at (1.28, 26.97, -56.39).
+Placed Cl- in pdb at (11.28, -59.03, -16.39).
+Placed Cl- in pdb at (-30.72, -50.03, 30.61).
+Placed Cl- in pdb at (45.28, 52.97, 9.61).
+Placed Cl- in pdb at (58.28, -25.03, -5.39).
+Placed Cl- in pdb at (-34.72, 14.97, 62.61).
+Placed Cl- in pdb at (-19.72, 42.97, -55.39).
+Placed Cl- in pdb at (-18.72, -24.03, -6.39).
+Placed Cl- in pdb at (48.28, -32.03, 42.61).
+Placed Cl- in pdb at (-24.72, 54.97, 42.61).
+Placed Cl- in pdb at (27.28, -17.03, 68.61).
+Placed Cl- in pdb at (-49.72, -47.03, -0.39).
+Placed Cl- in pdb at (10.28, -60.03, 36.61).
+Placed Cl- in pdb at (-15.72, -14.03, 60.61).
+Placed Cl- in pdb at (39.28, -5.03, -59.39).
+Placed Cl- in pdb at (1.28, 67.97, 8.61).
+Placed Cl- in pdb at (-45.72, 47.97, 30.61).
+Placed Cl- in pdb at (60.28, -5.03, -24.39).
+Placed Cl- in pdb at (-39.72, 27.97, 48.61).
+Placed Cl- in pdb at (38.28, -55.03, -2.39).
+Placed Cl- in pdb at (48.28, -7.03, 56.61).
+Placed Cl- in pdb at (-12.72, 57.97, -10.39).
+Placed Cl- in pdb at (-59.72, -8.03, 43.61).
+Placed Cl- in pdb at (-59.72, -41.03, -28.39).
+Placed Cl- in pdb at (59.28, 32.97, 16.61).
+Placed Cl- in pdb at (11.28, -59.03, 9.61).
+Placed Cl- in pdb at (-17.72, 59.97, 24.61).
+Placed Cl- in pdb at (-44.72, 48.97, -30.39).
+Placed Cl- in pdb at (6.28, -29.03, 61.61).
+Placed Cl- in pdb at (5.28, 66.97, -17.39).
+Placed Cl- in pdb at (60.28, 8.97, 31.61).
+Placed Cl- in pdb at (-60.72, 3.97, 29.61).
+Placed Cl- in pdb at (-1.72, -55.03, -40.39).
+Placed Cl- in pdb at (-39.72, 51.97, 10.61).
+Placed Cl- in pdb at (32.28, -52.03, 23.61).
+Placed Cl- in pdb at (-38.72, -55.03, 13.61).
+Placed Cl- in pdb at (27.28, -24.03, -60.39).
+Placed Cl- in pdb at (-6.72, -63.03, 36.61).
+Placed Cl- in pdb at (40.28, 43.97, -31.39).
+Placed Cl- in pdb at (59.28, -33.03, 21.61).
+Placed Cl- in pdb at (-55.72, 30.97, 36.61).
+Placed Cl- in pdb at (49.28, -40.03, -33.39).
+Placed Cl- in pdb at (-57.72, -28.03, 37.61).
+Placed Cl- in pdb at (40.28, 17.97, -46.39).
+Placed Cl- in pdb at (-59.72, 20.97, 1.61).
+
+Done adding ions.
+> saveamberparm pdb 1ii6_dl5_solv.prmtop 1ii6_dl5_solv.inpcrd
+Checking Unit.
+
+/ihome/lchong/dty7/Apps/anaconda3/envs/md/bin/teLeap: Note.
+Ignoring the warnings from Unit Checking.
+
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+old PREP-specified impropers:
+ <ADP 363>:  C8   C4   N9   C1* 
+ <ADP 363>:  C6   H60  N6   H61 
+ <ADP 363>:  N7   N9   C8   H80 
+ <ADP 363>:  N1   N3   C2   H2  
+ <ADP 363>:  C5   N1   C6   N6  
+ total 1076 improper torsions applied
+ 5 improper torsions in old prep form
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	CLYS	1
+	NMET	1
+  )
+ (no restraints)
+> savepdb pdb 1ii6_dl5_solv.pdb
+Writing pdb file: 1ii6_dl5_solv.pdb
+   printing CRYST1 record to PDB file with box info
+
+/ihome/lchong/dty7/Apps/anaconda3/envs/md/bin/teLeap: Warning!
+ Converting N-terminal residue name to PDB format: NMET -> MET
+
+/ihome/lchong/dty7/Apps/anaconda3/envs/md/bin/teLeap: Warning!
+ Converting C-terminal residue name to PDB format: CLYS -> LYS
+> quit
+	Quit
+
+Exiting LEaP: Errors = 0; Warnings = 2; Notes = 1.

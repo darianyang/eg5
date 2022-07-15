@@ -1,0 +1,12 @@
+slurmstepd: error: Unable to create TMPDIR [/scratch/slurm-319968]: Input/output error
+slurmstepd: error: Setting TMPDIR to /tmp
+Warning: When compiling code please add the following flags to nvcc:
+         -gencode arch=compute_35,code=[compute_35,sm_35] \
+         -gencode arch=compute_61,code=[compute_61,sm_61] 
+         -gencode arch=compute_70,code=[compute_70,sm_70] 
++ SANDER=pmemd.cuda
++ INP=07_prod.in
++ TOP=1x88_apo_solv.prmtop
++ CRD=06_prod.rst
++ OUT=07_prod
++ pmemd.cuda -O -i 07_prod.in -p 1x88_apo_solv.prmtop -c 06_prod.rst -r 07_prod.rst -o 07_prod.out -e 07_prod.ene -v 07_prod.vel -inf 07_prod.nfo -x 07_prod.nc
