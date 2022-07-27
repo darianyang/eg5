@@ -12,3 +12,15 @@ Warning: When compiling code please add the following flags to nvcc:
 + CRD=07_prod.rst
 + OUT=08_prod
 + pmemd.cuda -O -i 08_prod.in -p 1x88_solv.prmtop -c 07_prod.rst -r 08_prod.rst -o 08_prod.out -e 08_prod.ene -v 08_prod.vel -inf 08_prod.nfo -x 08_prod.nc
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
++ echo 'parm 1x88_solv.prmtop'
++ echo 'trajin 08_prod.nc'
++ echo autoimage
++ echo 'strip :WAT,Na+,Cl- '
++ echo 'trajout 08_prod_dry.nc'
++ echo go
++ echo quit
++ cpptraj -i strip_08.in
++ '[' -f 08_prod_dry.nc ']'
++ rm 08_prod.nc
++ mv 08_prod_dry.nc 08_prod.nc
