@@ -31,9 +31,19 @@ def plot_apo(directory):
     plt.ylabel("RMSD (Å)")
     plt.title("Eg5 MON No ADP")
 
-plot_adp("prep/eg5_adpmon/md/v00/200ns")
-#plot_apo("prep/eg5_adpmon/noadp/md/v00/200ns")
+def plot_rmsf(directory, label):
+    rmsf = np.loadtxt(f"{directory}/rmsf.dat")
+    plt.plot(rmsf[:,0], rmsf[:,1], label=label)
+    plt.xlabel("ResID")
+    plt.ylabel("RMSF (Å)")
+
+#plot_adp("prep/eg5_adpmon/md/v00/1us")
+plot_apo("prep/eg5_adpmon/noadp/md/v00/1us")
 plt.ylim(0,5)
+
+# plot_rmsf("prep/eg5_adpmon/md/v00/1us", "ADP-bound")
+# plot_rmsf("prep/eg5_adpmon/noadp/md/v00/1us", "ADP-unbound")
+
 plt.legend()
 plt.show()
 
