@@ -1,14 +1,14 @@
 #!/bin/bash
-#SBATCH --job-name=thresh12_1x88_we_eg5_adp_unbinding
+#SBATCH --job-name=thr12_1x88_we_eg5_adp_unbinding
 #SBATCH --output=job_logs/slurm.out
 #SBATCH --error=job_logs/slurm.err
 #SBATCH --mail-user=dty7@pitt.edu
 #SBATCH --mail-type=ALL
 #SBATCH --nodes=1
-#SBATCH --ntasks-per-node=4
+#SBATCH --ntasks-per-node=2
 #SBATCH --partition=GPU-shared
-#SBATCH --gpus=4
-#SBATCH --time=47:59:00
+#SBATCH --gpus=2
+#SBATCH --time=48:00:00
 
 set -x
 cd $SLURM_SUBMIT_DIR
@@ -43,7 +43,7 @@ fi
 # start clients, with the proper number of cores on each
 
 for node in $(scontrol show hostname $SLURM_NODELIST); do
-    ssh -o StrictHostKeyChecking=no $node $PWD/node.sh $SLURM_SUBMIT_DIR $SLURM_JOBID $node $CUDA_VISIBLE_DEVICES --work-manager=zmq --n-workers=4 --zmq-mode=client --zmq-read-host-info=$SERVER_INFO --zmq-comm-mode=tcp &
+    ssh -o StrictHostKeyChecking=no $node $PWD/node.sh $SLURM_SUBMIT_DIR $SLURM_JOBID $node $CUDA_VISIBLE_DEVICES --work-manager=zmq --n-workers=2 --zmq-mode=client --zmq-read-host-info=$SERVER_INFO --zmq-comm-mode=tcp &
 done
 
 

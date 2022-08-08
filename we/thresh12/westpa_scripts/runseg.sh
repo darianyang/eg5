@@ -101,5 +101,22 @@ cp seg.ncrst $WEST_RESTART_RETURN/parent.ncrst
 
 cp seg.log $WEST_LOG_RETURN
 
+# strip water
+CMD="     parm $WEST_SIM_ROOT/common_files/1x88_solv.prmtop \n"
+CMD="$CMD trajin $WEST_CURRENT_SEG_DATA_REF/seg.nc \n"
+CMD="$CMD autoimage \n"
+# strip and replace solv nc file, make seperate stripped rst file but keep solved
+CMD="$CMD strip :WAT parmout $WEST_CURRENT_SEG_DATA_REF/seg-nowat.rst \n"
+CMD="$CMD trajout $WEST_CURRENT_SEG_DATA_REF/seg-nowat.nc \n"
+CMD="$CMD go \n"
+
+echo -e "$CMD" | $CPPTRAJ
+
+# remove and replace solvated segment trajectory file
+if [ -f "seg-nowat.nc" ]; then
+    rm seg.nc &&
+    mv seg-nowat.nc seg.nc
+fi
+
 # Clean up
 rm -f md.in parent.ncrst seg.nfo seg.pdb 1x88_solv.prmtop 05_eq3.ncrst *.dat

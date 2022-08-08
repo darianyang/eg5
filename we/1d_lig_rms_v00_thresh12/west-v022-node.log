@@ -1,0 +1,7 @@
+Updating system with the options from the configuration file
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmp61i48429': ValueError('cannot reshape array of size 0 into shape (11,2)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmpy6hxmt_x': ValueError('cannot reshape array of size 0 into shape (11,2)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmpdqapmt3x': ValueError('cannot reshape array of size 0 into shape (11,2)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmp58oq0o1a': ValueError('cannot reshape array of size 0 into shape (11,2)')
+-- WARNING  [westpa.work_managers.zeromq.core.ZMQWorker.f91e20a9-0482-41e6-aecb-5f947cc959b2] -- sending SIGKILL to worker process 40013
+-- WARNING  [westpa.work_managers.zeromq.core] -- sending SIGKILL to worker process 40014

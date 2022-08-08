@@ -1,0 +1,24 @@
+Updating system with the options from the configuration file
+Maximum wallclock time: 2 days, 0:00:00
+
+Wed Jul 27 17:20:11 2022
+Iteration 1 (300 requested)
+exception caught; shutting down
+-- ERROR    [w_run] -- error message: coordinate value 1.0 is out of bin space in dimension 0
+-- ERROR    [w_run] -- Traceback (most recent call last):
+  File "/jet/home/dyang4/Apps/westpa/src/westpa/cli/core/w_run.py", line 62, in run_simulation
+    sim_manager.run()
+  File "/jet/home/dyang4/Apps/westpa/src/westpa/core/sim_manager.py", line 746, in run
+    self.prepare_iteration()
+  File "/jet/home/dyang4/Apps/westpa/src/westpa/core/binning/mab_manager.py", line 92, in prepare_iteration
+    self.we_driver.new_iteration(target_states=target_states, new_weights=new_weights)
+  File "/jet/home/dyang4/Apps/westpa/src/westpa/core/we_driver.py", line 291, in new_iteration
+    tstate_assignment = self.bin_mapper.assign([tstate.pcoord])[0]
+  File "/jet/home/dyang4/Apps/westpa/src/westpa/core/binning/assign.py", line 427, in assign
+    self.base_mapper.assign(coords, mask, output)
+  File "/jet/home/dyang4/Apps/westpa/src/westpa/core/binning/assign.py", line 175, in assign
+    rectilinear_assign(coords, mask, output, self.boundaries, self._boundlens)
+  File "src/westpa/core/binning/_assign.pyx", line 28, in westpa.core.binning._assign.rectilinear_assign
+  File "src/westpa/core/binning/_assign.pyx", line 81, in westpa.core.binning._assign.rectilinear_assign
+ValueError: coordinate value 1.0 is out of bin space in dimension 0
+
