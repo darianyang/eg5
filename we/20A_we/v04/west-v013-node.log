@@ -1,0 +1,16 @@
+Updating system with the options from the configuration file
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmppr7odrh_': ValueError('cannot reshape array of size 0 into shape (6,3)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmpf2f4c3bz': ValueError('cannot reshape array of size 0 into shape (6,3)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmpaia1j2ud': ValueError('cannot reshape array of size 0 into shape (6,3)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmpeaaj_aef': ValueError('cannot reshape array of size 0 into shape (6,3)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmplz1z_xz2': ValueError('cannot reshape array of size 0 into shape (6,3)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmpkcfro2ow': ValueError('cannot reshape array of size 0 into shape (6,3)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmp0ld_h3i_': ValueError('cannot reshape array of size 0 into shape (6,3)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmpma9aq513': ValueError('cannot reshape array of size 0 into shape (6,3)')
+-- WARNING  [westpa.work_managers.zeromq.core.ZMQWorker.77f9d8b1-1da2-4055-999c-157b22cf431a] -- sending SIGKILL to worker process 41082
+-- WARNING  [westpa.work_managers.zeromq.core.ZMQWorker.49c7a289-d4a3-46cb-8741-038eba0682fd] -- sending SIGKILL to worker process 41076
+-- WARNING  [westpa.work_managers.zeromq.core.ZMQWorker.a74df3f5-f0ac-4596-a6bb-6d18ad9127f3] -- sending SIGKILL to worker process 41073
+-- WARNING  [westpa.work_managers.zeromq.core.ZMQWorker.867a0d6d-1362-45bd-8a7b-4af94b964e3e] -- sending SIGKILL to worker process 41111
+-- WARNING  [westpa.work_managers.zeromq.core.ZMQWorker.0e681602-dbcd-4299-9c33-a0672ed404ce] -- sending SIGKILL to worker process 41098
+-- WARNING  [westpa.work_managers.zeromq.core] -- sending SIGKILL to worker process 41074
+-- WARNING  [westpa.work_managers.zeromq.core] -- sending SIGKILL to worker process 41108

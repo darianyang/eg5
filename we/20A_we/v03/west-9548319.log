@@ -1,0 +1,52 @@
+Updating system with the options from the configuration file
+Maximum wallclock time: 2 days, 0:00:00
+
+Fri Jul  1 23:16:50 2022
+Iteration 173 (200 requested)
+Continuing iteration 173
+16 segments remain in iteration 173 (40 total)
+MAB binning in use.
+1 of 37 (2.702703%) active bins are populated
+per-bin minimum non-zero probability:       1
+per-bin maximum probability:                1
+per-bin probability dynamic range (kT):     0
+per-segment minimum non-zero probability:   6.72575e-148
+per-segment maximum non-zero probability:   0.13909
+per-segment probability dynamic range (kT): 336.904
+norm = 1, error in norm = 4.44089e-16 (2*epsilon)
+-- WARNING  [westpa.core.sim_manager] -- 
+ Minimum segment weight is < 1e-100 and might not be physically relevant. Please reconsider your progress coordinate or binning scheme.
+################ MAB stats ################
+minima in each dimension:      [0.0, 0.0, 0.0]
+maxima in each dimension:      [13.407901, 6.208, 1.9307001]
+direction in each dimension:   [1, 1, 1]
+skip in each dimension:        [0, 0, 1]
+###########################################
+-- ERROR    [westpa.core.sim_manager] -- propagation failed for 16 segment(s):
+24  
+25  
+26  
+27  
+28  
+29  
+30  
+31  
+32  
+33  
+34  
+35  
+36  
+37  
+38  
+39
+exception caught; shutting down
+-- ERROR    [w_run] -- error message: propagation failed for 16 segments
+-- ERROR    [w_run] -- Traceback (most recent call last):
+  File "/jet/home/dyang4/Apps/westpa/src/westpa/cli/core/w_run.py", line 62, in run_simulation
+    sim_manager.run()
+  File "/jet/home/dyang4/Apps/westpa/src/westpa/core/sim_manager.py", line 740, in run
+    self.check_propagation()
+  File "/jet/home/dyang4/Apps/westpa/src/westpa/core/sim_manager.py", line 638, in check_propagation
+    raise PropagationError('propagation failed for {:d} segments'.format(len(failed_segments)))
+westpa.core.sim_manager.PropagationError: propagation failed for 16 segments
+
