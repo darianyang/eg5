@@ -24,5 +24,11 @@
     * Took a later adp base moved segment and started new WE simulation
     * Constrained MAB to be from 8Å pcoord (ADP and Mg RMSD) to inf
     * Also put more 1D MAB bins (20 --> 25)
+    * switched to adaptive.py since constrains in west.cfg didn't work out of the box
+
+* 2d_lig_rms_com_dist:
+    * 2D using ligand+Mg rmsd and ligand+Mg COM vs protein_cut COM distance
+    * 8 walkers / bin, 5 mab bins in each dimension (25 total)
+    * using 100ps tau instead of ATB original 50ps
 
 Note: to turn off hdf5 framework for iteration h5 files, remove the datarefs/iteration line
