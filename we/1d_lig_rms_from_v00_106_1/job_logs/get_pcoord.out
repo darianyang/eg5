@@ -14,8 +14,8 @@ CPPTRAJ: Trajectory Analysis. V6.4.4 (AmberTools)
      | \/ | \/ | \/ | 
     _|_/\_|_/\_|_/\_|_
 
-| Date/time: 07/27/22 15:51:40
-| Available memory: 110.806 GB
+| Date/time: 08/08/22 23:24:16
+| Available memory: 237.518 GB
 
 INPUT: Reading input from 'STDIN'
   [parm /jet/home/dyang4/chonglab/eg5/we/1d_lig_rms_from_v00_106_1/common_files/1x88_solv.prmtop]
@@ -1949,7 +1949,7 @@ ACTION SETUP FOR PARM '1x88_solv.prmtop' (6 actions):
 100% Complete.
 
 Read 1 frames and processed 1 frames.
-TIME: Avg. throughput= 9.3325 frames / second.
+TIME: Avg. throughput= 7.8553 frames / second.
 
 ACTION OUTPUT:
     CONTACTS: Contacts_00006
@@ -3848,14 +3848,14 @@ DATAFILES (3 total):
 
 RUN TIMING:
 TIME:		Init               : 0.0000 s (  0.02%)
-TIME:		Trajectory Process : 0.1072 s ( 96.63%)
-TIME:		Action Post        : 0.0023 s (  2.12%)
+TIME:		Trajectory Process : 0.1273 s ( 96.99%)
+TIME:		Action Post        : 0.0023 s (  1.76%)
 TIME:		Analysis           : 0.0000 s (  0.00%)
-TIME:		Data File Write    : 0.0007 s (  0.63%)
+TIME:		Data File Write    : 0.0009 s (  0.72%)
 TIME:		Other              : 0.0007 s (  0.01%)
-TIME:	Run Total 0.1109 s
+TIME:	Run Total 0.1312 s
 ---------- RUN END ---------------------------------------------------
-TIME: Total execution time: 0.3056 seconds.
+TIME: Total execution time: 0.7580 seconds.
 --------------------------------------------------------------------------------
 To cite CPPTRAJ use:
 Daniel R. Roe and Thomas E. Cheatham, III, "PTRAJ and CPPTRAJ: Software for
