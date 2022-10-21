@@ -4,8 +4,8 @@ CPPTRAJ: Trajectory Analysis. V6.4.4 (AmberTools)
      | \/ | \/ | \/ | 
     _|_/\_|_/\_|_/\_|_
 
-| Date/time: 08/12/22 11:26:20
-| Available memory: 78.191 GB
+| Date/time: 08/13/22 17:52:11
+| Available memory: 111.700 GB
 
 INPUT: Reading input from 'STDIN'
   [parm /jet/home/dyang4/chonglab/eg5/we/2d_lig_rms_int_ene_v00/common_files/1x88_solv.prmtop]
@@ -42,7 +42,7 @@ Warning: No reference structure specified. Defaulting to first.
 	Output to 'pcoord.dat'
 	Contact stats will be written to 'STDOUT'
 	Contact res pairs will be written to 'STDOUT'
-  [energy adpcpx-lt-8A-ene :370<:8 out pcoord_ene.dat]
+  [energy adpcpx-lt-8A-ene :370<:8 out pcoord-ene.dat]
     ENERGY: Calculating energy for atoms in mask ':370<:8'
 	Calculating terms: 'Bonds' 'Angles' 'Dihedrals' '1-4 VDW' '1-4 Elec.' 'VDW' 'Elec.' 'Kinetic' 'Total'
 	Electrostatics method: Simple
@@ -50,7 +50,7 @@ Warning: No reference structure specified. Defaulting to first.
 	velocities are a half step ahead of forces; if only velocities
 	present KE will be calculated assuming velocities are on-step.
 	Time step for KE calculation if forces present: 0.001 ps
-  [energy rec-lt-8A-ene :370<:8&!(:370) out pcoord_ene.dat]
+  [energy rec-lt-8A-ene :370<:8&!(:370) out pcoord-ene.dat]
     ENERGY: Calculating energy for atoms in mask ':370<:8&!(:370)'
 	Calculating terms: 'Bonds' 'Angles' 'Dihedrals' '1-4 VDW' '1-4 Elec.' 'VDW' 'Elec.' 'Kinetic' 'Total'
 	Electrostatics method: Simple
@@ -58,7 +58,7 @@ Warning: No reference structure specified. Defaulting to first.
 	velocities are a half step ahead of forces; if only velocities
 	present KE will be calculated assuming velocities are on-step.
 	Time step for KE calculation if forces present: 0.001 ps
-  [energy adp-ene :370 out pcoord_ene.dat]
+  [energy adp-ene :370 out pcoord-ene.dat]
     ENERGY: Calculating energy for atoms in mask ':370'
 	Calculating terms: 'Bonds' 'Angles' 'Dihedrals' '1-4 VDW' '1-4 Elec.' 'VDW' 'Elec.' 'Kinetic' 'Total'
 	Electrostatics method: Simple
@@ -112,17 +112,17 @@ ACTION SETUP FOR PARM '1x88_solv.prmtop' (10 actions):
 	5795 potential contact sites for ':1-368'
 	39 potential contact sites for ':370'
 	Imaging enabled.
-  7: [energy adpcpx-lt-8A-ene :370<:8 out pcoord_ene.dat]
+  7: [energy adpcpx-lt-8A-ene :370<:8 out pcoord-ene.dat]
 	Mask [:370<:8] corresponds to 1162 atoms.
 	Memory used by full exclusion list: 17.360 kB
 	Force info not present. Assuming velocities are at same time
 	step as coordinates.
-  8: [energy rec-lt-8A-ene :370<:8&!(:370) out pcoord_ene.dat]
+  8: [energy rec-lt-8A-ene :370<:8&!(:370) out pcoord-ene.dat]
 	Mask [:370<:8&!(:370)] corresponds to 1123 atoms.
 	Memory used by full exclusion list: 16.572 kB
 	Force info not present. Assuming velocities are at same time
 	step as coordinates.
-  9: [energy adp-ene :370 out pcoord_ene.dat]
+  9: [energy adp-ene :370 out pcoord-ene.dat]
 	Mask [:370] corresponds to 39 atoms.
 	Memory used by full exclusion list: 0.788 kB
 	Force info not present. Assuming velocities are at same time
@@ -2789,7 +2789,7 @@ ACTION SETUP FOR PARM '1x88_solv.prmtop' (10 actions):
 100% Complete.
 
 Read 1 frames and processed 1 frames.
-TIME: Avg. throughput= 5.0437 frames / second.
+TIME: Avg. throughput= 5.1015 frames / second.
 
 ACTION OUTPUT:
     CONTACTS: Contacts_00007
@@ -5489,27 +5489,27 @@ ACTION OUTPUT:
     2654    :109@HG21_:370@N6        1        1        7 8.43e-08
 Timing for energy: 'adpcpx-lt-8A-ene' (':370<:8')
 TIME: Total: 0.0063 s
-TIME:	BOND        : 0.0005 s (  7.37%)
-TIME:	ANGLE       : 0.0001 s (  1.34%)
-TIME:	TORSION     : 0.0003 s (  5.16%)
-TIME:	1-4_NONBOND : 0.0001 s (  1.29%)
-TIME:	NONBOND     : 0.0053 s ( 84.59%)
-TIME:	KE          : 0.0000 s (  0.21%)
+TIME:	BOND        : 0.0005 s (  7.18%)
+TIME:	ANGLE       : 0.0001 s (  1.85%)
+TIME:	TORSION     : 0.0003 s (  5.41%)
+TIME:	1-4_NONBOND : 0.0001 s (  1.35%)
+TIME:	NONBOND     : 0.0053 s ( 83.96%)
+TIME:	KE          : 0.0000 s (  0.22%)
 Timing for energy: 'rec-lt-8A-ene' (':370<:8&!(:370)')
-TIME: Total: 0.0058 s
-TIME:	BOND        : 0.0005 s (  8.14%)
-TIME:	ANGLE       : 0.0001 s (  1.01%)
-TIME:	TORSION     : 0.0003 s (  5.06%)
-TIME:	1-4_NONBOND : 0.0001 s (  1.30%)
-TIME:	NONBOND     : 0.0049 s ( 84.38%)
+TIME: Total: 0.0059 s
+TIME:	BOND        : 0.0005 s (  7.96%)
+TIME:	ANGLE       : 0.0001 s (  1.00%)
+TIME:	TORSION     : 0.0003 s (  5.00%)
+TIME:	1-4_NONBOND : 0.0001 s (  1.31%)
+TIME:	NONBOND     : 0.0050 s ( 84.64%)
 TIME:	KE          : 0.0000 s (  0.05%)
 Timing for energy: 'adp-ene' (':370')
 TIME: Total: 0.0006 s
-TIME:	BOND        : 0.0005 s ( 72.71%)
-TIME:	ANGLE       : 0.0000 s (  3.94%)
-TIME:	TORSION     : 0.0001 s ( 13.25%)
-TIME:	1-4_NONBOND : 0.0001 s (  8.52%)
-TIME:	NONBOND     : 0.0000 s (  1.26%)
+TIME:	BOND        : 0.0005 s ( 72.94%)
+TIME:	ANGLE       : 0.0000 s (  3.96%)
+TIME:	TORSION     : 0.0001 s ( 13.13%)
+TIME:	1-4_NONBOND : 0.0001 s (  8.70%)
+TIME:	NONBOND     : 0.0000 s (  1.11%)
 TIME:	KE          : 0.0000 s (  0.16%)
 TIME: Analyses took 0.0000 seconds.
 
@@ -5553,20 +5553,20 @@ DATASETS (35 total):
 
 DATAFILES (4 total):
   pcoord.dat (Standard Data File):  adp-mg-rmsd adp-mg-proteincut-dist base-rmsd phos-rmsd Contacts_00007[native] Contacts_00007[nonnative] Contacts_00007[mindist]
-  pcoord_ene.dat (Standard Data File):  adpcpx-lt-8A-ene[bond] adpcpx-lt-8A-ene[angle] adpcpx-lt-8A-ene[dih] adpcpx-lt-8A-ene[vdw14] ... adp-ene[vdw] adp-ene[elec] adp-ene[kinetic] adp-ene[total]
+  pcoord-ene.dat (Standard Data File):  adpcpx-lt-8A-ene[bond] adpcpx-lt-8A-ene[angle] adpcpx-lt-8A-ene[dih] adpcpx-lt-8A-ene[vdw14] ... adp-ene[vdw] adp-ene[elec] adp-ene[kinetic] adp-ene[total]
   STDOUT (Native Contacts)
   STDOUT (Contact Res Pairs)
 
 RUN TIMING:
 TIME:		Init               : 0.0000 s (  0.01%)
-TIME:		Trajectory Process : 0.1983 s ( 96.86%)
-TIME:		Action Post        : 0.0034 s (  1.67%)
+TIME:		Trajectory Process : 0.1960 s ( 96.94%)
+TIME:		Action Post        : 0.0034 s (  1.69%)
 TIME:		Analysis           : 0.0000 s (  0.00%)
-TIME:		Data File Write    : 0.0021 s (  1.03%)
+TIME:		Data File Write    : 0.0018 s (  0.91%)
 TIME:		Other              : 0.0009 s (  0.00%)
-TIME:	Run Total 0.2047 s
+TIME:	Run Total 0.2022 s
 ---------- RUN END ---------------------------------------------------
-TIME: Total execution time: 0.5738 seconds.
+TIME: Total execution time: 0.7779 seconds.
 --------------------------------------------------------------------------------
 To cite CPPTRAJ use:
 Daniel R. Roe and Thomas E. Cheatham, III, "PTRAJ and CPPTRAJ: Software for

@@ -1225,3 +1225,4 @@ export CONDA_PROMPT_MODIFIER='\''(base) '\'''
 + env
 + sort
 + w_run --work-manager=zmq --n-workers=8 --zmq-mode=client --zmq-read-host-info=/ocean/projects/mcb180038p/dyang4/eg5/we/2d_lig_rms_com_dist_v00/west_zmq_info-10299211.json --zmq-comm-mode=tcp
++ echo 'Shutting down.  Hopefully this was on purpose?'

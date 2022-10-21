@@ -29,7 +29,7 @@ HEAD=/usr/bin/head
 HISTCONTROL=ignoredups
 HISTSIZE=1000
 HOME=/jet/home/dyang4
-HOSTNAME=v026
+HOSTNAME=v033
 IFCONFIG=/bin/ifconfig
 INCLUDE=/jet/packages/spack/opt/spack/linux-centos8-zen/gcc-8.3.1/cuda-10.2.89-kz7u4ix6ed53nioz4ycqin3kujcim3bs/include
 LD_LIBRARY_PATH=/jet/packages/spack/opt/spack/linux-centos8-zen/gcc-8.3.1/cuda-10.2.89-kz7u4ix6ed53nioz4ycqin3kujcim3bs/lib64:/ocean/projects/mcb180038p/jml230/amber22/lib
@@ -72,7 +72,7 @@ SED=/bin/sed
 SHELL=/bin/bash
 SHLVL=2
 SIM_NAME=1d_lig_rms_from_v00_106_1
-SLURMD_NODENAME=v026
+SLURMD_NODENAME=v033
 SLURM_CLUSTER_NAME=bridges2
 SLURM_CONF=/var/spool/slurm/d/conf-cache/slurm.conf
 SLURM_CPUS_ON_NODE=40
@@ -80,15 +80,14 @@ SLURM_EXPORT_ENV=ALL
 SLURM_GET_USER_ENV=1
 SLURM_GPUS=8
 SLURM_GTIDS=0
-SLURM_JOBID=10299115
+SLURM_JOBID=10522595
 SLURM_JOB_ACCOUNT=mcb180038p
 SLURM_JOB_CPUS_PER_NODE=40
-SLURM_JOB_DEPENDENCY=afterok:10290737
 SLURM_JOB_GID=23173
 SLURM_JOB_GPUS=0,1,2,3,4,5,6,7
-SLURM_JOB_ID=10299115
+SLURM_JOB_ID=10522595
 SLURM_JOB_NAME=1d_adp-mg-rms_from_v00_106_1_1x88_we_eg5_adp_unbinding
-SLURM_JOB_NODELIST=v026
+SLURM_JOB_NODELIST=v033
 SLURM_JOB_NUM_NODES=1
 SLURM_JOB_PARTITION=GPU
 SLURM_JOB_QOS=gpu
@@ -97,7 +96,7 @@ SLURM_JOB_USER=dyang4
 SLURM_LOCALID=0
 SLURM_NNODES=1
 SLURM_NODEID=0
-SLURM_NODELIST=v026
+SLURM_NODELIST=v033
 SLURM_NODE_ALIASES=(null)
 SLURM_NPROCS=8
 SLURM_NTASKS=8
@@ -107,8 +106,8 @@ SLURM_PROCID=0
 SLURM_SUBMIT_DIR=/ocean/projects/mcb180038p/dyang4/eg5/we/1d_lig_rms_from_v00_106_1
 SLURM_SUBMIT_HOST=br014.ib.bridges2.psc.edu
 SLURM_TASKS_PER_NODE=8
-SLURM_TASK_PID=13946
-SLURM_TOPOLOGY_ADDR=v026
+SLURM_TASK_PID=67237
+SLURM_TOPOLOGY_ADDR=v033
 SLURM_TOPOLOGY_ADDR_PATTERN=node
 SLURM_WORKING_CLUSTER=bridges2:br003:6814:9216:109
 SORT=/usr/bin/sort
@@ -146,10 +145,10 @@ __LMOD_REF_COUNT__LMFILES_=/opt/modulefiles/production/allocations/1.0.lua:1;/op
 }
 }
 /jet/home/dyang4/Apps/anaconda3/bin/w_run
-== server info file /ocean/projects/mcb180038p/dyang4/eg5/we/1d_lig_rms_from_v00_106_1/west_zmq_info-10299115.json ==
-{"rr_endpoint": "tcp://v026.ib.bridges2.psc.edu:34911", "ann_endpoint": "tcp://v026.ib.bridges2.psc.edu:55981"}simulation 1d_lig_rms_from_v00_106_1 root is /ocean/projects/mcb180038p/dyang4/eg5/we/1d_lig_rms_from_v00_106_1
+== server info file /ocean/projects/mcb180038p/dyang4/eg5/we/1d_lig_rms_from_v00_106_1/west_zmq_info-10522595.json ==
+{"rr_endpoint": "tcp://v033.ib.bridges2.psc.edu:35581", "ann_endpoint": "tcp://v033.ib.bridges2.psc.edu:60561"}simulation 1d_lig_rms_from_v00_106_1 root is /ocean/projects/mcb180038p/dyang4/eg5/we/1d_lig_rms_from_v00_106_1
 starting WEST client processes on: 
-v026.ib.bridges2.psc.edu
+v033.ib.bridges2.psc.edu
 current directory is /ocean/projects/mcb180038p/dyang4/eg5/we/1d_lig_rms_from_v00_106_1
 environment is: 
  /usr/share/lmod/8.2.7/libexec/log_modules "$@";
@@ -183,7 +182,7 @@ HEAD=/usr/bin/head
 HISTCONTROL=ignoredups
 HISTSIZE=1000
 HOME=/jet/home/dyang4
-HOSTNAME=v026.ib.bridges2.psc.edu
+HOSTNAME=v033.ib.bridges2.psc.edu
 IFCONFIG=/bin/ifconfig
 INCLUDE=/jet/packages/spack/opt/spack/linux-centos8-zen/gcc-8.3.1/cuda-10.2.89-kz7u4ix6ed53nioz4ycqin3kujcim3bs/include
 LD_LIBRARY_PATH=/jet/packages/spack/opt/spack/linux-centos8-zen/gcc-8.3.1/cuda-10.2.89-kz7u4ix6ed53nioz4ycqin3kujcim3bs/lib64:/ocean/projects/mcb180038p/jml230/amber22/lib
@@ -224,11 +223,11 @@ SHELL=/bin/bash
 SHLVL=2
 SIM_NAME=1d_lig_rms_from_v00_106_1
 SLURM_EXPORT_ENV=ALL
-SLURM_JOB_ID=10299115
-SLURM_NODENAME=v026
+SLURM_JOB_ID=10522595
+SLURM_NODENAME=v033
 SORT=/usr/bin/sort
-SSH_CLIENT=10.8.3.68 40596 22
-SSH_CONNECTION=10.8.3.68 40596 10.8.3.68 22
+SSH_CLIENT=10.8.11.75 37388 22
+SSH_CONNECTION=10.8.11.75 37388 10.8.11.75 22
 SUDO_PROMPT=Password for %u@PSC.EDU 
 TAR=/bin/tar
 TMOUT=604800
@@ -236,7 +235,7 @@ TR=/usr/bin/tr
 UNIQ=/usr/bin/uniq
 USER=dyang4
 USE_LOCAL_SCRATCH=1
-WEST_JOBID=10299115
+WEST_JOBID=10522595
 WEST_SIM_ROOT=/ocean/projects/mcb180038p/dyang4/eg5/we/1d_lig_rms_from_v00_106_1
 WM_ZMQ_MASTER_HEARTBEAT=100
 WM_ZMQ_TIMEOUT_FACTOR=300
@@ -262,3 +261,4 @@ __LMOD_REF_COUNT_PATH=/jet/packages/spack/opt/spack/linux-centos8-zen/gcc-8.3.1/
 __LMOD_REF_COUNT__LMFILES_=/opt/modulefiles/production/allocations/1.0.lua:1;/opt/modulefiles/production/cuda/10.2.0.lua:1
 }
 }
+Shutting down.  Hopefully this was on purpose?

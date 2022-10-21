@@ -38,7 +38,7 @@
 ++++++ '[' '!' -x /usr/bin/expr ']'
 ++++++ BASENAME_CMD=/usr/bin/basename
 ++++++ '[' '!' -x /usr/bin/basename ']'
-+++++++ /usr/bin/ps -p 13946 -ocomm=
++++++++ /usr/bin/ps -p 67237 -ocomm=
 ++++++ my_shell=slurm_script
 +++++++ /usr/bin/expr slurm_script : '-*\(.*\)'
 ++++++ my_shell=slurm_script
@@ -83,7 +83,7 @@
 ++++++ export _ModuleTable002_
 ++++++ _ModuleTable_Sz_=2
 ++++++ export _ModuleTable_Sz_
-+++++ '[' -n 10299115 ']'
++++++ '[' -n 10522595 ']'
 +++++ export TMOUT=1800
 +++++ TMOUT=1800
 +++++ export PATH=/opt/packages/allocations/bin:/ocean/projects/mcb180038p/jml230/amber22/bin:/jet/home/dyang4/Apps/anaconda3/bin:/jet/home/dyang4/Apps/anaconda3/condabin:/jet/home/dyang4/.local/bin:/jet/home/dyang4/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/bin:/opt/packages/interact/bin:/opt/puppetlabs/bin:/bin
@@ -195,7 +195,7 @@
 +++++ '[' '!' -x /usr/bin/expr ']'
 +++++ BASENAME_CMD=/usr/bin/basename
 +++++ '[' '!' -x /usr/bin/basename ']'
-++++++ /usr/bin/ps -p 13946 -ocomm=
+++++++ /usr/bin/ps -p 67237 -ocomm=
 +++++ my_shell=slurm_script
 ++++++ /usr/bin/expr slurm_script : '-*\(.*\)'
 +++++ my_shell=slurm_script
@@ -255,8 +255,8 @@
 ++++ '[' -r /etc/profile.d/which2.sh ']'
 ++++ '[' '[\u@\h \W]\$ ' ']'
 ++++ . /etc/profile.d/which2.sh
-+++++ '[' /var/spool/slurm/d/job10299115/slurm_script = ksh ']'
-+++++ '[' /var/spool/slurm/d/job10299115/slurm_script = -ksh ']'
++++++ '[' /var/spool/slurm/d/job10522595/slurm_script = ksh ']'
++++++ '[' /var/spool/slurm/d/job10522595/slurm_script = -ksh ']'
 +++++ alias 'which=(alias; declare -f) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot'
 ++++ for i in /etc/profile.d/*.sh
 ++++ '[' -r /etc/profile.d/z00_lmod.sh ']'
@@ -273,7 +273,7 @@
 +++++ '[' '!' -x /usr/bin/expr ']'
 +++++ BASENAME_CMD=/usr/bin/basename
 +++++ '[' '!' -x /usr/bin/basename ']'
-++++++ /usr/bin/ps -p 13946 -ocomm=
+++++++ /usr/bin/ps -p 67237 -ocomm=
 +++++ my_shell=slurm_script
 ++++++ /usr/bin/expr slurm_script : '-*\(.*\)'
 +++++ my_shell=slurm_script
@@ -734,32 +734,32 @@ export CONDA_PROMPT_MODIFIER='\''(base) '\'''
 + env
 + sort
 + cd /ocean/projects/mcb180038p/dyang4/eg5/we/1d_lig_rms_from_v00_106_1
-+ SERVER_INFO=/ocean/projects/mcb180038p/dyang4/eg5/we/1d_lig_rms_from_v00_106_1/west_zmq_info-10299115.json
++ SERVER_INFO=/ocean/projects/mcb180038p/dyang4/eg5/we/1d_lig_rms_from_v00_106_1/west_zmq_info-10522595.json
 + which w_run
 + (( n=0 ))
 + (( n<60 ))
-+ w_run --work-manager=zmq --n-workers=0 --zmq-mode=master --zmq-write-host-info=/ocean/projects/mcb180038p/dyang4/eg5/we/1d_lig_rms_from_v00_106_1/west_zmq_info-10299115.json --zmq-comm-mode=tcp
-+ '[' -e /ocean/projects/mcb180038p/dyang4/eg5/we/1d_lig_rms_from_v00_106_1/west_zmq_info-10299115.json ']'
++ w_run --work-manager=zmq --n-workers=0 --zmq-mode=master --zmq-write-host-info=/ocean/projects/mcb180038p/dyang4/eg5/we/1d_lig_rms_from_v00_106_1/west_zmq_info-10522595.json --zmq-comm-mode=tcp
++ '[' -e /ocean/projects/mcb180038p/dyang4/eg5/we/1d_lig_rms_from_v00_106_1/west_zmq_info-10522595.json ']'
 + sleep 1
 + (( n++ ))
 + (( n<60 ))
-+ '[' -e /ocean/projects/mcb180038p/dyang4/eg5/we/1d_lig_rms_from_v00_106_1/west_zmq_info-10299115.json ']'
++ '[' -e /ocean/projects/mcb180038p/dyang4/eg5/we/1d_lig_rms_from_v00_106_1/west_zmq_info-10522595.json ']'
 + sleep 1
 + (( n++ ))
 + (( n<60 ))
-+ '[' -e /ocean/projects/mcb180038p/dyang4/eg5/we/1d_lig_rms_from_v00_106_1/west_zmq_info-10299115.json ']'
++ '[' -e /ocean/projects/mcb180038p/dyang4/eg5/we/1d_lig_rms_from_v00_106_1/west_zmq_info-10522595.json ']'
 + sleep 1
 + (( n++ ))
 + (( n<60 ))
-+ '[' -e /ocean/projects/mcb180038p/dyang4/eg5/we/1d_lig_rms_from_v00_106_1/west_zmq_info-10299115.json ']'
-+ echo '== server info file /ocean/projects/mcb180038p/dyang4/eg5/we/1d_lig_rms_from_v00_106_1/west_zmq_info-10299115.json =='
-+ cat /ocean/projects/mcb180038p/dyang4/eg5/we/1d_lig_rms_from_v00_106_1/west_zmq_info-10299115.json
++ '[' -e /ocean/projects/mcb180038p/dyang4/eg5/we/1d_lig_rms_from_v00_106_1/west_zmq_info-10522595.json ']'
++ echo '== server info file /ocean/projects/mcb180038p/dyang4/eg5/we/1d_lig_rms_from_v00_106_1/west_zmq_info-10522595.json =='
++ cat /ocean/projects/mcb180038p/dyang4/eg5/we/1d_lig_rms_from_v00_106_1/west_zmq_info-10522595.json
 + break
-+ '[' -e /ocean/projects/mcb180038p/dyang4/eg5/we/1d_lig_rms_from_v00_106_1/west_zmq_info-10299115.json ']'
-++ scontrol show hostname v026
++ '[' -e /ocean/projects/mcb180038p/dyang4/eg5/we/1d_lig_rms_from_v00_106_1/west_zmq_info-10522595.json ']'
+++ scontrol show hostname v033
 + for node in $(scontrol show hostname $SLURM_NODELIST)
 + wait
-+ ssh -o StrictHostKeyChecking=no v026 /ocean/projects/mcb180038p/dyang4/eg5/we/1d_lig_rms_from_v00_106_1/node.sh /ocean/projects/mcb180038p/dyang4/eg5/we/1d_lig_rms_from_v00_106_1 10299115 v026 0,1,2,3,4,5,6,7 --work-manager=zmq --n-workers=8 --zmq-mode=client --zmq-read-host-info=/ocean/projects/mcb180038p/dyang4/eg5/we/1d_lig_rms_from_v00_106_1/west_zmq_info-10299115.json --zmq-comm-mode=tcp
++ ssh -o StrictHostKeyChecking=no v033 /ocean/projects/mcb180038p/dyang4/eg5/we/1d_lig_rms_from_v00_106_1/node.sh /ocean/projects/mcb180038p/dyang4/eg5/we/1d_lig_rms_from_v00_106_1 10522595 v033 0,1,2,3,4,5,6,7 --work-manager=zmq --n-workers=8 --zmq-mode=client --zmq-read-host-info=/ocean/projects/mcb180038p/dyang4/eg5/we/1d_lig_rms_from_v00_106_1/west_zmq_info-10522595.json --zmq-comm-mode=tcp
 + cd /ocean/projects/mcb180038p/dyang4/eg5/we/1d_lig_rms_from_v00_106_1
 + shift
 + source env.sh
@@ -1209,11 +1209,11 @@ export CONDA_PROMPT_MODIFIER='\''(base) '\'''
 ++ PMEMD=/ocean/projects/mcb180038p/jml230/amber22/bin/pmemd.cuda
 ++ export CPPTRAJ=/ocean/projects/mcb180038p/jml230/amber22/bin/cpptraj
 ++ CPPTRAJ=/ocean/projects/mcb180038p/jml230/amber22/bin/cpptraj
-+ export WEST_JOBID=10299115
-+ WEST_JOBID=10299115
++ export WEST_JOBID=10522595
++ WEST_JOBID=10522595
 + shift
-+ export SLURM_NODENAME=v026
-+ SLURM_NODENAME=v026
++ export SLURM_NODENAME=v033
++ SLURM_NODENAME=v033
 + shift
 + export CUDA_VISIBLE_DEVICES_ALLOCATED=0,1,2,3,4,5,6,7
 + CUDA_VISIBLE_DEVICES_ALLOCATED=0,1,2,3,4,5,6,7
@@ -1224,4 +1224,5 @@ export CONDA_PROMPT_MODIFIER='\''(base) '\'''
 + echo 'environment is: '
 + env
 + sort
-+ w_run --work-manager=zmq --n-workers=8 --zmq-mode=client --zmq-read-host-info=/ocean/projects/mcb180038p/dyang4/eg5/we/1d_lig_rms_from_v00_106_1/west_zmq_info-10299115.json --zmq-comm-mode=tcp
++ w_run --work-manager=zmq --n-workers=8 --zmq-mode=client --zmq-read-host-info=/ocean/projects/mcb180038p/dyang4/eg5/we/1d_lig_rms_from_v00_106_1/west_zmq_info-10522595.json --zmq-comm-mode=tcp
++ echo 'Shutting down.  Hopefully this was on purpose?'

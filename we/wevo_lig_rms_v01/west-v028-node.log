@@ -1,0 +1,25 @@
+Updating system with the options from the configuration file
+Exception in thread Thread-3:
+Traceback (most recent call last):
+  File "/jet/home/dyang4/Apps/anaconda3/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "/jet/home/dyang4/Apps/anaconda3/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "/jet/home/dyang4/Apps/anaconda3/lib/python3.9/site-packages/zmq/devices/basedevice.py", line 223, in run
+    self.run_device()
+  File "/jet/home/dyang4/Apps/anaconda3/lib/python3.9/site-packages/zmq/devices/proxydevice.py", line 74, in run_device
+    ins, outs, mons = self._setup_sockets()
+  File "/jet/home/dyang4/Apps/anaconda3/lib/python3.9/site-packages/zmq/devices/proxydevice.py", line 57, in _setup_sockets
+    ins, outs = Device._setup_sockets(self)
+  File "/jet/home/dyang4/Apps/anaconda3/lib/python3.9/site-packages/zmq/devices/basedevice.py", line 203, in _setup_sockets
+    outs.bind(iface)
+  File "/jet/home/dyang4/Apps/anaconda3/lib/python3.9/site-packages/zmq/sugar/socket.py", line 214, in bind
+    super().bind(addr)
+  File "zmq/backend/cython/socket.pyx", line 540, in zmq.backend.cython.socket.Socket.bind
+  File "zmq/backend/cython/checkrc.pxd", line 28, in zmq.backend.cython.checkrc._check_rc
+zmq.error.ZMQError: Address already in use
+-- ERROR    [westpa.work_managers.zeromq.core.ZMQWorker.9b32f0b4-f807-4794-83f9-f6a0ac891b7a] -- startup phase elapsed with no contact from master; shutting down
+-- ERROR    [westpa.work_managers.zeromq.core.ZMQWorker.6f4560bf-bd47-4ca0-a5de-4f97ef4ae492] -- startup phase elapsed with no contact from master; shutting down
+-- ERROR    [westpa.work_managers.zeromq.core.ZMQWorker.516e1e95-a434-48d1-97fe-e7bfef75896f] -- startup phase elapsed with no contact from master; shutting down
+-- ERROR    [westpa.work_managers.zeromq.core.ZMQWorker.86023be7-8a96-4151-b622-119673085377] -- startup phase elapsed with no contact from master; shutting down
+-- ERROR    [westpa.work_managers.zeromq.core.ZMQNode.0625bef0-501e-4920-af04-a7055319dd2b] -- startup phase elapsed with no contact from peer; shutting down

@@ -5,9 +5,9 @@
 #SBATCH --mail-user=dty7@pitt.edu
 #SBATCH --mail-type=ALL
 #SBATCH --nodes=1
-#SBATCH --ntasks-per-node=8
-#SBATCH --partition=GPU
-#SBATCH --gpus=8
+#SBATCH --ntasks-per-node=4
+#SBATCH --partition=GPU-shared
+#SBATCH --gpus=4
 #SBATCH --time=47:59:59
 
 set -x
@@ -43,7 +43,7 @@ fi
 # start clients, with the proper number of cores on each
 
 for node in $(scontrol show hostname $SLURM_NODELIST); do
-    ssh -o StrictHostKeyChecking=no $node $PWD/node.sh $SLURM_SUBMIT_DIR $SLURM_JOBID $node $CUDA_VISIBLE_DEVICES --work-manager=zmq --n-workers=8 --zmq-mode=client --zmq-read-host-info=$SERVER_INFO --zmq-comm-mode=tcp &
+    ssh -o StrictHostKeyChecking=no $node $PWD/node.sh $SLURM_SUBMIT_DIR $SLURM_JOBID $node $CUDA_VISIBLE_DEVICES --work-manager=zmq --n-workers=4 --zmq-mode=client --zmq-read-host-info=$SERVER_INFO --zmq-comm-mode=tcp &
 done
 
 
