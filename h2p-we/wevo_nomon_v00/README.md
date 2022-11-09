@@ -4,4 +4,8 @@
 --------------------
 # Now using H2P
 * this used wevo v03 as a template but I want to replace the basis state with the wt eg5, so no monastrol, maybe it will be easier to unbind?
-
+* replaced bstate
+* added common files from atb: /jet/home/dyang4/mcb180038p/atb43/eg5/eg5_holo_test_r02b2d_ene_dist_20/common_files
+* updated get_pcoord and prmtop names
+* updated runseg and prmtop names
+* updated west.cfg

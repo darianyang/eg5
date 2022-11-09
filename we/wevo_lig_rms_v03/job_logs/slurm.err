@@ -44,7 +44,7 @@
 ++++ '[' -r /etc/profile.d/99-timeout.sh ']'
 ++++ '[' '[\u@\h \W]\$ ' ']'
 ++++ . /etc/profile.d/99-timeout.sh
-+++++ '[' -n 12483886 ']'
++++++ '[' -n 12899007 ']'
 +++++ export TMOUT=1800
 +++++ TMOUT=1800
 ++++ for i in /etc/profile.d/*.sh
@@ -133,7 +133,7 @@
 +++++ '[' '!' -x /usr/bin/expr ']'
 +++++ BASENAME_CMD=/usr/bin/basename
 +++++ '[' '!' -x /usr/bin/basename ']'
-++++++ /usr/bin/ps -p 14792 -ocomm=
+++++++ /usr/bin/ps -p 43919 -ocomm=
 +++++ my_shell=slurm_script
 ++++++ /usr/bin/expr slurm_script : '-*\(.*\)'
 +++++ my_shell=slurm_script
@@ -168,8 +168,8 @@
 ++++ '[' '[\u@\h \W]\$ ' ']'
 ++++ . /etc/profile.d/puppet-agent.sh
 +++++ '[' -z /ocean/projects/mcb180038p/jml230/amber22/bin:/jet/home/dyang4/Apps/anaconda3/bin:/jet/home/dyang4/Apps/anaconda3/condabin:/jet/home/dyang4/.local/bin:/jet/home/dyang4/bin:/opt/packages/allocations/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/packages/interact/bin:/opt/puppetlabs/bin ']'
-+++++ echo /ocean/projects/mcb180038p/jml230/amber22/bin:/jet/home/dyang4/Apps/anaconda3/bin:/jet/home/dyang4/Apps/anaconda3/condabin:/jet/home/dyang4/.local/bin:/jet/home/dyang4/bin:/opt/packages/allocations/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/packages/interact/bin:/opt/puppetlabs/bin
 +++++ grep -q /opt/puppetlabs/bin
++++++ echo /ocean/projects/mcb180038p/jml230/amber22/bin:/jet/home/dyang4/Apps/anaconda3/bin:/jet/home/dyang4/Apps/anaconda3/condabin:/jet/home/dyang4/.local/bin:/jet/home/dyang4/bin:/opt/packages/allocations/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/packages/interact/bin:/opt/puppetlabs/bin
 +++++ echo /usr/share/lmod/lmod/share/man::/opt/puppetlabs/puppet/share/man
 +++++ grep -q /opt/puppetlabs/puppet/share/man
 ++++ for i in /etc/profile.d/*.sh
@@ -193,8 +193,8 @@
 ++++ '[' -r /etc/profile.d/which2.sh ']'
 ++++ '[' '[\u@\h \W]\$ ' ']'
 ++++ . /etc/profile.d/which2.sh
-+++++ '[' /var/spool/slurm/d/job12483886/slurm_script = ksh ']'
-+++++ '[' /var/spool/slurm/d/job12483886/slurm_script = -ksh ']'
++++++ '[' /var/spool/slurm/d/job12899007/slurm_script = ksh ']'
++++++ '[' /var/spool/slurm/d/job12899007/slurm_script = -ksh ']'
 +++++ alias 'which=(alias; declare -f) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot'
 ++++ for i in /etc/profile.d/*.sh
 ++++ '[' -r /etc/profile.d/z00_lmod.sh ']'
@@ -211,7 +211,7 @@
 +++++ '[' '!' -x /usr/bin/expr ']'
 +++++ BASENAME_CMD=/usr/bin/basename
 +++++ '[' '!' -x /usr/bin/basename ']'
-++++++ /usr/bin/ps -p 14792 -ocomm=
+++++++ /usr/bin/ps -p 43919 -ocomm=
 +++++ my_shell=slurm_script
 ++++++ /usr/bin/expr slurm_script : '-*\(.*\)'
 +++++ my_shell=slurm_script
@@ -249,7 +249,7 @@
 ++++++ '[' '!' -x /usr/bin/expr ']'
 ++++++ BASENAME_CMD=/usr/bin/basename
 ++++++ '[' '!' -x /usr/bin/basename ']'
-+++++++ /usr/bin/ps -p 14792 -ocomm=
++++++++ /usr/bin/ps -p 43919 -ocomm=
 ++++++ my_shell=slurm_script
 +++++++ /usr/bin/expr slurm_script : '-*\(.*\)'
 ++++++ my_shell=slurm_script
@@ -736,32 +736,32 @@ export CONDA_PROMPT_MODIFIER='\''(base) '\'''
 + env
 + sort
 + cd /ocean/projects/mcb180038p/dyang4/eg5/we/wevo_lig_rms_v03
-+ SERVER_INFO=/ocean/projects/mcb180038p/dyang4/eg5/we/wevo_lig_rms_v03/west_zmq_info-12483886.json
++ SERVER_INFO=/ocean/projects/mcb180038p/dyang4/eg5/we/wevo_lig_rms_v03/west_zmq_info-12899007.json
 + which w_run
 + (( n=0 ))
-+ w_run --work-manager=zmq --n-workers=0 --zmq-mode=master --zmq-write-host-info=/ocean/projects/mcb180038p/dyang4/eg5/we/wevo_lig_rms_v03/west_zmq_info-12483886.json --zmq-comm-mode=tcp
++ w_run --work-manager=zmq --n-workers=0 --zmq-mode=master --zmq-write-host-info=/ocean/projects/mcb180038p/dyang4/eg5/we/wevo_lig_rms_v03/west_zmq_info-12899007.json --zmq-comm-mode=tcp
 + (( n<60 ))
-+ '[' -e /ocean/projects/mcb180038p/dyang4/eg5/we/wevo_lig_rms_v03/west_zmq_info-12483886.json ']'
++ '[' -e /ocean/projects/mcb180038p/dyang4/eg5/we/wevo_lig_rms_v03/west_zmq_info-12899007.json ']'
 + sleep 1
 + (( n++ ))
 + (( n<60 ))
-+ '[' -e /ocean/projects/mcb180038p/dyang4/eg5/we/wevo_lig_rms_v03/west_zmq_info-12483886.json ']'
++ '[' -e /ocean/projects/mcb180038p/dyang4/eg5/we/wevo_lig_rms_v03/west_zmq_info-12899007.json ']'
 + sleep 1
 + (( n++ ))
 + (( n<60 ))
-+ '[' -e /ocean/projects/mcb180038p/dyang4/eg5/we/wevo_lig_rms_v03/west_zmq_info-12483886.json ']'
++ '[' -e /ocean/projects/mcb180038p/dyang4/eg5/we/wevo_lig_rms_v03/west_zmq_info-12899007.json ']'
 + sleep 1
 + (( n++ ))
 + (( n<60 ))
-+ '[' -e /ocean/projects/mcb180038p/dyang4/eg5/we/wevo_lig_rms_v03/west_zmq_info-12483886.json ']'
-+ echo '== server info file /ocean/projects/mcb180038p/dyang4/eg5/we/wevo_lig_rms_v03/west_zmq_info-12483886.json =='
-+ cat /ocean/projects/mcb180038p/dyang4/eg5/we/wevo_lig_rms_v03/west_zmq_info-12483886.json
++ '[' -e /ocean/projects/mcb180038p/dyang4/eg5/we/wevo_lig_rms_v03/west_zmq_info-12899007.json ']'
++ echo '== server info file /ocean/projects/mcb180038p/dyang4/eg5/we/wevo_lig_rms_v03/west_zmq_info-12899007.json =='
++ cat /ocean/projects/mcb180038p/dyang4/eg5/we/wevo_lig_rms_v03/west_zmq_info-12899007.json
 + break
-+ '[' -e /ocean/projects/mcb180038p/dyang4/eg5/we/wevo_lig_rms_v03/west_zmq_info-12483886.json ']'
-++ scontrol show hostname v010
++ '[' -e /ocean/projects/mcb180038p/dyang4/eg5/we/wevo_lig_rms_v03/west_zmq_info-12899007.json ']'
+++ scontrol show hostname v034
 + for node in $(scontrol show hostname $SLURM_NODELIST)
 + wait
-+ ssh -o StrictHostKeyChecking=no v010 /ocean/projects/mcb180038p/dyang4/eg5/we/wevo_lig_rms_v03/node.sh /ocean/projects/mcb180038p/dyang4/eg5/we/wevo_lig_rms_v03 12483886 v010 0,1,2,3 --work-manager=zmq --n-workers=4 --zmq-mode=client --zmq-read-host-info=/ocean/projects/mcb180038p/dyang4/eg5/we/wevo_lig_rms_v03/west_zmq_info-12483886.json --zmq-comm-mode=tcp
++ ssh -o StrictHostKeyChecking=no v034 /ocean/projects/mcb180038p/dyang4/eg5/we/wevo_lig_rms_v03/node.sh /ocean/projects/mcb180038p/dyang4/eg5/we/wevo_lig_rms_v03 12899007 v034 0,1,2,3 --work-manager=zmq --n-workers=4 --zmq-mode=client --zmq-read-host-info=/ocean/projects/mcb180038p/dyang4/eg5/we/wevo_lig_rms_v03/west_zmq_info-12899007.json --zmq-comm-mode=tcp
 + cd /ocean/projects/mcb180038p/dyang4/eg5/we/wevo_lig_rms_v03
 + shift
 + source env.sh
@@ -1211,11 +1211,11 @@ export CONDA_PROMPT_MODIFIER='\''(base) '\'''
 ++ PMEMD=/ocean/projects/mcb180038p/jml230/amber22/bin/pmemd.cuda
 ++ export CPPTRAJ=/ocean/projects/mcb180038p/jml230/amber22/bin/cpptraj
 ++ CPPTRAJ=/ocean/projects/mcb180038p/jml230/amber22/bin/cpptraj
-+ export WEST_JOBID=12483886
-+ WEST_JOBID=12483886
++ export WEST_JOBID=12899007
++ WEST_JOBID=12899007
 + shift
-+ export SLURM_NODENAME=v010
-+ SLURM_NODENAME=v010
++ export SLURM_NODENAME=v034
++ SLURM_NODENAME=v034
 + shift
 + export CUDA_VISIBLE_DEVICES_ALLOCATED=0,1,2,3
 + CUDA_VISIBLE_DEVICES_ALLOCATED=0,1,2,3
@@ -1226,4 +1226,4 @@ export CONDA_PROMPT_MODIFIER='\''(base) '\'''
 + echo 'environment is: '
 + env
 + sort
-+ w_run --work-manager=zmq --n-workers=4 --zmq-mode=client --zmq-read-host-info=/ocean/projects/mcb180038p/dyang4/eg5/we/wevo_lig_rms_v03/west_zmq_info-12483886.json --zmq-comm-mode=tcp
++ w_run --work-manager=zmq --n-workers=4 --zmq-mode=client --zmq-read-host-info=/ocean/projects/mcb180038p/dyang4/eg5/we/wevo_lig_rms_v03/west_zmq_info-12899007.json --zmq-comm-mode=tcp

@@ -22,12 +22,12 @@ def calc_sasa(selection):
     wpath = sys.argv[1]
 
     # load the parent rst frame and current segment coords
-    traj_parent = mdtraj.load(f"{wpath}/parent.ncrst", top="1x88_solv.prmtop") 
-    traj_segment = mdtraj.load(f"{wpath}/seg.nc", top="1x88_solv.prmtop")
+    traj_parent = mdtraj.load(f"{wpath}/parent.ncrst", top="eg5_2022.prmtop") 
+    traj_segment = mdtraj.load(f"{wpath}/seg.nc", top="eg5_2022.prmtop")
     traj = traj_parent+traj_segment
 
     #traj = mdtraj.load(f"{wpath}/eg5_2022.pdb")
-    #traj = mdtraj.load("../bstates/05_eq3.ncrst", top="1x88_solv.prmtop")
+    #traj = mdtraj.load("../bstates/05_eq3.ncrst", top="eg5_2022.prmtop")
 
     # select a portion of the entire system
     # note that some amber models (e.g. TIP4P) will have virtual sites (VS)
@@ -45,15 +45,15 @@ def calc_sasa(selection):
     # convert nm^2 to Angstroms^2 and return
     return sasa * 10**2 
 
-prot = calc_sasa("resid 1 to 368")
+prot = calc_sasa("resid 1 to 367")
 recept = calc_sasa("resid 23 to 29 or resid 71 to 77 or resid 80 \
                     or resid 102 to 117 or resid 131 or resid 231 \
                     to 232 or resid 264 to 269 or resid 273 or \
                     resid 332 or resid 334 to 337")
 adp = calc_sasa("resname ADP")
-mon = calc_sasa("resname MON")
+#mon = calc_sasa("resname MON")
 
 np.savetxt("prot_sasa.dat", prot) 
 np.savetxt("recept_sasa.dat", recept) 
 np.savetxt("adp_sasa.dat", adp)
-np.savetxt("mon_sasa.dat", mon)
+#np.savetxt("mon_sasa.dat", mon)
