@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=v00_1x88_1d_adp-mg-rms_multi_mab
+#SBATCH --job-name=v00_wevo_eg5_wt
 #SBATCH --output=job_logs/slurm.out
 #SBATCH --error=job_logs/slurm.err
 #SBATCH --mail-user=dty7@pitt.edu

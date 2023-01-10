@@ -26,7 +26,9 @@ merge_alg = 'pairs'
 # 100kT
 #pmin = 1e-45
 # 200 kT
-pmin = 1e-84
+#pmin = 1e-84
+# 300 kT
+pmin = 1e-129
 pmax = 0.1
 
 # modifies distance and weight relative to each other in novelty function

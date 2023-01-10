@@ -7,5 +7,6 @@
 * replaced bstate
 * added common files from atb: /jet/home/dyang4/mcb180038p/atb43/eg5/eg5_holo_test_r02b2d_ene_dist_20/common_files
 * updated get_pcoord and prmtop names
-* updated runseg and prmtop names
+* updated runseg prmtop names
+* note that the true eg5 wt from atb is the same numbering as 1x88, mon is just after it (371)
 * updated west.cfg

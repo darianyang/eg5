@@ -1,0 +1,541 @@
+
+CPPTRAJ: Trajectory Analysis. V6.4.4 (AmberTools)
+    ___  ___  ___  ___
+     | \/ | \/ | \/ | 
+    _|_/\_|_/\_|_/\_|_
+
+| Date/time: 12/02/22 14:46:02
+| Available memory: 8.038 GB
+
+INPUT: Reading input from 'STDIN'
+  [parm /ihome/lchong/dty7/ix/eg5/h2p-we/wevo_nomon_v01/common_files/eg5_2022.prmtop]
+	Reading '/ihome/lchong/dty7/ix/eg5/h2p-we/wevo_nomon_v01/common_files/eg5_2022.prmtop' as Amber Topology
+	Radius Set: modified Bondi radii (mbondi)
+  [trajin /ihome/lchong/dty7/ix/eg5/h2p-we/wevo_nomon_v01/bstates/05_eq3.ncrst]
+	Reading '/ihome/lchong/dty7/ix/eg5/h2p-we/wevo_nomon_v01/bstates/05_eq3.ncrst' as Amber NC Restart
+  [reference /ihome/lchong/dty7/ix/eg5/h2p-we/wevo_nomon_v01/bstates/ref.ncrst]
+	Reading '/ihome/lchong/dty7/ix/eg5/h2p-we/wevo_nomon_v01/bstates/ref.ncrst' as Amber NC Restart
+	Setting active reference for distance-based masks: 'ref.ncrst'
+  [autoimage]
+    AUTOIMAGE: To box center based on center of mass, anchor is first molecule.
+  [rmsd :18-364&!@H= reference]
+    RMSD: (:18-364&!@H*), reference is "default_name" (:18-364&!@H*).
+	Best-fit RMSD will be calculated, coords will be rotated and translated.
+  [rmsd adp-mg-rmsd :369-370&!@H= reference nofit out pcoord.dat]
+    RMSD: (:369-370&!@H*), reference is "default_name" (:369-370&!@H*).
+	No fitting will be performed.
+  [rmsd base-rmsd :370@C4*,O4*,C1*,N9,C8,N7,C5,C6,N6,N1,C2,N3,C4,C3*,O3*,C2*,O2* reference nofit out pcoord.dat]
+    RMSD: (:370@C4*,O4*,C1*,N9,C8,N7,C5,C6,N6,N1,C2,N3,C4,C3*,O3*,C2*,O2*), reference is "default_name" (:370@C4*,O4*,C1*,N9,C8,N7,C5,C6,N6,N1,C2,N3,C4,C3*,O3*,C2*,O2*).
+	No fitting will be performed.
+  [rmsd phos-rmsd :370@O1B,PB,O2B,O3B,O3A,PA,O1A,O2A,O5*,C5* reference nofit out pcoord.dat]
+    RMSD: (:370@O1B,PB,O2B,O3B,O3A,PA,O1A,O2A,O5*,C5*), reference is "default_name" (:370@O1B,PB,O2B,O3B,O3A,PA,O1A,O2A,O5*,C5*).
+	No fitting will be performed.
+  [nativecontacts mindist :1-367 :369 out pcoord.dat]
+Warning: No reference structure specified. Defaulting to first.
+    NATIVECONTACTS: Mask1=':1-367' Mask2=':369', native contacts set up based on first frame.
+	Distance cutoff is 7 Angstroms, imaging is on.
+	Mask selection will not include solvent.
+	Data set name: Contacts_00006
+	Saving minimum observed distances in set 'Contacts_00006[mindist]'
+	Output to 'pcoord.dat'
+	Contact stats will be written to 'STDOUT'
+	Contact res pairs will be written to 'STDOUT'
+  [rmsd prot-rmsd :1-368&!@H= reference nofit out auxdata_rmsd.dat]
+    RMSD: (:1-368&!@H*), reference is "default_name" (:1-368&!@H*).
+	No fitting will be performed.
+  [rmsd rec-rmsd :24-30,72-78,81,103-118,132,232-233,265-270,274,333,335-338&!@H= reference nofit out auxdata_rmsd.dat]
+    RMSD: (:24-30,72-78,81,103-118,132,232-233,265-270,274,333,335-338&!@H*), reference is "default_name" (:24-30,72-78,81,103-118,132,232-233,265-270,274,333,335-338&!@H*).
+	No fitting will be performed.
+  [rmsd adp-rmsd :370&!@H= reference nofit out auxdata_rmsd.dat]
+    RMSD: (:370&!@H*), reference is "default_name" (:370&!@H*).
+	No fitting will be performed.
+  [rmsd adpcpx-rmsd :1-370&!@H= reference nofit out auxdata_rmsd.dat]
+    RMSD: (:1-370&!@H*), reference is "default_name" (:1-370&!@H*).
+	No fitting will be performed.
+  [rmsd loop5-rmsd :116-133&!@H= reference nofit out auxdata_rmsd.dat]
+    RMSD: (:116-133&!@H*), reference is "default_name" (:116-133&!@H*).
+	No fitting will be performed.
+  [rmsd protcut-rmsd :18-364&!@H= reference nofit out auxdata_rmsd.dat]
+    RMSD: (:18-364&!@H*), reference is "default_name" (:18-364&!@H*).
+	No fitting will be performed.
+  [energy rec-ene :24-30,72-78,81,103-118,132,232-233,265-270,274,333,335-338 out auxdata_ene.dat]
+    ENERGY: Calculating energy for atoms in mask ':24-30,72-78,81,103-118,132,232-233,265-270,274,333,335-338'
+	Calculating terms: 'Bonds' 'Angles' 'Dihedrals' '1-4 VDW' '1-4 Elec.' 'VDW' 'Elec.' 'Kinetic' 'Total'
+	Electrostatics method: Simple
+	If forces and velocities present KE will be calculated assuming
+	velocities are a half step ahead of forces; if only velocities
+	present KE will be calculated assuming velocities are on-step.
+	Time step for KE calculation if forces present: 0.001 ps
+  [energy adp-ene :370 out auxdata_ene.dat]
+    ENERGY: Calculating energy for atoms in mask ':370'
+	Calculating terms: 'Bonds' 'Angles' 'Dihedrals' '1-4 VDW' '1-4 Elec.' 'VDW' 'Elec.' 'Kinetic' 'Total'
+	Electrostatics method: Simple
+	If forces and velocities present KE will be calculated assuming
+	velocities are a half step ahead of forces; if only velocities
+	present KE will be calculated assuming velocities are on-step.
+	Time step for KE calculation if forces present: 0.001 ps
+  [energy adpcpx-ene :24-30,72-78,81,103-118,132,232-233,265-270,274,333,335-338,370 out auxdata_ene.dat]
+    ENERGY: Calculating energy for atoms in mask ':24-30,72-78,81,103-118,132,232-233,265-270,274,333,335-338,370'
+	Calculating terms: 'Bonds' 'Angles' 'Dihedrals' '1-4 VDW' '1-4 Elec.' 'VDW' 'Elec.' 'Kinetic' 'Total'
+	Electrostatics method: Simple
+	If forces and velocities present KE will be calculated assuming
+	velocities are a half step ahead of forces; if only velocities
+	present KE will be calculated assuming velocities are on-step.
+	Time step for KE calculation if forces present: 0.001 ps
+  [surf rec-sasa :24-30,72-78,81,103-118,132,232-233,265-270,274,333,335-338 out auxdata_sasa.dat]
+    SURF: Calculating LCPO surface area for atoms in mask ':24-30,72-78,81,103-118,132,232-233,265-270,274,333,335-338'
+	Solute will be all molecules not marked as solvent with size > 1 atom.
+	van der Waals offset is 1.4 Ang.
+	Cutoff for determining whether atoms have neighbors is 2.5 Ang.
+	Output to 'auxdata_sasa.dat'
+#Citation: Weiser, J.; Shenkin, P. S.; Still, W. C.; "Approximate atomic
+#          surfaces from linear combinations of pairwise overlaps (LCPO)."
+#          J. Comp. Chem. (1999), V.20, pp.217-230.
+  [surf adp-sasa :370 out auxdata_sasa.dat]
+    SURF: Calculating LCPO surface area for atoms in mask ':370'
+	Solute will be all molecules not marked as solvent with size > 1 atom.
+	van der Waals offset is 1.4 Ang.
+	Cutoff for determining whether atoms have neighbors is 2.5 Ang.
+	Output to 'auxdata_sasa.dat'
+#Citation: Weiser, J.; Shenkin, P. S.; Still, W. C.; "Approximate atomic
+#          surfaces from linear combinations of pairwise overlaps (LCPO)."
+#          J. Comp. Chem. (1999), V.20, pp.217-230.
+  [surf prot-sasa :1-368 out auxdata_sasa.dat]
+    SURF: Calculating LCPO surface area for atoms in mask ':1-368'
+	Solute will be all molecules not marked as solvent with size > 1 atom.
+	van der Waals offset is 1.4 Ang.
+	Cutoff for determining whether atoms have neighbors is 2.5 Ang.
+	Output to 'auxdata_sasa.dat'
+#Citation: Weiser, J.; Shenkin, P. S.; Still, W. C.; "Approximate atomic
+#          surfaces from linear combinations of pairwise overlaps (LCPO)."
+#          J. Comp. Chem. (1999), V.20, pp.217-230.
+  [go]
+---------- RUN BEGIN -------------------------------------------------
+
+PARAMETER FILES (1 total):
+ 0: eg5_2022.prmtop, 146705 atoms, 35697 res, box: Truncated octahedron, 35330 mol, 35181 solvent
+
+INPUT TRAJECTORIES (1 total):
+ 0: '05_eq3.ncrst' is a NetCDF AMBER restart file with coordinates, velocities, time, box, Parm eg5_2022.prmtop (Truncated octahedron box) (reading 1 of 1)
+  Coordinate processing will occur on 1 frames.
+
+REFERENCE FRAMES (1 total):
+    0: ref.ncrst:1
+	Active reference frame for distance-based masks is 'default_name'
+
+BEGIN TRAJECTORY PROCESSING:
+.....................................................
+ACTION SETUP FOR PARM 'eg5_2022.prmtop' (18 actions):
+  0: [autoimage]
+	Original box is truncated octahedron, turning on 'familiar'.
+	Using first molecule as anchor.
+	1 molecules are fixed to anchor: 3
+	35328 molecules are mobile.
+  1: [rmsd :18-364&!@H= reference]
+	Target mask: [:18-364&!@H*](2717)
+	Reference topology: eg5_2022.prmtop
+	Reference mask: [:18-364&!@H*](2717)
+  2: [rmsd adp-mg-rmsd :369-370&!@H= reference nofit out pcoord.dat]
+	Target mask: [:369-370&!@H*](28)
+	Reference topology: eg5_2022.prmtop
+	Reference mask: [:369-370&!@H*](28)
+  3: [rmsd base-rmsd :370@C4*,O4*,C1*,N9,C8,N7,C5,C6,N6,N1,C2,N3,C4,C3*,O3*,C2*,O2* reference nofit out pcoord.dat]
+	Target mask: [:370@C4*,O4*,C1*,N9,C8,N7,C5,C6,N6,N1,C2,N3,C4,C3*,O3*,C2*,O2*](22)
+	Reference topology: eg5_2022.prmtop
+	Reference mask: [:370@C4*,O4*,C1*,N9,C8,N7,C5,C6,N6,N1,C2,N3,C4,C3*,O3*,C2*,O2*](22)
+  4: [rmsd phos-rmsd :370@O1B,PB,O2B,O3B,O3A,PA,O1A,O2A,O5*,C5* reference nofit out pcoord.dat]
+	Target mask: [:370@O1B,PB,O2B,O3B,O3A,PA,O1A,O2A,O5*,C5*](11)
+	Reference topology: eg5_2022.prmtop
+	Reference mask: [:370@O1B,PB,O2B,O3B,O3A,PA,O1A,O2A,O5*,C5*](11)
+  5: [nativecontacts mindist :1-367 :369 out pcoord.dat]
+	Mask [:1-367] corresponds to 5772 atoms.
+	Mask [:369] corresponds to 1 atoms.
+	5772 potential contact sites for ':1-367'
+	1 potential contact sites for ':369'
+	Imaging enabled.
+  6: [rmsd prot-rmsd :1-368&!@H= reference nofit out auxdata_rmsd.dat]
+	Target mask: [:1-368&!@H*](2878)
+	Reference topology: eg5_2022.prmtop
+	Reference mask: [:1-368&!@H*](2878)
+  7: [rmsd rec-rmsd :24-30,72-78,81,103-118,132,232-233,265-270,274,333,335-338&!@H= reference nofit out auxdata_rmsd.dat]
+	Target mask: [:24-30,72-78,81,103-118,132,232-233,265-270,274,333,335-338&!@H*](343)
+	Reference topology: eg5_2022.prmtop
+	Reference mask: [:24-30,72-78,81,103-118,132,232-233,265-270,274,333,335-338&!@H*](343)
+  8: [rmsd adp-rmsd :370&!@H= reference nofit out auxdata_rmsd.dat]
+	Target mask: [:370&!@H*](27)
+	Reference topology: eg5_2022.prmtop
+	Reference mask: [:370&!@H*](27)
+  9: [rmsd adpcpx-rmsd :1-370&!@H= reference nofit out auxdata_rmsd.dat]
+	Target mask: [:1-370&!@H*](2906)
+	Reference topology: eg5_2022.prmtop
+	Reference mask: [:1-370&!@H*](2906)
+  10: [rmsd loop5-rmsd :116-133&!@H= reference nofit out auxdata_rmsd.dat]
+	Target mask: [:116-133&!@H*](151)
+	Reference topology: eg5_2022.prmtop
+	Reference mask: [:116-133&!@H*](151)
+  11: [rmsd protcut-rmsd :18-364&!@H= reference nofit out auxdata_rmsd.dat]
+	Target mask: [:18-364&!@H*](2717)
+	Reference topology: eg5_2022.prmtop
+	Reference mask: [:18-364&!@H*](2717)
+  12: [energy rec-ene :24-30,72-78,81,103-118,132,232-233,265-270,274,333,335-338 out auxdata_ene.dat]
+	Mask [:24-30,72-78,81,103-118,132,232-233,265-270,274,333,335-338] corresponds to 680 atoms.
+	Memory used by full exclusion list: 14.196 kB
+	Force info not present. Assuming velocities are at same time
+	step as coordinates.
+  13: [energy adp-ene :370 out auxdata_ene.dat]
+	Mask [:370] corresponds to 39 atoms.
+	Memory used by full exclusion list: 0.788 kB
+	Force info not present. Assuming velocities are at same time
+	step as coordinates.
+  14: [energy adpcpx-ene :24-30,72-78,81,103-118,132,232-233,265-270,274,333,335-338,370 out auxdata_ene.dat]
+	Mask [:24-30,72-78,81,103-118,132,232-233,265-270,274,333,335-338,370] corresponds to 719 atoms.
+	Memory used by full exclusion list: 14.984 kB
+	Force info not present. Assuming velocities are at same time
+	step as coordinates.
+  15: [surf rec-sasa :24-30,72-78,81,103-118,132,232-233,265-270,274,333,335-338 out auxdata_sasa.dat]
+	Mask [:24-30,72-78,81,103-118,132,232-233,265-270,274,333,335-338] corresponds to 680 atoms.
+	Considering only non-solvent molecules with size > 1 as solute.
+	5834 solute atoms. Calculating LCPO surface area for 680 atoms.
+	2905 atoms with neighbors.
+	Calculating SA for 343 atoms with neighbors.
+	Contribution from atoms with no neighbors is 0
+  16: [surf adp-sasa :370 out auxdata_sasa.dat]
+	Mask [:370] corresponds to 39 atoms.
+	Considering only non-solvent molecules with size > 1 as solute.
+	5834 solute atoms. Calculating LCPO surface area for 39 atoms.
+	2905 atoms with neighbors.
+	Calculating SA for 27 atoms with neighbors.
+	Contribution from atoms with no neighbors is 0
+  17: [surf prot-sasa :1-368 out auxdata_sasa.dat]
+	Mask [:1-368] corresponds to 5795 atoms.
+	Considering only non-solvent molecules with size > 1 as solute.
+	5834 solute atoms. Calculating LCPO surface area for 5795 atoms.
+	2905 atoms with neighbors.
+	Calculating SA for 2878 atoms with neighbors.
+	Contribution from atoms with no neighbors is 0
+----- 05_eq3.ncrst (1-1, 1) -----
+	Using first frame to determine native contacts.
+	Mask [:1-367] corresponds to 5772 atoms.
+	Mask [:369] corresponds to 1 atoms.
+	Setup 100 native contacts:
+		Atom ':107@CA' to ':369@MG'
+		Atom ':107@HA' to ':369@MG'
+		Atom ':107@CB' to ':369@MG'
+		Atom ':107@CG2' to ':369@MG'
+		Atom ':107@HG21' to ':369@MG'
+		Atom ':107@HG22' to ':369@MG'
+		Atom ':107@HG23' to ':369@MG'
+		Atom ':107@OG1' to ':369@MG'
+		Atom ':107@C' to ':369@MG'
+		Atom ':108@N' to ':369@MG'
+		Atom ':108@H' to ':369@MG'
+		Atom ':108@CA' to ':369@MG'
+		Atom ':108@HA2' to ':369@MG'
+		Atom ':109@H' to ':369@MG'
+		Atom ':110@N' to ':369@MG'
+		Atom ':110@H' to ':369@MG'
+		Atom ':110@CA' to ':369@MG'
+		Atom ':110@HA2' to ':369@MG'
+		Atom ':110@C' to ':369@MG'
+		Atom ':111@N' to ':369@MG'
+		Atom ':111@H' to ':369@MG'
+		Atom ':111@CA' to ':369@MG'
+		Atom ':111@HA' to ':369@MG'
+		Atom ':111@CB' to ':369@MG'
+		Atom ':111@HB2' to ':369@MG'
+		Atom ':111@HB3' to ':369@MG'
+		Atom ':111@CG' to ':369@MG'
+		Atom ':111@HG2' to ':369@MG'
+		Atom ':111@HG3' to ':369@MG'
+		Atom ':111@CD' to ':369@MG'
+		Atom ':111@HD2' to ':369@MG'
+		Atom ':111@HD3' to ':369@MG'
+		Atom ':111@CE' to ':369@MG'
+		Atom ':111@HE2' to ':369@MG'
+		Atom ':111@HE3' to ':369@MG'
+		Atom ':111@NZ' to ':369@MG'
+		Atom ':111@HZ1' to ':369@MG'
+		Atom ':111@HZ2' to ':369@MG'
+		Atom ':111@HZ3' to ':369@MG'
+		Atom ':111@C' to ':369@MG'
+		Atom ':111@O' to ':369@MG'
+		Atom ':112@N' to ':369@MG'
+		Atom ':112@H' to ':369@MG'
+		Atom ':112@CA' to ':369@MG'
+		Atom ':112@HA' to ':369@MG'
+		Atom ':112@CB' to ':369@MG'
+		Atom ':112@HB' to ':369@MG'
+		Atom ':112@CG2' to ':369@MG'
+		Atom ':112@HG21' to ':369@MG'
+		Atom ':112@HG22' to ':369@MG'
+		Atom ':112@HG23' to ':369@MG'
+		Atom ':112@OG1' to ':369@MG'
+		Atom ':112@HG1' to ':369@MG'
+		Atom ':112@C' to ':369@MG'
+		Atom ':112@O' to ':369@MG'
+		Atom ':113@N' to ':369@MG'
+		Atom ':113@H' to ':369@MG'
+		Atom ':116@OE2' to ':369@MG'
+		Atom ':221@HD2' to ':369@MG'
+		Atom ':221@CZ' to ':369@MG'
+		Atom ':221@NH1' to ':369@MG'
+		Atom ':221@HH11' to ':369@MG'
+		Atom ':221@HH12' to ':369@MG'
+		Atom ':221@HH22' to ':369@MG'
+		Atom ':232@CA' to ':369@MG'
+		Atom ':232@HA' to ':369@MG'
+		Atom ':232@CB' to ':369@MG'
+		Atom ':232@HB2' to ':369@MG'
+		Atom ':232@HB3' to ':369@MG'
+		Atom ':232@OG' to ':369@MG'
+		Atom ':232@HG' to ':369@MG'
+		Atom ':232@C' to ':369@MG'
+		Atom ':232@O' to ':369@MG'
+		Atom ':233@N' to ':369@MG'
+		Atom ':233@H' to ':369@MG'
+		Atom ':233@CA' to ':369@MG'
+		Atom ':233@HA' to ':369@MG'
+		Atom ':233@CB' to ':369@MG'
+		Atom ':233@HB2' to ':369@MG'
+		Atom ':233@HB3' to ':369@MG'
+		Atom ':233@C' to ':369@MG'
+		Atom ':233@O' to ':369@MG'
+		Atom ':235@O' to ':369@MG'
+		Atom ':237@HB2' to ':369@MG'
+		Atom ':265@CA' to ':369@MG'
+		Atom ':265@HA' to ':369@MG'
+		Atom ':265@CB' to ':369@MG'
+		Atom ':265@HB2' to ':369@MG'
+		Atom ':265@HB3' to ':369@MG'
+		Atom ':265@CG' to ':369@MG'
+		Atom ':265@OD1' to ':369@MG'
+		Atom ':265@OD2' to ':369@MG'
+		Atom ':265@C' to ':369@MG'
+		Atom ':265@O' to ':369@MG'
+		Atom ':266@C' to ':369@MG'
+		Atom ':266@O' to ':369@MG'
+		Atom ':267@HA' to ':369@MG'
+		Atom ':268@N' to ':369@MG'
+		Atom ':268@H' to ':369@MG'
+		Atom ':268@HA2' to ':369@MG'
+100% Complete.
+
+Read 1 frames and processed 1 frames.
+TIME: Avg. throughput= 3.0084 frames / second.
+
+ACTION OUTPUT:
+    CONTACTS: Contacts_00006
+#Res1       #Res2  TotalFrac   Contacts
+111           369         22         22
+112           369         14         14
+265           369         10         10
+107           369          9          9
+232           369          9          9
+233           369          9          9
+221           369          6          6
+110           369          5          5
+108           369          4          4
+268           369          3          3
+113           369          2          2
+266           369          2          2
+109           369          1          1
+116           369          1          1
+235           369          1          1
+237           369          1          1
+267           369          1          1
+#                     Contact  Nframes    Frac.      Avg    Stdev
+       1     :112@OG1_:369@MG        1        1     2.32        0
+       2     :112@HG1_:369@MG        1        1     2.87        0
+       3      :112@HB_:369@MG        1        1     3.44        0
+       4       :112@H_:369@MG        1        1     3.46        0
+       5      :112@CB_:369@MG        1        1     3.53        0
+       6     :111@HE2_:369@MG        1        1     3.72        0
+       7     :111@HB2_:369@MG        1        1      3.9        0
+       8     :265@OD1_:369@MG        1        1     4.16 5.96e-08
+       9     :265@OD2_:369@MG        1        1     4.19        0
+      10    :112@HG23_:369@MG        1        1     4.24        0
+      11       :112@N_:369@MG        1        1     4.28        0
+      12     :111@HZ2_:369@MG        1        1     4.44 5.96e-08
+      13     :112@CG2_:369@MG        1        1     4.47        0
+      14      :112@CA_:369@MG        1        1     4.54        0
+      15     :232@HB3_:369@MG        1        1     4.61 5.96e-08
+      16     :111@HZ1_:369@MG        1        1     4.62        0
+      17      :111@CE_:369@MG        1        1     4.66        0
+      18      :265@CG_:369@MG        1        1     4.68        0
+      19     :232@HB2_:369@MG        1        1     4.73        0
+      20      :111@NZ_:369@MG        1        1     4.83 5.96e-08
+      21      :233@HA_:369@MG        1        1     4.83        0
+      22    :107@HG21_:369@MG        1        1     4.83 5.96e-08
+      23      :112@HA_:369@MG        1        1     4.89 5.96e-08
+      24      :111@CB_:369@MG        1        1     4.98        0
+      25       :232@O_:369@MG        1        1        5        0
+      26    :112@HG22_:369@MG        1        1     5.07 5.96e-08
+      27       :108@H_:369@MG        1        1     5.12 5.96e-08
+      28      :107@HA_:369@MG        1        1     5.15 5.96e-08
+      29      :232@CB_:369@MG        1        1     5.17        0
+      30     :111@HE3_:369@MG        1        1      5.2        0
+      31       :232@C_:369@MG        1        1     5.22 5.96e-08
+      32    :112@HG21_:369@MG        1        1     5.26 5.96e-08
+      33       :111@H_:369@MG        1        1     5.28        0
+      34       :111@C_:369@MG        1        1      5.3        0
+      35       :233@N_:369@MG        1        1     5.43        0
+      36     :111@HB3_:369@MG        1        1     5.43        0
+      37      :111@CA_:369@MG        1        1     5.57        0
+      38       :266@O_:369@MG        1        1     5.59        0
+      39       :111@N_:369@MG        1        1     5.62        0
+      40      :233@CA_:369@MG        1        1     5.65 5.96e-08
+      41       :113@H_:369@MG        1        1     5.68        0
+      42    :107@HG23_:369@MG        1        1     5.76        0
+      43      :111@CD_:369@MG        1        1     5.77 8.43e-08
+      44    :221@HH11_:369@MG        1        1     5.79 8.43e-08
+      45     :107@CG2_:369@MG        1        1      5.8 8.43e-08
+      46       :233@H_:369@MG        1        1     5.81        0
+      47     :111@HZ3_:369@MG        1        1     5.82        0
+      48     :111@HG3_:369@MG        1        1     5.84        0
+      49       :112@C_:369@MG        1        1     5.85        0
+      50      :111@CG_:369@MG        1        1     5.86        0
+      51     :221@NH1_:369@MG        1        1     5.89        0
+      52    :221@HH12_:369@MG        1        1     5.96        0
+      53      :232@CA_:369@MG        1        1     5.96 8.43e-08
+      54       :110@H_:369@MG        1        1     5.99        0
+      55     :111@HD2_:369@MG        1        1     6.06        0
+      56       :108@N_:369@MG        1        1     6.12        0
+      57     :233@HB3_:369@MG        1        1     6.15        0
+      58      :265@CB_:369@MG        1        1     6.21        0
+      59       :113@N_:369@MG        1        1     6.21 8.43e-08
+      60      :107@CA_:369@MG        1        1     6.21        0
+      61      :232@OG_:369@MG        1        1     6.26 8.43e-08
+      62       :111@O_:369@MG        1        1     6.34        0
+      63       :265@O_:369@MG        1        1     6.34        0
+      64     :108@HA2_:369@MG        1        1     6.36 8.43e-08
+      65       :110@C_:369@MG        1        1     6.37 8.43e-08
+      66       :109@H_:369@MG        1        1     6.45        0
+      67      :107@CB_:369@MG        1        1     6.52 8.43e-08
+      68     :265@HB3_:369@MG        1        1     6.53        0
+      69      :221@CZ_:369@MG        1        1     6.54 8.43e-08
+      70     :110@HA2_:369@MG        1        1     6.55        0
+      71    :107@HG22_:369@MG        1        1     6.56        0
+      72     :221@HD2_:369@MG        1        1     6.57 8.43e-08
+      73      :233@CB_:369@MG        1        1     6.57 8.43e-08
+      74      :232@HA_:369@MG        1        1     6.61        0
+      75       :233@C_:369@MG        1        1     6.64        0
+      76      :111@HA_:369@MG        1        1     6.65        0
+      77       :265@C_:369@MG        1        1     6.66        0
+      78     :107@OG1_:369@MG        1        1     6.66        0
+      79     :111@HD3_:369@MG        1        1     6.69        0
+      80       :233@O_:369@MG        1        1     6.71 8.43e-08
+      81     :237@HB2_:369@MG        1        1     6.73 8.43e-08
+      82      :232@HG_:369@MG        1        1     6.73        0
+      83       :112@O_:369@MG        1        1     6.75        0
+      84     :265@HB2_:369@MG        1        1     6.75        0
+      85       :110@N_:369@MG        1        1     6.76 8.43e-08
+      86       :107@C_:369@MG        1        1     6.76 8.43e-08
+      87       :235@O_:369@MG        1        1      6.8 8.43e-08
+      88       :266@C_:369@MG        1        1      6.8        0
+      89       :268@H_:369@MG        1        1     6.81        0
+      90      :267@HA_:369@MG        1        1     6.83        0
+      91      :110@CA_:369@MG        1        1     6.84        0
+      92      :265@HA_:369@MG        1        1     6.84        0
+      93       :268@N_:369@MG        1        1     6.85        0
+      94     :111@HG2_:369@MG        1        1     6.89 8.43e-08
+      95      :108@CA_:369@MG        1        1     6.91 8.43e-08
+      96    :221@HH22_:369@MG        1        1     6.93 8.43e-08
+      97     :233@HB2_:369@MG        1        1     6.95        0
+      98     :116@OE2_:369@MG        1        1     6.96 8.43e-08
+      99      :265@CA_:369@MG        1        1     6.96        0
+     100     :268@HA2_:369@MG        1        1        7        0
+Timing for energy: 'rec-ene' (':24-30,72-78,81,103-118,132,232-233,265-270,274,333,335-338')
+TIME: Total: 0.0046 s
+TIME:	BOND        : 0.0004 s (  8.25%)
+TIME:	ANGLE       : 0.0001 s (  2.62%)
+TIME:	TORSION     : 0.0005 s ( 10.28%)
+TIME:	1-4_NONBOND : 0.0001 s (  2.89%)
+TIME:	NONBOND     : 0.0035 s ( 75.74%)
+TIME:	KE          : 0.0000 s (  0.20%)
+Timing for energy: 'adp-ene' (':370')
+TIME: Total: 0.0006 s
+TIME:	BOND        : 0.0004 s ( 62.52%)
+TIME:	ANGLE       : 0.0000 s (  5.53%)
+TIME:	TORSION     : 0.0001 s ( 17.44%)
+TIME:	1-4_NONBOND : 0.0001 s ( 12.26%)
+TIME:	NONBOND     : 0.0000 s (  2.07%)
+Timing for energy: 'adpcpx-ene' (':24-30,72-78,81,103-118,132,232-233,265-270,274,333,335-338,370')
+TIME: Total: 0.0049 s
+TIME:	BOND        : 0.0004 s (  8.32%)
+TIME:	ANGLE       : 0.0001 s (  1.79%)
+TIME:	TORSION     : 0.0005 s (  9.28%)
+TIME:	1-4_NONBOND : 0.0001 s (  2.14%)
+TIME:	NONBOND     : 0.0038 s ( 78.37%)
+TIME:	KE          : 0.0000 s (  0.06%)
+TIME: Analyses took 0.0000 seconds.
+
+DATASETS (43 total):
+	RMSD_00002 "RMSD_00002" (double, rms), size is 1 (0.008 kB)
+	adp-mg-rmsd "adp-mg-rmsd" (double, rms), size is 1 (0.008 kB)
+	base-rmsd "base-rmsd" (double, rms), size is 1 (0.008 kB)
+	phos-rmsd "phos-rmsd" (double, rms), size is 1 (0.008 kB)
+	Contacts_00006[native] "Contacts_00006[native]" (integer), size is 1 (0.004 kB)
+	Contacts_00006[nonnative] "Contacts_00006[nonnative]" (integer), size is 1 (0.004 kB)
+	Contacts_00006[mindist] "Contacts_00006[mindist]" (double), size is 1 (0.008 kB)
+	prot-rmsd "prot-rmsd" (double, rms), size is 1 (0.008 kB)
+	rec-rmsd "rec-rmsd" (double, rms), size is 1 (0.008 kB)
+	adp-rmsd "adp-rmsd" (double, rms), size is 1 (0.008 kB)
+	adpcpx-rmsd "adpcpx-rmsd" (double, rms), size is 1 (0.008 kB)
+	loop5-rmsd "loop5-rmsd" (double, rms), size is 1 (0.008 kB)
+	protcut-rmsd "protcut-rmsd" (double, rms), size is 1 (0.008 kB)
+	rec-ene[bond] "rec-ene[bond]" (double), size is 1 (0.008 kB)
+	rec-ene[angle] "rec-ene[angle]" (double), size is 1 (0.008 kB)
+	rec-ene[dih] "rec-ene[dih]" (double), size is 1 (0.008 kB)
+	rec-ene[vdw14] "rec-ene[vdw14]" (double), size is 1 (0.008 kB)
+	rec-ene[elec14] "rec-ene[elec14]" (double), size is 1 (0.008 kB)
+	rec-ene[vdw] "rec-ene[vdw]" (double), size is 1 (0.008 kB)
+	rec-ene[elec] "rec-ene[elec]" (double), size is 1 (0.008 kB)
+	rec-ene[kinetic] "rec-ene[kinetic]" (double), size is 1 (0.008 kB)
+	rec-ene[total] "rec-ene[total]" (double), size is 1 (0.008 kB)
+	adp-ene[bond] "adp-ene[bond]" (double), size is 1 (0.008 kB)
+	adp-ene[angle] "adp-ene[angle]" (double), size is 1 (0.008 kB)
+	adp-ene[dih] "adp-ene[dih]" (double), size is 1 (0.008 kB)
+	adp-ene[vdw14] "adp-ene[vdw14]" (double), size is 1 (0.008 kB)
+	adp-ene[elec14] "adp-ene[elec14]" (double), size is 1 (0.008 kB)
+	adp-ene[vdw] "adp-ene[vdw]" (double), size is 1 (0.008 kB)
+	adp-ene[elec] "adp-ene[elec]" (double), size is 1 (0.008 kB)
+	adp-ene[kinetic] "adp-ene[kinetic]" (double), size is 1 (0.008 kB)
+	adp-ene[total] "adp-ene[total]" (double), size is 1 (0.008 kB)
+	adpcpx-ene[bond] "adpcpx-ene[bond]" (double), size is 1 (0.008 kB)
+	adpcpx-ene[angle] "adpcpx-ene[angle]" (double), size is 1 (0.008 kB)
+	adpcpx-ene[dih] "adpcpx-ene[dih]" (double), size is 1 (0.008 kB)
+	adpcpx-ene[vdw14] "adpcpx-ene[vdw14]" (double), size is 1 (0.008 kB)
+	adpcpx-ene[elec14] "adpcpx-ene[elec14]" (double), size is 1 (0.008 kB)
+	adpcpx-ene[vdw] "adpcpx-ene[vdw]" (double), size is 1 (0.008 kB)
+	adpcpx-ene[elec] "adpcpx-ene[elec]" (double), size is 1 (0.008 kB)
+	adpcpx-ene[kinetic] "adpcpx-ene[kinetic]" (double), size is 1 (0.008 kB)
+	adpcpx-ene[total] "adpcpx-ene[total]" (double), size is 1 (0.008 kB)
+	rec-sasa "rec-sasa" (double), size is 1 (0.008 kB)
+	adp-sasa "adp-sasa" (double), size is 1 (0.008 kB)
+	prot-sasa "prot-sasa" (double), size is 1 (0.008 kB)
+    Total data set memory usage is at least 0.336 kB
+
+DATAFILES (6 total):
+  pcoord.dat (Standard Data File):  adp-mg-rmsd base-rmsd phos-rmsd Contacts_00006[native] Contacts_00006[nonnative] Contacts_00006[mindist]
+  auxdata_rmsd.dat (Standard Data File):  prot-rmsd rec-rmsd adp-rmsd adpcpx-rmsd loop5-rmsd protcut-rmsd
+  auxdata_ene.dat (Standard Data File):  rec-ene[bond] rec-ene[angle] rec-ene[dih] rec-ene[vdw14] ... adpcpx-ene[vdw] adpcpx-ene[elec] adpcpx-ene[kinetic] adpcpx-ene[total]
+  auxdata_sasa.dat (Standard Data File):  rec-sasa adp-sasa prot-sasa
+  STDOUT (Native Contacts)
+  STDOUT (Contact Res Pairs)
+
+RUN TIMING:
+TIME:		Init               : 0.0000 s (  0.01%)
+TIME:		Trajectory Process : 0.3324 s ( 96.66%)
+TIME:		Action Post        : 0.0003 s (  0.09%)
+TIME:		Analysis           : 0.0000 s (  0.00%)
+TIME:		Data File Write    : 0.0029 s (  0.85%)
+TIME:		Other              : 0.0082 s (  0.02%)
+TIME:	Run Total 0.3439 s
+---------- RUN END ---------------------------------------------------
+TIME: Total execution time: 0.6287 seconds.
+--------------------------------------------------------------------------------
+To cite CPPTRAJ use:
+Daniel R. Roe and Thomas E. Cheatham, III, "PTRAJ and CPPTRAJ: Software for
+  Processing and Analysis of Molecular Dynamics Trajectory Data". J. Chem.
+  Theory Comput., 2013, 9 (7), pp 3084-3095.
+
