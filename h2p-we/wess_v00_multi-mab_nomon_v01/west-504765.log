@@ -1,0 +1,39 @@
+Updating system with the options from the configuration file
+Maximum wallclock time: 1 day, 0:00:00
+
+Tue Mar 14 16:09:00 2023
+Iteration 586 (1000 requested)
+0 segments remain in iteration 586 (336 total)
+81 of 111 (72.972973%) active bins are populated
+per-bin minimum non-zero probability:       5.06182e-113
+per-bin maximum probability:                0.994717
+per-bin probability dynamic range (kT):     258.565
+per-segment minimum non-zero probability:   1.26545e-113
+per-segment maximum non-zero probability:   0.0840091
+per-segment probability dynamic range (kT): 257.48
+norm = 1, error in norm = 6.66134e-16 (3*epsilon)
+-- WARNING  [westpa.core.sim_manager] -- 
+Minimum segment weight is < 1e-100 and might not be physically relevant. Please reconsider your progress coordinate or binning scheme.
+MAB binning in use
+Bottleneck bin occupancy may not be accurately reported
+Waiting for segments to complete...
+Recycled 1.30885e-58 probability (5 walkers) from target state 'unbound'
+exception caught; shutting down
+-- ERROR    [w_run] -- error message: coordinate value -20.025604248046875 is out of bin space in dimension 1
+-- ERROR    [w_run] -- Traceback (most recent call last):
+  File "/ihome/lchong/dty7/Apps/westpa/src/westpa/cli/core/w_run.py", line 62, in run_simulation
+    sim_manager.run()
+  File "/ihome/lchong/dty7/Apps/westpa/src/westpa/core/sim_manager.py", line 765, in run
+    self.prepare_new_iteration()
+  File "/ihome/lchong/dty7/Apps/westpa/src/westpa/core/sim_manager.py", line 712, in prepare_new_iteration
+    self.invoke_callbacks(self.prepare_new_iteration)
+  File "/ihome/lchong/dty7/Apps/westpa/src/westpa/core/sim_manager.py", line 141, in invoke_callbacks
+    fn(*args, **kwargs)
+  File "/ihome/lchong/dty7/Apps/westpa/src/westpa/westext/wess/wess_driver.py", line 137, in prepare_new_iteration
+    assignments = mapper.assign(pcoords)
+  File "/ihome/lchong/dty7/Apps/westpa/src/westpa/core/binning/assign.py", line 175, in assign
+    rectilinear_assign(coords, mask, output, self.boundaries, self._boundlens)
+  File "src/westpa/core/binning/_assign.pyx", line 28, in westpa.core.binning._assign.rectilinear_assign
+  File "src/westpa/core/binning/_assign.pyx", line 81, in westpa.core.binning._assign.rectilinear_assign
+ValueError: coordinate value -20.025604248046875 is out of bin space in dimension 1
+

@@ -1,0 +1,112 @@
+Updating system with the options from the configuration file
+Maximum wallclock time: 1 day, 0:00:00
+
+Mon Mar 13 21:55:37 2023
+Iteration 586 (1000 requested)
+Beginning iteration 586
+336 segments remain in iteration 586 (336 total)
+81 of 111 (72.972973%) active bins are populated
+per-bin minimum non-zero probability:       5.06182e-113
+per-bin maximum probability:                0.994717
+per-bin probability dynamic range (kT):     258.565
+per-segment minimum non-zero probability:   1.26545e-113
+per-segment maximum non-zero probability:   0.0840091
+per-segment probability dynamic range (kT): 257.48
+norm = 1, error in norm = 6.66134e-16 (3*epsilon)
+-- WARNING  [westpa.core.sim_manager] -- 
+Minimum segment weight is < 1e-100 and might not be physically relevant. Please reconsider your progress coordinate or binning scheme.
+MAB binning in use
+Bottleneck bin occupancy may not be accurately reported
+Waiting for segments to complete...
+Recycled 1.30885e-58 probability (5 walkers) from target state 'unbound'
+
+Reweighting using a different bin mapper than simulation:
+<RectilinearBinMapper at 0x7f2b2a47beb0 with 54 bins>
+Averaging rates
+Calculating reweighting using window size of 439
+
+Bin probabilities prior to reweighting:
+[0.00000000e+00 0.00000000e+00 4.11195720e-82 0.00000000e+00
+ 1.33233128e-58 1.31450389e-58 8.09230929e-57 4.82175960e-57
+ 1.38750756e-57 1.20548421e-57 6.11235906e-57 5.64801777e-57
+ 6.70152939e-58 4.06393075e-57 2.56918659e-57 6.99898653e-50
+ 2.52893928e-51 1.34316092e-49 2.32473804e-49 2.02914940e-49
+ 2.52893478e-51 1.47040960e-57 1.77422698e-50 1.63182701e-76
+ 1.62256892e-49 2.06128426e-49 3.77420493e-76 1.98862089e-75
+ 1.11367932e-75 4.57589640e-76 9.70954925e-29 1.68330898e-25
+ 0.00000000e+00 4.39429646e-25 4.12608900e-43 3.36475152e-25
+ 2.52099705e-43 1.31085894e-25 0.00000000e+00 4.36952979e-26
+ 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+ 1.17162212e-13 1.00179262e-13 4.48055957e-13 3.76573797e-13
+ 3.10088766e-11 4.96008227e-01 3.35328017e-01 1.68663756e-01
+ 5.43504362e-13 1.24654689e-10]
+WESS: M*p = [[-1.58232949e-12]
+ [-1.50219154e-12]
+ [-1.28716575e-12]
+ [-1.21091949e-12]
+ [-9.60887527e-13]
+ [-7.62132398e-13]
+ [-4.92753796e-13]
+ [-1.83549268e-14]
+ [ 2.06628983e-13]
+ [ 4.14315692e-13]
+ [ 8.11733088e-13]
+ [ 9.69912854e-13]
+ [ 2.62746906e-12]
+ [ 1.58770930e-12]
+ [ 6.09604504e-13]
+ [ 3.75364998e-13]
+ [ 1.52240883e-13]
+ [ 2.43276411e-14]
+ [ 4.04992092e-14]
+ [ 6.98494277e-14]
+ [ 9.67791175e-09]
+ [-5.65301848e-19]
+ [ 5.67556957e-07]
+ [ 1.00000000e+00]
+ [ 5.09913834e-19]
+ [ 2.97974818e-08]
+ [ 1.40041050e-08]
+ [ 1.17734898e-08]
+ [ 6.42234603e-09]
+ [ 3.35310245e-09]
+ [ 1.71335798e-09]
+ [ 1.21733221e-09]
+ [ 1.01616942e-09]
+ [ 8.94039349e-10]
+ [ 9.32435138e-10]
+ [ 9.12597890e-10]
+ [ 9.41151093e-10]
+ [ 9.01815705e-10]
+ [ 7.87296526e-10]
+ [ 5.94318879e-10]
+ [ 3.49095171e-10]
+ [ 1.73817463e-10]
+ [ 9.33167361e-11]
+ [ 4.98670697e-11]
+ [ 2.22442637e-11]
+ [ 9.28982759e-12]
+ [ 5.94294405e-12]
+ [ 3.17429416e-12]
+ [ 1.47569457e-12]
+ [ 8.96352437e-13]
+ [ 5.53973534e-13]
+ [ 2.58598698e-13]
+ [ 3.03784775e-14]]
+WESS: max = 0.9999999999996765
+WESS NNLS norm: 5.687710074686001e-07
+exception caught; shutting down
+-- ERROR    [w_run] -- error message: populated bin reweighted to zero probability
+-- ERROR    [w_run] -- Traceback (most recent call last):
+  File "/ihome/lchong/dty7/Apps/westpa/src/westpa/cli/core/w_run.py", line 62, in run_simulation
+    sim_manager.run()
+  File "/ihome/lchong/dty7/Apps/westpa/src/westpa/core/sim_manager.py", line 765, in run
+    self.prepare_new_iteration()
+  File "/ihome/lchong/dty7/Apps/westpa/src/westpa/core/sim_manager.py", line 712, in prepare_new_iteration
+    self.invoke_callbacks(self.prepare_new_iteration)
+  File "/ihome/lchong/dty7/Apps/westpa/src/westpa/core/sim_manager.py", line 141, in invoke_callbacks
+    fn(*args, **kwargs)
+  File "/ihome/lchong/dty7/Apps/westpa/src/westpa/westext/wess/wess_driver.py", line 187, in prepare_new_iteration
+    assert (~((orig_binprobs > 0) & (binprobs == 0))).all(), 'populated bin reweighted to zero probability'
+AssertionError: populated bin reweighted to zero probability
+

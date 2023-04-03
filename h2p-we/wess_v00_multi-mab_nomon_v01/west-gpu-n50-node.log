@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/ihome/lchong/dty7/Apps/anaconda3/bin/w_run", line 33, in <module>
+    sys.exit(load_entry_point('westpa', 'console_scripts', 'w_run')())
+  File "/ihome/lchong/dty7/Apps/westpa/src/westpa/cli/core/w_run.py", line 29, in entry_point
+    run_simulation()
+  File "/ihome/lchong/dty7/Apps/westpa/src/westpa/cli/core/w_run.py", line 34, in run_simulation
+    work_manager = westpa.rc.work_manager = make_work_manager()
+  File "/ihome/lchong/dty7/Apps/westpa/src/westpa/work_managers/environment.py", line 130, in make_work_manager
+    return _available_work_managers[work_manager_name].from_environ(self)
+  File "/ihome/lchong/dty7/Apps/westpa/src/westpa/work_managers/zeromq/work_manager.py", line 167, in from_environ
+    upstream_info.update(cls.read_host_info(read_host_info))
+  File "/ihome/lchong/dty7/Apps/westpa/src/westpa/work_managers/zeromq/work_manager.py", line 235, in read_host_info
+    return json.load(open(filename, 'rt'))
+FileNotFoundError: [Errno 2] No such file or directory: '/ix/lchong/dty7/eg5/h2p-we/wess_v00_multi-mab_nomon_v01/west_zmq_info-504736.json'

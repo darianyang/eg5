@@ -1,0 +1,17 @@
+Updating system with the options from the configuration file
+Maximum wallclock time: 1 day, 0:00:00
+
+Wed Mar 29 15:16:04 2023
+Iteration 587 (1000 requested)
+Continuing iteration 587
+344 segments remain in iteration 587 (352 total)
+84 of 111 (75.675676%) active bins are populated
+per-bin minimum non-zero probability:       1.26545e-113
+per-bin maximum probability:                0.998679
+per-bin probability dynamic range (kT):     259.955
+per-segment minimum non-zero probability:   3.16364e-114
+per-segment maximum non-zero probability:   0.0843319
+per-segment probability dynamic range (kT): 258.87
+norm = 1, error in norm = 4.44089e-16 (2*epsilon)
+-- WARNING  [westpa.core.sim_manager] -- 
+Minimum segment weight is < 1e-100 and might not be physically relevant. Please reconsider your progress coordinate or binning scheme.

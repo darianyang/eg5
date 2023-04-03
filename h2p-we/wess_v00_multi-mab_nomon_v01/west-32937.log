@@ -1,0 +1,56 @@
+Updating system with the options from the configuration file
+Maximum wallclock time: 1 day, 0:00:00
+
+Wed Mar 29 15:07:05 2023
+Iteration 586 (1000 requested)
+0 segments remain in iteration 586 (336 total)
+81 of 111 (72.972973%) active bins are populated
+per-bin minimum non-zero probability:       5.06182e-113
+per-bin maximum probability:                0.994717
+per-bin probability dynamic range (kT):     258.565
+per-segment minimum non-zero probability:   1.26545e-113
+per-segment maximum non-zero probability:   0.0840091
+per-segment probability dynamic range (kT): 257.48
+norm = 1, error in norm = 6.66134e-16 (3*epsilon)
+-- WARNING  [westpa.core.sim_manager] -- 
+Minimum segment weight is < 1e-100 and might not be physically relevant. Please reconsider your progress coordinate or binning scheme.
+MAB binning in use
+Bottleneck bin occupancy may not be accurately reported
+Waiting for segments to complete...
+Recycled 1.30885e-58 probability (5 walkers) from target state 'unbound'
+
+Reweighting using a different bin mapper than simulation:
+<RectilinearBinMapper at 0x7f066ae54fd0 with 10 bins>
+Averaging rates
+Calculating reweighting using window size of 439
+
+Bin probabilities prior to reweighting:
+[0.00000000e+000 1.00000000e+000 5.23746654e-012 9.37812471e-013
+ 2.17779428e-056 5.18633706e-057 4.11195720e-082 0.00000000e+000
+ 0.00000000e+000 3.79636455e-113]
+
+Bin populations after reweighting:
+[0.00000000e+000 1.00000000e+000 5.23746654e-012 9.37812471e-013
+ 2.17779428e-056 5.18633706e-057 4.11195720e-082 0.00000000e+000
+ 0.00000000e+000 3.79636455e-113]
+Iteration completed successfully
+Iteration wallclock: 0:00:24.902091, cputime: 7:25:05.408583
+
+
+Wed Mar 29 15:07:30 2023
+Iteration 587 (1000 requested)
+Beginning iteration 587
+352 segments remain in iteration 587 (352 total)
+84 of 111 (75.675676%) active bins are populated
+per-bin minimum non-zero probability:       1.26545e-113
+per-bin maximum probability:                0.998679
+per-bin probability dynamic range (kT):     259.955
+per-segment minimum non-zero probability:   3.16364e-114
+per-segment maximum non-zero probability:   0.0843319
+per-segment probability dynamic range (kT): 258.87
+norm = 1, error in norm = 4.44089e-16 (2*epsilon)
+-- WARNING  [westpa.core.sim_manager] -- 
+Minimum segment weight is < 1e-100 and might not be physically relevant. Please reconsider your progress coordinate or binning scheme.
+MAB binning in use
+Bottleneck bin occupancy may not be accurately reported
+Waiting for segments to complete...
