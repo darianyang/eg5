@@ -1,0 +1,816 @@
+Updating system with the options from the configuration file
+Maximum wallclock time: 1 day, 0:00:00
+
+Thu Apr  6 15:27:49 2023
+Iteration 586 (1000 requested)
+0 segments remain in iteration 586 (336 total)
+81 of 111 (72.972973%) active bins are populated
+per-bin minimum non-zero probability:       5.06182e-113
+per-bin maximum probability:                0.994717
+per-bin probability dynamic range (kT):     258.565
+per-segment minimum non-zero probability:   1.26545e-113
+per-segment maximum non-zero probability:   0.0840091
+per-segment probability dynamic range (kT): 257.48
+norm = 1, error in norm = 6.66134e-16 (3*epsilon)
+-- WARNING  [westpa.core.sim_manager] -- 
+Minimum segment weight is < 1e-100 and might not be physically relevant. Please reconsider your progress coordinate or binning scheme.
+MAB binning in use
+Bottleneck bin occupancy may not be accurately reported
+Waiting for segments to complete...
+Recycled 1.30885e-58 probability (5 walkers) from target state 'unbound'
+
+Reweighting using a different bin mapper than simulation:
+<RectilinearBinMapper at 0x7f11d3d46bb0 with 10 bins>
+Averaging rates
+Calculating reweighting using window size of 439
+
+Bin probabilities prior to reweighting:
+[1.00000000e+00 4.14836647e-25 1.13144044e-42 1.58827987e-57
+ 1.30707140e-57 3.78637031e-57 1.47090824e-57 7.97224731e-58
+ 4.49549472e-62 4.25775749e-59]
+
+Bin populations after reweighting:
+[1.00000000e+00 4.14836647e-25 1.13144044e-42 1.58827987e-57
+ 1.30707140e-57 3.78637031e-57 1.47090824e-57 7.97224731e-58
+ 4.49549472e-62 4.25775749e-59]
+Iteration completed successfully
+Iteration wallclock: 0:02:22.827478, cputime: 7:25:05.408583
+
+
+Thu Apr  6 15:28:05 2023
+Iteration 587 (1000 requested)
+Beginning iteration 587
+352 segments remain in iteration 587 (352 total)
+84 of 111 (75.675676%) active bins are populated
+per-bin minimum non-zero probability:       1.26545e-113
+per-bin maximum probability:                0.998679
+per-bin probability dynamic range (kT):     259.955
+per-segment minimum non-zero probability:   3.16364e-114
+per-segment maximum non-zero probability:   0.0843319
+per-segment probability dynamic range (kT): 258.87
+norm = 1, error in norm = 2.22045e-16 (1*epsilon)
+-- WARNING  [westpa.core.sim_manager] -- 
+Minimum segment weight is < 1e-100 and might not be physically relevant. Please reconsider your progress coordinate or binning scheme.
+MAB binning in use
+Bottleneck bin occupancy may not be accurately reported
+Waiting for segments to complete...
+Recycled 6.38159e-59 probability (8 walkers) from target state 'unbound'
+
+Reweighting using a different bin mapper than simulation:
+<RectilinearBinMapper at 0x7f11d3d46bb0 with 10 bins>
+Averaging rates
+Calculating reweighting using window size of 440
+
+Bin probabilities prior to reweighting:
+[1.00000000e+00 6.19050896e-25 4.87704974e-44 4.70855662e-76
+ 1.85290909e-57 1.77256559e-57 1.55607790e-57 4.22851346e-58
+ 9.50192118e-58 1.49849824e-62]
+
+Bin populations after reweighting:
+[1.00000000e+00 6.19050896e-25 4.87704974e-44 4.70855662e-76
+ 1.85290909e-57 1.77256559e-57 1.55607790e-57 4.22851346e-58
+ 9.50192118e-58 1.49849824e-62]
+Iteration completed successfully
+Iteration wallclock: 1:02:09.910906, cputime: 8:18:28.866016
+
+
+Thu Apr  6 16:30:15 2023
+Iteration 588 (1000 requested)
+Beginning iteration 588
+367 segments remain in iteration 588 (367 total)
+88 of 111 (79.279279%) active bins are populated
+per-bin minimum non-zero probability:       3.16364e-114
+per-bin maximum probability:                0.916498
+per-bin probability dynamic range (kT):     261.256
+per-segment minimum non-zero probability:   7.90909e-115
+per-segment maximum non-zero probability:   0.0839169
+per-segment probability dynamic range (kT): 260.251
+norm = 1, error in norm = 4.44089e-16 (2*epsilon)
+-- WARNING  [westpa.core.sim_manager] -- 
+Minimum segment weight is < 1e-100 and might not be physically relevant. Please reconsider your progress coordinate or binning scheme.
+MAB binning in use
+Bottleneck bin occupancy may not be accurately reported
+Waiting for segments to complete...
+Recycled 2.50906e-58 probability (5 walkers) from target state 'unbound'
+
+Reweighting using a different bin mapper than simulation:
+<RectilinearBinMapper at 0x7f11d3d46bb0 with 10 bins>
+Averaging rates
+Calculating reweighting using window size of 441
+
+Bin probabilities prior to reweighting:
+[1.00000000e+00 8.50743488e-25 1.98179923e-43 6.90125669e-58
+ 2.60255562e-58 4.04090295e-58 2.18403647e-57 1.50935075e-57
+ 1.86090284e-58 5.18170482e-60]
+
+Bin populations after reweighting:
+[1.00000000e+00 8.50743488e-25 1.98179923e-43 6.90125669e-58
+ 2.60255562e-58 4.04090295e-58 2.18403647e-57 1.50935075e-57
+ 1.86090284e-58 5.18170482e-60]
+Iteration completed successfully
+Iteration wallclock: 1:01:20.230669, cputime: 8:35:00.318952
+
+
+Thu Apr  6 17:31:35 2023
+Iteration 589 (1000 requested)
+Beginning iteration 589
+331 segments remain in iteration 589 (331 total)
+81 of 111 (72.972973%) active bins are populated
+per-bin minimum non-zero probability:       7.90909e-115
+per-bin maximum probability:                0.916083
+per-bin probability dynamic range (kT):     262.642
+per-segment minimum non-zero probability:   1.97727e-115
+per-segment maximum non-zero probability:   0.0835018
+per-segment probability dynamic range (kT): 261.633
+norm = 1, error in norm = 6.66134e-16 (3*epsilon)
+-- WARNING  [westpa.core.sim_manager] -- 
+Minimum segment weight is < 1e-100 and might not be physically relevant. Please reconsider your progress coordinate or binning scheme.
+MAB binning in use
+Bottleneck bin occupancy may not be accurately reported
+Waiting for segments to complete...
+Recycled 7.59442e-58 probability (7 walkers) from target state 'unbound'
+
+Reweighting using a different bin mapper than simulation:
+<RectilinearBinMapper at 0x7f11d3d46bb0 with 10 bins>
+Averaging rates
+Calculating reweighting using window size of 441
+
+Bin probabilities prior to reweighting:
+[1.00000000e+00 7.16203030e-14 1.15946052e-43 2.75998997e-58
+ 4.79620574e-58 2.40078877e-57 8.97097703e-58 6.96474174e-58
+ 1.43785923e-58 1.29542620e-60]
+
+Bin populations after reweighting:
+[1.00000000e+00 7.16203030e-14 1.15946052e-43 2.75998997e-58
+ 4.79620574e-58 2.40078877e-57 8.97097703e-58 6.96474174e-58
+ 1.43785923e-58 1.29542620e-60]
+Iteration completed successfully
+Iteration wallclock: 0:54:25.558760, cputime: 7:48:28.924268
+
+
+Thu Apr  6 18:26:01 2023
+Iteration 590 (1000 requested)
+Beginning iteration 590
+339 segments remain in iteration 590 (339 total)
+82 of 111 (73.873874%) active bins are populated
+per-bin minimum non-zero probability:       1.97727e-115
+per-bin maximum probability:                0.916498
+per-bin probability dynamic range (kT):     264.028
+per-segment minimum non-zero probability:   4.94318e-116
+per-segment maximum non-zero probability:   0.0835417
+per-segment probability dynamic range (kT): 263.019
+norm = 1, error in norm = 4.44089e-16 (2*epsilon)
+-- WARNING  [westpa.core.sim_manager] -- 
+Minimum segment weight is < 1e-100 and might not be physically relevant. Please reconsider your progress coordinate or binning scheme.
+MAB binning in use
+Bottleneck bin occupancy may not be accurately reported
+Waiting for segments to complete...
+Recycled 1.4249e-58 probability (1 walkers) from target state 'unbound'
+
+Reweighting using a different bin mapper than simulation:
+<RectilinearBinMapper at 0x7f11d3d46bb0 with 10 bins>
+Averaging rates
+Calculating reweighting using window size of 442
+
+Bin probabilities prior to reweighting:
+[1.00000000e+00 8.65103613e-25 2.13749437e-43 2.11403767e-58
+ 2.06436861e-58 8.29548626e-58 1.47455598e-57 2.00820919e-57
+ 1.08509194e-58 1.29542620e-60]
+
+Bin populations after reweighting:
+[1.00000000e+00 8.65103613e-25 2.13749437e-43 2.11403767e-58
+ 2.06436861e-58 8.29548626e-58 1.47455598e-57 2.00820919e-57
+ 1.08509194e-58 1.29542620e-60]
+Iteration completed successfully
+Iteration wallclock: 0:54:35.202486, cputime: 7:55:02.750205
+
+
+Thu Apr  6 19:20:36 2023
+Iteration 591 (1000 requested)
+Beginning iteration 591
+336 segments remain in iteration 591 (336 total)
+82 of 111 (73.873874%) active bins are populated
+per-bin minimum non-zero probability:       4.94318e-116
+per-bin maximum probability:                1
+per-bin probability dynamic range (kT):     265.502
+per-segment minimum non-zero probability:   1.2358e-116
+per-segment maximum non-zero probability:   0.0834626
+per-segment probability dynamic range (kT): 264.405
+norm = 1, error in norm = 4.44089e-16 (2*epsilon)
+-- WARNING  [westpa.core.sim_manager] -- 
+Minimum segment weight is < 1e-100 and might not be physically relevant. Please reconsider your progress coordinate or binning scheme.
+MAB binning in use
+Bottleneck bin occupancy may not be accurately reported
+Waiting for segments to complete...
+Recycled 1.54013e-58 probability (2 walkers) from target state 'unbound'
+
+Reweighting using a different bin mapper than simulation:
+<RectilinearBinMapper at 0x7f11d3d46bb0 with 10 bins>
+Averaging rates
+Calculating reweighting using window size of 443
+
+Bin probabilities prior to reweighting:
+[1.00000000e+00 4.23429914e-13 5.29957774e-44 7.61459606e-58
+ 3.51316927e-58 7.47549488e-58 2.04815113e-57 8.65155541e-58
+ 8.24096590e-59 9.71569653e-61]
+
+Bin populations after reweighting:
+[1.00000000e+00 4.23429914e-13 5.29957774e-44 7.61459606e-58
+ 3.51316927e-58 7.47549488e-58 2.04815113e-57 8.65155541e-58
+ 8.24096590e-59 9.71569653e-61]
+Iteration completed successfully
+Iteration wallclock: 0:53:07.841495, cputime: 7:44:07.368621
+
+
+Thu Apr  6 20:13:44 2023
+Iteration 592 (1000 requested)
+Beginning iteration 592
+331 segments remain in iteration 592 (331 total)
+82 of 111 (73.873874%) active bins are populated
+per-bin minimum non-zero probability:       1.2358e-116
+per-bin maximum probability:                0.916671
+per-bin probability dynamic range (kT):     266.801
+per-segment minimum non-zero probability:   3.08949e-117
+per-segment maximum non-zero probability:   0.0834626
+per-segment probability dynamic range (kT): 265.791
+norm = 1, error in norm = 6.66134e-16 (3*epsilon)
+-- WARNING  [westpa.core.sim_manager] -- 
+Minimum segment weight is < 1e-100 and might not be physically relevant. Please reconsider your progress coordinate or binning scheme.
+MAB binning in use
+Bottleneck bin occupancy may not be accurately reported
+Waiting for segments to complete...
+Recycled 1.36502e-58 probability (8 walkers) from target state 'unbound'
+
+Reweighting using a different bin mapper than simulation:
+<RectilinearBinMapper at 0x7f11d3d46bb0 with 10 bins>
+Averaging rates
+Calculating reweighting using window size of 444
+
+Bin probabilities prior to reweighting:
+[1.00000000e+00 5.61402885e-25 1.10028938e-43 1.95315587e-76
+ 7.90456798e-58 1.16510309e-57 7.06550017e-58 4.55309438e-58
+ 7.88902160e-58 1.21164276e-59]
+
+Bin populations after reweighting:
+[1.00000000e+00 5.61402885e-25 1.10028938e-43 1.95315587e-76
+ 7.90456798e-58 1.16510309e-57 7.06550017e-58 4.55309438e-58
+ 7.88902160e-58 1.21164276e-59]
+Iteration completed successfully
+Iteration wallclock: 0:54:05.777796, cputime: 7:39:27.773908
+
+
+Thu Apr  6 21:07:49 2023
+Iteration 593 (1000 requested)
+Beginning iteration 593
+336 segments remain in iteration 593 (336 total)
+82 of 111 (73.873874%) active bins are populated
+per-bin minimum non-zero probability:       3.08949e-117
+per-bin maximum probability:                1
+per-bin probability dynamic range (kT):     268.274
+per-segment minimum non-zero probability:   7.72372e-118
+per-segment maximum non-zero probability:   0.0834181
+per-segment probability dynamic range (kT): 267.177
+norm = 1, error in norm = 6.66134e-16 (3*epsilon)
+-- WARNING  [westpa.core.sim_manager] -- 
+Minimum segment weight is < 1e-100 and might not be physically relevant. Please reconsider your progress coordinate or binning scheme.
+MAB binning in use
+Bottleneck bin occupancy may not be accurately reported
+Waiting for segments to complete...
+Recycled 1.98247e-58 probability (8 walkers) from target state 'unbound'
+
+Reweighting using a different bin mapper than simulation:
+<RectilinearBinMapper at 0x7f11d3d46bb0 with 10 bins>
+Averaging rates
+Calculating reweighting using window size of 444
+
+Bin probabilities prior to reweighting:
+[1.00000000e+00 4.68222293e-14 1.41467310e-43 6.00083022e-58
+ 3.80622689e-77 2.62087907e-58 8.70705874e-58 8.89675603e-58
+ 9.72435853e-58 0.00000000e+00]
+
+Bin populations after reweighting:
+[1.00000000e+00 4.68222293e-14 1.41467310e-43 6.00083022e-58
+ 3.80622689e-77 2.62087907e-58 8.70705874e-58 8.89675603e-58
+ 9.72435853e-58 0.00000000e+00]
+Iteration completed successfully
+Iteration wallclock: 0:53:13.883286, cputime: 7:48:53.510000
+
+
+Thu Apr  6 22:01:03 2023
+Iteration 594 (1000 requested)
+Beginning iteration 594
+335 segments remain in iteration 594 (335 total)
+80 of 111 (72.072072%) active bins are populated
+per-bin minimum non-zero probability:       7.72372e-118
+per-bin maximum probability:                0.916582
+per-bin probability dynamic range (kT):     269.574
+per-segment minimum non-zero probability:   1.93093e-118
+per-segment maximum non-zero probability:   0.0833719
+per-segment probability dynamic range (kT): 268.563
+norm = 1, error in norm = 6.66134e-16 (3*epsilon)
+-- WARNING  [westpa.core.sim_manager] -- 
+Minimum segment weight is < 1e-100 and might not be physically relevant. Please reconsider your progress coordinate or binning scheme.
+MAB binning in use
+Bottleneck bin occupancy may not be accurately reported
+Waiting for segments to complete...
+Recycled 2.34155e-58 probability (4 walkers) from target state 'unbound'
+
+Reweighting using a different bin mapper than simulation:
+<RectilinearBinMapper at 0x7f11d3d46bb0 with 10 bins>
+Averaging rates
+Calculating reweighting using window size of 445
+
+Bin probabilities prior to reweighting:
+[1.00000000e+00 4.29375197e-25 9.53178041e-44 2.43215934e-57
+ 1.55029699e-58 2.13430899e-58 9.87447515e-58 1.08749034e-57
+ 4.32433886e-58 4.23784603e-60]
+
+Bin populations after reweighting:
+[1.00000000e+00 4.29375197e-25 9.53178041e-44 2.43215934e-57
+ 1.55029699e-58 2.13430899e-58 9.87447515e-58 1.08749034e-57
+ 4.32433886e-58 4.23784603e-60]
+Iteration completed successfully
+Iteration wallclock: 0:51:40.003438, cputime: 7:46:15.559935
+
+
+Thu Apr  6 22:52:43 2023
+Iteration 595 (1000 requested)
+Beginning iteration 595
+339 segments remain in iteration 595 (339 total)
+81 of 111 (72.972973%) active bins are populated
+per-bin minimum non-zero probability:       1.93093e-118
+per-bin maximum probability:                0.916665
+per-bin probability dynamic range (kT):     270.96
+per-segment minimum non-zero probability:   4.82733e-119
+per-segment maximum non-zero probability:   0.0833567
+per-segment probability dynamic range (kT): 269.949
+norm = 1, error in norm = 6.66134e-16 (3*epsilon)
+-- WARNING  [westpa.core.sim_manager] -- 
+Minimum segment weight is < 1e-100 and might not be physically relevant. Please reconsider your progress coordinate or binning scheme.
+MAB binning in use
+Bottleneck bin occupancy may not be accurately reported
+Waiting for segments to complete...
+Recycled 7.18115e-61 probability (1 walkers) from target state 'unbound'
+
+Reweighting using a different bin mapper than simulation:
+<RectilinearBinMapper at 0x7f11d3d46bb0 with 10 bins>
+Averaging rates
+Calculating reweighting using window size of 446
+
+Bin probabilities prior to reweighting:
+[1.00000000e+00 4.21963784e-26 7.80629583e-44 3.19571151e-57
+ 3.26217112e-58 1.24559729e-58 7.83301847e-58 1.00912202e-57
+ 4.88270880e-58 1.36943370e-59]
+
+Bin populations after reweighting:
+[1.00000000e+00 4.21963784e-26 7.80629583e-44 3.19571151e-57
+ 3.26217112e-58 1.24559729e-58 7.83301847e-58 1.00912202e-57
+ 4.88270880e-58 1.36943370e-59]
+Iteration completed successfully
+Iteration wallclock: 0:52:51.983564, cputime: 7:53:08.091480
+
+
+Thu Apr  6 23:45:35 2023
+Iteration 596 (1000 requested)
+Beginning iteration 596
+344 segments remain in iteration 596 (344 total)
+82 of 111 (73.873874%) active bins are populated
+per-bin minimum non-zero probability:       4.82733e-119
+per-bin maximum probability:                1
+per-bin probability dynamic range (kT):     272.433
+per-segment minimum non-zero probability:   1.20683e-119
+per-segment maximum non-zero probability:   0.0833556
+per-segment probability dynamic range (kT): 271.335
+norm = 1, error in norm = 6.66134e-16 (3*epsilon)
+-- WARNING  [westpa.core.sim_manager] -- 
+Minimum segment weight is < 1e-100 and might not be physically relevant. Please reconsider your progress coordinate or binning scheme.
+MAB binning in use
+Bottleneck bin occupancy may not be accurately reported
+Waiting for segments to complete...
+Recycled 5.7358e-58 probability (12 walkers) from target state 'unbound'
+
+Reweighting using a different bin mapper than simulation:
+<RectilinearBinMapper at 0x7f11d3d46bb0 with 10 bins>
+Averaging rates
+Calculating reweighting using window size of 447
+
+Bin probabilities prior to reweighting:
+[1.00000000e+00 3.61880693e-32 8.00221407e-44 2.83628127e-59
+ 3.18415020e-59 9.53470408e-58 3.08050451e-58 4.62697820e-58
+ 3.57086117e-58 5.32538408e-59]
+
+Bin populations after reweighting:
+[1.00000000e+00 3.61880693e-32 8.00221407e-44 2.83628127e-59
+ 3.18415020e-59 9.53470408e-58 3.08050451e-58 4.62697820e-58
+ 3.57086117e-58 5.32538408e-59]
+Iteration completed successfully
+Iteration wallclock: 0:57:01.186242, cputime: 8:01:08.301418
+
+
+Fri Apr  7 00:42:37 2023
+Iteration 597 (1000 requested)
+Beginning iteration 597
+340 segments remain in iteration 597 (340 total)
+83 of 111 (74.774775%) active bins are populated
+per-bin minimum non-zero probability:       1.20683e-119
+per-bin maximum probability:                1
+per-bin probability dynamic range (kT):     273.82
+per-segment minimum non-zero probability:   3.01708e-120
+per-segment maximum non-zero probability:   0.0833556
+per-segment probability dynamic range (kT): 272.721
+norm = 1, error in norm = 8.88178e-16 (4*epsilon)
+-- WARNING  [westpa.core.sim_manager] -- 
+Minimum segment weight is < 1e-100 and might not be physically relevant. Please reconsider your progress coordinate or binning scheme.
+MAB binning in use
+Bottleneck bin occupancy may not be accurately reported
+Waiting for segments to complete...
+Recycled 3.65261e-59 probability (4 walkers) from target state 'unbound'
+
+Reweighting using a different bin mapper than simulation:
+<RectilinearBinMapper at 0x7f11d3d46bb0 with 10 bins>
+Averaging rates
+Calculating reweighting using window size of 447
+
+Bin probabilities prior to reweighting:
+[1.00000000e+00 8.69235578e-14 1.83230731e-33 2.41842761e-58
+ 9.78136121e-59 2.17899160e-58 6.31505300e-58 4.56860250e-58
+ 1.47729782e-58 2.40756304e-59]
+
+Bin populations after reweighting:
+[1.00000000e+00 8.69235578e-14 1.83230731e-33 2.41842761e-58
+ 9.78136121e-59 2.17899160e-58 6.31505300e-58 4.56860250e-58
+ 1.47729782e-58 2.40756304e-59]
+Iteration completed successfully
+Iteration wallclock: 1:04:04.677519, cputime: 7:55:14.191657
+
+
+Fri Apr  7 01:46:41 2023
+Iteration 598 (1000 requested)
+Beginning iteration 598
+351 segments remain in iteration 598 (351 total)
+85 of 111 (76.576577%) active bins are populated
+per-bin minimum non-zero probability:       3.01708e-120
+per-bin maximum probability:                0.916679
+per-bin probability dynamic range (kT):     275.119
+per-segment minimum non-zero probability:   7.5427e-121
+per-segment maximum non-zero probability:   0.0833556
+per-segment probability dynamic range (kT): 274.108
+norm = 1, error in norm = 4.44089e-16 (2*epsilon)
+-- WARNING  [westpa.core.sim_manager] -- 
+Minimum segment weight is < 1e-100 and might not be physically relevant. Please reconsider your progress coordinate or binning scheme.
+MAB binning in use
+Bottleneck bin occupancy may not be accurately reported
+Waiting for segments to complete...
+Recycled 7.34973e-59 probability (6 walkers) from target state 'unbound'
+
+Reweighting using a different bin mapper than simulation:
+<RectilinearBinMapper at 0x7f11d3d46bb0 with 10 bins>
+Averaging rates
+Calculating reweighting using window size of 448
+
+Bin probabilities prior to reweighting:
+[1.00000000e+00 1.26397524e-25 1.20466180e-44 1.82385740e-57
+ 3.00446123e-58 1.99577039e-58 2.20985083e-58 9.00785548e-58
+ 4.30941944e-58 0.00000000e+00]
+
+Bin populations after reweighting:
+[1.00000000e+00 1.26397524e-25 1.20466180e-44 1.82385740e-57
+ 3.00446123e-58 1.99577039e-58 2.20985083e-58 9.00785548e-58
+ 4.30941944e-58 0.00000000e+00]
+Iteration completed successfully
+Iteration wallclock: 1:05:25.322153, cputime: 8:12:04.431839
+
+
+Fri Apr  7 02:52:07 2023
+Iteration 599 (1000 requested)
+Beginning iteration 599
+340 segments remain in iteration 599 (340 total)
+81 of 111 (72.972973%) active bins are populated
+per-bin minimum non-zero probability:       7.5427e-121
+per-bin maximum probability:                1
+per-bin probability dynamic range (kT):     276.592
+per-segment minimum non-zero probability:   1.88567e-121
+per-segment maximum non-zero probability:   0.0833478
+per-segment probability dynamic range (kT): 275.494
+norm = 1, error in norm = 6.66134e-16 (3*epsilon)
+-- WARNING  [westpa.core.sim_manager] -- 
+Minimum segment weight is < 1e-100 and might not be physically relevant. Please reconsider your progress coordinate or binning scheme.
+MAB binning in use
+Bottleneck bin occupancy may not be accurately reported
+Waiting for segments to complete...
+Recycled 4.12742e-58 probability (5 walkers) from target state 'unbound'
+
+Reweighting using a different bin mapper than simulation:
+<RectilinearBinMapper at 0x7f11d3d46bb0 with 10 bins>
+Averaging rates
+Calculating reweighting using window size of 449
+
+Bin probabilities prior to reweighting:
+[1.00000000e+00 1.86049516e-25 2.38577439e-44 3.73329293e-59
+ 2.16898288e-58 4.03558897e-58 7.77389825e-58 3.75495221e-58
+ 2.27043095e-58 1.12181637e-60]
+
+Bin populations after reweighting:
+[1.00000000e+00 1.86049516e-25 2.38577439e-44 3.73329293e-59
+ 2.16898288e-58 4.03558897e-58 7.77389825e-58 3.75495221e-58
+ 2.27043095e-58 1.12181637e-60]
+Iteration completed successfully
+Iteration wallclock: 1:07:11.457990, cputime: 8:04:10.342708
+
+
+Fri Apr  7 03:59:18 2023
+Iteration 600 (1000 requested)
+Beginning iteration 600
+316 segments remain in iteration 600 (316 total)
+77 of 111 (69.369369%) active bins are populated
+per-bin minimum non-zero probability:       1.88567e-121
+per-bin maximum probability:                1
+per-bin probability dynamic range (kT):     277.979
+per-segment minimum non-zero probability:   4.71419e-122
+per-segment maximum non-zero probability:   0.0833478
+per-segment probability dynamic range (kT): 276.88
+norm = 1, error in norm = 6.66134e-16 (3*epsilon)
+-- WARNING  [westpa.core.sim_manager] -- 
+Minimum segment weight is < 1e-100 and might not be physically relevant. Please reconsider your progress coordinate or binning scheme.
+MAB binning in use
+Bottleneck bin occupancy may not be accurately reported
+Waiting for segments to complete...
+Recycled 2.46138e-59 probability (6 walkers) from target state 'unbound'
+
+Reweighting using a different bin mapper than simulation:
+<RectilinearBinMapper at 0x7f11d3d46bb0 with 10 bins>
+Averaging rates
+Calculating reweighting using window size of 450
+
+Bin probabilities prior to reweighting:
+[1.00000000e+00 2.07147665e-25 1.62946901e-44 1.00120970e-61
+ 1.16453371e-58 2.02664863e-58 4.75301852e-58 7.03306860e-58
+ 1.08683089e-58 3.55121538e-81]
+
+Bin populations after reweighting:
+[1.00000000e+00 2.07147665e-25 1.62946901e-44 1.00120970e-61
+ 1.16453371e-58 2.02664863e-58 4.75301852e-58 7.03306860e-58
+ 1.08683089e-58 3.55121538e-81]
+Iteration completed successfully
+Iteration wallclock: 1:06:56.495013, cputime: 7:26:27.477768
+
+
+Fri Apr  7 05:06:15 2023
+Iteration 601 (1000 requested)
+Beginning iteration 601
+336 segments remain in iteration 601 (336 total)
+81 of 111 (72.972973%) active bins are populated
+per-bin minimum non-zero probability:       4.71419e-122
+per-bin maximum probability:                1
+per-bin probability dynamic range (kT):     279.365
+per-segment minimum non-zero probability:   1.17855e-122
+per-segment maximum non-zero probability:   0.0833478
+per-segment probability dynamic range (kT): 278.266
+norm = 1, error in norm = 6.66134e-16 (3*epsilon)
+-- WARNING  [westpa.core.sim_manager] -- 
+Minimum segment weight is < 1e-100 and might not be physically relevant. Please reconsider your progress coordinate or binning scheme.
+MAB binning in use
+Bottleneck bin occupancy may not be accurately reported
+Waiting for segments to complete...
+Recycled 2.88514e-58 probability (7 walkers) from target state 'unbound'
+
+Reweighting using a different bin mapper than simulation:
+<RectilinearBinMapper at 0x7f11d3d46bb0 with 10 bins>
+Averaging rates
+Calculating reweighting using window size of 450
+
+Bin probabilities prior to reweighting:
+[1.00000000e+00 3.93197133e-25 1.17462315e-44 1.29448498e-58
+ 1.18181680e-58 2.30144221e-58 1.71549927e-58 2.55908005e-58
+ 3.43715245e-59 2.21950961e-82]
+
+Bin populations after reweighting:
+[1.00000000e+00 3.93197133e-25 1.17462315e-44 1.29448498e-58
+ 1.18181680e-58 2.30144221e-58 1.71549927e-58 2.55908005e-58
+ 3.43715245e-59 2.21950961e-82]
+Iteration completed successfully
+Iteration wallclock: 1:20:02.500828, cputime: 7:50:29.929093
+
+
+Fri Apr  7 06:26:17 2023
+Iteration 602 (1000 requested)
+Beginning iteration 602
+341 segments remain in iteration 602 (341 total)
+84 of 111 (75.675676%) active bins are populated
+per-bin minimum non-zero probability:       1.17855e-122
+per-bin maximum probability:                0.749992
+per-bin probability dynamic range (kT):     280.463
+per-segment minimum non-zero probability:   2.94637e-123
+per-segment maximum non-zero probability:   0.08334
+per-segment probability dynamic range (kT): 279.653
+norm = 1, error in norm = 6.66134e-16 (3*epsilon)
+-- WARNING  [westpa.core.sim_manager] -- 
+Minimum segment weight is < 1e-100 and might not be physically relevant. Please reconsider your progress coordinate or binning scheme.
+MAB binning in use
+Bottleneck bin occupancy may not be accurately reported
+Waiting for segments to complete...
+Recycled 3.01957e-59 probability (5 walkers) from target state 'unbound'
+
+Reweighting using a different bin mapper than simulation:
+<RectilinearBinMapper at 0x7f11d3d46bb0 with 10 bins>
+Averaging rates
+Calculating reweighting using window size of 451
+
+Bin probabilities prior to reweighting:
+[1.00000000e+00 5.43453738e-25 2.21657293e-34 6.27186962e-59
+ 8.07007986e-58 1.59153894e-58 2.76866099e-58 5.51541118e-59
+ 3.43715245e-59 2.77438701e-82]
+
+Bin populations after reweighting:
+[1.00000000e+00 5.43453738e-25 2.21657293e-34 6.27186962e-59
+ 8.07007986e-58 1.59153894e-58 2.76866099e-58 5.51541118e-59
+ 3.43715245e-59 2.77438701e-82]
+Iteration completed successfully
+Iteration wallclock: 1:21:04.990395, cputime: 8:01:11.509816
+
+
+Fri Apr  7 07:47:22 2023
+Iteration 603 (1000 requested)
+Beginning iteration 603
+329 segments remain in iteration 603 (329 total)
+79 of 111 (71.171171%) active bins are populated
+per-bin minimum non-zero probability:       2.94637e-123
+per-bin maximum probability:                0.812504
+per-bin probability dynamic range (kT):     281.93
+per-segment minimum non-zero probability:   7.36592e-124
+per-segment maximum non-zero probability:   0.0972192
+per-segment probability dynamic range (kT): 281.193
+norm = 1, error in norm = 6.66134e-16 (3*epsilon)
+-- WARNING  [westpa.core.sim_manager] -- 
+Minimum segment weight is < 1e-100 and might not be physically relevant. Please reconsider your progress coordinate or binning scheme.
+MAB binning in use
+Bottleneck bin occupancy may not be accurately reported
+Waiting for segments to complete...
+Recycled 2.57942e-59 probability (2 walkers) from target state 'unbound'
+
+Reweighting using a different bin mapper than simulation:
+<RectilinearBinMapper at 0x7f11d3d46bb0 with 10 bins>
+Averaging rates
+Calculating reweighting using window size of 452
+
+Bin probabilities prior to reweighting:
+[1.00000000e+00 3.24031470e-25 5.54143232e-35 1.16907855e-57
+ 5.13849323e-59 4.29963531e-58 1.19770942e-58 1.74603661e-58
+ 3.97692451e-59 5.54877403e-83]
+
+Bin populations after reweighting:
+[1.00000000e+00 3.24031470e-25 5.54143232e-35 1.16907855e-57
+ 5.13849323e-59 4.29963531e-58 1.19770942e-58 1.74603661e-58
+ 3.97692451e-59 5.54877403e-83]
+Iteration completed successfully
+Iteration wallclock: 1:22:32.902225, cputime: 7:44:41.792086
+
+
+Fri Apr  7 09:09:55 2023
+Iteration 604 (1000 requested)
+Beginning iteration 604
+342 segments remain in iteration 604 (342 total)
+81 of 111 (72.972973%) active bins are populated
+per-bin minimum non-zero probability:       7.36592e-124
+per-bin maximum probability:                0.890627
+per-bin probability dynamic range (kT):     283.408
+per-segment minimum non-zero probability:   1.84148e-124
+per-segment maximum non-zero probability:   0.0972192
+per-segment probability dynamic range (kT): 282.579
+norm = 1, error in norm = 8.88178e-16 (4*epsilon)
+-- WARNING  [westpa.core.sim_manager] -- 
+Minimum segment weight is < 1e-100 and might not be physically relevant. Please reconsider your progress coordinate or binning scheme.
+MAB binning in use
+Bottleneck bin occupancy may not be accurately reported
+Waiting for segments to complete...
+Recycled 7.74624e-59 probability (3 walkers) from target state 'unbound'
+
+Reweighting using a different bin mapper than simulation:
+<RectilinearBinMapper at 0x7f11d3d46bb0 with 10 bins>
+Averaging rates
+Calculating reweighting using window size of 453
+
+Bin probabilities prior to reweighting:
+[1.00000000e+00 3.24031473e-25 3.49485109e-39 3.04455555e-57
+ 2.92532972e-58 8.46594357e-58 5.08741165e-59 1.51656848e-58
+ 9.26138240e-59 1.73399188e-83]
+
+Bin populations after reweighting:
+[1.00000000e+00 3.24031473e-25 3.49485109e-39 3.04455555e-57
+ 2.92532972e-58 8.46594357e-58 5.08741165e-59 1.51656848e-58
+ 9.26138240e-59 1.73399188e-83]
+Iteration completed successfully
+Iteration wallclock: 1:23:08.831688, cputime: 7:58:23.059142
+
+
+Fri Apr  7 10:33:04 2023
+Iteration 605 (1000 requested)
+Beginning iteration 605
+347 segments remain in iteration 605 (347 total)
+84 of 111 (75.675676%) active bins are populated
+per-bin minimum non-zero probability:       1.84148e-124
+per-bin maximum probability:                0.994792
+per-bin probability dynamic range (kT):     284.905
+per-segment minimum non-zero probability:   4.6037e-125
+per-segment maximum non-zero probability:   0.0972192
+per-segment probability dynamic range (kT): 283.965
+norm = 1, error in norm = 6.66134e-16 (3*epsilon)
+-- WARNING  [westpa.core.sim_manager] -- 
+Minimum segment weight is < 1e-100 and might not be physically relevant. Please reconsider your progress coordinate or binning scheme.
+MAB binning in use
+Bottleneck bin occupancy may not be accurately reported
+Waiting for segments to complete...
+Recycled 4.53436e-59 probability (5 walkers) from target state 'unbound'
+
+Reweighting using a different bin mapper than simulation:
+<RectilinearBinMapper at 0x7f11d3d46bb0 with 10 bins>
+Averaging rates
+Calculating reweighting using window size of 453
+
+Bin probabilities prior to reweighting:
+[1.00000000e+00 3.24031472e-25 1.24353735e-45 4.23380759e-59
+ 2.34862368e-78 2.82659416e-58 4.39200664e-58 3.08249755e-58
+ 1.74547878e-59 3.46798377e-84]
+
+Bin populations after reweighting:
+[1.00000000e+00 3.24031472e-25 1.24353735e-45 4.23380759e-59
+ 2.34862368e-78 2.82659416e-58 4.39200664e-58 3.08249755e-58
+ 1.74547878e-59 3.46798377e-84]
+Iteration completed successfully
+Iteration wallclock: 1:27:22.726219, cputime: 8:10:59.015721
+
+
+Fri Apr  7 12:00:27 2023
+Iteration 606 (1000 requested)
+Beginning iteration 606
+346 segments remain in iteration 606 (346 total)
+85 of 111 (76.576577%) active bins are populated
+per-bin minimum non-zero probability:       4.6037e-125
+per-bin maximum probability:                0.902781
+per-bin probability dynamic range (kT):     286.194
+per-segment minimum non-zero probability:   1.15092e-125
+per-segment maximum non-zero probability:   0.0963521
+per-segment probability dynamic range (kT): 285.343
+norm = 1, error in norm = 8.88178e-16 (4*epsilon)
+-- WARNING  [westpa.core.sim_manager] -- 
+Minimum segment weight is < 1e-100 and might not be physically relevant. Please reconsider your progress coordinate or binning scheme.
+MAB binning in use
+Bottleneck bin occupancy may not be accurately reported
+Waiting for segments to complete...
+Recycled 2.81494e-59 probability (8 walkers) from target state 'unbound'
+
+Reweighting using a different bin mapper than simulation:
+<RectilinearBinMapper at 0x7f11d3d46bb0 with 10 bins>
+Averaging rates
+Calculating reweighting using window size of 454
+
+Bin probabilities prior to reweighting:
+[1.00000000e+000 9.74375237e-014 7.83174819e-046 3.84987822e-058
+ 1.42793728e-057 3.99617823e-058 5.18828848e-059 1.35863995e-058
+ 1.84147917e-124 8.66995942e-084]
+
+Bin populations after reweighting:
+[1.00000000e+000 9.74375237e-014 7.83174819e-046 3.84987822e-058
+ 1.42793728e-057 3.99617823e-058 5.18828848e-059 1.35863995e-058
+ 1.84147917e-124 8.66995942e-084]
+Iteration completed successfully
+Iteration wallclock: 1:18:11.017350, cputime: 8:03:31.831460
+
+
+Fri Apr  7 13:18:38 2023
+Iteration 607 (1000 requested)
+Beginning iteration 607
+331 segments remain in iteration 607 (331 total)
+80 of 111 (72.072072%) active bins are populated
+per-bin minimum non-zero probability:       1.15092e-125
+per-bin maximum probability:                0.975695
+per-bin probability dynamic range (kT):     287.658
+per-segment minimum non-zero probability:   2.87731e-126
+per-segment maximum non-zero probability:   0.0947528
+per-segment probability dynamic range (kT): 286.712
+norm = 1, error in norm = 6.66134e-16 (3*epsilon)
+-- WARNING  [westpa.core.sim_manager] -- 
+Minimum segment weight is < 1e-100 and might not be physically relevant. Please reconsider your progress coordinate or binning scheme.
+MAB binning in use
+Bottleneck bin occupancy may not be accurately reported
+Waiting for segments to complete...
+Recycled 7.87546e-59 probability (2 walkers) from target state 'unbound'
+
+Reweighting using a different bin mapper than simulation:
+<RectilinearBinMapper at 0x7f11d3d46bb0 with 10 bins>
+Averaging rates
+Calculating reweighting using window size of 455
+
+Bin probabilities prior to reweighting:
+[1.00000000e+00 2.70198057e-25 2.16462201e-37 2.50942841e-57
+ 6.96548785e-58 4.60738977e-60 4.31236374e-58 3.44168935e-58
+ 3.46798377e-84 0.00000000e+00]
+
+Bin populations after reweighting:
+[1.00000000e+00 2.70198057e-25 2.16462201e-37 2.50942841e-57
+ 6.96548785e-58 4.60738977e-60 4.31236374e-58 3.44168935e-58
+ 3.46798377e-84 0.00000000e+00]
+Iteration completed successfully
+Iteration wallclock: 1:11:42.704537, cputime: 7:41:18.827571
+
+Iteration 608 would require more than the allotted time. Ending run.

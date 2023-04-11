@@ -9,7 +9,7 @@
 #SBATCH --cluster=invest
 #SBATCH --partition=lchong
 #SBATCH --gres=gpu:4
-#SBATCH --time=0:09:59
+#SBATCH --time=23:59:59
 
 set -x
 cd $SLURM_SUBMIT_DIR
