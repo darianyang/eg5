@@ -71,6 +71,8 @@ multi-mab_nomon_v01:
             * changed to 1 to try to populate bins better
                 * this didn't help, changed back
 
+    * attempting to do haMSM post-analysis on this dataset
+
 # multi-mab with monastrol
 multi-mab_wmon_v00:
     * same setup as multi-mab_nomon_v01, but with monastrol bound
