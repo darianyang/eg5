@@ -7,7 +7,7 @@ fi
 
 cd $WEST_SIM_ROOT
 
-COMMAND="           parm $WEST_SIM_ROOT/common_files/1x88_solv.prmtop \n"
+COMMAND="           parm $WEST_SIM_ROOT/common_files/1ii6_solv.prmtop \n"
 COMMAND="${COMMAND} trajin $WEST_STRUCT_DATA_REF \n"
 COMMAND="${COMMAND} reference $WEST_SIM_ROOT/bstates/05_eq3.ncrst \n"
 COMMAND="${COMMAND} autoimage \n"
