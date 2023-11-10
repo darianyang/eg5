@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=eg5_wmon_multi_mab_v00
+#SBATCH --job-name=eg5_dl5_multi_mab_v00
 #SBATCH --output=job_logs/slurm.out
 #SBATCH --error=job_logs/slurm.err
 #SBATCH --mail-user=dty7@pitt.edu

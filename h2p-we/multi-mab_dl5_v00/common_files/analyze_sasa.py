@@ -22,8 +22,8 @@ def calc_sasa(selection):
     wpath = sys.argv[1]
 
     # load the parent rst frame and current segment coords
-    traj_parent = mdtraj.load(f"{wpath}/parent.ncrst", top="1x88_solv.prmtop") 
-    traj_segment = mdtraj.load(f"{wpath}/seg.nc", top="1x88_solv.prmtop")
+    traj_parent = mdtraj.load(f"{wpath}/parent.ncrst", top="1ii6_dl5_solv.prmtop") 
+    traj_segment = mdtraj.load(f"{wpath}/seg.nc", top="1ii6_dl5_solv.prmtop")
     traj = traj_parent+traj_segment
 
     #traj = mdtraj.load(f"{wpath}/eg5_2022.pdb")
@@ -45,15 +45,15 @@ def calc_sasa(selection):
     # convert nm^2 to Angstroms^2 and return
     return sasa * 10**2 
 
-prot = calc_sasa("resid 1 to 367")
+prot = calc_sasa("resid 0 to 360")
 recept = calc_sasa("resid 23 to 29 or resid 71 to 77 or resid 80 \
-                    or resid 102 to 117 or resid 131 or resid 231 \
-                    to 232 or resid 264 to 269 or resid 273 or \
-                    resid 332 or resid 334 to 337")
+                    or resid 102 to 117 or resid 124 or resid 224 \
+                    to 225 or resid 257 to 262 or resid 266 or \
+                    resid 325 or resid 327 to 330")
 adp = calc_sasa("resname ADP")
-mon = calc_sasa("resname MON")
+#mon = calc_sasa("resname MON")
 
 np.savetxt("prot_sasa.dat", prot) 
 np.savetxt("recept_sasa.dat", recept) 
 np.savetxt("adp_sasa.dat", adp)
-np.savetxt("mon_sasa.dat", mon)
+#np.savetxt("mon_sasa.dat", mon)
