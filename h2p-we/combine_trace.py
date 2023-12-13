@@ -1,4 +1,3 @@
-#!/bin/env python3
 """
 Combine and analyze traj seg seg.nc files in MDAnalysis.
 """
@@ -78,10 +77,12 @@ def concat_iter(trace, top, out_path=None):
     return trace_traj
 
 WE = "multi-mab_nomon_v01"
+WE = "multi-mab_dl5_v00"
 os.chdir(WE)
 
-trace = trace_walker((585, 218), "west.h5")
-concat_iter(trace, f"common_files/eg5_2022_dry.prmtop", out_path="traced_traj/585_218.dcd")
+trace = trace_walker((355, 116), "west.h5")
+#concat_iter(trace, f"common_files/eg5_2022_dry.prmtop", out_path="traced_traj/355_116.dcd")
+concat_iter(trace, f"common_files/1ii6_dl5_dry.prmtop", out_path="traced_traj/355_116.dcd")
 
 # TODO: need to use cpptraj autoimage and maybe rms fit to tame the unweildly output
 # add this to the trace walker function through os commands?
