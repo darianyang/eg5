@@ -1,0 +1,1 @@
+This version of Eg5 DL5 has a large clash of ADP and Eg5 after loopy for modeling the DL5 variant moved the Eg5 coordianates slightly, but failed to also move the ADP and Mg, this has been corrected in the directory above.
