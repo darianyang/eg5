@@ -1,0 +1,10 @@
+Updating system with the options from the configuration file
+tar: seg_logs/000378-*.log: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+-- WARNING  [westpa.work_managers.zeromq.core] -- sending SIGKILL to worker process 16603
+-- WARNING  [westpa.work_managers.zeromq.core.ZMQWorker.63e44ab6-e443-4e57-a81e-809b6a02e885] -- sending SIGKILL to worker process 16658
+-- WARNING  [westpa.work_managers.zeromq.core] -- sending SIGKILL to worker process 16604
+-- WARNING  [westpa.work_managers.zeromq.core] -- sending SIGKILL to worker process 16605
+-- WARNING  [westpa.work_managers.zeromq.core] -- sending SIGKILL to worker process 16606
+-- WARNING  [westpa.work_managers.zeromq.core.ZMQWorker.fc34d357-a1d9-4654-bf9c-effcdd5f8ea3] -- sending SIGKILL to worker process 16651
+-- WARNING  [westpa.work_managers.zeromq.core.ZMQWorker.c48e78c5-041b-4d3d-a4aa-71f6e9bbc114] -- sending SIGKILL to worker process 16640

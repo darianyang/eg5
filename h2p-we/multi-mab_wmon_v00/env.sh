@@ -2,8 +2,8 @@
 
 # Load Modules
 module purge
-module load gcc/8.2.0 openmpi/4.0.3 amber/22
 source ~/.bashrc
+module load gcc/8.2.0 openmpi/4.0.3 amber/22
 #module load cuda/10.2.0
 #module load intel-mpi
 #export CUDA_HOME=/opt/packages/cuda/8.0

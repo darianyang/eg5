@@ -1360,3 +1360,4 @@ Warning: When compiling code please add the following flags to nvcc:
 + sort
 + env
 + w_run --work-manager=zmq --n-workers=4 --zmq-mode=client --zmq-read-host-info=/ix/lchong/dty7/eg5/h2p-we/multi-mab_dl5_v00/west_zmq_info-663327.json --zmq-comm-mode=tcp
++ echo 'Shutting down.  Hopefully this was on purpose?'
