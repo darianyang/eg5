@@ -4,10 +4,8 @@ Warning: When compiling code please add the following flags to nvcc:
          -gencode arch=compute_70,code=[compute_70,sm_70] 
 + SANDER=pmemd.cuda
 + PDB=1ii6_dl5_solv
-+ printf '\nstart restrained equil\n\n'
-+ pmemd.cuda -O -i 04_eq2.in -o 04_eq2.out -x 04_eq2.nc -p 1ii6_dl5_solv.prmtop -c 03_eq1.rst -r 04_eq2.rst -ref 03_eq1.rst
-+ printf '\ndone restrained equil\n\n'
 + printf '\nstart unrestrained equil\n\n'
 + pmemd.cuda -O -i 05_eq3.in -o 05_eq3.out -x 05_eq3.nc -p 1ii6_dl5_solv.prmtop -c 04_eq2.rst -r 05_eq3.ncrst
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
 + printf '\ndone unrestrained equil\n\n'
-/var/spool/slurmd/job36940/slurm_script: line 73: syntax error: unexpected end of file
+/var/spool/slurmd/job713408/slurm_script: line 76: syntax error: unexpected end of file

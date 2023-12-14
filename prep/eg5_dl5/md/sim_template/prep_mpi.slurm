@@ -12,8 +12,9 @@
 
 # load appropriate modules.  First purge all modules then load in intel (a prereq for loading in amber) and then amber 
 module purge
-module load intel/2017.3.196
-module load amber/18
+module load gcc/8.2.0
+module load openmpi/4.0.3
+module load amber/22
 
 # echo commands to stdout
 set -x

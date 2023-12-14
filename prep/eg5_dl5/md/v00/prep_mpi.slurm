@@ -3,9 +3,9 @@
 #SBATCH --nodes=1 
 #SBATCH --ntasks-per-node=1
 #SBATCH --gres=gpu:1
-#SBATCH --cluster=invest
-#SBATCH --partition=lchong
-#SBATCH --time=23:59:59 
+#SBATCH --cluster=gpu
+#SBATCH --partition=gtx1080
+#SBATCH --time=4:59:59
 #SBATCH --mail-user=dty7@pitt.edu
 #SBATCH --mail-type=END,FAIL
 #SBATCH --output=slurm_prep.out 
@@ -13,8 +13,11 @@
 
 # load appropriate modules.  First purge all modules then load in intel (a prereq for loading in amber) and then amber 
 module purge
-module load intel/2017.3.196
-module load amber/18
+#module load intel/2017.3.196
+#module load amber/18
+module load gcc/8.2.0
+module load openmpi/4.0.3
+module load amber/22
 
 # echo commands to stdout
 set -x
@@ -50,13 +53,13 @@ PDB="1ii6_dl5_solv"
 #printf "\ndone restrained system heat in\n\n" 
 
 # 1 ns restrained NPT equilibration Langevin thermostat (298K) MC barostat (1atm)
-printf "\nstart restrained equil\n\n" 
-#$DO_PARALLEL \
-    $SANDER  -O \
-            -i 04_eq2.in -o 04_eq2.out \
-	    -x 04_eq2.nc \
-            -p ${PDB}.prmtop -c 03_eq1.rst -r 04_eq2.rst -ref 03_eq1.rst &&
-printf "\ndone restrained equil\n\n" 
+#printf "\nstart restrained equil\n\n" 
+##$DO_PARALLEL \
+#    $SANDER  -O \
+#            -i 04_eq2.in -o 04_eq2.out \
+#	    -x 04_eq2.nc \
+#            -p ${PDB}.prmtop -c 03_eq1.rst -r 04_eq2.rst -ref 03_eq1.rst &&
+#printf "\ndone restrained equil\n\n" 
 
 # 1 ns unrestrained NPT equilibration Langevin thermostat (298K) MC barostat (1atm)
 printf "\nstart unrestrained equil\n\n" 

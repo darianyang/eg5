@@ -14,16 +14,19 @@ for SYS in ${SYSTEMS[@]} ; do
     cd $SYS
     echo -e "\nRUNNING SYSTEM : $SYS"
 
-    cp -v ../../${PDB}_leap.pdb .
-    #cp -v ../../${PDB}_solv.* .
+    # grab sim template files
     cp ../sim_template/* .
 
     # formatting
     bash temp_sed.sh ${PDB} v00
+
+    # copy pdb and sim input files but don't sed them
+    cp -v ../../${PDB}_leap.pdb .
+    cp -v ../../${PDB}_solv.* .
     # make the inital parm and crd files
     #tleap -f tleap.in > tleap.out
     # submit the prep run, which submits the prod after finishing
-    #sbatch prep_mpi.slurm
+    sbatch prep_mpi.slurm
 
     echo "FINISHED SYSTEM : $SYS"
     cd ..

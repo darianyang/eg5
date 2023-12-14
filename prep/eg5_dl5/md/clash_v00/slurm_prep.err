@@ -1,0 +1,13 @@
+Warning: When compiling code please add the following flags to nvcc:
+         -gencode arch=compute_35,code=[compute_35,sm_35] \
+         -gencode arch=compute_61,code=[compute_61,sm_61] 
+         -gencode arch=compute_70,code=[compute_70,sm_70] 
++ SANDER=pmemd.cuda
++ PDB=1ii6_dl5_solv
++ printf '\nstart restrained equil\n\n'
++ pmemd.cuda -O -i 04_eq2.in -o 04_eq2.out -x 04_eq2.nc -p 1ii6_dl5_solv.prmtop -c 03_eq1.rst -r 04_eq2.rst -ref 03_eq1.rst
++ printf '\ndone restrained equil\n\n'
++ printf '\nstart unrestrained equil\n\n'
++ pmemd.cuda -O -i 05_eq3.in -o 05_eq3.out -x 05_eq3.nc -p 1ii6_dl5_solv.prmtop -c 04_eq2.rst -r 05_eq3.ncrst
++ printf '\ndone unrestrained equil\n\n'
+/var/spool/slurmd/job36940/slurm_script: line 73: syntax error: unexpected end of file
