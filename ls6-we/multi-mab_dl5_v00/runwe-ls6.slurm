@@ -3,7 +3,7 @@
 #SBATCH -o job_logs/slurm_%j.out
 #SBATCH -e job_logs/slurm_%j.err
 #SBATCH -t 48:00:00
-#SBATCH -N 2
+#SBATCH -N 4
 #SBATCH --ntasks-per-node 3
 #SBATCH -p gpu-a100
 #SBATCH -A MCB23004
@@ -25,7 +25,7 @@ echo "Hostlist: ${SLURM_NODELIST}"
 
   SERVER_INFO=$WEST_SIM_ROOT/west_zmq_info-$SLURM_JOBID.json
 
-  source init.sh
+  #source init.sh
 
 # start server
   #_run --debug --work-manager=zmq \

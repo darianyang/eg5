@@ -1,4 +1,4 @@
-Warning: Permanently added 'c317-012' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'c315-005' (ECDSA) to the list of known hosts.
 Resetting modules to system default. Resetting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
 BEGIN INSIDE ENV.SH
 
@@ -17,7 +17,7 @@ Currently Loaded Modules:
 /work/09416/dty7/ls6/module_build_we_amber/modules/envwestpa/1.0_b/bin/python
 END   INSIDE ENV.SH
 starting WEST client processes on: 
-c317-012.ls6.tacc.utexas.edu
+c315-005.ls6.tacc.utexas.edu
 current directory is /home1/09416/dty7/scratch/eg5/ls6-we/multi-mab_dl5_v00
 environment is: 
 CUDA_VISIBLE_DEVICES =  0,1,2
@@ -33,15 +33,12 @@ Updating system with the options from the configuration file
 -- INFO     [westpa.core.we_driver] -- Obey abolute weight thresholds: True
 -- INFO     [westpa.core.we_driver] -- Split threshold: 2.0
 -- INFO     [westpa.core.we_driver] -- Merge cutoff: 1.0
--- INFO     [westpa.core.we_driver] -- Largest allowed weight: 1.0
--- INFO     [westpa.core.we_driver] -- Smallest allowed_weight: 1e-310
--- INFO     [westpa.work_managers.zeromq.core.ZMQWorker.8e28c599-f1e6-4133-a01d-d854b2698476] -- This is ZMQWorker on c317-012.ls6.tacc.utexas.edu at PID 2478667
--- INFO     [westpa.work_managers.zeromq.core.ZMQWorker.56f321ee-b2b3-497b-af61-440f0f163fa7] -- This is ZMQWorker on c317-012.ls6.tacc.utexas.edu at PID 2478667
--- INFO     [westpa.work_managers.zeromq.core.ZMQExecutor.0edb1889-f2c5-4021-a3d8-433bca7b56c8] -- This is ZMQExecutor on c317-012.ls6.tacc.utexas.edu at PID 2478671
--- INFO     [westpa.work_managers.zeromq.core.ZMQExecutor.193b4800-8c95-46e3-a73d-47f0391aee11] -- This is ZMQExecutor on c317-012.ls6.tacc.utexas.edu at PID 2478669
--- INFO     [westpa.work_managers.zeromq.core.ZMQWorker.34975664-ea76-44f7-b1d3-02323c94ebb0] -- This is ZMQWorker on c317-012.ls6.tacc.utexas.edu at PID 2478667
--- INFO     [westpa.work_managers.zeromq.core.ZMQExecutor.2cee816d-bf02-4212-bb65-7f3001ec2e3a] -- This is ZMQExecutor on c317-012.ls6.tacc.utexas.edu at PID 2478683
--- WARNING  [westpa.work_managers.zeromq.core] -- sending SIGKILL to worker process 2478669
--- WARNING  [westpa.work_managers.zeromq.core] -- sending SIGKILL to worker process 2478671
--- WARNING  [westpa.work_managers.zeromq.core] -- sending SIGKILL to worker process 3513607
-Shutting down.  Hopefully this was on purpose?
+-- INFO     [westpa.core.we_driver] -- Largest allowed weight: 0.1
+-- INFO     [westpa.core.we_driver] -- Smallest allowed_weight: 1e-129
+-- INFO     [westpa.work_managers.zeromq.core.ZMQWorker.c55045bd-2e17-4755-a5dc-12cd54d2545e] -- This is ZMQWorker on c315-005.ls6.tacc.utexas.edu at PID 280490
+-- INFO     [westpa.work_managers.zeromq.core.ZMQWorker.87569461-d1cf-435e-9542-17c9562365c2] -- This is ZMQWorker on c315-005.ls6.tacc.utexas.edu at PID 280490
+-- INFO     [westpa.work_managers.zeromq.core.ZMQExecutor.3fac6c3e-a77e-40c3-83f6-10bec744a433] -- This is ZMQExecutor on c315-005.ls6.tacc.utexas.edu at PID 280492
+-- INFO     [westpa.work_managers.zeromq.core.ZMQExecutor.f0d55a4c-bdd1-4ded-9fd3-ba9c9c20a654] -- This is ZMQExecutor on c315-005.ls6.tacc.utexas.edu at PID 280499
+-- INFO     [westpa.work_managers.zeromq.core.ZMQWorker.99079809-61b0-454c-98db-71dc6f5371a0] -- This is ZMQWorker on c315-005.ls6.tacc.utexas.edu at PID 280490
+-- INFO     [westpa.work_managers.zeromq.core.ZMQExecutor.e7502d23-7844-4a08-b96e-06addac8597a] -- This is ZMQExecutor on c315-005.ls6.tacc.utexas.edu at PID 280506
+30413
