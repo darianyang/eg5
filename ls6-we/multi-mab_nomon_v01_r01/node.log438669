@@ -36,5 +36,9 @@ Updating system with the options from the configuration file
 -- INFO     [westpa.work_managers.zeromq.core.ZMQExecutor.1f74bc6b-ba67-4f5f-b11c-f68b341fc46d] -- This is ZMQExecutor on c315-015.ls6.tacc.utexas.edu at PID 3914277
 -- INFO     [westpa.work_managers.zeromq.core.ZMQWorker.4db5fb32-cf18-46b4-bd83-72257b62bafd] -- This is ZMQWorker on c315-015.ls6.tacc.utexas.edu at PID 3914275
 -- INFO     [westpa.work_managers.zeromq.core.ZMQExecutor.c461a4bb-9114-4558-bc73-5202d92e0878] -- This is ZMQExecutor on c315-015.ls6.tacc.utexas.edu at PID 3914-- I-- INFO     [westpa.work_managers.zeromq.core.ZMQWorker.a6503189-c0e9-4043-a11d-e93e0a0bb613] -- This is ZMQWorker on c315-015.ls6.tacc.utexas.edu at PID 3914275
--- INFO     [westpa.work_managers.zeromq.core.ZMQExecutor.a7686fc2-ca3d-48b8-9f2c-4a2c70425c63] -- This is ZMQExecutor on c315-015.ls6.tacc.utexas.edu at PID 3914291
-f0c] -- This is ZMQExecutor on c305-004.ls6.tacc.utexas.edu at PID 3879019
+-- INFO     [westpa.work_managers.zeromq.core.ZMQExecutor.a7686fc2-ca3d-48b8-9f2c-4a2c70425c63] -- This is ZMQExecutor on c315-015.ls6.tacc.utexas.edu at PID 39-- WARNING  [westpa.work_managers.zeromq.core] -- sending SIGKILL to worker process 675452
+-- WARNING  [westpa.work_managers.zeromq.core] -- sending SIGKILL to worker process 675459
+-- WARNING  [westpa.work_managers.zeromq.core] -- sending SIGKILL to worker process 675466
+Shutting Shutting down.  Hopefully this was on purpose?
+L to worker process 3879019
+Shutting down.  Hopefully this was on purpose?

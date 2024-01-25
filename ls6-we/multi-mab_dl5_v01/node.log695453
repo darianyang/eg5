@@ -1,0 +1,35 @@
+Resetting modules to system default. Resetting $MODULEPATH back to system dResetting modules to system default. Resetting $MODULEPATH back BEGIN INSIDE ENV.SH
+
+Currently Loaded Modules:
+  1) cmake/3.24.2   6) impi/19.0.9          11) 
+Currently Loaded Modules:
+  1) cmake/3.24.2   6) impi/19.0.9          11) openmm/7.7.0_a
+  2) pmix/3.2.3     7) cuda/11.3       (g)  12) swig/4.1.1_b
+  3) xalt/2.10.32   8) conda/4.12.0_a       13) boost/1.72.0_a
+  4) TACC           9) envwestpa/1.0_b      14) amber/22_a
+  5) intel/19.1.1  10) /work/09416/dty7/ls6/module_build_we_amber/modules/envwestpa/1.0_b/bin/pyth/work/09416/dty7/ls6/module_build_we_amber/modules/envwestpa/1.0_b/bin/python
+END   INSIDE ENV.SH
+starting WEST client processes on: 
+c317-009.ls6.tacc.utexas.edu
+current directory CUDA_VISIBLE_DEVICES =  0,1,2
+-- INFO     [westpa.rc] -- loading system driver 'westpa.core.systems.WESTSystem'
+-- INFO     [westpa.rc] -- Loading system options from configuration file
+Updating system with the options from the configuration file
+-- INFO     [westpa.rc] -- Overwriting system option: pcoord_ndim
+-- INFO     [westpa.rc] -- Overwriting system option: pcoord_len
+-- INFO     [westpa.rc] -- Overwriting system option: pcoord_dtype
+-- INFO     [westpa.rc] -- Overwriting system option: bin_mapper
+-- INFO     [westpa.rc] -- Overwriting system option: bin_target_counts
+-- INFO     [westpa.core.we_driver] -- Adjust counts to exactly match target_counts: True
+-- INFO     [westpa.core.we_driver] -- Obey abolute weight thresholds: True
+-- INFO     [westpa.core.we_driver] -- Split threshold: 2.0
+-- INFO     [westpa.core.we_driver] -- Merge cutoff: 1.0
+-- INFO     [westpa.core.we_driver] -- Largest allowed weight: 0.1
+-- INFO     [westpa.core.we_driver] -- Smallest allowed_weight: 1e-129
+-- INFO     [westpa.work_managers.zeromq.core.ZMQWorker.7eae84c3-38ec-445f-ae7a-8c06d7e27591] -- This is ZMQWorker on c317-007.ls6.tacc.utexas.edu at PID 3884670
+-- INFO     [westpa.work_managers.zeromq.core.ZMQExecutor.ad2a42c9-32ea-4471-9378-0af3e6555f57] -- This is ZMQExecutor on c317-007.ls6.tacc.utexas.edu at PID 3884673
+-- INFO     [westpa.work_managers.zeromq.core.ZMQWorker.dfe18762-ccb0-429d-8470-11272bbaf85a] -- This is ZMQWorker on c317-007.ls6.tacc.utexas.edu at PID 3884670
+-- INFO     [westpa.work_managers.zeromq.core.ZMQExecutor.ea2a002e-2971-4982-8358-5fad19001dc2] -- This is ZMQExecutor on c317-007.ls6.tacc.utexas.edu at PID 3884680
+-- INFO     [westpa.work_managers.zeromq.core.ZMQWorker.3c021993-a040-4127-a3da-da1fdca68862] -- This is ZMQWorker on c317-007.ls6.tacc.utexas.edu at PID 3884670
+-- INFO     [westpa.work_managers.zeromq.core.ZMQExecutor.d231733f-5ce9-4861-b5d6-2ee92bf9c7a6] -- This is ZMQExecutor on c317-007.ls6.tacc.utexas.edu at PID 3884687
+52a] -- This is ZMQExecutor on c317-009.ls6.tacc.utexas.edu at PID 3445109

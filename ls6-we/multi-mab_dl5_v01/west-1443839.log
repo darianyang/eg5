@@ -1,0 +1,301 @@
+MPI startup(): PMI server not found. Please set I_MPI_PMI_LIBRARY variable if it is not a singleton case.
+-- INFO     [westpa.rc] -- loading system driver 'westpa.core.systems.WESTSystem'
+-- INFO     [westpa.rc] -- Loading system options from configuration file
+Updating system with the options from the configuration file
+-- INFO     [westpa.rc] -- Overwriting system option: pcoord_ndim
+-- INFO     [westpa.rc] -- Overwriting system option: pcoord_len
+-- INFO     [westpa.rc] -- Overwriting system option: pcoord_dtype
+-- INFO     [westpa.rc] -- Overwriting system option: bin_mapper
+-- INFO     [westpa.rc] -- Overwriting system option: bin_target_counts
+-- INFO     [westpa.core.we_driver] -- Adjust counts to exactly match target_counts: True
+-- INFO     [westpa.core.we_driver] -- Obey abolute weight thresholds: True
+-- INFO     [westpa.core.we_driver] -- Split threshold: 2.0
+-- INFO     [westpa.core.we_driver] -- Merge cutoff: 1.0
+-- INFO     [westpa.core.we_driver] -- Largest allowed weight: 0.1
+-- INFO     [westpa.core.we_driver] -- Smallest allowed_weight: 1e-129
+Maximum wallclock time: 2 days, 0:00:00
+
+Mon Jan  8 14:07:04 2024
+Iteration 1226 (2000 requested)
+Beginning iteration 1226
+259 segments remain in iteration 1226 (259 total)
+80 of 111 (72.072072%) active bins are populated
+per-bin minimum non-zero probability:       2.25206e-67
+per-bin maximum probability:                0.909042
+per-bin probability dynamic range (kT):     153.366
+per-segment minimum non-zero probability:   7.50688e-68
+per-segment maximum non-zero probability:   0.0909042
+per-segment probability dynamic range (kT): 152.162
+norm = 1, error in norm = 3.55271e-15 (16*epsilon)
+MAB binning in use
+Bottleneck bin occupancy may not be accurately reported
+Waiting for segments to complete...
+Iteration completed successfully
+Iteration wallclock: 0:25:22.042783, cputime: 3:53:06.426803
+
+
+Mon Jan  8 14:32:26 2024
+Iteration 1227 (2000 requested)
+Beginning iteration 1227
+251 segments remain in iteration 1227 (251 total)
+81 of 111 (72.972973%) active bins are populated
+per-bin minimum non-zero probability:       7.50688e-68
+per-bin maximum probability:                0.999946
+per-bin probability dynamic range (kT):     154.56
+per-segment minimum non-zero probability:   2.50229e-68
+per-segment maximum non-zero probability:   0.0909042
+per-segment probability dynamic range (kT): 153.261
+norm = 1, error in norm = 3.33067e-15 (15*epsilon)
+MAB binning in use
+Bottleneck bin occupancy may not be accurately reported
+Waiting for segments to complete...
+Iteration completed successfully
+Iteration wallclock: 0:22:28.733843, cputime: 3:46:30.270515
+
+
+Mon Jan  8 14:54:55 2024
+Iteration 1228 (2000 requested)
+Beginning iteration 1228
+253 segments remain in iteration 1228 (253 total)
+80 of 111 (72.072072%) active bins are populated
+per-bin minimum non-zero probability:       2.50229e-68
+per-bin maximum probability:                0.909042
+per-bin probability dynamic range (kT):     155.563
+per-segment minimum non-zero probability:   8.34097e-69
+per-segment maximum non-zero probability:   0.0909042
+per-segment probability dynamic range (kT): 154.359
+norm = 1, error in norm = 3.33067e-15 (15*epsilon)
+MAB binning in use
+Bottleneck bin occupancy may not be accurately reported
+Waiting for segments to complete...
+Iteration completed successfully
+Iteration wallclock: 0:22:23.266505, cputime: 3:49:06.092297
+
+
+Mon Jan  8 15:17:18 2024
+Iteration 1229 (2000 requested)
+Beginning iteration 1229
+242 segments remain in iteration 1229 (242 total)
+77 of 111 (69.369369%) active bins are populated
+per-bin minimum non-zero probability:       8.34097e-69
+per-bin maximum probability:                0.999946
+per-bin probability dynamic range (kT):     156.757
+per-segment minimum non-zero probability:   2.78032e-69
+per-segment maximum non-zero probability:   0.0909042
+per-segment probability dynamic range (kT): 155.458
+norm = 1, error in norm = 3.33067e-15 (15*epsilon)
+MAB binning in use
+Bottleneck bin occupancy may not be accurately reported
+Waiting for segments to complete...
+Iteration completed successfully
+Iteration wallclock: 0:21:33.150855, cputime: 3:38:38.572063
+
+
+Mon Jan  8 15:38:51 2024
+Iteration 1230 (2000 requested)
+Beginning iteration 1230
+241 segments remain in iteration 1230 (241 total)
+77 of 111 (69.369369%) active bins are populated
+per-bin minimum non-zero probability:       2.78032e-69
+per-bin maximum probability:                0.909042
+per-bin probability dynamic range (kT):     157.76
+per-segment minimum non-zero probability:   9.26775e-70
+per-segment maximum non-zero probability:   0.0909042
+per-segment probability dynamic range (kT): 156.556
+norm = 1, error in norm = 3.33067e-15 (15*epsilon)
+MAB binning in use
+Bottleneck bin occupancy may not be accurately reported
+Waiting for segments to complete...
+Iteration completed successfully
+Iteration wallclock: 0:21:31.702949, cputime: 3:37:50.213443
+
+
+Mon Jan  8 16:00:24 2024
+Iteration 1231 (2000 requested)
+Beginning iteration 1231
+251 segments remain in iteration 1231 (251 total)
+81 of 111 (72.972973%) active bins are populated
+per-bin minimum non-zero probability:       9.26775e-70
+per-bin maximum probability:                0.969644
+per-bin probability dynamic range (kT):     158.924
+per-segment minimum non-zero probability:   3.08925e-70
+per-segment maximum non-zero probability:   0.0909042
+per-segment probability dynamic range (kT): 157.655
+norm = 1, error in norm = 3.55271e-15 (16*epsilon)
+MAB binning in use
+Bottleneck bin occupancy may not be accurately reported
+Waiting for segments to complete...
+Iteration completed successfully
+Iteration wallclock: 0:22:25.942012, cputime: 3:47:17.072622
+
+
+Mon Jan  8 16:22:50 2024
+Iteration 1232 (2000 requested)
+Beginning iteration 1232
+236 segments remain in iteration 1232 (236 total)
+76 of 111 (68.468468%) active bins are populated
+per-bin minimum non-zero probability:       3.08925e-70
+per-bin maximum probability:                0.999946
+per-bin probability dynamic range (kT):     160.053
+per-segment minimum non-zero probability:   1.02975e-70
+per-segment maximum non-zero probability:   0.0949443
+per-segment probability dynamic range (kT): 158.797
+norm = 1, error in norm = 3.55271e-15 (16*epsilon)
+MAB binning in use
+Bottleneck bin occupancy may not be accurately reported
+Waiting for segments to complete...
+Iteration completed successfully
+Iteration wallclock: 0:21:16.225668, cputime: 3:33:31.557390
+
+
+Mon Jan  8 16:44:06 2024
+Iteration 1233 (2000 requested)
+Beginning iteration 1233
+239 segments remain in iteration 1233 (239 total)
+77 of 111 (69.369369%) active bins are populated
+per-bin minimum non-zero probability:       1.02975e-70
+per-bin maximum probability:                0.999946
+per-bin probability dynamic range (kT):     161.152
+per-segment minimum non-zero probability:   3.4325e-71
+per-segment maximum non-zero probability:   0.0922509
+per-segment probability dynamic range (kT): 159.867
+norm = 1, error in norm = 3.55271e-15 (16*epsilon)
+MAB binning in use
+Bottleneck bin occupancy may not be accurately reported
+Waiting for segments to complete...
+Iteration completed successfully
+Iteration wallclock: 0:20:38.232696, cputime: 3:36:26.219853
+
+
+Mon Jan  8 17:04:44 2024
+Iteration 1234 (2000 requested)
+Beginning iteration 1234
+254 segments remain in iteration 1234 (254 total)
+82 of 111 (73.873874%) active bins are populated
+per-bin minimum non-zero probability:       3.4325e-71
+per-bin maximum probability:                0.999946
+per-bin probability dynamic range (kT):     162.25
+per-segment minimum non-zero probability:   1.14417e-71
+per-segment maximum non-zero probability:   0.0914608
+per-segment probability dynamic range (kT): 160.957
+norm = 1, error in norm = 3.55271e-15 (16*epsilon)
+MAB binning in use
+Bottleneck bin occupancy may not be accurately reported
+Waiting for segments to complete...
+Iteration completed successfully
+Iteration wallclock: 0:22:18.387994, cputime: 3:50:12.785254
+
+
+Mon Jan  8 17:27:03 2024
+Iteration 1235 (2000 requested)
+Beginning iteration 1235
+233 segments remain in iteration 1235 (233 total)
+75 of 111 (67.567568%) active bins are populated
+per-bin minimum non-zero probability:       1.14417e-71
+per-bin maximum probability:                0.999946
+per-bin probability dynamic range (kT):     163.349
+per-segment minimum non-zero probability:   3.81389e-72
+per-segment maximum non-zero probability:   0.0911974
+per-segment probability dynamic range (kT): 162.053
+norm = 1, error in norm = 3.77476e-15 (17*epsilon)
+MAB binning in use
+Bottleneck bin occupancy may not be accurately reported
+Waiting for segments to complete...
+Iteration completed successfully
+Iteration wallclock: 0:20:14.252329, cputime: 3:30:42.799963
+
+
+Mon Jan  8 17:47:17 2024
+Iteration 1236 (2000 requested)
+Beginning iteration 1236
+242 segments remain in iteration 1236 (242 total)
+78 of 111 (70.270270%) active bins are populated
+per-bin minimum non-zero probability:       3.81389e-72
+per-bin maximum probability:                0.999946
+per-bin probability dynamic range (kT):     164.447
+per-segment minimum non-zero probability:   1.2713e-72
+per-segment maximum non-zero probability:   0.090978
+per-segment probability dynamic range (kT): 163.149
+norm = 1, error in norm = 3.55271e-15 (16*epsilon)
+MAB binning in use
+Bottleneck bin occupancy may not be accurately reported
+Waiting for segments to complete...
+Iteration completed successfully
+Iteration wallclock: 0:21:16.499824, cputime: 3:38:47.277741
+
+
+Mon Jan  8 18:08:34 2024
+Iteration 1237 (2000 requested)
+Beginning iteration 1237
+233 segments remain in iteration 1237 (233 total)
+72 of 111 (64.864865%) active bins are populated
+per-bin minimum non-zero probability:       1.2713e-72
+per-bin maximum probability:                0.999946
+per-bin probability dynamic range (kT):     165.546
+per-segment minimum non-zero probability:   4.23765e-73
+per-segment maximum non-zero probability:   0.0909136
+per-segment probability dynamic range (kT): 164.247
+norm = 1, error in norm = 3.77476e-15 (17*epsilon)
+MAB binning in use
+Bottleneck bin occupancy may not be accurately reported
+Waiting for segments to complete...
+Iteration completed successfully
+Iteration wallclock: 0:20:44.606231, cputime: 3:30:53.083154
+
+
+Mon Jan  8 18:29:19 2024
+Iteration 1238 (2000 requested)
+Beginning iteration 1238
+245 segments remain in iteration 1238 (245 total)
+78 of 111 (70.270270%) active bins are populated
+per-bin minimum non-zero probability:       4.23765e-73
+per-bin maximum probability:                0.999946
+per-bin probability dynamic range (kT):     166.645
+per-segment minimum non-zero probability:   1.41255e-73
+per-segment maximum non-zero probability:   0.0909126
+per-segment probability dynamic range (kT): 165.345
+norm = 1, error in norm = 3.77476e-15 (17*epsilon)
+MAB binning in use
+Bottleneck bin occupancy may not be accurately reported
+Waiting for segments to complete...
+-- ERROR    [westpa.work_managers.core] -- uncaught exception in remote function
+Traceback (most recent call last):
+  File "/home1/09416/dty7/work/module_build_we_amber/modules/westpa/22.06_b/lib/python3.9/site-packages/westpa/core/propagators/executable.py", line 520, in prepare_file_system
+    os.makedirs(environ[self.ENV_CURRENT_SEG_DATA_REF])
+  File "/work/09416/dty7/ls6/module_build_we_amber/modules/envwestpa/1.0_b/lib/python3.9/os.py", line 225, in makedirs
+    mkdir(name, mode)
+FileNotFoundError: [Errno 2] No such file or directory: '/home1/09416/dty7/scratch/eg5/ls6-we/multi-mab_dl5_v01/traj_segs/001238/000007'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home1/09416/dty7/work/module_build_we_amber/modules/westpa/22.06_b/lib/python3.9/site-packages/westpa/work_managers/zeromq/core.py", line 153, in execute
+    rsl.result = self.fn(*self.args, **self.kwargs)
+  File "/home1/09416/dty7/work/module_build_we_amber/modules/westpa/22.06_b/lib/python3.9/site-packages/westpa/core/wm_ops.py", line 40, in propagate
+    incoming_segments = {segment.seg_id: segment for segment in propagator.propagate(segments)}
+  File "/home1/09416/dty7/work/module_build_we_amber/modules/westpa/22.06_b/lib/python3.9/site-packages/westpa/core/propagators/executable.py", line 681, in propagate
+    rc, rusage = self.exec_for_segment(child_info, segment, addtl_env)
+  File "/home1/09416/dty7/work/module_build_we_amber/modules/westpa/22.06_b/lib/python3.9/site-packages/westpa/core/propagators/executable.py", line 489, in exec_for_segment
+    self.prepare_file_system(segment, environ)
+  File "/home1/09416/dty7/work/module_build_we_amber/modules/westpa/22.06_b/lib/python3.9/site-packages/westpa/core/propagators/executable.py", line 523, in prepare_file_system
+    shutil.rmtree(environ[self.ENV_CURRENT_SEG_DATA_REF])
+  File "/work/09416/dty7/ls6/module_build_we_amber/modules/envwestpa/1.0_b/lib/python3.9/shutil.py", line 724, in rmtree
+    onerror(os.lstat, path, sys.exc_info())
+  File "/work/09416/dty7/ls6/module_build_we_amber/modules/envwestpa/1.0_b/lib/python3.9/shutil.py", line 722, in rmtree
+    orig_st = os.lstat(path)
+FileNotFoundError: [Errno 2] No such file or directory: '/home1/09416/dty7/scratch/eg5/ls6-we/multi-mab_dl5_v01/traj_segs/001238/000007'
+
+exception caught; shutting down
+-- ERROR    [w_run] -- error message: [Errno 2] No such file or directory: '/home1/09416/dty7/scratch/eg5/ls6-we/multi-mab_dl5_v01/traj_segs/001238/000007'
+-- ERROR    [w_run] -- Traceback (most recent call last):
+  File "/home1/09416/dty7/work/module_build_we_amber/modules/westpa/22.06_b/lib/python3.9/site-packages/westpa/cli/core/w_run.py", line 61, in run_simulation
+    sim_manager.run()
+  File "/home1/09416/dty7/work/module_build_we_amber/modules/westpa/22.06_b/lib/python3.9/site-packages/westpa/core/sim_manager.py", line 750, in run
+    self.propagate()
+  File "/home1/09416/dty7/work/module_build_we_amber/modules/westpa/22.06_b/lib/python3.9/site-packages/westpa/core/binning/mab_manager.py", line 53, in propagate
+    incoming = future.get_result()
+  File "/home1/09416/dty7/work/module_build_we_amber/modules/westpa/22.06_b/lib/python3.9/site-packages/westpa/work_managers/core.py", line 332, in get_result
+    raise self._exception
+FileNotFoundError: [Errno 2] No such file or directory: '/home1/09416/dty7/scratch/eg5/ls6-we/multi-mab_dl5_v01/traj_segs/001238/000007'
+
+-- INFO     [westpa.work_managers.zeromq.core.ZMQWorkManager.25688c66-5fc0-46bd-a8ba-7254df889f08] -- shutting down
