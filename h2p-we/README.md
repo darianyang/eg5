@@ -85,3 +85,7 @@ multi-mab_wmon_v00:
 multi-mab_dl5_v00:
     * same setup as other multi-mab runs but with no monastrol and with a deletion of loop5
     * so switched the bstate and common files to dl5
+
+# post TACC
+multi-mab_wmon_v01:
+    * replicate of v00
