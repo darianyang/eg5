@@ -89,3 +89,12 @@ multi-mab_dl5_v00:
 # post TACC
 multi-mab_wmon_v01:
     * replicate of v00
+    * not working too well
+multi-mab_wmon_v02:
+    * getting rid of the PO4 dimension
+    * so now, using a 3D pcoord: RMSD, mindist, IntEne
+    * trying with a larger focus on IntEne
+    * also trying with the 86 direction 
+    * didn't really go anywhere after a day
+multi-mab_wmon_v03:
+    * same as v02 set up but I'm using the original directionality settings of v01 

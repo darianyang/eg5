@@ -1,0 +1,1375 @@
++ cd /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v02
++ source env.sh
+++ module purge
++++ /ihome/crc/install/lmod/lmod/libexec/lmod bash purge
+++ eval 'LMOD_DEFAULT_MODULEPATH="/ihome/crc/modules/Core";' export 'LMOD_DEFAULT_MODULEPATH;' 'MODULEPATH="/ihome/crc/modules/Core";' export 'MODULEPATH;' unset 'GIT_ROOT;' unset 'LD_LIBRARY_PATH;' unset 'LD_RUN_PATH;' unset 'LIBRARY_PATH;' 'LMOD_DEFAULT_MODULEPATH="/ihome/crc/modules/Core";' export 'LMOD_DEFAULT_MODULEPATH;' unset 'LOADEDMODULES;' 'MANPATH="/ihome/crc/install/lmod/lmod/share/man::";' export 'MANPATH;' 'MODULEPATH="/ihome/crc/modules/Core";' export 'MODULEPATH;' 'PATH="/ihome/lchong/dty7/Apps/anaconda3/bin:/ihome/lchong/dty7/Apps/anaconda3/condabin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/ihome/crc/pipx/bin:/ihome/lchong/dty7/.local/bin:/ihome/lchong/dty7/bin";' export 'PATH;' unset '_LMFILES_;' '_ModuleTable001_="X01vZHVsZVRhYmxlXz17WyJhY3RpdmVTaXplIl09MCxiYXNlTXBhdGhBPXsiL2lob21lL2NyYy9tb2R1bGVzL0NvcmUiLH0sWyJjX3JlYnVpbGRUaW1lIl09ZmFsc2UsWyJjX3Nob3J0VGltZSJdPWZhbHNlLGZhbWlseT17fSxpbmFjdGl2ZT17fSxtVD17fSxtcGF0aEE9eyIvaWhvbWUvY3JjL21vZHVsZXMvQ29yZSIsfSxbInN5c3RlbUJhc2VNUEFUSCJdPSIvaWhvbWUvY3JjL21vZHVsZXMvQ29yZSIsWyJ2ZXJzaW9uIl09Mix9";' export '_ModuleTable001_;' '_ModuleTable_Sz_="1";' export '_ModuleTable_Sz_;' unset '_ModuleTable002_;'
++++ LMOD_DEFAULT_MODULEPATH=/ihome/crc/modules/Core
++++ export LMOD_DEFAULT_MODULEPATH
++++ MODULEPATH=/ihome/crc/modules/Core
++++ export MODULEPATH
++++ unset GIT_ROOT
++++ unset LD_LIBRARY_PATH
++++ unset LD_RUN_PATH
++++ unset LIBRARY_PATH
++++ LMOD_DEFAULT_MODULEPATH=/ihome/crc/modules/Core
++++ export LMOD_DEFAULT_MODULEPATH
++++ unset LOADEDMODULES
++++ MANPATH=/ihome/crc/install/lmod/lmod/share/man::
++++ export MANPATH
++++ MODULEPATH=/ihome/crc/modules/Core
++++ export MODULEPATH
++++ PATH=/ihome/lchong/dty7/Apps/anaconda3/bin:/ihome/lchong/dty7/Apps/anaconda3/condabin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/ihome/crc/pipx/bin:/ihome/lchong/dty7/.local/bin:/ihome/lchong/dty7/bin
++++ export PATH
++++ unset _LMFILES_
++++ _ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJhY3RpdmVTaXplIl09MCxiYXNlTXBhdGhBPXsiL2lob21lL2NyYy9tb2R1bGVzL0NvcmUiLH0sWyJjX3JlYnVpbGRUaW1lIl09ZmFsc2UsWyJjX3Nob3J0VGltZSJdPWZhbHNlLGZhbWlseT17fSxpbmFjdGl2ZT17fSxtVD17fSxtcGF0aEE9eyIvaWhvbWUvY3JjL21vZHVsZXMvQ29yZSIsfSxbInN5c3RlbUJhc2VNUEFUSCJdPSIvaWhvbWUvY3JjL21vZHVsZXMvQ29yZSIsWyJ2ZXJzaW9uIl09Mix9
++++ export _ModuleTable001_
++++ _ModuleTable_Sz_=1
++++ export _ModuleTable_Sz_
++++ unset _ModuleTable002_
+++ '[' 0 = 0 ']'
++++ : -s sh
+++ eval
+++ source /ihome/lchong/dty7/.bashrc
++++ '[' -f /etc/bashrc ']'
++++ . /etc/bashrc
+++++ '[' '' ']'
+++++ shopt -q login_shell
+++++ '[' 155282 -gt 199 ']'
++++++ /usr/bin/id -gn
++++++ /usr/bin/id -un
+++++ '[' lchong = dty7 ']'
+++++ umask 022
+++++ SHELL=/bin/bash
+++++ for i in '/etc/profile.d/*.sh'
+++++ '[' -r /etc/profile.d/256term.sh ']'
+++++ '[' '' ']'
+++++ . /etc/profile.d/256term.sh
++++++ local256=
++++++ '[' -n '' ']'
++++++ '[' -n '' ']'
++++++ unset local256
+++++ for i in '/etc/profile.d/*.sh'
+++++ '[' -r /etc/profile.d/add_pipx_path.sh ']'
+++++ '[' '' ']'
+++++ . /etc/profile.d/add_pipx_path.sh
++++++ '[' 155282 -ne 0 ']'
++++++ export PATH=/ihome/lchong/dty7/Apps/anaconda3/bin:/ihome/lchong/dty7/Apps/anaconda3/condabin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/ihome/crc/pipx/bin:/ihome/lchong/dty7/.local/bin:/ihome/lchong/dty7/bin:/ihome/crc/pipx/bin/
++++++ PATH=/ihome/lchong/dty7/Apps/anaconda3/bin:/ihome/lchong/dty7/Apps/anaconda3/condabin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/ihome/crc/pipx/bin:/ihome/lchong/dty7/.local/bin:/ihome/lchong/dty7/bin:/ihome/crc/pipx/bin/
+++++ for i in '/etc/profile.d/*.sh'
+++++ '[' -r /etc/profile.d/colorgrep.sh ']'
+++++ '[' '' ']'
+++++ . /etc/profile.d/colorgrep.sh
++++++ /usr/libexec/grepconf.sh -c
++++++ alias 'grep=grep --color=auto'
++++++ alias 'egrep=egrep --color=auto'
++++++ alias 'fgrep=fgrep --color=auto'
+++++ for i in '/etc/profile.d/*.sh'
+++++ '[' -r /etc/profile.d/colorls.sh ']'
+++++ '[' '' ']'
+++++ . /etc/profile.d/colorls.sh
++++++ '[' '!' -t 0 ']'
++++++ return
+++++ for i in '/etc/profile.d/*.sh'
+++++ '[' -r /etc/profile.d/flatpak.sh ']'
+++++ '[' '' ']'
+++++ . /etc/profile.d/flatpak.sh
++++++ '[' /exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share = /ihome/lchong/dty7/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share ']'
++++++ export XDG_DATA_DIRS
+++++ for i in '/etc/profile.d/*.sh'
+++++ '[' -r /etc/profile.d/gnome-ssh-askpass.sh ']'
+++++ '[' '' ']'
+++++ . /etc/profile.d/gnome-ssh-askpass.sh
++++++ SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
++++++ export SSH_ASKPASS
+++++ for i in '/etc/profile.d/*.sh'
+++++ '[' -r /etc/profile.d/lang.sh ']'
+++++ '[' '' ']'
+++++ . /etc/profile.d/lang.sh
++++++ sourced=0
++++++ '[' -n en_US.UTF-8 ']'
++++++ saved_lang=en_US.UTF-8
++++++ '[' -f /ihome/lchong/dty7/.i18n ']'
++++++ LANG=en_US.UTF-8
++++++ unset saved_lang
++++++ '[' 0 = 1 ']'
++++++ unset sourced
++++++ unset langfile
+++++ for i in '/etc/profile.d/*.sh'
+++++ '[' -r /etc/profile.d/less.sh ']'
+++++ '[' '' ']'
+++++ . /etc/profile.d/less.sh
++++++ '[' -x /usr/bin/lesspipe.sh ']'
++++++ export 'LESSOPEN=||/usr/bin/lesspipe.sh %s'
++++++ LESSOPEN='||/usr/bin/lesspipe.sh %s'
+++++ for i in '/etc/profile.d/*.sh'
+++++ '[' -r /etc/profile.d/lmod.sh ']'
+++++ '[' '' ']'
+++++ . /etc/profile.d/lmod.sh
++++++ [[ hB != hxB ]]
++++++ echo 'Start of Lmod init/bash script to define the module command'
++++++ LMOD_PKG=/ihome/crc/install/lmod/lmod
++++++ LMOD_DIR=/ihome/crc/install/lmod/lmod/libexec
++++++ LMOD_CMD=/ihome/crc/install/lmod/lmod/libexec/lmod
++++++ MODULESHOME=/ihome/crc/install/lmod/lmod
++++++ MODULEPATH=/ihome/crc/modules/Core
++++++ export LMOD_PKG
++++++ export LMOD_CMD
++++++ export LMOD_DIR
++++++ export MODULESHOME
++++++ export MODULEPATH
++++++ LMOD_VERSION=6.6.3
++++++ export LMOD_VERSION
++++++ '[' : '!=' : ']'
++++++ unalias ml
++++++ true
+++++++ echo YES
+++++++ /usr/bin/tr '[:upper:]' '[:lower:]'
++++++ export_module=yes
++++++ '[' -n '4.2.46(2)-release' -a yes '!=' no ']'
++++++ export -f module
++++++ export -f ml
++++++ unset export_module
++++++ '[' -n '' ']'
++++++ '[' 4 -ge 3 ']'
++++++ '[' -r /ihome/crc/install/lmod/lmod/init/lmod_bash_completions ']'
++++++ '[' -n '' ']'
++++++ [[ hB != hxB ]]
++++++ echo 'End of Lmod init/bash script to define the module command'
+++++ for i in '/etc/profile.d/*.sh'
+++++ '[' -r /etc/profile.d/mpi-selector.sh ']'
+++++ '[' '' ']'
+++++ . /etc/profile.d/mpi-selector.sh
++++++ mpi_selector_dir=/var/mpi-selector/data
++++++ mpi_selector_homefile=/ihome/lchong/dty7/.mpi-selector
++++++ mpi_selector_sysfile=/etc/sysconfig/mpi-selector
++++++ mpi_selection=
++++++ test -f /ihome/lchong/dty7/.mpi-selector
++++++ test -f /etc/sysconfig/mpi-selector
++++++ test '' '!=' '' -a -f /var/mpi-selector/data/.sh
+++++ for i in '/etc/profile.d/*.sh'
+++++ '[' -r /etc/profile.d/vim.sh ']'
+++++ '[' '' ']'
+++++ . /etc/profile.d/vim.sh
++++++ '[' -n '4.2.46(2)-release' -o -n '' -o -n '' ']'
++++++ '[' -x /usr/bin/id ']'
+++++++ /usr/bin/id -u
++++++ ID=155282
++++++ '[' -n 155282 -a 155282 -le 200 ']'
++++++ alias vi
++++++ alias vi=vim
+++++ for i in '/etc/profile.d/*.sh'
+++++ '[' -r /etc/profile.d/vte.sh ']'
+++++ '[' '' ']'
+++++ . /etc/profile.d/vte.sh
++++++ '[' -n '4.2.46(2)-release' -o -n '' ']'
++++++ [[ hxB == *i* ]]
++++++ return 0
+++++ for i in '/etc/profile.d/*.sh'
+++++ '[' -r /etc/profile.d/which2.sh ']'
+++++ '[' '' ']'
+++++ . /etc/profile.d/which2.sh
++++++ alias 'which=alias | /usr/bin/which --tty-only --read-alias --show-dot --show-tilde'
+++++ for i in '/etc/profile.d/*.sh'
+++++ '[' -r /etc/profile.d/z00_lmod.sh ']'
+++++ '[' '' ']'
+++++ . /etc/profile.d/z00_lmod.sh
++++++ '[' -z '' ']'
++++++ '[' -z /ihome/crc/modules ']'
++++++ PS_CMD=/usr/bin/ps
++++++ '[' '!' -x /usr/bin/ps ']'
++++++ EXPR_CMD=/usr/bin/expr
++++++ '[' '!' -x /usr/bin/expr ']'
++++++ BASENAME_CMD=/usr/bin/basename
++++++ '[' '!' -x /usr/bin/basename ']'
+++++++ /usr/bin/ps -p 54442 -ocomm=
++++++ my_shell=slurm_script
+++++++ /usr/bin/expr slurm_script : '-*\(.*\)'
++++++ my_shell=slurm_script
+++++++ /usr/bin/basename slurm_script
++++++ my_shell=slurm_script
++++++ '[' -f /ihome/crc/install/lmod/lmod/init/slurm_script ']'
++++++ . /ihome/crc/install/lmod/lmod/init/sh
+++++++ LMOD_PKG=/ihome/crc/install/lmod/lmod
+++++++ LMOD_DIR=/ihome/crc/install/lmod/lmod/libexec/
+++++++ LMOD_CMD=/ihome/crc/install/lmod/lmod/libexec/lmod
+++++++ MODULESHOME=/ihome/crc/install/lmod/lmod
+++++++ export LMOD_CMD
+++++++ export LMOD_PKG
+++++++ export LMOD_DIR
+++++++ export MODULESHOME
+++++++ export LMOD_DIR
++++++ unset my_shell PS_CMD EXPR_CMD BASENAME_CMD
+++++ unset i
+++++ unset -f pathmunge
+++++ /ihome/lchong/dty7/Apps/anaconda3/bin/conda shell.bash hook
++++ __conda_setup='export CONDA_EXE='\''/ihome/lchong/dty7/Apps/anaconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/ihome/lchong/dty7/Apps/anaconda3/bin/python'\''
+
+# Copyright (C) 2012 Anaconda, Inc
+# SPDX-License-Identifier: BSD-3-Clause
+
+__add_sys_prefix_to_path() {
+    # In dev-mode CONDA_EXE is python.exe and on Windows
+    # it is in a different relative location to condabin.
+    if [ -n "${_CE_CONDA}" ] && [ -n "${WINDIR+x}" ]; then
+        SYSP=$(\dirname "${CONDA_EXE}")
+    else
+        SYSP=$(\dirname "${CONDA_EXE}")
+        SYSP=$(\dirname "${SYSP}")
+    fi
+
+    if [ -n "${WINDIR+x}" ]; then
+        PATH="${SYSP}/bin:${PATH}"
+        PATH="${SYSP}/Scripts:${PATH}"
+        PATH="${SYSP}/Library/bin:${PATH}"
+        PATH="${SYSP}/Library/usr/bin:${PATH}"
+        PATH="${SYSP}/Library/mingw-w64/bin:${PATH}"
+        PATH="${SYSP}:${PATH}"
+    else
+        PATH="${SYSP}/bin:${PATH}"
+    fi
+    \export PATH
+}
+
+__conda_exe() (
+    __add_sys_prefix_to_path
+    "$CONDA_EXE" $_CE_M $_CE_CONDA "$@"
+)
+
+__conda_hashr() {
+    if [ -n "${ZSH_VERSION:+x}" ]; then
+        \rehash
+    elif [ -n "${POSH_VERSION:+x}" ]; then
+        :  # pass
+    else
+        \hash -r
+    fi
+}
+
+__conda_activate() {
+    if [ -n "${CONDA_PS1_BACKUP:+x}" ]; then
+        # Handle transition from shell activated with conda <= 4.3 to a subsequent activation
+        # after conda updated to >= 4.4. See issue #6173.
+        PS1="$CONDA_PS1_BACKUP"
+        \unset CONDA_PS1_BACKUP
+    fi
+    \local ask_conda
+    ask_conda="$(PS1="${PS1:-}" __conda_exe shell.posix "$@")" || \return
+    \eval "$ask_conda"
+    __conda_hashr
+}
+
+__conda_reactivate() {
+    \local ask_conda
+    ask_conda="$(PS1="${PS1:-}" __conda_exe shell.posix reactivate)" || \return
+    \eval "$ask_conda"
+    __conda_hashr
+}
+
+conda() {
+    \local cmd="${1-__missing__}"
+    case "$cmd" in
+        activate|deactivate)
+            __conda_activate "$@"
+            ;;
+        install|update|upgrade|remove|uninstall)
+            __conda_exe "$@" || \return
+            __conda_reactivate
+            ;;
+        *)
+            __conda_exe "$@"
+            ;;
+    esac
+}
+
+if [ -z "${CONDA_SHLVL+x}" ]; then
+    \export CONDA_SHLVL=0
+    # In dev-mode CONDA_EXE is python.exe and on Windows
+    # it is in a different relative location to condabin.
+    if [ -n "${_CE_CONDA:+x}" ] && [ -n "${WINDIR+x}" ]; then
+        PATH="$(\dirname "$CONDA_EXE")/condabin${PATH:+":${PATH}"}"
+    else
+        PATH="$(\dirname "$(\dirname "$CONDA_EXE")")/condabin${PATH:+":${PATH}"}"
+    fi
+    \export PATH
+
+    # We'\''re not allowing PS1 to be unbound. It must at least be set.
+    # However, we'\''re not exporting it, which can cause problems when starting a second shell
+    # via a first shell (i.e. starting zsh from bash).
+    if [ -z "${PS1+x}" ]; then
+        PS1=
+    fi
+fi
+
+conda activate base'
++++ '[' 0 -eq 0 ']'
++++ eval 'export CONDA_EXE='\''/ihome/lchong/dty7/Apps/anaconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/ihome/lchong/dty7/Apps/anaconda3/bin/python'\''
+
+# Copyright (C) 2012 Anaconda, Inc
+# SPDX-License-Identifier: BSD-3-Clause
+
+__add_sys_prefix_to_path() {
+    # In dev-mode CONDA_EXE is python.exe and on Windows
+    # it is in a different relative location to condabin.
+    if [ -n "${_CE_CONDA}" ] && [ -n "${WINDIR+x}" ]; then
+        SYSP=$(\dirname "${CONDA_EXE}")
+    else
+        SYSP=$(\dirname "${CONDA_EXE}")
+        SYSP=$(\dirname "${SYSP}")
+    fi
+
+    if [ -n "${WINDIR+x}" ]; then
+        PATH="${SYSP}/bin:${PATH}"
+        PATH="${SYSP}/Scripts:${PATH}"
+        PATH="${SYSP}/Library/bin:${PATH}"
+        PATH="${SYSP}/Library/usr/bin:${PATH}"
+        PATH="${SYSP}/Library/mingw-w64/bin:${PATH}"
+        PATH="${SYSP}:${PATH}"
+    else
+        PATH="${SYSP}/bin:${PATH}"
+    fi
+    \export PATH
+}
+
+__conda_exe() (
+    __add_sys_prefix_to_path
+    "$CONDA_EXE" $_CE_M $_CE_CONDA "$@"
+)
+
+__conda_hashr() {
+    if [ -n "${ZSH_VERSION:+x}" ]; then
+        \rehash
+    elif [ -n "${POSH_VERSION:+x}" ]; then
+        :  # pass
+    else
+        \hash -r
+    fi
+}
+
+__conda_activate() {
+    if [ -n "${CONDA_PS1_BACKUP:+x}" ]; then
+        # Handle transition from shell activated with conda <= 4.3 to a subsequent activation
+        # after conda updated to >= 4.4. See issue #6173.
+        PS1="$CONDA_PS1_BACKUP"
+        \unset CONDA_PS1_BACKUP
+    fi
+    \local ask_conda
+    ask_conda="$(PS1="${PS1:-}" __conda_exe shell.posix "$@")" || \return
+    \eval "$ask_conda"
+    __conda_hashr
+}
+
+__conda_reactivate() {
+    \local ask_conda
+    ask_conda="$(PS1="${PS1:-}" __conda_exe shell.posix reactivate)" || \return
+    \eval "$ask_conda"
+    __conda_hashr
+}
+
+conda() {
+    \local cmd="${1-__missing__}"
+    case "$cmd" in
+        activate|deactivate)
+            __conda_activate "$@"
+            ;;
+        install|update|upgrade|remove|uninstall)
+            __conda_exe "$@" || \return
+            __conda_reactivate
+            ;;
+        *)
+            __conda_exe "$@"
+            ;;
+    esac
+}
+
+if [ -z "${CONDA_SHLVL+x}" ]; then
+    \export CONDA_SHLVL=0
+    # In dev-mode CONDA_EXE is python.exe and on Windows
+    # it is in a different relative location to condabin.
+    if [ -n "${_CE_CONDA:+x}" ] && [ -n "${WINDIR+x}" ]; then
+        PATH="$(\dirname "$CONDA_EXE")/condabin${PATH:+":${PATH}"}"
+    else
+        PATH="$(\dirname "$(\dirname "$CONDA_EXE")")/condabin${PATH:+":${PATH}"}"
+    fi
+    \export PATH
+
+    # We'\''re not allowing PS1 to be unbound. It must at least be set.
+    # However, we'\''re not exporting it, which can cause problems when starting a second shell
+    # via a first shell (i.e. starting zsh from bash).
+    if [ -z "${PS1+x}" ]; then
+        PS1=
+    fi
+fi
+
+conda activate base'
+++++ export CONDA_EXE=/ihome/lchong/dty7/Apps/anaconda3/bin/conda
+++++ CONDA_EXE=/ihome/lchong/dty7/Apps/anaconda3/bin/conda
+++++ export _CE_M=
+++++ _CE_M=
+++++ export _CE_CONDA=
+++++ _CE_CONDA=
+++++ export CONDA_PYTHON_EXE=/ihome/lchong/dty7/Apps/anaconda3/bin/python
+++++ CONDA_PYTHON_EXE=/ihome/lchong/dty7/Apps/anaconda3/bin/python
+++++ '[' -z x ']'
+++++ conda activate base
+++++ local cmd=activate
+++++ case "$cmd" in
+++++ __conda_activate activate base
+++++ '[' -n '' ']'
+++++ local ask_conda
++++++ PS1=
++++++ __conda_exe shell.posix activate base
++++++ __add_sys_prefix_to_path
++++++ '[' -n '' ']'
+++++++ dirname /ihome/lchong/dty7/Apps/anaconda3/bin/conda
++++++ SYSP=/ihome/lchong/dty7/Apps/anaconda3/bin
+++++++ dirname /ihome/lchong/dty7/Apps/anaconda3/bin
++++++ SYSP=/ihome/lchong/dty7/Apps/anaconda3
++++++ '[' -n '' ']'
++++++ PATH=/ihome/lchong/dty7/Apps/anaconda3/bin:/ihome/lchong/dty7/Apps/anaconda3/bin:/ihome/lchong/dty7/Apps/anaconda3/condabin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/ihome/crc/pipx/bin:/ihome/lchong/dty7/.local/bin:/ihome/lchong/dty7/bin:/ihome/crc/pipx/bin/
++++++ export PATH
++++++ /ihome/lchong/dty7/Apps/anaconda3/bin/conda shell.posix activate base
+++++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/ihome/lchong/dty7/Apps/anaconda3/bin:/ihome/lchong/dty7/Apps/anaconda3/condabin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/ihome/crc/pipx/bin:/ihome/lchong/dty7/.local/bin:/ihome/lchong/dty7/bin:/ihome/crc/pipx/bin'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\'''
+++++ eval 'PS1='\''(base) '\''
+export PATH='\''/ihome/lchong/dty7/Apps/anaconda3/bin:/ihome/lchong/dty7/Apps/anaconda3/condabin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/ihome/crc/pipx/bin:/ihome/lchong/dty7/.local/bin:/ihome/lchong/dty7/bin:/ihome/crc/pipx/bin'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\'''
++++++ PS1='(base) '
++++++ export PATH=/ihome/lchong/dty7/Apps/anaconda3/bin:/ihome/lchong/dty7/Apps/anaconda3/condabin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/ihome/crc/pipx/bin:/ihome/lchong/dty7/.local/bin:/ihome/lchong/dty7/bin:/ihome/crc/pipx/bin
++++++ PATH=/ihome/lchong/dty7/Apps/anaconda3/bin:/ihome/lchong/dty7/Apps/anaconda3/condabin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/ihome/crc/pipx/bin:/ihome/lchong/dty7/.local/bin:/ihome/lchong/dty7/bin:/ihome/crc/pipx/bin
++++++ export CONDA_SHLVL=1
++++++ CONDA_SHLVL=1
++++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++++ CONDA_PROMPT_MODIFIER='(base) '
+++++ __conda_hashr
+++++ '[' -n '' ']'
+++++ '[' -n '' ']'
+++++ hash -r
++++ unset __conda_setup
++++ LS_COLORS='rs=0:di=1;35:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=0131:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:'
++++ export LS_COLORS
++++ module load git/2.9.5
+++++ /ihome/crc/install/lmod/lmod/libexec/lmod bash load git/2.9.5
++++ eval 'LMOD_DEFAULT_MODULEPATH="/ihome/crc/modules/Core";' export 'LMOD_DEFAULT_MODULEPATH;' 'MODULEPATH="/ihome/crc/modules/Core";' export 'MODULEPATH;' 'GIT_ROOT="/ihome/crc/install/git/2.9.5";' export 'GIT_ROOT;' 'LD_LIBRARY_PATH="/ihome/crc/install/git/2.9.5/libexec:/ihome/crc/install/git/2.9.5/lib64";' export 'LD_LIBRARY_PATH;' 'LD_RUN_PATH="/ihome/crc/install/git/2.9.5/libexec:/ihome/crc/install/git/2.9.5/lib64";' export 'LD_RUN_PATH;' 'LIBRARY_PATH="/ihome/crc/install/git/2.9.5/libexec:/ihome/crc/install/git/2.9.5/lib64";' export 'LIBRARY_PATH;' 'LMOD_DEFAULT_MODULEPATH="/ihome/crc/modules/Core";' export 'LMOD_DEFAULT_MODULEPATH;' 'LOADEDMODULES="git/2.9.5";' export 'LOADEDMODULES;' 'MANPATH="/ihome/crc/install/git/2.9.5/share:/ihome/crc/install/lmod/lmod/share/man::";' export 'MANPATH;' 'MODULEPATH="/ihome/crc/modules/Core";' export 'MODULEPATH;' 'PATH="/ihome/crc/install/git/2.9.5/bin:/ihome/lchong/dty7/Apps/anaconda3/bin:/ihome/lchong/dty7/Apps/anaconda3/condabin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/ihome/crc/pipx/bin:/ihome/lchong/dty7/.local/bin:/ihome/lchong/dty7/bin:/ihome/crc/pipx/bin";' export 'PATH;' '_LMFILES_="/ihome/crc/modules/Core/git/2.9.5.lua";' export '_LMFILES_;' '_ModuleTable001_="X01vZHVsZVRhYmxlXz17WyJhY3RpdmVTaXplIl09MSxiYXNlTXBhdGhBPXsiL2lob21lL2NyYy9tb2R1bGVzL0NvcmUiLH0sWyJjX3JlYnVpbGRUaW1lIl09ZmFsc2UsWyJjX3Nob3J0VGltZSJdPWZhbHNlLGZhbWlseT17fSxpbmFjdGl2ZT17fSxtVD17Z2l0PXtbIkZOIl09Ii9paG9tZS9jcmMvbW9kdWxlcy9Db3JlL2dpdC8yLjkuNS5sdWEiLFsiZGVmYXVsdCJdPTAsWyJmdWxsTmFtZSJdPSJnaXQvMi45LjUiLFsibG9hZE9yZGVyIl09MSxwcm9wVD17fSxbInNob3J0Il09ImdpdCIsWyJzdGF0dXMiXT0iYWN0aXZlIix9LH0sbXBhdGhBPXsiL2lob21lL2NyYy9tb2R1bGVzL0NvcmUiLH0sWyJzeXN0ZW1CYXNlTVBBVEgiXT0iL2lob21lL2NyYy9tb2R1bGVzL0NvcmUiLFsi";' export '_ModuleTable001_;' '_ModuleTable002_="dmVyc2lvbiJdPTIsfQ==";' export '_ModuleTable002_;' '_ModuleTable_Sz_="2";' export '_ModuleTable_Sz_;'
+++++ LMOD_DEFAULT_MODULEPATH=/ihome/crc/modules/Core
+++++ export LMOD_DEFAULT_MODULEPATH
+++++ MODULEPATH=/ihome/crc/modules/Core
+++++ export MODULEPATH
+++++ GIT_ROOT=/ihome/crc/install/git/2.9.5
+++++ export GIT_ROOT
+++++ LD_LIBRARY_PATH=/ihome/crc/install/git/2.9.5/libexec:/ihome/crc/install/git/2.9.5/lib64
+++++ export LD_LIBRARY_PATH
+++++ LD_RUN_PATH=/ihome/crc/install/git/2.9.5/libexec:/ihome/crc/install/git/2.9.5/lib64
+++++ export LD_RUN_PATH
+++++ LIBRARY_PATH=/ihome/crc/install/git/2.9.5/libexec:/ihome/crc/install/git/2.9.5/lib64
+++++ export LIBRARY_PATH
+++++ LMOD_DEFAULT_MODULEPATH=/ihome/crc/modules/Core
+++++ export LMOD_DEFAULT_MODULEPATH
+++++ LOADEDMODULES=git/2.9.5
+++++ export LOADEDMODULES
+++++ MANPATH=/ihome/crc/install/git/2.9.5/share:/ihome/crc/install/lmod/lmod/share/man::
+++++ export MANPATH
+++++ MODULEPATH=/ihome/crc/modules/Core
+++++ export MODULEPATH
+++++ PATH=/ihome/crc/install/git/2.9.5/bin:/ihome/lchong/dty7/Apps/anaconda3/bin:/ihome/lchong/dty7/Apps/anaconda3/condabin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/ihome/crc/pipx/bin:/ihome/lchong/dty7/.local/bin:/ihome/lchong/dty7/bin:/ihome/crc/pipx/bin
+++++ export PATH
+++++ _LMFILES_=/ihome/crc/modules/Core/git/2.9.5.lua
+++++ export _LMFILES_
+++++ _ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJhY3RpdmVTaXplIl09MSxiYXNlTXBhdGhBPXsiL2lob21lL2NyYy9tb2R1bGVzL0NvcmUiLH0sWyJjX3JlYnVpbGRUaW1lIl09ZmFsc2UsWyJjX3Nob3J0VGltZSJdPWZhbHNlLGZhbWlseT17fSxpbmFjdGl2ZT17fSxtVD17Z2l0PXtbIkZOIl09Ii9paG9tZS9jcmMvbW9kdWxlcy9Db3JlL2dpdC8yLjkuNS5sdWEiLFsiZGVmYXVsdCJdPTAsWyJmdWxsTmFtZSJdPSJnaXQvMi45LjUiLFsibG9hZE9yZGVyIl09MSxwcm9wVD17fSxbInNob3J0Il09ImdpdCIsWyJzdGF0dXMiXT0iYWN0aXZlIix9LH0sbXBhdGhBPXsiL2lob21lL2NyYy9tb2R1bGVzL0NvcmUiLH0sWyJzeXN0ZW1CYXNlTVBBVEgiXT0iL2lob21lL2NyYy9tb2R1bGVzL0NvcmUiLFsi
+++++ export _ModuleTable001_
+++++ _ModuleTable002_=dmVyc2lvbiJdPTIsfQ==
+++++ export _ModuleTable002_
+++++ _ModuleTable_Sz_=2
+++++ export _ModuleTable_Sz_
++++ alias '1gpu=crc-interactive -g -n 1 -p gtx1080 -u 1 -t 1:0'
++++ alias '1gpui=crc-interactive -i -n 1 -p lchong -u 1 -t 4:0 --mem 16'
++++ alias '2gpui=crc-interactive -i -n 1 -p lchong -u 2 -t 4:0 --mem 16'
++++ alias '1cpui=crc-interactive -i -n 1 -p lchong -c 1 -t 12:0 --mem 8'
++++ alias '4cpui=crc-interactive -i -n 1 -p lchong -c 4 -t 12:0'
++++ alias '4cpuihm=crc-interactive -i -n 1 -p lchong -c 4 -t 12:0 --mem 20'
++++ alias '8cpui=crc-interactive -i -n 1 -p lchong -c 8 -t 12:0'
++++ alias '1cpu=crc-interactive -s -n 1 -c 1 -t 1:0 --mem 4'
++++ alias '4cpu=crc-interactive -s -n 1 -c 4 -t 1:0 --mem 16'
++++ alias '8cpu=crc-interactive -s -n 1 -c 8 -t 1:0 --mem 32'
++++ alias '8cpul=crc-interactive -s -n 1 -c 8 -t 12:0 --mem 64'
++++ alias '8cpull=crc-interactive -s -n 1 -c 8 -t 12:0 --mem 128'
++++ alias '12cpu=crc-interactive -s -n 1 -c 12 -t 12:0 --mem 64'
++++ alias '16cpu=crc-interactive -s -n 1 -c 16 -t 12:0 --mem 64'
++++ alias '16cpul=crc-interactive -s -n 1 -c 16 -t 12:0 --mem 128'
++++ alias 'qu=squeue -M gpu -u dty7'
++++ alias 'qinv=squeue -M invest'
++++ alias 'scon=scontrol -M gpu show job'
++++ alias 'qsmp=squeue -u dty7'
++++ alias 'qmpi=squeue -M mpi -u dty7'
++++ alias 'start=squeue --start -u dty7'
++++ alias 'start-gpu=squeue --start -M gpu -u dty7'
++++ alias 'fluorelax=python /bgfs/lchong/dty7/19F_ff15ipq/CypA/fluorelax/fluorelax/fluorelax.py'
++++ alias 'acc=squeue -M gpu --account lchong'
++++ alias 'jup=jupyter notebook --no-browser --ip=0.0.0.0'
+++ module load gcc/8.2.0 openmpi/4.0.3 amber/22
++++ /ihome/crc/install/lmod/lmod/libexec/lmod bash load gcc/8.2.0 openmpi/4.0.3 amber/22
+Warning: When compiling code please add the following flags to nvcc:
+         -gencode arch=compute_35,code=[compute_35,sm_35] \
+         -gencode arch=compute_61,code=[compute_61,sm_61] 
+         -gencode arch=compute_70,code=[compute_70,sm_70] 
+++ eval 'LMOD_DEFAULT_MODULEPATH="/ihome/crc/modules/Core";' export 'LMOD_DEFAULT_MODULEPATH;' 'MODULEPATH="/ihome/crc/modules/Core";' export 'MODULEPATH;' 'AMBERHOME="/ihome/crc/install/amber/amber22/amber22";' export 'AMBERHOME;' 'CMAKE_PREFIX_PATH="/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0:/ihome/crc/install/cuda/11.6.1";' export 'CMAKE_PREFIX_PATH;' 'CPATH="/ihome/crc/install/zlib/1.2.11/gcc/8.2.0/include:/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0/include:/ihome/crc/install/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include:/ihome/crc/install/gcc/8.2.0/include";' export 'CPATH;' 'CPLUS_INCLUDE_PATH="/ihome/crc/install/zlib/1.2.11/gcc/8.2.0/include";' export 'CPLUS_INCLUDE_PATH;' 'CUDAROOT="/ihome/crc/install/cuda/11.6.1";' export 'CUDAROOT;' 'CUDA_ROOT="/ihome/crc/install/cuda/11.6.1";' export 'CUDA_ROOT;' 'C_INCLUDE_PATH="/ihome/crc/install/zlib/1.2.11/gcc/8.2.0/include";' export 'C_INCLUDE_PATH;' 'GCC_ROOT="/ihome/crc/install/gcc/8.2.0";' export 'GCC_ROOT;' 'INCLUDEPATH="/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0/include";' export 'INCLUDEPATH;' 'INCLUDE_PATH="/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0/include:/ihome/crc/install/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include:/ihome/crc/install/gcc/8.2.0/include";' export 'INCLUDE_PATH;' 'LD_LIBRARY_PATH="/ihome/crc/install/zlib/1.2.11/gcc/8.2.0/lib:/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0/lib:/ihome/crc/install/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0:/ihome/crc/install/gcc/8.2.0/lib64:/usr/lib64:/ihome/crc/install/cuda/11.6.1/lib64/stubs:/ihome/crc/install/cuda/11.6.1/lib64:/ihome/crc/install/git/2.9.5/libexec:/ihome/crc/install/git/2.9.5/lib64";' export 'LD_LIBRARY_PATH;' 'LD_RUN_PATH="/ihome/crc/install/zlib/1.2.11/gcc/8.2.0/lib:/ihome/crc/install/gcc/8.2.0/lib64:/ihome/crc/install/git/2.9.5/libexec:/ihome/crc/install/git/2.9.5/lib64";' export 'LD_RUN_PATH;' 'LIBPATH="/ihome/crc/install/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0";' export 'LIBPATH;' 'LIBRARY_PATH="/ihome/crc/install/zlib/1.2.11/gcc/8.2.0/lib:/ihome/crc/install/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0:/ihome/crc/install/gcc/8.2.0/lib64:/usr/lib64:/ihome/crc/install/cuda/11.6.1/lib64/stubs:/ihome/crc/install/cuda/11.6.1/lib64:/ihome/crc/install/git/2.9.5/libexec:/ihome/crc/install/git/2.9.5/lib64";' export 'LIBRARY_PATH;' 'LMOD_DEFAULT_MODULEPATH="/ihome/crc/modules/Core";' export 'LMOD_DEFAULT_MODULEPATH;' 'LOADEDMODULES="git/2.9.5:cuda/11.6.1:gcc/8.2.0:openmpi/4.0.3:zlib/1.2.11:amber/22";' export 'LOADEDMODULES;' 'MANPATH="/ihome/crc/install/zlib/1.2.11/gcc/8.2.0/share/man:/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0/share/man:/ihome/crc/install/gcc/8.2.0/share/man:/ihome/crc/install/cuda/11.6.1/doc/man:/ihome/crc/install/git/2.9.5/share:/ihome/crc/install/lmod/lmod/share/man::";' export 'MANPATH;' 'MODULEPATH="/ihome/crc/modules/MPI/gcc/8.2.0/openmpi/4.0.3:/ihome/crc/modules/Compiler/gcc/8.2.0:/ihome/crc/modules/Compiler/cuda/11.6.1:/ihome/crc/modules/Core";' export 'MODULEPATH;' 'MPI_ROOT="/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0";' export 'MPI_ROOT;' 'OMPI_MCA_mpi_warn_on_fork="0";' export 'OMPI_MCA_mpi_warn_on_fork;' 'OPENMPI_ROOT="/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0";' export 'OPENMPI_ROOT;' 'PATH="/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0/bin:/ihome/crc/install/gcc/8.2.0/bin:/ihome/crc/install/cuda/11.6.1/bin:/ihome/crc/install/git/2.9.5/bin:/ihome/lchong/dty7/Apps/anaconda3/bin:/ihome/lchong/dty7/Apps/anaconda3/condabin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/ihome/crc/pipx/bin:/ihome/lchong/dty7/.local/bin:/ihome/lchong/dty7/bin:/ihome/crc/pipx/bin";' export 'PATH;' 'PKG_CONFIG_PATH="/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0/lib/pkgconfig";' export 'PKG_CONFIG_PATH;' 'ZLIB_HOME="/ihome/crc/install/zlib/1.2.11/gcc/8.2.0";' export 'ZLIB_HOME;' '_LMFILES_="/ihome/crc/modules/Core/git/2.9.5.lua:/ihome/crc/modules/Core/cuda/11.6.1.lua:/ihome/crc/modules/Core/gcc/8.2.0.lua:/ihome/crc/modules/Compiler/gcc/8.2.0/openmpi/4.0.3.lua:/ihome/crc/modules/Compiler/gcc/8.2.0/zlib/1.2.11.lua:/ihome/crc/modules/MPI/gcc/8.2.0/openmpi/4.0.3/amber/22.lua";' export '_LMFILES_;' '_ModuleTable001_="X01vZHVsZVRhYmxlXz17WyJhY3RpdmVTaXplIl09NixiYXNlTXBhdGhBPXsiL2lob21lL2NyYy9tb2R1bGVzL0NvcmUiLH0sWyJjX3JlYnVpbGRUaW1lIl09ZmFsc2UsWyJjX3Nob3J0VGltZSJdPWZhbHNlLGZhbWlseT17fSxpbmFjdGl2ZT17fSxtVD17YW1iZXI9e1siRk4iXT0iL2lob21lL2NyYy9tb2R1bGVzL01QSS9nY2MvOC4yLjAvb3Blbm1waS80LjAuMy9hbWJlci8yMi5sdWEiLFsiZGVmYXVsdCJdPTAsWyJmdWxsTmFtZSJdPSJhbWJlci8yMiIsWyJsb2FkT3JkZXIiXT02LHByb3BUPXt9LFsic2hvcnQiXT0iYW1iZXIiLFsic3RhdHVzIl09ImFjdGl2ZSIsfSxjdWRhPXtbIkZOIl09Ii9paG9tZS9jcmMvbW9kdWxlcy9Db3JlL2N1ZGEvMTEuNi4xLmx1YSIsWyJkZWZh";' export '_ModuleTable001_;' '_ModuleTable002_="dWx0Il09MCxbImZ1bGxOYW1lIl09ImN1ZGEvMTEuNi4xIixbImxvYWRPcmRlciJdPTIscHJvcFQ9e30sWyJzaG9ydCJdPSJjdWRhIixbInN0YXR1cyJdPSJhY3RpdmUiLH0sZ2NjPXtbIkZOIl09Ii9paG9tZS9jcmMvbW9kdWxlcy9Db3JlL2djYy84LjIuMC5sdWEiLFsiZGVmYXVsdCJdPTAsWyJmdWxsTmFtZSJdPSJnY2MvOC4yLjAiLFsibG9hZE9yZGVyIl09Myxwcm9wVD17fSxbInNob3J0Il09ImdjYyIsWyJzdGF0dXMiXT0iYWN0aXZlIix9LGdpdD17WyJGTiJdPSIvaWhvbWUvY3JjL21vZHVsZXMvQ29yZS9naXQvMi45LjUubHVhIixbImRlZmF1bHQiXT0wLFsiZnVsbE5hbWUiXT0iZ2l0LzIuOS41IixbImxvYWRPcmRlciJdPTEscHJvcFQ9e30sWyJzaG9ydCJdPSJnaXQi";' export '_ModuleTable002_;' '_ModuleTable003_="LFsic3RhdHVzIl09ImFjdGl2ZSIsfSxvcGVubXBpPXtbIkZOIl09Ii9paG9tZS9jcmMvbW9kdWxlcy9Db21waWxlci9nY2MvOC4yLjAvb3Blbm1waS80LjAuMy5sdWEiLFsiZGVmYXVsdCJdPTAsWyJmdWxsTmFtZSJdPSJvcGVubXBpLzQuMC4zIixbImxvYWRPcmRlciJdPTQscHJvcFQ9e30sWyJzaG9ydCJdPSJvcGVubXBpIixbInN0YXR1cyJdPSJhY3RpdmUiLH0semxpYj17WyJGTiJdPSIvaWhvbWUvY3JjL21vZHVsZXMvQ29tcGlsZXIvZ2NjLzguMi4wL3psaWIvMS4yLjExLmx1YSIsWyJkZWZhdWx0Il09MCxbImZ1bGxOYW1lIl09InpsaWIvMS4yLjExIixbImxvYWRPcmRlciJdPTUscHJvcFQ9e30sWyJzaG9ydCJdPSJ6bGliIixbInN0YXR1cyJdPSJhY3RpdmUiLH0sfSxt";' export '_ModuleTable003_;' '_ModuleTable004_="cGF0aEE9eyIvaWhvbWUvY3JjL21vZHVsZXMvTVBJL2djYy84LjIuMC9vcGVubXBpLzQuMC4zIiwiL2lob21lL2NyYy9tb2R1bGVzL0NvbXBpbGVyL2djYy84LjIuMCIsIi9paG9tZS9jcmMvbW9kdWxlcy9Db21waWxlci9jdWRhLzExLjYuMSIsIi9paG9tZS9jcmMvbW9kdWxlcy9Db3JlIix9LFsic3lzdGVtQmFzZU1QQVRIIl09Ii9paG9tZS9jcmMvbW9kdWxlcy9Db3JlIixbInZlcnNpb24iXT0yLH0=";' export '_ModuleTable004_;' '_ModuleTable_Sz_="4";' export '_ModuleTable_Sz_;' source '/ihome/crc/install/amber/amber22/amber22/amber.sh;'
++++ LMOD_DEFAULT_MODULEPATH=/ihome/crc/modules/Core
++++ export LMOD_DEFAULT_MODULEPATH
++++ MODULEPATH=/ihome/crc/modules/Core
++++ export MODULEPATH
++++ AMBERHOME=/ihome/crc/install/amber/amber22/amber22
++++ export AMBERHOME
++++ CMAKE_PREFIX_PATH=/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0:/ihome/crc/install/cuda/11.6.1
++++ export CMAKE_PREFIX_PATH
++++ CPATH=/ihome/crc/install/zlib/1.2.11/gcc/8.2.0/include:/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0/include:/ihome/crc/install/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include:/ihome/crc/install/gcc/8.2.0/include
++++ export CPATH
++++ CPLUS_INCLUDE_PATH=/ihome/crc/install/zlib/1.2.11/gcc/8.2.0/include
++++ export CPLUS_INCLUDE_PATH
++++ CUDAROOT=/ihome/crc/install/cuda/11.6.1
++++ export CUDAROOT
++++ CUDA_ROOT=/ihome/crc/install/cuda/11.6.1
++++ export CUDA_ROOT
++++ C_INCLUDE_PATH=/ihome/crc/install/zlib/1.2.11/gcc/8.2.0/include
++++ export C_INCLUDE_PATH
++++ GCC_ROOT=/ihome/crc/install/gcc/8.2.0
++++ export GCC_ROOT
++++ INCLUDEPATH=/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0/include
++++ export INCLUDEPATH
++++ INCLUDE_PATH=/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0/include:/ihome/crc/install/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include:/ihome/crc/install/gcc/8.2.0/include
++++ export INCLUDE_PATH
++++ LD_LIBRARY_PATH=/ihome/crc/install/zlib/1.2.11/gcc/8.2.0/lib:/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0/lib:/ihome/crc/install/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0:/ihome/crc/install/gcc/8.2.0/lib64:/usr/lib64:/ihome/crc/install/cuda/11.6.1/lib64/stubs:/ihome/crc/install/cuda/11.6.1/lib64:/ihome/crc/install/git/2.9.5/libexec:/ihome/crc/install/git/2.9.5/lib64
++++ export LD_LIBRARY_PATH
++++ LD_RUN_PATH=/ihome/crc/install/zlib/1.2.11/gcc/8.2.0/lib:/ihome/crc/install/gcc/8.2.0/lib64:/ihome/crc/install/git/2.9.5/libexec:/ihome/crc/install/git/2.9.5/lib64
++++ export LD_RUN_PATH
++++ LIBPATH=/ihome/crc/install/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0
++++ export LIBPATH
++++ LIBRARY_PATH=/ihome/crc/install/zlib/1.2.11/gcc/8.2.0/lib:/ihome/crc/install/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0:/ihome/crc/install/gcc/8.2.0/lib64:/usr/lib64:/ihome/crc/install/cuda/11.6.1/lib64/stubs:/ihome/crc/install/cuda/11.6.1/lib64:/ihome/crc/install/git/2.9.5/libexec:/ihome/crc/install/git/2.9.5/lib64
++++ export LIBRARY_PATH
++++ LMOD_DEFAULT_MODULEPATH=/ihome/crc/modules/Core
++++ export LMOD_DEFAULT_MODULEPATH
++++ LOADEDMODULES=git/2.9.5:cuda/11.6.1:gcc/8.2.0:openmpi/4.0.3:zlib/1.2.11:amber/22
++++ export LOADEDMODULES
++++ MANPATH=/ihome/crc/install/zlib/1.2.11/gcc/8.2.0/share/man:/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0/share/man:/ihome/crc/install/gcc/8.2.0/share/man:/ihome/crc/install/cuda/11.6.1/doc/man:/ihome/crc/install/git/2.9.5/share:/ihome/crc/install/lmod/lmod/share/man::
++++ export MANPATH
++++ MODULEPATH=/ihome/crc/modules/MPI/gcc/8.2.0/openmpi/4.0.3:/ihome/crc/modules/Compiler/gcc/8.2.0:/ihome/crc/modules/Compiler/cuda/11.6.1:/ihome/crc/modules/Core
++++ export MODULEPATH
++++ MPI_ROOT=/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0
++++ export MPI_ROOT
++++ OMPI_MCA_mpi_warn_on_fork=0
++++ export OMPI_MCA_mpi_warn_on_fork
++++ OPENMPI_ROOT=/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0
++++ export OPENMPI_ROOT
++++ PATH=/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0/bin:/ihome/crc/install/gcc/8.2.0/bin:/ihome/crc/install/cuda/11.6.1/bin:/ihome/crc/install/git/2.9.5/bin:/ihome/lchong/dty7/Apps/anaconda3/bin:/ihome/lchong/dty7/Apps/anaconda3/condabin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/ihome/crc/pipx/bin:/ihome/lchong/dty7/.local/bin:/ihome/lchong/dty7/bin:/ihome/crc/pipx/bin
++++ export PATH
++++ PKG_CONFIG_PATH=/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0/lib/pkgconfig
++++ export PKG_CONFIG_PATH
++++ ZLIB_HOME=/ihome/crc/install/zlib/1.2.11/gcc/8.2.0
++++ export ZLIB_HOME
++++ _LMFILES_=/ihome/crc/modules/Core/git/2.9.5.lua:/ihome/crc/modules/Core/cuda/11.6.1.lua:/ihome/crc/modules/Core/gcc/8.2.0.lua:/ihome/crc/modules/Compiler/gcc/8.2.0/openmpi/4.0.3.lua:/ihome/crc/modules/Compiler/gcc/8.2.0/zlib/1.2.11.lua:/ihome/crc/modules/MPI/gcc/8.2.0/openmpi/4.0.3/amber/22.lua
++++ export _LMFILES_
++++ _ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJhY3RpdmVTaXplIl09NixiYXNlTXBhdGhBPXsiL2lob21lL2NyYy9tb2R1bGVzL0NvcmUiLH0sWyJjX3JlYnVpbGRUaW1lIl09ZmFsc2UsWyJjX3Nob3J0VGltZSJdPWZhbHNlLGZhbWlseT17fSxpbmFjdGl2ZT17fSxtVD17YW1iZXI9e1siRk4iXT0iL2lob21lL2NyYy9tb2R1bGVzL01QSS9nY2MvOC4yLjAvb3Blbm1waS80LjAuMy9hbWJlci8yMi5sdWEiLFsiZGVmYXVsdCJdPTAsWyJmdWxsTmFtZSJdPSJhbWJlci8yMiIsWyJsb2FkT3JkZXIiXT02LHByb3BUPXt9LFsic2hvcnQiXT0iYW1iZXIiLFsic3RhdHVzIl09ImFjdGl2ZSIsfSxjdWRhPXtbIkZOIl09Ii9paG9tZS9jcmMvbW9kdWxlcy9Db3JlL2N1ZGEvMTEuNi4xLmx1YSIsWyJkZWZh
++++ export _ModuleTable001_
++++ _ModuleTable002_=dWx0Il09MCxbImZ1bGxOYW1lIl09ImN1ZGEvMTEuNi4xIixbImxvYWRPcmRlciJdPTIscHJvcFQ9e30sWyJzaG9ydCJdPSJjdWRhIixbInN0YXR1cyJdPSJhY3RpdmUiLH0sZ2NjPXtbIkZOIl09Ii9paG9tZS9jcmMvbW9kdWxlcy9Db3JlL2djYy84LjIuMC5sdWEiLFsiZGVmYXVsdCJdPTAsWyJmdWxsTmFtZSJdPSJnY2MvOC4yLjAiLFsibG9hZE9yZGVyIl09Myxwcm9wVD17fSxbInNob3J0Il09ImdjYyIsWyJzdGF0dXMiXT0iYWN0aXZlIix9LGdpdD17WyJGTiJdPSIvaWhvbWUvY3JjL21vZHVsZXMvQ29yZS9naXQvMi45LjUubHVhIixbImRlZmF1bHQiXT0wLFsiZnVsbE5hbWUiXT0iZ2l0LzIuOS41IixbImxvYWRPcmRlciJdPTEscHJvcFQ9e30sWyJzaG9ydCJdPSJnaXQi
++++ export _ModuleTable002_
++++ _ModuleTable003_=LFsic3RhdHVzIl09ImFjdGl2ZSIsfSxvcGVubXBpPXtbIkZOIl09Ii9paG9tZS9jcmMvbW9kdWxlcy9Db21waWxlci9nY2MvOC4yLjAvb3Blbm1waS80LjAuMy5sdWEiLFsiZGVmYXVsdCJdPTAsWyJmdWxsTmFtZSJdPSJvcGVubXBpLzQuMC4zIixbImxvYWRPcmRlciJdPTQscHJvcFQ9e30sWyJzaG9ydCJdPSJvcGVubXBpIixbInN0YXR1cyJdPSJhY3RpdmUiLH0semxpYj17WyJGTiJdPSIvaWhvbWUvY3JjL21vZHVsZXMvQ29tcGlsZXIvZ2NjLzguMi4wL3psaWIvMS4yLjExLmx1YSIsWyJkZWZhdWx0Il09MCxbImZ1bGxOYW1lIl09InpsaWIvMS4yLjExIixbImxvYWRPcmRlciJdPTUscHJvcFQ9e30sWyJzaG9ydCJdPSJ6bGliIixbInN0YXR1cyJdPSJhY3RpdmUiLH0sfSxt
++++ export _ModuleTable003_
++++ _ModuleTable004_=cGF0aEE9eyIvaWhvbWUvY3JjL21vZHVsZXMvTVBJL2djYy84LjIuMC9vcGVubXBpLzQuMC4zIiwiL2lob21lL2NyYy9tb2R1bGVzL0NvbXBpbGVyL2djYy84LjIuMCIsIi9paG9tZS9jcmMvbW9kdWxlcy9Db21waWxlci9jdWRhLzExLjYuMSIsIi9paG9tZS9jcmMvbW9kdWxlcy9Db3JlIix9LFsic3lzdGVtQmFzZU1QQVRIIl09Ii9paG9tZS9jcmMvbW9kdWxlcy9Db3JlIixbInZlcnNpb24iXT0yLH0=
++++ export _ModuleTable004_
++++ _ModuleTable_Sz_=4
++++ export _ModuleTable_Sz_
++++ source /ihome/crc/install/amber/amber22/amber22/amber.sh
+++++ '[' -n /ihome/crc/install/amber/amber22/amber22/amber.sh ']'
+++++ this_script=/ihome/crc/install/amber/amber22/amber22/amber.sh
+++++++ dirname /ihome/crc/install/amber/amber22/amber22/amber.sh
++++++ cd /ihome/crc/install/amber/amber22/amber22
++++++ pwd
+++++ export AMBERHOME=/ihome/crc/install/amber/amber22/amber22
+++++ AMBERHOME=/ihome/crc/install/amber/amber22/amber22
+++++ export PATH=/ihome/crc/install/amber/amber22/amber22/bin:/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0/bin:/ihome/crc/install/gcc/8.2.0/bin:/ihome/crc/install/cuda/11.6.1/bin:/ihome/crc/install/git/2.9.5/bin:/ihome/lchong/dty7/Apps/anaconda3/bin:/ihome/lchong/dty7/Apps/anaconda3/condabin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/ihome/crc/pipx/bin:/ihome/lchong/dty7/.local/bin:/ihome/lchong/dty7/bin:/ihome/crc/pipx/bin
+++++ PATH=/ihome/crc/install/amber/amber22/amber22/bin:/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0/bin:/ihome/crc/install/gcc/8.2.0/bin:/ihome/crc/install/cuda/11.6.1/bin:/ihome/crc/install/git/2.9.5/bin:/ihome/lchong/dty7/Apps/anaconda3/bin:/ihome/lchong/dty7/Apps/anaconda3/condabin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/ihome/crc/pipx/bin:/ihome/lchong/dty7/.local/bin:/ihome/lchong/dty7/bin:/ihome/crc/pipx/bin
+++++ '[' 1 = 1 ']'
+++++ '[' -z /ihome/crc/install/zlib/1.2.11/gcc/8.2.0/lib:/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0/lib:/ihome/crc/install/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0:/ihome/crc/install/gcc/8.2.0/lib64:/usr/lib64:/ihome/crc/install/cuda/11.6.1/lib64/stubs:/ihome/crc/install/cuda/11.6.1/lib64:/ihome/crc/install/git/2.9.5/libexec:/ihome/crc/install/git/2.9.5/lib64 ']'
+++++ export LD_LIBRARY_PATH=/ihome/crc/install/amber/amber22/amber22/lib:/ihome/crc/install/zlib/1.2.11/gcc/8.2.0/lib:/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0/lib:/ihome/crc/install/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0:/ihome/crc/install/gcc/8.2.0/lib64:/usr/lib64:/ihome/crc/install/cuda/11.6.1/lib64/stubs:/ihome/crc/install/cuda/11.6.1/lib64:/ihome/crc/install/git/2.9.5/libexec:/ihome/crc/install/git/2.9.5/lib64
+++++ LD_LIBRARY_PATH=/ihome/crc/install/amber/amber22/amber22/lib:/ihome/crc/install/zlib/1.2.11/gcc/8.2.0/lib:/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0/lib:/ihome/crc/install/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0:/ihome/crc/install/gcc/8.2.0/lib64:/usr/lib64:/ihome/crc/install/cuda/11.6.1/lib64/stubs:/ihome/crc/install/cuda/11.6.1/lib64:/ihome/crc/install/git/2.9.5/libexec:/ihome/crc/install/git/2.9.5/lib64
+++++ '[' 1 = 1 ']'
+++++ '[' -z '' ']'
+++++ export PERL5LIB=/ihome/crc/install/amber/amber22/amber22/lib/perl
+++++ PERL5LIB=/ihome/crc/install/amber/amber22/amber22/lib/perl
+++++ '[' 1 = 1 ']'
+++++ '[' -z '' ']'
+++++ export PYTHONPATH=/ihome/crc/install/amber/amber22/amber22/lib/python3.9/site-packages
+++++ PYTHONPATH=/ihome/crc/install/amber/amber22/amber22/lib/python3.9/site-packages
+++++ '[' 0 = 1 ']'
+++ conda activate westpa
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate westpa
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(base) '
++++ __conda_exe shell.posix activate westpa
++++ __add_sys_prefix_to_path
++++ '[' -n '' ']'
+++++ dirname /ihome/lchong/dty7/Apps/anaconda3/bin/conda
++++ SYSP=/ihome/lchong/dty7/Apps/anaconda3/bin
+++++ dirname /ihome/lchong/dty7/Apps/anaconda3/bin
++++ SYSP=/ihome/lchong/dty7/Apps/anaconda3
++++ '[' -n '' ']'
++++ PATH=/ihome/lchong/dty7/Apps/anaconda3/bin:/ihome/crc/install/amber/amber22/amber22/bin:/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0/bin:/ihome/crc/install/gcc/8.2.0/bin:/ihome/crc/install/cuda/11.6.1/bin:/ihome/crc/install/git/2.9.5/bin:/ihome/lchong/dty7/Apps/anaconda3/bin:/ihome/lchong/dty7/Apps/anaconda3/condabin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/ihome/crc/pipx/bin:/ihome/lchong/dty7/.local/bin:/ihome/lchong/dty7/bin:/ihome/crc/pipx/bin
++++ export PATH
++++ /ihome/lchong/dty7/Apps/anaconda3/bin/conda shell.posix activate westpa
+++ ask_conda='PS1='\''(westpa) '\''
+export PATH='\''/ihome/crc/install/amber/amber22/amber22/bin:/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0/bin:/ihome/crc/install/gcc/8.2.0/bin:/ihome/crc/install/cuda/11.6.1/bin:/ihome/crc/install/git/2.9.5/bin:/ihome/lchong/dty7/Apps/anaconda3/envs/westpa/bin:/ihome/lchong/dty7/Apps/anaconda3/condabin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/ihome/crc/pipx/bin:/ihome/lchong/dty7/.local/bin:/ihome/lchong/dty7/bin:/ihome/crc/pipx/bin'\''
+export CONDA_PREFIX='\''/ihome/lchong/dty7/Apps/anaconda3/envs/westpa'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''westpa'\''
+export CONDA_PROMPT_MODIFIER='\''(westpa) '\''
+export CONDA_EXE='\''/ihome/lchong/dty7/Apps/anaconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/ihome/lchong/dty7/Apps/anaconda3/bin/python'\''
+export CONDA_PREFIX_1='\''/ihome/lchong/dty7/Apps/anaconda3'\'''
+++ eval 'PS1='\''(westpa) '\''
+export PATH='\''/ihome/crc/install/amber/amber22/amber22/bin:/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0/bin:/ihome/crc/install/gcc/8.2.0/bin:/ihome/crc/install/cuda/11.6.1/bin:/ihome/crc/install/git/2.9.5/bin:/ihome/lchong/dty7/Apps/anaconda3/envs/westpa/bin:/ihome/lchong/dty7/Apps/anaconda3/condabin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/ihome/crc/pipx/bin:/ihome/lchong/dty7/.local/bin:/ihome/lchong/dty7/bin:/ihome/crc/pipx/bin'\''
+export CONDA_PREFIX='\''/ihome/lchong/dty7/Apps/anaconda3/envs/westpa'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''westpa'\''
+export CONDA_PROMPT_MODIFIER='\''(westpa) '\''
+export CONDA_EXE='\''/ihome/lchong/dty7/Apps/anaconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/ihome/lchong/dty7/Apps/anaconda3/bin/python'\''
+export CONDA_PREFIX_1='\''/ihome/lchong/dty7/Apps/anaconda3'\'''
++++ PS1='(westpa) '
++++ export PATH=/ihome/crc/install/amber/amber22/amber22/bin:/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0/bin:/ihome/crc/install/gcc/8.2.0/bin:/ihome/crc/install/cuda/11.6.1/bin:/ihome/crc/install/git/2.9.5/bin:/ihome/lchong/dty7/Apps/anaconda3/envs/westpa/bin:/ihome/lchong/dty7/Apps/anaconda3/condabin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/ihome/crc/pipx/bin:/ihome/lchong/dty7/.local/bin:/ihome/lchong/dty7/bin:/ihome/crc/pipx/bin
++++ PATH=/ihome/crc/install/amber/amber22/amber22/bin:/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0/bin:/ihome/crc/install/gcc/8.2.0/bin:/ihome/crc/install/cuda/11.6.1/bin:/ihome/crc/install/git/2.9.5/bin:/ihome/lchong/dty7/Apps/anaconda3/envs/westpa/bin:/ihome/lchong/dty7/Apps/anaconda3/condabin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/ihome/crc/pipx/bin:/ihome/lchong/dty7/.local/bin:/ihome/lchong/dty7/bin:/ihome/crc/pipx/bin
++++ export CONDA_PREFIX=/ihome/lchong/dty7/Apps/anaconda3/envs/westpa
++++ CONDA_PREFIX=/ihome/lchong/dty7/Apps/anaconda3/envs/westpa
++++ export CONDA_SHLVL=2
++++ CONDA_SHLVL=2
++++ export CONDA_DEFAULT_ENV=westpa
++++ CONDA_DEFAULT_ENV=westpa
++++ export 'CONDA_PROMPT_MODIFIER=(westpa) '
++++ CONDA_PROMPT_MODIFIER='(westpa) '
++++ export CONDA_EXE=/ihome/lchong/dty7/Apps/anaconda3/bin/conda
++++ CONDA_EXE=/ihome/lchong/dty7/Apps/anaconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/ihome/lchong/dty7/Apps/anaconda3/bin/python
++++ CONDA_PYTHON_EXE=/ihome/lchong/dty7/Apps/anaconda3/bin/python
++++ export CONDA_PREFIX_1=/ihome/lchong/dty7/Apps/anaconda3
++++ CONDA_PREFIX_1=/ihome/lchong/dty7/Apps/anaconda3
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
+++ export NODELOC=/scratch/slurm-846863
+++ NODELOC=/scratch/slurm-846863
+++ export USE_LOCAL_SCRATCH=1
+++ USE_LOCAL_SCRATCH=1
+++ export WEST_SIM_ROOT=/ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v02
+++ WEST_SIM_ROOT=/ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v02
++++ basename /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v02
+++ export SIM_NAME=multi-mab_wmon_v02
+++ SIM_NAME=multi-mab_wmon_v02
+++ echo 'simulation multi-mab_wmon_v02 root is /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v02'
+++ export WM_ZMQ_MASTER_HEARTBEAT=100
+++ WM_ZMQ_MASTER_HEARTBEAT=100
+++ export WM_ZMQ_WORKER_HEARTBEAT=100
+++ WM_ZMQ_WORKER_HEARTBEAT=100
+++ export WM_ZMQ_TIMEOUT_FACTOR=300
+++ WM_ZMQ_TIMEOUT_FACTOR=300
+++ export BASH=/bin/bash
+++ BASH=/bin/bash
+++ export PERL=/usr/bin/perl
+++ PERL=/usr/bin/perl
+++ export ZSH=/bin/zsh
+++ ZSH=/bin/zsh
+++ export IFCONFIG=/bin/ifconfig
+++ IFCONFIG=/bin/ifconfig
+++ export CUT=/usr/bin/cut
+++ CUT=/usr/bin/cut
+++ export TR=/usr/bin/tr
+++ TR=/usr/bin/tr
+++ export LN=/bin/ln
+++ LN=/bin/ln
+++ export CP=/bin/cp
+++ CP=/bin/cp
+++ export RM=/bin/rm
+++ RM=/bin/rm
+++ export SED=/bin/sed
+++ SED=/bin/sed
+++ export CAT=/bin/cat
+++ CAT=/bin/cat
+++ export HEAD=/bin/head
+++ HEAD=/bin/head
+++ export TAR=/bin/tar
+++ TAR=/bin/tar
+++ export AWK=/usr/bin/awk
+++ AWK=/usr/bin/awk
+++ export PASTE=/usr/bin/paste
+++ PASTE=/usr/bin/paste
+++ export GREP=/bin/grep
+++ GREP=/bin/grep
+++ export SORT=/usr/bin/sort
+++ SORT=/usr/bin/sort
+++ export UNIQ=/usr/bin/uniq
+++ UNIQ=/usr/bin/uniq
+++ export HEAD=/usr/bin/head
+++ HEAD=/usr/bin/head
+++ export MKDIR=/bin/mkdir
+++ MKDIR=/bin/mkdir
+++ export ECHO=/bin/echo
+++ ECHO=/bin/echo
+++ export DATE=/bin/date
+++ DATE=/bin/date
+++ export SANDER=/ihome/crc/install/amber/amber22/amber22/bin/sander
+++ SANDER=/ihome/crc/install/amber/amber22/amber22/bin/sander
+++ export PMEMD=/ihome/crc/install/amber/amber22/amber22/bin/pmemd.cuda
+++ PMEMD=/ihome/crc/install/amber/amber22/amber22/bin/pmemd.cuda
+++ export CPPTRAJ=/ihome/crc/install/amber/amber22/amber22/bin/cpptraj.cuda
+++ CPPTRAJ=/ihome/crc/install/amber/amber22/amber22/bin/cpptraj.cuda
++ sort
++ env
++ cd /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v02
++ SERVER_INFO=/ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v02/west_zmq_info-846863.json
++ which w_run
++ (( n=0 ))
++ (( n<60 ))
++ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v02/west_zmq_info-846863.json ']'
++ w_run --work-manager=zmq --n-workers=0 --zmq-mode=master --zmq-write-host-info=/ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v02/west_zmq_info-846863.json --zmq-comm-mode=tcp
++ sleep 1
++ (( n++ ))
++ (( n<60 ))
++ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v02/west_zmq_info-846863.json ']'
++ sleep 1
++ (( n++ ))
++ (( n<60 ))
++ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v02/west_zmq_info-846863.json ']'
++ sleep 1
++ (( n++ ))
++ (( n<60 ))
++ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v02/west_zmq_info-846863.json ']'
++ echo '== server info file /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v02/west_zmq_info-846863.json =='
++ cat /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v02/west_zmq_info-846863.json
++ break
++ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v02/west_zmq_info-846863.json ']'
+++ scontrol show hostname gpu-n28
++ for node in '$(scontrol show hostname $SLURM_NODELIST)'
++ wait
++ ssh -o StrictHostKeyChecking=no gpu-n28 /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v02/node.sh /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v02 846863 gpu-n28 0,1,2,3,4,5,6,7 --work-manager=zmq --n-workers=8 --zmq-mode=client --zmq-read-host-info=/ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v02/west_zmq_info-846863.json --zmq-comm-mode=tcp
++ cd /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v02
++ shift
++ source env.sh
+++ module purge
++++ /ihome/crc/install/lmod/lmod/libexec/lmod bash purge
+++ eval 'LMOD_DEFAULT_MODULEPATH="/ihome/crc/modules/Core";' export 'LMOD_DEFAULT_MODULEPATH;' 'MODULEPATH="/ihome/crc/modules/Core";' export 'MODULEPATH;' unset 'GIT_ROOT;' unset 'LD_LIBRARY_PATH;' unset 'LD_RUN_PATH;' unset 'LIBRARY_PATH;' 'LMOD_DEFAULT_MODULEPATH="/ihome/crc/modules/Core";' export 'LMOD_DEFAULT_MODULEPATH;' unset 'LOADEDMODULES;' 'MANPATH="/ihome/crc/install/lmod/lmod/share/man::";' export 'MANPATH;' 'MODULEPATH="/ihome/crc/modules/Core";' export 'MODULEPATH;' 'PATH="/ihome/lchong/dty7/Apps/anaconda3/bin:/ihome/lchong/dty7/Apps/anaconda3/condabin:/usr/local/bin:/usr/bin:/ihome/crc/pipx/bin:/usr/local/sbin:/usr/sbin:/ihome/crc/pipx/bin:/ihome/lchong/dty7/.local/bin:/ihome/lchong/dty7/bin";' export 'PATH;' unset '_LMFILES_;' '_ModuleTable001_="X01vZHVsZVRhYmxlXz17WyJhY3RpdmVTaXplIl09MCxiYXNlTXBhdGhBPXsiL2lob21lL2NyYy9tb2R1bGVzL0NvcmUiLH0sWyJjX3JlYnVpbGRUaW1lIl09ZmFsc2UsWyJjX3Nob3J0VGltZSJdPWZhbHNlLGZhbWlseT17fSxpbmFjdGl2ZT17fSxtVD17fSxtcGF0aEE9eyIvaWhvbWUvY3JjL21vZHVsZXMvQ29yZSIsfSxbInN5c3RlbUJhc2VNUEFUSCJdPSIvaWhvbWUvY3JjL21vZHVsZXMvQ29yZSIsWyJ2ZXJzaW9uIl09Mix9";' export '_ModuleTable001_;' '_ModuleTable_Sz_="1";' export '_ModuleTable_Sz_;' unset '_ModuleTable002_;'
++++ LMOD_DEFAULT_MODULEPATH=/ihome/crc/modules/Core
++++ export LMOD_DEFAULT_MODULEPATH
++++ MODULEPATH=/ihome/crc/modules/Core
++++ export MODULEPATH
++++ unset GIT_ROOT
++++ unset LD_LIBRARY_PATH
++++ unset LD_RUN_PATH
++++ unset LIBRARY_PATH
++++ LMOD_DEFAULT_MODULEPATH=/ihome/crc/modules/Core
++++ export LMOD_DEFAULT_MODULEPATH
++++ unset LOADEDMODULES
++++ MANPATH=/ihome/crc/install/lmod/lmod/share/man::
++++ export MANPATH
++++ MODULEPATH=/ihome/crc/modules/Core
++++ export MODULEPATH
++++ PATH=/ihome/lchong/dty7/Apps/anaconda3/bin:/ihome/lchong/dty7/Apps/anaconda3/condabin:/usr/local/bin:/usr/bin:/ihome/crc/pipx/bin:/usr/local/sbin:/usr/sbin:/ihome/crc/pipx/bin:/ihome/lchong/dty7/.local/bin:/ihome/lchong/dty7/bin
++++ export PATH
++++ unset _LMFILES_
++++ _ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJhY3RpdmVTaXplIl09MCxiYXNlTXBhdGhBPXsiL2lob21lL2NyYy9tb2R1bGVzL0NvcmUiLH0sWyJjX3JlYnVpbGRUaW1lIl09ZmFsc2UsWyJjX3Nob3J0VGltZSJdPWZhbHNlLGZhbWlseT17fSxpbmFjdGl2ZT17fSxtVD17fSxtcGF0aEE9eyIvaWhvbWUvY3JjL21vZHVsZXMvQ29yZSIsfSxbInN5c3RlbUJhc2VNUEFUSCJdPSIvaWhvbWUvY3JjL21vZHVsZXMvQ29yZSIsWyJ2ZXJzaW9uIl09Mix9
++++ export _ModuleTable001_
++++ _ModuleTable_Sz_=1
++++ export _ModuleTable_Sz_
++++ unset _ModuleTable002_
+++ '[' 0 = 0 ']'
++++ : -s sh
+++ eval
+++ source /ihome/lchong/dty7/.bashrc
++++ '[' -f /etc/bashrc ']'
++++ . /etc/bashrc
+++++ '[' '(base) ' ']'
+++++ '[' -z '' ']'
+++++ case $TERM in
+++++ '[' -e /etc/sysconfig/bash-prompt-default ']'
+++++ shopt -s histappend
+++++ history -a
+++++ shopt -s checkwinsize
+++++ '[' '(base) ' = '\s-\v\$ ' ']'
+++++ shopt -q login_shell
+++++ /ihome/lchong/dty7/Apps/anaconda3/bin/conda shell.bash hook
++++ __conda_setup='export CONDA_EXE='\''/ihome/lchong/dty7/Apps/anaconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/ihome/lchong/dty7/Apps/anaconda3/bin/python'\''
+
+# Copyright (C) 2012 Anaconda, Inc
+# SPDX-License-Identifier: BSD-3-Clause
+
+__add_sys_prefix_to_path() {
+    # In dev-mode CONDA_EXE is python.exe and on Windows
+    # it is in a different relative location to condabin.
+    if [ -n "${_CE_CONDA}" ] && [ -n "${WINDIR+x}" ]; then
+        SYSP=$(\dirname "${CONDA_EXE}")
+    else
+        SYSP=$(\dirname "${CONDA_EXE}")
+        SYSP=$(\dirname "${SYSP}")
+    fi
+
+    if [ -n "${WINDIR+x}" ]; then
+        PATH="${SYSP}/bin:${PATH}"
+        PATH="${SYSP}/Scripts:${PATH}"
+        PATH="${SYSP}/Library/bin:${PATH}"
+        PATH="${SYSP}/Library/usr/bin:${PATH}"
+        PATH="${SYSP}/Library/mingw-w64/bin:${PATH}"
+        PATH="${SYSP}:${PATH}"
+    else
+        PATH="${SYSP}/bin:${PATH}"
+    fi
+    \export PATH
+}
+
+__conda_exe() (
+    __add_sys_prefix_to_path
+    "$CONDA_EXE" $_CE_M $_CE_CONDA "$@"
+)
+
+__conda_hashr() {
+    if [ -n "${ZSH_VERSION:+x}" ]; then
+        \rehash
+    elif [ -n "${POSH_VERSION:+x}" ]; then
+        :  # pass
+    else
+        \hash -r
+    fi
+}
+
+__conda_activate() {
+    if [ -n "${CONDA_PS1_BACKUP:+x}" ]; then
+        # Handle transition from shell activated with conda <= 4.3 to a subsequent activation
+        # after conda updated to >= 4.4. See issue #6173.
+        PS1="$CONDA_PS1_BACKUP"
+        \unset CONDA_PS1_BACKUP
+    fi
+    \local ask_conda
+    ask_conda="$(PS1="${PS1:-}" __conda_exe shell.posix "$@")" || \return
+    \eval "$ask_conda"
+    __conda_hashr
+}
+
+__conda_reactivate() {
+    \local ask_conda
+    ask_conda="$(PS1="${PS1:-}" __conda_exe shell.posix reactivate)" || \return
+    \eval "$ask_conda"
+    __conda_hashr
+}
+
+conda() {
+    \local cmd="${1-__missing__}"
+    case "$cmd" in
+        activate|deactivate)
+            __conda_activate "$@"
+            ;;
+        install|update|upgrade|remove|uninstall)
+            __conda_exe "$@" || \return
+            __conda_reactivate
+            ;;
+        *)
+            __conda_exe "$@"
+            ;;
+    esac
+}
+
+if [ -z "${CONDA_SHLVL+x}" ]; then
+    \export CONDA_SHLVL=0
+    # In dev-mode CONDA_EXE is python.exe and on Windows
+    # it is in a different relative location to condabin.
+    if [ -n "${_CE_CONDA:+x}" ] && [ -n "${WINDIR+x}" ]; then
+        PATH="$(\dirname "$CONDA_EXE")/condabin${PATH:+":${PATH}"}"
+    else
+        PATH="$(\dirname "$(\dirname "$CONDA_EXE")")/condabin${PATH:+":${PATH}"}"
+    fi
+    \export PATH
+
+    # We'\''re not allowing PS1 to be unbound. It must at least be set.
+    # However, we'\''re not exporting it, which can cause problems when starting a second shell
+    # via a first shell (i.e. starting zsh from bash).
+    if [ -z "${PS1+x}" ]; then
+        PS1=
+    fi
+fi
+
+conda activate base'
++++ '[' 0 -eq 0 ']'
++++ eval 'export CONDA_EXE='\''/ihome/lchong/dty7/Apps/anaconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/ihome/lchong/dty7/Apps/anaconda3/bin/python'\''
+
+# Copyright (C) 2012 Anaconda, Inc
+# SPDX-License-Identifier: BSD-3-Clause
+
+__add_sys_prefix_to_path() {
+    # In dev-mode CONDA_EXE is python.exe and on Windows
+    # it is in a different relative location to condabin.
+    if [ -n "${_CE_CONDA}" ] && [ -n "${WINDIR+x}" ]; then
+        SYSP=$(\dirname "${CONDA_EXE}")
+    else
+        SYSP=$(\dirname "${CONDA_EXE}")
+        SYSP=$(\dirname "${SYSP}")
+    fi
+
+    if [ -n "${WINDIR+x}" ]; then
+        PATH="${SYSP}/bin:${PATH}"
+        PATH="${SYSP}/Scripts:${PATH}"
+        PATH="${SYSP}/Library/bin:${PATH}"
+        PATH="${SYSP}/Library/usr/bin:${PATH}"
+        PATH="${SYSP}/Library/mingw-w64/bin:${PATH}"
+        PATH="${SYSP}:${PATH}"
+    else
+        PATH="${SYSP}/bin:${PATH}"
+    fi
+    \export PATH
+}
+
+__conda_exe() (
+    __add_sys_prefix_to_path
+    "$CONDA_EXE" $_CE_M $_CE_CONDA "$@"
+)
+
+__conda_hashr() {
+    if [ -n "${ZSH_VERSION:+x}" ]; then
+        \rehash
+    elif [ -n "${POSH_VERSION:+x}" ]; then
+        :  # pass
+    else
+        \hash -r
+    fi
+}
+
+__conda_activate() {
+    if [ -n "${CONDA_PS1_BACKUP:+x}" ]; then
+        # Handle transition from shell activated with conda <= 4.3 to a subsequent activation
+        # after conda updated to >= 4.4. See issue #6173.
+        PS1="$CONDA_PS1_BACKUP"
+        \unset CONDA_PS1_BACKUP
+    fi
+    \local ask_conda
+    ask_conda="$(PS1="${PS1:-}" __conda_exe shell.posix "$@")" || \return
+    \eval "$ask_conda"
+    __conda_hashr
+}
+
+__conda_reactivate() {
+    \local ask_conda
+    ask_conda="$(PS1="${PS1:-}" __conda_exe shell.posix reactivate)" || \return
+    \eval "$ask_conda"
+    __conda_hashr
+}
+
+conda() {
+    \local cmd="${1-__missing__}"
+    case "$cmd" in
+        activate|deactivate)
+            __conda_activate "$@"
+            ;;
+        install|update|upgrade|remove|uninstall)
+            __conda_exe "$@" || \return
+            __conda_reactivate
+            ;;
+        *)
+            __conda_exe "$@"
+            ;;
+    esac
+}
+
+if [ -z "${CONDA_SHLVL+x}" ]; then
+    \export CONDA_SHLVL=0
+    # In dev-mode CONDA_EXE is python.exe and on Windows
+    # it is in a different relative location to condabin.
+    if [ -n "${_CE_CONDA:+x}" ] && [ -n "${WINDIR+x}" ]; then
+        PATH="$(\dirname "$CONDA_EXE")/condabin${PATH:+":${PATH}"}"
+    else
+        PATH="$(\dirname "$(\dirname "$CONDA_EXE")")/condabin${PATH:+":${PATH}"}"
+    fi
+    \export PATH
+
+    # We'\''re not allowing PS1 to be unbound. It must at least be set.
+    # However, we'\''re not exporting it, which can cause problems when starting a second shell
+    # via a first shell (i.e. starting zsh from bash).
+    if [ -z "${PS1+x}" ]; then
+        PS1=
+    fi
+fi
+
+conda activate base'
+++++ export CONDA_EXE=/ihome/lchong/dty7/Apps/anaconda3/bin/conda
+++++ CONDA_EXE=/ihome/lchong/dty7/Apps/anaconda3/bin/conda
+++++ export _CE_M=
+++++ _CE_M=
+++++ export _CE_CONDA=
+++++ _CE_CONDA=
+++++ export CONDA_PYTHON_EXE=/ihome/lchong/dty7/Apps/anaconda3/bin/python
+++++ CONDA_PYTHON_EXE=/ihome/lchong/dty7/Apps/anaconda3/bin/python
+++++ '[' -z x ']'
+++++ conda activate base
+++++ local cmd=activate
+++++ case "$cmd" in
+++++ __conda_activate activate base
+++++ '[' -n '' ']'
+++++ local ask_conda
++++++ PS1='(base) '
++++++ __conda_exe shell.posix activate base
++++++ __add_sys_prefix_to_path
++++++ '[' -n '' ']'
+++++++ dirname /ihome/lchong/dty7/Apps/anaconda3/bin/conda
++++++ SYSP=/ihome/lchong/dty7/Apps/anaconda3/bin
+++++++ dirname /ihome/lchong/dty7/Apps/anaconda3/bin
++++++ SYSP=/ihome/lchong/dty7/Apps/anaconda3
++++++ '[' -n '' ']'
++++++ PATH=/ihome/lchong/dty7/Apps/anaconda3/bin:/ihome/lchong/dty7/Apps/anaconda3/bin:/ihome/lchong/dty7/Apps/anaconda3/condabin:/usr/local/bin:/usr/bin:/ihome/crc/pipx/bin:/usr/local/sbin:/usr/sbin:/ihome/crc/pipx/bin:/ihome/lchong/dty7/.local/bin:/ihome/lchong/dty7/bin
++++++ export PATH
++++++ /ihome/lchong/dty7/Apps/anaconda3/bin/conda shell.posix activate base
+++++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/ihome/lchong/dty7/Apps/anaconda3/bin:/ihome/lchong/dty7/Apps/anaconda3/condabin:/usr/local/bin:/usr/bin:/ihome/crc/pipx/bin:/usr/local/sbin:/usr/sbin:/ihome/crc/pipx/bin:/ihome/lchong/dty7/.local/bin:/ihome/lchong/dty7/bin'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\'''
+++++ eval 'PS1='\''(base) '\''
+export PATH='\''/ihome/lchong/dty7/Apps/anaconda3/bin:/ihome/lchong/dty7/Apps/anaconda3/condabin:/usr/local/bin:/usr/bin:/ihome/crc/pipx/bin:/usr/local/sbin:/usr/sbin:/ihome/crc/pipx/bin:/ihome/lchong/dty7/.local/bin:/ihome/lchong/dty7/bin'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\'''
++++++ PS1='(base) '
++++++ export PATH=/ihome/lchong/dty7/Apps/anaconda3/bin:/ihome/lchong/dty7/Apps/anaconda3/condabin:/usr/local/bin:/usr/bin:/ihome/crc/pipx/bin:/usr/local/sbin:/usr/sbin:/ihome/crc/pipx/bin:/ihome/lchong/dty7/.local/bin:/ihome/lchong/dty7/bin
++++++ PATH=/ihome/lchong/dty7/Apps/anaconda3/bin:/ihome/lchong/dty7/Apps/anaconda3/condabin:/usr/local/bin:/usr/bin:/ihome/crc/pipx/bin:/usr/local/sbin:/usr/sbin:/ihome/crc/pipx/bin:/ihome/lchong/dty7/.local/bin:/ihome/lchong/dty7/bin
++++++ export CONDA_SHLVL=1
++++++ CONDA_SHLVL=1
++++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++++ CONDA_PROMPT_MODIFIER='(base) '
+++++ __conda_hashr
+++++ '[' -n '' ']'
+++++ '[' -n '' ']'
+++++ hash -r
++++ unset __conda_setup
++++ LS_COLORS='rs=0:di=1;35:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=0131:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:'
++++ export LS_COLORS
++++ module load git/2.9.5
+++++ /ihome/crc/install/lmod/lmod/libexec/lmod bash load git/2.9.5
++++ eval 'LMOD_DEFAULT_MODULEPATH="/ihome/crc/modules/Core";' export 'LMOD_DEFAULT_MODULEPATH;' 'MODULEPATH="/ihome/crc/modules/Core";' export 'MODULEPATH;' 'GIT_ROOT="/ihome/crc/install/git/2.9.5";' export 'GIT_ROOT;' 'LD_LIBRARY_PATH="/ihome/crc/install/git/2.9.5/libexec:/ihome/crc/install/git/2.9.5/lib64";' export 'LD_LIBRARY_PATH;' 'LD_RUN_PATH="/ihome/crc/install/git/2.9.5/libexec:/ihome/crc/install/git/2.9.5/lib64";' export 'LD_RUN_PATH;' 'LIBRARY_PATH="/ihome/crc/install/git/2.9.5/libexec:/ihome/crc/install/git/2.9.5/lib64";' export 'LIBRARY_PATH;' 'LMOD_DEFAULT_MODULEPATH="/ihome/crc/modules/Core";' export 'LMOD_DEFAULT_MODULEPATH;' 'LOADEDMODULES="git/2.9.5";' export 'LOADEDMODULES;' 'MANPATH="/ihome/crc/install/git/2.9.5/share:/ihome/crc/install/lmod/lmod/share/man::";' export 'MANPATH;' 'MODULEPATH="/ihome/crc/modules/Core";' export 'MODULEPATH;' 'PATH="/ihome/crc/install/git/2.9.5/bin:/ihome/lchong/dty7/Apps/anaconda3/bin:/ihome/lchong/dty7/Apps/anaconda3/condabin:/usr/local/bin:/usr/bin:/ihome/crc/pipx/bin:/usr/local/sbin:/usr/sbin:/ihome/crc/pipx/bin:/ihome/lchong/dty7/.local/bin:/ihome/lchong/dty7/bin";' export 'PATH;' '_LMFILES_="/ihome/crc/modules/Core/git/2.9.5.lua";' export '_LMFILES_;' '_ModuleTable001_="X01vZHVsZVRhYmxlXz17WyJhY3RpdmVTaXplIl09MSxiYXNlTXBhdGhBPXsiL2lob21lL2NyYy9tb2R1bGVzL0NvcmUiLH0sWyJjX3JlYnVpbGRUaW1lIl09ZmFsc2UsWyJjX3Nob3J0VGltZSJdPWZhbHNlLGZhbWlseT17fSxpbmFjdGl2ZT17fSxtVD17Z2l0PXtbIkZOIl09Ii9paG9tZS9jcmMvbW9kdWxlcy9Db3JlL2dpdC8yLjkuNS5sdWEiLFsiZGVmYXVsdCJdPTAsWyJmdWxsTmFtZSJdPSJnaXQvMi45LjUiLFsibG9hZE9yZGVyIl09MSxwcm9wVD17fSxbInNob3J0Il09ImdpdCIsWyJzdGF0dXMiXT0iYWN0aXZlIix9LH0sbXBhdGhBPXsiL2lob21lL2NyYy9tb2R1bGVzL0NvcmUiLH0sWyJzeXN0ZW1CYXNlTVBBVEgiXT0iL2lob21lL2NyYy9tb2R1bGVzL0NvcmUiLFsi";' export '_ModuleTable001_;' '_ModuleTable002_="dmVyc2lvbiJdPTIsfQ==";' export '_ModuleTable002_;' '_ModuleTable_Sz_="2";' export '_ModuleTable_Sz_;'
+++++ LMOD_DEFAULT_MODULEPATH=/ihome/crc/modules/Core
+++++ export LMOD_DEFAULT_MODULEPATH
+++++ MODULEPATH=/ihome/crc/modules/Core
+++++ export MODULEPATH
+++++ GIT_ROOT=/ihome/crc/install/git/2.9.5
+++++ export GIT_ROOT
+++++ LD_LIBRARY_PATH=/ihome/crc/install/git/2.9.5/libexec:/ihome/crc/install/git/2.9.5/lib64
+++++ export LD_LIBRARY_PATH
+++++ LD_RUN_PATH=/ihome/crc/install/git/2.9.5/libexec:/ihome/crc/install/git/2.9.5/lib64
+++++ export LD_RUN_PATH
+++++ LIBRARY_PATH=/ihome/crc/install/git/2.9.5/libexec:/ihome/crc/install/git/2.9.5/lib64
+++++ export LIBRARY_PATH
+++++ LMOD_DEFAULT_MODULEPATH=/ihome/crc/modules/Core
+++++ export LMOD_DEFAULT_MODULEPATH
+++++ LOADEDMODULES=git/2.9.5
+++++ export LOADEDMODULES
+++++ MANPATH=/ihome/crc/install/git/2.9.5/share:/ihome/crc/install/lmod/lmod/share/man::
+++++ export MANPATH
+++++ MODULEPATH=/ihome/crc/modules/Core
+++++ export MODULEPATH
+++++ PATH=/ihome/crc/install/git/2.9.5/bin:/ihome/lchong/dty7/Apps/anaconda3/bin:/ihome/lchong/dty7/Apps/anaconda3/condabin:/usr/local/bin:/usr/bin:/ihome/crc/pipx/bin:/usr/local/sbin:/usr/sbin:/ihome/crc/pipx/bin:/ihome/lchong/dty7/.local/bin:/ihome/lchong/dty7/bin
+++++ export PATH
+++++ _LMFILES_=/ihome/crc/modules/Core/git/2.9.5.lua
+++++ export _LMFILES_
+++++ _ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJhY3RpdmVTaXplIl09MSxiYXNlTXBhdGhBPXsiL2lob21lL2NyYy9tb2R1bGVzL0NvcmUiLH0sWyJjX3JlYnVpbGRUaW1lIl09ZmFsc2UsWyJjX3Nob3J0VGltZSJdPWZhbHNlLGZhbWlseT17fSxpbmFjdGl2ZT17fSxtVD17Z2l0PXtbIkZOIl09Ii9paG9tZS9jcmMvbW9kdWxlcy9Db3JlL2dpdC8yLjkuNS5sdWEiLFsiZGVmYXVsdCJdPTAsWyJmdWxsTmFtZSJdPSJnaXQvMi45LjUiLFsibG9hZE9yZGVyIl09MSxwcm9wVD17fSxbInNob3J0Il09ImdpdCIsWyJzdGF0dXMiXT0iYWN0aXZlIix9LH0sbXBhdGhBPXsiL2lob21lL2NyYy9tb2R1bGVzL0NvcmUiLH0sWyJzeXN0ZW1CYXNlTVBBVEgiXT0iL2lob21lL2NyYy9tb2R1bGVzL0NvcmUiLFsi
+++++ export _ModuleTable001_
+++++ _ModuleTable002_=dmVyc2lvbiJdPTIsfQ==
+++++ export _ModuleTable002_
+++++ _ModuleTable_Sz_=2
+++++ export _ModuleTable_Sz_
++++ '[' 0 = 0 ']'
+++++ : -s sh
++++ eval
++++ alias '1gpu=crc-interactive -g -n 1 -p gtx1080 -u 1 -t 1:0'
++++ alias '1gpui=crc-interactive -i -n 1 -p lchong -u 1 -t 4:0 --mem 16'
++++ alias '2gpui=crc-interactive -i -n 1 -p lchong -u 2 -t 4:0 --mem 16'
++++ alias '1cpui=crc-interactive -i -n 1 -p lchong -c 1 -t 12:0 --mem 8'
++++ alias '4cpui=crc-interactive -i -n 1 -p lchong -c 4 -t 12:0'
++++ alias '4cpuihm=crc-interactive -i -n 1 -p lchong -c 4 -t 12:0 --mem 20'
++++ alias '8cpui=crc-interactive -i -n 1 -p lchong -c 8 -t 12:0'
++++ alias '1cpu=crc-interactive -s -n 1 -c 1 -t 1:0 --mem 4'
++++ alias '4cpu=crc-interactive -s -n 1 -c 4 -t 1:0 --mem 16'
++++ alias '8cpu=crc-interactive -s -n 1 -c 8 -t 1:0 --mem 32'
++++ alias '8cpul=crc-interactive -s -n 1 -c 8 -t 12:0 --mem 64'
++++ alias '8cpull=crc-interactive -s -n 1 -c 8 -t 12:0 --mem 128'
++++ alias '12cpu=crc-interactive -s -n 1 -c 12 -t 12:0 --mem 64'
++++ alias '16cpu=crc-interactive -s -n 1 -c 16 -t 12:0 --mem 64'
++++ alias '16cpul=crc-interactive -s -n 1 -c 16 -t 12:0 --mem 128'
++++ alias 'qu=squeue -M gpu -u dty7'
++++ alias 'qinv=squeue -M invest'
++++ alias 'scon=scontrol -M gpu show job'
++++ alias 'qsmp=squeue -u dty7'
++++ alias 'qmpi=squeue -M mpi -u dty7'
++++ alias 'start=squeue --start -u dty7'
++++ alias 'start-gpu=squeue --start -M gpu -u dty7'
++++ alias 'fluorelax=python /bgfs/lchong/dty7/19F_ff15ipq/CypA/fluorelax/fluorelax/fluorelax.py'
++++ alias 'acc=squeue -M gpu --account lchong'
++++ alias 'jup=jupyter notebook --no-browser --ip=0.0.0.0'
+++ module load gcc/8.2.0 openmpi/4.0.3 amber/22
++++ /ihome/crc/install/lmod/lmod/libexec/lmod bash load gcc/8.2.0 openmpi/4.0.3 amber/22
+Warning: When compiling code please add the following flags to nvcc:
+         -gencode arch=compute_35,code=[compute_35,sm_35] \
+         -gencode arch=compute_61,code=[compute_61,sm_61] 
+         -gencode arch=compute_70,code=[compute_70,sm_70] 
+++ eval 'LMOD_DEFAULT_MODULEPATH="/ihome/crc/modules/Core";' export 'LMOD_DEFAULT_MODULEPATH;' 'MODULEPATH="/ihome/crc/modules/Core";' export 'MODULEPATH;' 'AMBERHOME="/ihome/crc/install/amber/amber22/amber22";' export 'AMBERHOME;' 'CMAKE_PREFIX_PATH="/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0:/ihome/crc/install/cuda/11.6.1";' export 'CMAKE_PREFIX_PATH;' 'CPATH="/ihome/crc/install/zlib/1.2.11/gcc/8.2.0/include:/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0/include:/ihome/crc/install/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include:/ihome/crc/install/gcc/8.2.0/include";' export 'CPATH;' 'CPLUS_INCLUDE_PATH="/ihome/crc/install/zlib/1.2.11/gcc/8.2.0/include";' export 'CPLUS_INCLUDE_PATH;' 'CUDAROOT="/ihome/crc/install/cuda/11.6.1";' export 'CUDAROOT;' 'CUDA_ROOT="/ihome/crc/install/cuda/11.6.1";' export 'CUDA_ROOT;' 'C_INCLUDE_PATH="/ihome/crc/install/zlib/1.2.11/gcc/8.2.0/include";' export 'C_INCLUDE_PATH;' 'GCC_ROOT="/ihome/crc/install/gcc/8.2.0";' export 'GCC_ROOT;' 'INCLUDEPATH="/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0/include";' export 'INCLUDEPATH;' 'INCLUDE_PATH="/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0/include:/ihome/crc/install/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include:/ihome/crc/install/gcc/8.2.0/include";' export 'INCLUDE_PATH;' 'LD_LIBRARY_PATH="/ihome/crc/install/zlib/1.2.11/gcc/8.2.0/lib:/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0/lib:/ihome/crc/install/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0:/ihome/crc/install/gcc/8.2.0/lib64:/usr/lib64:/ihome/crc/install/cuda/11.6.1/lib64/stubs:/ihome/crc/install/cuda/11.6.1/lib64:/ihome/crc/install/git/2.9.5/libexec:/ihome/crc/install/git/2.9.5/lib64";' export 'LD_LIBRARY_PATH;' 'LD_RUN_PATH="/ihome/crc/install/zlib/1.2.11/gcc/8.2.0/lib:/ihome/crc/install/gcc/8.2.0/lib64:/ihome/crc/install/git/2.9.5/libexec:/ihome/crc/install/git/2.9.5/lib64";' export 'LD_RUN_PATH;' 'LIBPATH="/ihome/crc/install/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0";' export 'LIBPATH;' 'LIBRARY_PATH="/ihome/crc/install/zlib/1.2.11/gcc/8.2.0/lib:/ihome/crc/install/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0:/ihome/crc/install/gcc/8.2.0/lib64:/usr/lib64:/ihome/crc/install/cuda/11.6.1/lib64/stubs:/ihome/crc/install/cuda/11.6.1/lib64:/ihome/crc/install/git/2.9.5/libexec:/ihome/crc/install/git/2.9.5/lib64";' export 'LIBRARY_PATH;' 'LMOD_DEFAULT_MODULEPATH="/ihome/crc/modules/Core";' export 'LMOD_DEFAULT_MODULEPATH;' 'LOADEDMODULES="git/2.9.5:cuda/11.6.1:gcc/8.2.0:openmpi/4.0.3:zlib/1.2.11:amber/22";' export 'LOADEDMODULES;' 'MANPATH="/ihome/crc/install/zlib/1.2.11/gcc/8.2.0/share/man:/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0/share/man:/ihome/crc/install/gcc/8.2.0/share/man:/ihome/crc/install/cuda/11.6.1/doc/man:/ihome/crc/install/git/2.9.5/share:/ihome/crc/install/lmod/lmod/share/man::";' export 'MANPATH;' 'MODULEPATH="/ihome/crc/modules/MPI/gcc/8.2.0/openmpi/4.0.3:/ihome/crc/modules/Compiler/gcc/8.2.0:/ihome/crc/modules/Compiler/cuda/11.6.1:/ihome/crc/modules/Core";' export 'MODULEPATH;' 'MPI_ROOT="/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0";' export 'MPI_ROOT;' 'OMPI_MCA_mpi_warn_on_fork="0";' export 'OMPI_MCA_mpi_warn_on_fork;' 'OPENMPI_ROOT="/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0";' export 'OPENMPI_ROOT;' 'PATH="/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0/bin:/ihome/crc/install/gcc/8.2.0/bin:/ihome/crc/install/cuda/11.6.1/bin:/ihome/crc/install/git/2.9.5/bin:/ihome/lchong/dty7/Apps/anaconda3/bin:/ihome/lchong/dty7/Apps/anaconda3/condabin:/usr/local/bin:/usr/bin:/ihome/crc/pipx/bin:/usr/local/sbin:/usr/sbin:/ihome/crc/pipx/bin:/ihome/lchong/dty7/.local/bin:/ihome/lchong/dty7/bin";' export 'PATH;' 'PKG_CONFIG_PATH="/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0/lib/pkgconfig";' export 'PKG_CONFIG_PATH;' 'ZLIB_HOME="/ihome/crc/install/zlib/1.2.11/gcc/8.2.0";' export 'ZLIB_HOME;' '_LMFILES_="/ihome/crc/modules/Core/git/2.9.5.lua:/ihome/crc/modules/Core/cuda/11.6.1.lua:/ihome/crc/modules/Core/gcc/8.2.0.lua:/ihome/crc/modules/Compiler/gcc/8.2.0/openmpi/4.0.3.lua:/ihome/crc/modules/Compiler/gcc/8.2.0/zlib/1.2.11.lua:/ihome/crc/modules/MPI/gcc/8.2.0/openmpi/4.0.3/amber/22.lua";' export '_LMFILES_;' '_ModuleTable001_="X01vZHVsZVRhYmxlXz17WyJhY3RpdmVTaXplIl09NixiYXNlTXBhdGhBPXsiL2lob21lL2NyYy9tb2R1bGVzL0NvcmUiLH0sWyJjX3JlYnVpbGRUaW1lIl09ZmFsc2UsWyJjX3Nob3J0VGltZSJdPWZhbHNlLGZhbWlseT17fSxpbmFjdGl2ZT17fSxtVD17YW1iZXI9e1siRk4iXT0iL2lob21lL2NyYy9tb2R1bGVzL01QSS9nY2MvOC4yLjAvb3Blbm1waS80LjAuMy9hbWJlci8yMi5sdWEiLFsiZGVmYXVsdCJdPTAsWyJmdWxsTmFtZSJdPSJhbWJlci8yMiIsWyJsb2FkT3JkZXIiXT02LHByb3BUPXt9LFsic2hvcnQiXT0iYW1iZXIiLFsic3RhdHVzIl09ImFjdGl2ZSIsfSxjdWRhPXtbIkZOIl09Ii9paG9tZS9jcmMvbW9kdWxlcy9Db3JlL2N1ZGEvMTEuNi4xLmx1YSIsWyJkZWZh";' export '_ModuleTable001_;' '_ModuleTable002_="dWx0Il09MCxbImZ1bGxOYW1lIl09ImN1ZGEvMTEuNi4xIixbImxvYWRPcmRlciJdPTIscHJvcFQ9e30sWyJzaG9ydCJdPSJjdWRhIixbInN0YXR1cyJdPSJhY3RpdmUiLH0sZ2NjPXtbIkZOIl09Ii9paG9tZS9jcmMvbW9kdWxlcy9Db3JlL2djYy84LjIuMC5sdWEiLFsiZGVmYXVsdCJdPTAsWyJmdWxsTmFtZSJdPSJnY2MvOC4yLjAiLFsibG9hZE9yZGVyIl09Myxwcm9wVD17fSxbInNob3J0Il09ImdjYyIsWyJzdGF0dXMiXT0iYWN0aXZlIix9LGdpdD17WyJGTiJdPSIvaWhvbWUvY3JjL21vZHVsZXMvQ29yZS9naXQvMi45LjUubHVhIixbImRlZmF1bHQiXT0wLFsiZnVsbE5hbWUiXT0iZ2l0LzIuOS41IixbImxvYWRPcmRlciJdPTEscHJvcFQ9e30sWyJzaG9ydCJdPSJnaXQi";' export '_ModuleTable002_;' '_ModuleTable003_="LFsic3RhdHVzIl09ImFjdGl2ZSIsfSxvcGVubXBpPXtbIkZOIl09Ii9paG9tZS9jcmMvbW9kdWxlcy9Db21waWxlci9nY2MvOC4yLjAvb3Blbm1waS80LjAuMy5sdWEiLFsiZGVmYXVsdCJdPTAsWyJmdWxsTmFtZSJdPSJvcGVubXBpLzQuMC4zIixbImxvYWRPcmRlciJdPTQscHJvcFQ9e30sWyJzaG9ydCJdPSJvcGVubXBpIixbInN0YXR1cyJdPSJhY3RpdmUiLH0semxpYj17WyJGTiJdPSIvaWhvbWUvY3JjL21vZHVsZXMvQ29tcGlsZXIvZ2NjLzguMi4wL3psaWIvMS4yLjExLmx1YSIsWyJkZWZhdWx0Il09MCxbImZ1bGxOYW1lIl09InpsaWIvMS4yLjExIixbImxvYWRPcmRlciJdPTUscHJvcFQ9e30sWyJzaG9ydCJdPSJ6bGliIixbInN0YXR1cyJdPSJhY3RpdmUiLH0sfSxt";' export '_ModuleTable003_;' '_ModuleTable004_="cGF0aEE9eyIvaWhvbWUvY3JjL21vZHVsZXMvTVBJL2djYy84LjIuMC9vcGVubXBpLzQuMC4zIiwiL2lob21lL2NyYy9tb2R1bGVzL0NvbXBpbGVyL2djYy84LjIuMCIsIi9paG9tZS9jcmMvbW9kdWxlcy9Db21waWxlci9jdWRhLzExLjYuMSIsIi9paG9tZS9jcmMvbW9kdWxlcy9Db3JlIix9LFsic3lzdGVtQmFzZU1QQVRIIl09Ii9paG9tZS9jcmMvbW9kdWxlcy9Db3JlIixbInZlcnNpb24iXT0yLH0=";' export '_ModuleTable004_;' '_ModuleTable_Sz_="4";' export '_ModuleTable_Sz_;' source '/ihome/crc/install/amber/amber22/amber22/amber.sh;'
++++ LMOD_DEFAULT_MODULEPATH=/ihome/crc/modules/Core
++++ export LMOD_DEFAULT_MODULEPATH
++++ MODULEPATH=/ihome/crc/modules/Core
++++ export MODULEPATH
++++ AMBERHOME=/ihome/crc/install/amber/amber22/amber22
++++ export AMBERHOME
++++ CMAKE_PREFIX_PATH=/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0:/ihome/crc/install/cuda/11.6.1
++++ export CMAKE_PREFIX_PATH
++++ CPATH=/ihome/crc/install/zlib/1.2.11/gcc/8.2.0/include:/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0/include:/ihome/crc/install/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include:/ihome/crc/install/gcc/8.2.0/include
++++ export CPATH
++++ CPLUS_INCLUDE_PATH=/ihome/crc/install/zlib/1.2.11/gcc/8.2.0/include
++++ export CPLUS_INCLUDE_PATH
++++ CUDAROOT=/ihome/crc/install/cuda/11.6.1
++++ export CUDAROOT
++++ CUDA_ROOT=/ihome/crc/install/cuda/11.6.1
++++ export CUDA_ROOT
++++ C_INCLUDE_PATH=/ihome/crc/install/zlib/1.2.11/gcc/8.2.0/include
++++ export C_INCLUDE_PATH
++++ GCC_ROOT=/ihome/crc/install/gcc/8.2.0
++++ export GCC_ROOT
++++ INCLUDEPATH=/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0/include
++++ export INCLUDEPATH
++++ INCLUDE_PATH=/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0/include:/ihome/crc/install/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include:/ihome/crc/install/gcc/8.2.0/include
++++ export INCLUDE_PATH
++++ LD_LIBRARY_PATH=/ihome/crc/install/zlib/1.2.11/gcc/8.2.0/lib:/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0/lib:/ihome/crc/install/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0:/ihome/crc/install/gcc/8.2.0/lib64:/usr/lib64:/ihome/crc/install/cuda/11.6.1/lib64/stubs:/ihome/crc/install/cuda/11.6.1/lib64:/ihome/crc/install/git/2.9.5/libexec:/ihome/crc/install/git/2.9.5/lib64
++++ export LD_LIBRARY_PATH
++++ LD_RUN_PATH=/ihome/crc/install/zlib/1.2.11/gcc/8.2.0/lib:/ihome/crc/install/gcc/8.2.0/lib64:/ihome/crc/install/git/2.9.5/libexec:/ihome/crc/install/git/2.9.5/lib64
++++ export LD_RUN_PATH
++++ LIBPATH=/ihome/crc/install/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0
++++ export LIBPATH
++++ LIBRARY_PATH=/ihome/crc/install/zlib/1.2.11/gcc/8.2.0/lib:/ihome/crc/install/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0:/ihome/crc/install/gcc/8.2.0/lib64:/usr/lib64:/ihome/crc/install/cuda/11.6.1/lib64/stubs:/ihome/crc/install/cuda/11.6.1/lib64:/ihome/crc/install/git/2.9.5/libexec:/ihome/crc/install/git/2.9.5/lib64
++++ export LIBRARY_PATH
++++ LMOD_DEFAULT_MODULEPATH=/ihome/crc/modules/Core
++++ export LMOD_DEFAULT_MODULEPATH
++++ LOADEDMODULES=git/2.9.5:cuda/11.6.1:gcc/8.2.0:openmpi/4.0.3:zlib/1.2.11:amber/22
++++ export LOADEDMODULES
++++ MANPATH=/ihome/crc/install/zlib/1.2.11/gcc/8.2.0/share/man:/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0/share/man:/ihome/crc/install/gcc/8.2.0/share/man:/ihome/crc/install/cuda/11.6.1/doc/man:/ihome/crc/install/git/2.9.5/share:/ihome/crc/install/lmod/lmod/share/man::
++++ export MANPATH
++++ MODULEPATH=/ihome/crc/modules/MPI/gcc/8.2.0/openmpi/4.0.3:/ihome/crc/modules/Compiler/gcc/8.2.0:/ihome/crc/modules/Compiler/cuda/11.6.1:/ihome/crc/modules/Core
++++ export MODULEPATH
++++ MPI_ROOT=/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0
++++ export MPI_ROOT
++++ OMPI_MCA_mpi_warn_on_fork=0
++++ export OMPI_MCA_mpi_warn_on_fork
++++ OPENMPI_ROOT=/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0
++++ export OPENMPI_ROOT
++++ PATH=/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0/bin:/ihome/crc/install/gcc/8.2.0/bin:/ihome/crc/install/cuda/11.6.1/bin:/ihome/crc/install/git/2.9.5/bin:/ihome/lchong/dty7/Apps/anaconda3/bin:/ihome/lchong/dty7/Apps/anaconda3/condabin:/usr/local/bin:/usr/bin:/ihome/crc/pipx/bin:/usr/local/sbin:/usr/sbin:/ihome/crc/pipx/bin:/ihome/lchong/dty7/.local/bin:/ihome/lchong/dty7/bin
++++ export PATH
++++ PKG_CONFIG_PATH=/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0/lib/pkgconfig
++++ export PKG_CONFIG_PATH
++++ ZLIB_HOME=/ihome/crc/install/zlib/1.2.11/gcc/8.2.0
++++ export ZLIB_HOME
++++ _LMFILES_=/ihome/crc/modules/Core/git/2.9.5.lua:/ihome/crc/modules/Core/cuda/11.6.1.lua:/ihome/crc/modules/Core/gcc/8.2.0.lua:/ihome/crc/modules/Compiler/gcc/8.2.0/openmpi/4.0.3.lua:/ihome/crc/modules/Compiler/gcc/8.2.0/zlib/1.2.11.lua:/ihome/crc/modules/MPI/gcc/8.2.0/openmpi/4.0.3/amber/22.lua
++++ export _LMFILES_
++++ _ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJhY3RpdmVTaXplIl09NixiYXNlTXBhdGhBPXsiL2lob21lL2NyYy9tb2R1bGVzL0NvcmUiLH0sWyJjX3JlYnVpbGRUaW1lIl09ZmFsc2UsWyJjX3Nob3J0VGltZSJdPWZhbHNlLGZhbWlseT17fSxpbmFjdGl2ZT17fSxtVD17YW1iZXI9e1siRk4iXT0iL2lob21lL2NyYy9tb2R1bGVzL01QSS9nY2MvOC4yLjAvb3Blbm1waS80LjAuMy9hbWJlci8yMi5sdWEiLFsiZGVmYXVsdCJdPTAsWyJmdWxsTmFtZSJdPSJhbWJlci8yMiIsWyJsb2FkT3JkZXIiXT02LHByb3BUPXt9LFsic2hvcnQiXT0iYW1iZXIiLFsic3RhdHVzIl09ImFjdGl2ZSIsfSxjdWRhPXtbIkZOIl09Ii9paG9tZS9jcmMvbW9kdWxlcy9Db3JlL2N1ZGEvMTEuNi4xLmx1YSIsWyJkZWZh
++++ export _ModuleTable001_
++++ _ModuleTable002_=dWx0Il09MCxbImZ1bGxOYW1lIl09ImN1ZGEvMTEuNi4xIixbImxvYWRPcmRlciJdPTIscHJvcFQ9e30sWyJzaG9ydCJdPSJjdWRhIixbInN0YXR1cyJdPSJhY3RpdmUiLH0sZ2NjPXtbIkZOIl09Ii9paG9tZS9jcmMvbW9kdWxlcy9Db3JlL2djYy84LjIuMC5sdWEiLFsiZGVmYXVsdCJdPTAsWyJmdWxsTmFtZSJdPSJnY2MvOC4yLjAiLFsibG9hZE9yZGVyIl09Myxwcm9wVD17fSxbInNob3J0Il09ImdjYyIsWyJzdGF0dXMiXT0iYWN0aXZlIix9LGdpdD17WyJGTiJdPSIvaWhvbWUvY3JjL21vZHVsZXMvQ29yZS9naXQvMi45LjUubHVhIixbImRlZmF1bHQiXT0wLFsiZnVsbE5hbWUiXT0iZ2l0LzIuOS41IixbImxvYWRPcmRlciJdPTEscHJvcFQ9e30sWyJzaG9ydCJdPSJnaXQi
++++ export _ModuleTable002_
++++ _ModuleTable003_=LFsic3RhdHVzIl09ImFjdGl2ZSIsfSxvcGVubXBpPXtbIkZOIl09Ii9paG9tZS9jcmMvbW9kdWxlcy9Db21waWxlci9nY2MvOC4yLjAvb3Blbm1waS80LjAuMy5sdWEiLFsiZGVmYXVsdCJdPTAsWyJmdWxsTmFtZSJdPSJvcGVubXBpLzQuMC4zIixbImxvYWRPcmRlciJdPTQscHJvcFQ9e30sWyJzaG9ydCJdPSJvcGVubXBpIixbInN0YXR1cyJdPSJhY3RpdmUiLH0semxpYj17WyJGTiJdPSIvaWhvbWUvY3JjL21vZHVsZXMvQ29tcGlsZXIvZ2NjLzguMi4wL3psaWIvMS4yLjExLmx1YSIsWyJkZWZhdWx0Il09MCxbImZ1bGxOYW1lIl09InpsaWIvMS4yLjExIixbImxvYWRPcmRlciJdPTUscHJvcFQ9e30sWyJzaG9ydCJdPSJ6bGliIixbInN0YXR1cyJdPSJhY3RpdmUiLH0sfSxt
++++ export _ModuleTable003_
++++ _ModuleTable004_=cGF0aEE9eyIvaWhvbWUvY3JjL21vZHVsZXMvTVBJL2djYy84LjIuMC9vcGVubXBpLzQuMC4zIiwiL2lob21lL2NyYy9tb2R1bGVzL0NvbXBpbGVyL2djYy84LjIuMCIsIi9paG9tZS9jcmMvbW9kdWxlcy9Db21waWxlci9jdWRhLzExLjYuMSIsIi9paG9tZS9jcmMvbW9kdWxlcy9Db3JlIix9LFsic3lzdGVtQmFzZU1QQVRIIl09Ii9paG9tZS9jcmMvbW9kdWxlcy9Db3JlIixbInZlcnNpb24iXT0yLH0=
++++ export _ModuleTable004_
++++ _ModuleTable_Sz_=4
++++ export _ModuleTable_Sz_
++++ source /ihome/crc/install/amber/amber22/amber22/amber.sh
+++++ '[' -n /ihome/crc/install/amber/amber22/amber22/amber.sh ']'
+++++ this_script=/ihome/crc/install/amber/amber22/amber22/amber.sh
+++++++ dirname /ihome/crc/install/amber/amber22/amber22/amber.sh
++++++ cd /ihome/crc/install/amber/amber22/amber22
++++++ pwd
+++++ export AMBERHOME=/ihome/crc/install/amber/amber22/amber22
+++++ AMBERHOME=/ihome/crc/install/amber/amber22/amber22
+++++ export PATH=/ihome/crc/install/amber/amber22/amber22/bin:/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0/bin:/ihome/crc/install/gcc/8.2.0/bin:/ihome/crc/install/cuda/11.6.1/bin:/ihome/crc/install/git/2.9.5/bin:/ihome/lchong/dty7/Apps/anaconda3/bin:/ihome/lchong/dty7/Apps/anaconda3/condabin:/usr/local/bin:/usr/bin:/ihome/crc/pipx/bin:/usr/local/sbin:/usr/sbin:/ihome/crc/pipx/bin:/ihome/lchong/dty7/.local/bin:/ihome/lchong/dty7/bin
+++++ PATH=/ihome/crc/install/amber/amber22/amber22/bin:/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0/bin:/ihome/crc/install/gcc/8.2.0/bin:/ihome/crc/install/cuda/11.6.1/bin:/ihome/crc/install/git/2.9.5/bin:/ihome/lchong/dty7/Apps/anaconda3/bin:/ihome/lchong/dty7/Apps/anaconda3/condabin:/usr/local/bin:/usr/bin:/ihome/crc/pipx/bin:/usr/local/sbin:/usr/sbin:/ihome/crc/pipx/bin:/ihome/lchong/dty7/.local/bin:/ihome/lchong/dty7/bin
+++++ '[' 1 = 1 ']'
+++++ '[' -z /ihome/crc/install/zlib/1.2.11/gcc/8.2.0/lib:/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0/lib:/ihome/crc/install/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0:/ihome/crc/install/gcc/8.2.0/lib64:/usr/lib64:/ihome/crc/install/cuda/11.6.1/lib64/stubs:/ihome/crc/install/cuda/11.6.1/lib64:/ihome/crc/install/git/2.9.5/libexec:/ihome/crc/install/git/2.9.5/lib64 ']'
+++++ export LD_LIBRARY_PATH=/ihome/crc/install/amber/amber22/amber22/lib:/ihome/crc/install/zlib/1.2.11/gcc/8.2.0/lib:/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0/lib:/ihome/crc/install/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0:/ihome/crc/install/gcc/8.2.0/lib64:/usr/lib64:/ihome/crc/install/cuda/11.6.1/lib64/stubs:/ihome/crc/install/cuda/11.6.1/lib64:/ihome/crc/install/git/2.9.5/libexec:/ihome/crc/install/git/2.9.5/lib64
+++++ LD_LIBRARY_PATH=/ihome/crc/install/amber/amber22/amber22/lib:/ihome/crc/install/zlib/1.2.11/gcc/8.2.0/lib:/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0/lib:/ihome/crc/install/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0:/ihome/crc/install/gcc/8.2.0/lib64:/usr/lib64:/ihome/crc/install/cuda/11.6.1/lib64/stubs:/ihome/crc/install/cuda/11.6.1/lib64:/ihome/crc/install/git/2.9.5/libexec:/ihome/crc/install/git/2.9.5/lib64
+++++ '[' 1 = 1 ']'
+++++ '[' -z '' ']'
+++++ export PERL5LIB=/ihome/crc/install/amber/amber22/amber22/lib/perl
+++++ PERL5LIB=/ihome/crc/install/amber/amber22/amber22/lib/perl
+++++ '[' 1 = 1 ']'
+++++ '[' -z '' ']'
+++++ export PYTHONPATH=/ihome/crc/install/amber/amber22/amber22/lib/python3.9/site-packages
+++++ PYTHONPATH=/ihome/crc/install/amber/amber22/amber22/lib/python3.9/site-packages
+++++ '[' 0 = 1 ']'
+++ '[' 0 = 0 ']'
++++ : -s sh
+++ eval
+++ conda activate westpa
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate westpa
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(base) '
++++ __conda_exe shell.posix activate westpa
++++ __add_sys_prefix_to_path
++++ '[' -n '' ']'
+++++ dirname /ihome/lchong/dty7/Apps/anaconda3/bin/conda
++++ SYSP=/ihome/lchong/dty7/Apps/anaconda3/bin
+++++ dirname /ihome/lchong/dty7/Apps/anaconda3/bin
++++ SYSP=/ihome/lchong/dty7/Apps/anaconda3
++++ '[' -n '' ']'
++++ PATH=/ihome/lchong/dty7/Apps/anaconda3/bin:/ihome/crc/install/amber/amber22/amber22/bin:/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0/bin:/ihome/crc/install/gcc/8.2.0/bin:/ihome/crc/install/cuda/11.6.1/bin:/ihome/crc/install/git/2.9.5/bin:/ihome/lchong/dty7/Apps/anaconda3/bin:/ihome/lchong/dty7/Apps/anaconda3/condabin:/usr/local/bin:/usr/bin:/ihome/crc/pipx/bin:/usr/local/sbin:/usr/sbin:/ihome/crc/pipx/bin:/ihome/lchong/dty7/.local/bin:/ihome/lchong/dty7/bin
++++ export PATH
++++ /ihome/lchong/dty7/Apps/anaconda3/bin/conda shell.posix activate westpa
+++ ask_conda='PS1='\''(westpa) '\''
+export PATH='\''/ihome/crc/install/amber/amber22/amber22/bin:/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0/bin:/ihome/crc/install/gcc/8.2.0/bin:/ihome/crc/install/cuda/11.6.1/bin:/ihome/crc/install/git/2.9.5/bin:/ihome/lchong/dty7/Apps/anaconda3/envs/westpa/bin:/ihome/lchong/dty7/Apps/anaconda3/condabin:/usr/local/bin:/usr/bin:/ihome/crc/pipx/bin:/usr/local/sbin:/usr/sbin:/ihome/crc/pipx/bin:/ihome/lchong/dty7/.local/bin:/ihome/lchong/dty7/bin'\''
+export CONDA_PREFIX='\''/ihome/lchong/dty7/Apps/anaconda3/envs/westpa'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''westpa'\''
+export CONDA_PROMPT_MODIFIER='\''(westpa) '\''
+export CONDA_EXE='\''/ihome/lchong/dty7/Apps/anaconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/ihome/lchong/dty7/Apps/anaconda3/bin/python'\''
+export CONDA_PREFIX_1='\''/ihome/lchong/dty7/Apps/anaconda3'\'''
+++ eval 'PS1='\''(westpa) '\''
+export PATH='\''/ihome/crc/install/amber/amber22/amber22/bin:/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0/bin:/ihome/crc/install/gcc/8.2.0/bin:/ihome/crc/install/cuda/11.6.1/bin:/ihome/crc/install/git/2.9.5/bin:/ihome/lchong/dty7/Apps/anaconda3/envs/westpa/bin:/ihome/lchong/dty7/Apps/anaconda3/condabin:/usr/local/bin:/usr/bin:/ihome/crc/pipx/bin:/usr/local/sbin:/usr/sbin:/ihome/crc/pipx/bin:/ihome/lchong/dty7/.local/bin:/ihome/lchong/dty7/bin'\''
+export CONDA_PREFIX='\''/ihome/lchong/dty7/Apps/anaconda3/envs/westpa'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''westpa'\''
+export CONDA_PROMPT_MODIFIER='\''(westpa) '\''
+export CONDA_EXE='\''/ihome/lchong/dty7/Apps/anaconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/ihome/lchong/dty7/Apps/anaconda3/bin/python'\''
+export CONDA_PREFIX_1='\''/ihome/lchong/dty7/Apps/anaconda3'\'''
++++ PS1='(westpa) '
++++ export PATH=/ihome/crc/install/amber/amber22/amber22/bin:/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0/bin:/ihome/crc/install/gcc/8.2.0/bin:/ihome/crc/install/cuda/11.6.1/bin:/ihome/crc/install/git/2.9.5/bin:/ihome/lchong/dty7/Apps/anaconda3/envs/westpa/bin:/ihome/lchong/dty7/Apps/anaconda3/condabin:/usr/local/bin:/usr/bin:/ihome/crc/pipx/bin:/usr/local/sbin:/usr/sbin:/ihome/crc/pipx/bin:/ihome/lchong/dty7/.local/bin:/ihome/lchong/dty7/bin
++++ PATH=/ihome/crc/install/amber/amber22/amber22/bin:/ihome/crc/install/openmpi/4.0.3/gcc-8.2.0/bin:/ihome/crc/install/gcc/8.2.0/bin:/ihome/crc/install/cuda/11.6.1/bin:/ihome/crc/install/git/2.9.5/bin:/ihome/lchong/dty7/Apps/anaconda3/envs/westpa/bin:/ihome/lchong/dty7/Apps/anaconda3/condabin:/usr/local/bin:/usr/bin:/ihome/crc/pipx/bin:/usr/local/sbin:/usr/sbin:/ihome/crc/pipx/bin:/ihome/lchong/dty7/.local/bin:/ihome/lchong/dty7/bin
++++ export CONDA_PREFIX=/ihome/lchong/dty7/Apps/anaconda3/envs/westpa
++++ CONDA_PREFIX=/ihome/lchong/dty7/Apps/anaconda3/envs/westpa
++++ export CONDA_SHLVL=2
++++ CONDA_SHLVL=2
++++ export CONDA_DEFAULT_ENV=westpa
++++ CONDA_DEFAULT_ENV=westpa
++++ export 'CONDA_PROMPT_MODIFIER=(westpa) '
++++ CONDA_PROMPT_MODIFIER='(westpa) '
++++ export CONDA_EXE=/ihome/lchong/dty7/Apps/anaconda3/bin/conda
++++ CONDA_EXE=/ihome/lchong/dty7/Apps/anaconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/ihome/lchong/dty7/Apps/anaconda3/bin/python
++++ CONDA_PYTHON_EXE=/ihome/lchong/dty7/Apps/anaconda3/bin/python
++++ export CONDA_PREFIX_1=/ihome/lchong/dty7/Apps/anaconda3
++++ CONDA_PREFIX_1=/ihome/lchong/dty7/Apps/anaconda3
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
+++ export NODELOC=
+++ NODELOC=
+++ export USE_LOCAL_SCRATCH=1
+++ USE_LOCAL_SCRATCH=1
+++ export WEST_SIM_ROOT=/ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v02
+++ WEST_SIM_ROOT=/ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v02
++++ basename /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v02
+++ export SIM_NAME=multi-mab_wmon_v02
+++ SIM_NAME=multi-mab_wmon_v02
+++ echo 'simulation multi-mab_wmon_v02 root is /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v02'
+++ export WM_ZMQ_MASTER_HEARTBEAT=100
+++ WM_ZMQ_MASTER_HEARTBEAT=100
+++ export WM_ZMQ_WORKER_HEARTBEAT=100
+++ WM_ZMQ_WORKER_HEARTBEAT=100
+++ export WM_ZMQ_TIMEOUT_FACTOR=300
+++ WM_ZMQ_TIMEOUT_FACTOR=300
+++ export BASH=/bin/bash
+++ BASH=/bin/bash
+++ export PERL=/usr/bin/perl
+++ PERL=/usr/bin/perl
+++ export ZSH=/bin/zsh
+++ ZSH=/bin/zsh
+++ export IFCONFIG=/bin/ifconfig
+++ IFCONFIG=/bin/ifconfig
+++ export CUT=/usr/bin/cut
+++ CUT=/usr/bin/cut
+++ export TR=/usr/bin/tr
+++ TR=/usr/bin/tr
+++ export LN=/bin/ln
+++ LN=/bin/ln
+++ export CP=/bin/cp
+++ CP=/bin/cp
+++ export RM=/bin/rm
+++ RM=/bin/rm
+++ export SED=/bin/sed
+++ SED=/bin/sed
+++ export CAT=/bin/cat
+++ CAT=/bin/cat
+++ export HEAD=/bin/head
+++ HEAD=/bin/head
+++ export TAR=/bin/tar
+++ TAR=/bin/tar
+++ export AWK=/usr/bin/awk
+++ AWK=/usr/bin/awk
+++ export PASTE=/usr/bin/paste
+++ PASTE=/usr/bin/paste
+++ export GREP=/bin/grep
+++ GREP=/bin/grep
+++ export SORT=/usr/bin/sort
+++ SORT=/usr/bin/sort
+++ export UNIQ=/usr/bin/uniq
+++ UNIQ=/usr/bin/uniq
+++ export HEAD=/usr/bin/head
+++ HEAD=/usr/bin/head
+++ export MKDIR=/bin/mkdir
+++ MKDIR=/bin/mkdir
+++ export ECHO=/bin/echo
+++ ECHO=/bin/echo
+++ export DATE=/bin/date
+++ DATE=/bin/date
+++ export SANDER=/ihome/crc/install/amber/amber22/amber22/bin/sander
+++ SANDER=/ihome/crc/install/amber/amber22/amber22/bin/sander
+++ export PMEMD=/ihome/crc/install/amber/amber22/amber22/bin/pmemd.cuda
+++ PMEMD=/ihome/crc/install/amber/amber22/amber22/bin/pmemd.cuda
+++ export CPPTRAJ=/ihome/crc/install/amber/amber22/amber22/bin/cpptraj.cuda
+++ CPPTRAJ=/ihome/crc/install/amber/amber22/amber22/bin/cpptraj.cuda
++ export WEST_JOBID=846863
++ WEST_JOBID=846863
++ shift
++ export SLURM_NODENAME=gpu-n28
++ SLURM_NODENAME=gpu-n28
++ shift
++ export CUDA_VISIBLE_DEVICES_ALLOCATED=0,1,2,3,4,5,6,7
++ CUDA_VISIBLE_DEVICES_ALLOCATED=0,1,2,3,4,5,6,7
++ shift
++ echo 'starting WEST client processes on: '
++ hostname
++ echo 'current directory is /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v02'
++ echo 'environment is: '
++ env
++ sort
++ w_run --work-manager=zmq --n-workers=8 --zmq-mode=client --zmq-read-host-info=/ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v02/west_zmq_info-846863.json --zmq-comm-mode=tcp
+slurmstepd: error: *** JOB 846863 ON gpu-n28 CANCELLED AT 2024-04-28T14:30:18 ***

@@ -2,7 +2,7 @@
 + source env.sh
 ++ module purge
 +++ /ihome/crc/install/lmod/lmod/libexec/lmod bash purge
-++ eval 'LMOD_DEFAULT_MODULEPATH="/ihome/crc/modules/Core";' export 'LMOD_DEFAULT_MODULEPATH;' 'MODULEPATH="/ihome/crc/modules/Core";' export 'MODULEPATH;' unset 'GIT_ROOT;' unset 'LD_LIBRARY_PATH;' unset 'LD_RUN_PATH;' unset 'LIBRARY_PATH;' 'LMOD_DEFAULT_MODULEPATH="/ihome/crc/modules/Core";' export 'LMOD_DEFAULT_MODULEPATH;' unset 'LOADEDMODULES;' 'MANPATH="/ihome/crc/install/lmod/lmod/share/man::";' export 'MANPATH;' 'MODULEPATH="/ihome/crc/modules/Core";' export 'MODULEPATH;' 'PATH="/ihome/lchong/dty7/Apps/anaconda3/envs/wedap/bin:/ihome/lchong/dty7/Apps/anaconda3/condabin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/ihome/crc/pipx/bin:/ihome/lchong/dty7/.local/bin:/ihome/lchong/dty7/bin";' export 'PATH;' unset '_LMFILES_;' '_ModuleTable001_="X01vZHVsZVRhYmxlXz17WyJhY3RpdmVTaXplIl09MCxiYXNlTXBhdGhBPXsiL2lob21lL2NyYy9tb2R1bGVzL0NvcmUiLH0sWyJjX3JlYnVpbGRUaW1lIl09ZmFsc2UsWyJjX3Nob3J0VGltZSJdPWZhbHNlLGZhbWlseT17fSxpbmFjdGl2ZT17fSxtVD17fSxtcGF0aEE9eyIvaWhvbWUvY3JjL21vZHVsZXMvQ29yZSIsfSxbInN5c3RlbUJhc2VNUEFUSCJdPSIvaWhvbWUvY3JjL21vZHVsZXMvQ29yZSIsWyJ2ZXJzaW9uIl09Mix9";' export '_ModuleTable001_;' '_ModuleTable_Sz_="1";' export '_ModuleTable_Sz_;' unset '_ModuleTable002_;'
+++ eval 'LMOD_DEFAULT_MODULEPATH="/ihome/crc/modules/Core";' export 'LMOD_DEFAULT_MODULEPATH;' 'MODULEPATH="/ihome/crc/modules/Core";' export 'MODULEPATH;' unset 'GIT_ROOT;' unset 'LD_LIBRARY_PATH;' unset 'LD_RUN_PATH;' unset 'LIBRARY_PATH;' 'LMOD_DEFAULT_MODULEPATH="/ihome/crc/modules/Core";' export 'LMOD_DEFAULT_MODULEPATH;' unset 'LOADEDMODULES;' 'MANPATH="/ihome/crc/install/lmod/lmod/share/man::";' export 'MANPATH;' 'MODULEPATH="/ihome/crc/modules/Core";' export 'MODULEPATH;' 'PATH="/ihome/lchong/dty7/Apps/anaconda3/bin:/ihome/lchong/dty7/Apps/anaconda3/condabin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/ihome/crc/pipx/bin:/ihome/lchong/dty7/.local/bin:/ihome/lchong/dty7/bin";' export 'PATH;' unset '_LMFILES_;' '_ModuleTable001_="X01vZHVsZVRhYmxlXz17WyJhY3RpdmVTaXplIl09MCxiYXNlTXBhdGhBPXsiL2lob21lL2NyYy9tb2R1bGVzL0NvcmUiLH0sWyJjX3JlYnVpbGRUaW1lIl09ZmFsc2UsWyJjX3Nob3J0VGltZSJdPWZhbHNlLGZhbWlseT17fSxpbmFjdGl2ZT17fSxtVD17fSxtcGF0aEE9eyIvaWhvbWUvY3JjL21vZHVsZXMvQ29yZSIsfSxbInN5c3RlbUJhc2VNUEFUSCJdPSIvaWhvbWUvY3JjL21vZHVsZXMvQ29yZSIsWyJ2ZXJzaW9uIl09Mix9";' export '_ModuleTable001_;' '_ModuleTable_Sz_="1";' export '_ModuleTable_Sz_;' unset '_ModuleTable002_;'
 +++ LMOD_DEFAULT_MODULEPATH=/ihome/crc/modules/Core
 +++ export LMOD_DEFAULT_MODULEPATH
 +++ MODULEPATH=/ihome/crc/modules/Core
@@ -18,7 +18,7 @@
 +++ export MANPATH
 +++ MODULEPATH=/ihome/crc/modules/Core
 +++ export MODULEPATH
-+++ PATH=/ihome/lchong/dty7/Apps/anaconda3/envs/wedap/bin:/ihome/lchong/dty7/Apps/anaconda3/condabin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/ihome/crc/pipx/bin:/ihome/lchong/dty7/.local/bin:/ihome/lchong/dty7/bin
++++ PATH=/ihome/lchong/dty7/Apps/anaconda3/bin:/ihome/lchong/dty7/Apps/anaconda3/condabin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/ihome/crc/pipx/bin:/ihome/lchong/dty7/.local/bin:/ihome/lchong/dty7/bin
 +++ export PATH
 +++ unset _LMFILES_
 +++ _ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJhY3RpdmVTaXplIl09MCxiYXNlTXBhdGhBPXsiL2lob21lL2NyYy9tb2R1bGVzL0NvcmUiLH0sWyJjX3JlYnVpbGRUaW1lIl09ZmFsc2UsWyJjX3Nob3J0VGltZSJdPWZhbHNlLGZhbWlseT17fSxpbmFjdGl2ZT17fSxtVD17fSxtcGF0aEE9eyIvaWhvbWUvY3JjL21vZHVsZXMvQ29yZSIsfSxbInN5c3RlbUJhc2VNUEFUSCJdPSIvaWhvbWUvY3JjL21vZHVsZXMvQ29yZSIsWyJ2ZXJzaW9uIl09Mix9
@@ -53,8 +53,8 @@
 ++++ '[' '' ']'
 ++++ . /etc/profile.d/add_pipx_path.sh
 +++++ '[' 155282 -ne 0 ']'
-+++++ export PATH=/ihome/lchong/dty7/Apps/anaconda3/envs/wedap/bin:/ihome/lchong/dty7/Apps/anaconda3/condabin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/ihome/crc/pipx/bin:/ihome/lchong/dty7/.local/bin:/ihome/lchong/dty7/bin:/ihome/crc/pipx/bin/
-+++++ PATH=/ihome/lchong/dty7/Apps/anaconda3/envs/wedap/bin:/ihome/lchong/dty7/Apps/anaconda3/condabin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/ihome/crc/pipx/bin:/ihome/lchong/dty7/.local/bin:/ihome/lchong/dty7/bin:/ihome/crc/pipx/bin/
++++++ export PATH=/ihome/lchong/dty7/Apps/anaconda3/bin:/ihome/lchong/dty7/Apps/anaconda3/condabin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/ihome/crc/pipx/bin:/ihome/lchong/dty7/.local/bin:/ihome/lchong/dty7/bin:/ihome/crc/pipx/bin/
++++++ PATH=/ihome/lchong/dty7/Apps/anaconda3/bin:/ihome/lchong/dty7/Apps/anaconda3/condabin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/ihome/crc/pipx/bin:/ihome/lchong/dty7/.local/bin:/ihome/lchong/dty7/bin:/ihome/crc/pipx/bin/
 ++++ for i in '/etc/profile.d/*.sh'
 ++++ '[' -r /etc/profile.d/colorgrep.sh ']'
 ++++ '[' '' ']'
@@ -181,7 +181,7 @@
 +++++ '[' '!' -x /usr/bin/expr ']'
 +++++ BASENAME_CMD=/usr/bin/basename
 +++++ '[' '!' -x /usr/bin/basename ']'
-++++++ /usr/bin/ps -p 55413 -ocomm=
+++++++ /usr/bin/ps -p 87178 -ocomm=
 +++++ my_shell=slurm_script
 ++++++ /usr/bin/expr slurm_script : '-*\(.*\)'
 +++++ my_shell=slurm_script
@@ -431,59 +431,24 @@ conda activate base'
 ++++++ dirname /ihome/lchong/dty7/Apps/anaconda3/bin
 +++++ SYSP=/ihome/lchong/dty7/Apps/anaconda3
 +++++ '[' -n '' ']'
-+++++ PATH=/ihome/lchong/dty7/Apps/anaconda3/bin:/ihome/lchong/dty7/Apps/anaconda3/envs/wedap/bin:/ihome/lchong/dty7/Apps/anaconda3/condabin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/ihome/crc/pipx/bin:/ihome/lchong/dty7/.local/bin:/ihome/lchong/dty7/bin:/ihome/crc/pipx/bin/
++++++ PATH=/ihome/lchong/dty7/Apps/anaconda3/bin:/ihome/lchong/dty7/Apps/anaconda3/bin:/ihome/lchong/dty7/Apps/anaconda3/condabin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/ihome/crc/pipx/bin:/ihome/lchong/dty7/.local/bin:/ihome/lchong/dty7/bin:/ihome/crc/pipx/bin/
 +++++ export PATH
 +++++ /ihome/lchong/dty7/Apps/anaconda3/bin/conda shell.posix activate base
-++++ ask_conda='export PATH='\''/ihome/lchong/dty7/Apps/anaconda3/bin:/ihome/lchong/dty7/Apps/anaconda3/condabin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/ihome/crc/pipx/bin:/ihome/lchong/dty7/.local/bin:/ihome/lchong/dty7/bin:/ihome/crc/pipx/bin'\''
-. "/ihome/lchong/dty7/Apps/anaconda3/envs/wedap/etc/conda/deactivate.d/libglib_deactivate.sh"
-unset CONDA_PREFIX_1
-PS1='\''(base) '\''
-export CONDA_PREFIX='\''/ihome/lchong/dty7/Apps/anaconda3'\''
+++++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/ihome/lchong/dty7/Apps/anaconda3/bin:/ihome/lchong/dty7/Apps/anaconda3/condabin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/ihome/crc/pipx/bin:/ihome/lchong/dty7/.local/bin:/ihome/lchong/dty7/bin:/ihome/crc/pipx/bin'\''
 export CONDA_SHLVL='\''1'\''
-export CONDA_DEFAULT_ENV='\''base'\''
-export CONDA_PROMPT_MODIFIER='\''(base) '\''
-export CONDA_EXE='\''/ihome/lchong/dty7/Apps/anaconda3/bin/conda'\''
-export _CE_M='\'''\''
-export _CE_CONDA='\'''\''
-export CONDA_PYTHON_EXE='\''/ihome/lchong/dty7/Apps/anaconda3/bin/python'\'''
-++++ eval 'export PATH='\''/ihome/lchong/dty7/Apps/anaconda3/bin:/ihome/lchong/dty7/Apps/anaconda3/condabin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/ihome/crc/pipx/bin:/ihome/lchong/dty7/.local/bin:/ihome/lchong/dty7/bin:/ihome/crc/pipx/bin'\''
-. "/ihome/lchong/dty7/Apps/anaconda3/envs/wedap/etc/conda/deactivate.d/libglib_deactivate.sh"
-unset CONDA_PREFIX_1
-PS1='\''(base) '\''
-export CONDA_PREFIX='\''/ihome/lchong/dty7/Apps/anaconda3'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\'''
+++++ eval 'PS1='\''(base) '\''
+export PATH='\''/ihome/lchong/dty7/Apps/anaconda3/bin:/ihome/lchong/dty7/Apps/anaconda3/condabin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/ihome/crc/pipx/bin:/ihome/lchong/dty7/.local/bin:/ihome/lchong/dty7/bin:/ihome/crc/pipx/bin'\''
 export CONDA_SHLVL='\''1'\''
-export CONDA_DEFAULT_ENV='\''base'\''
-export CONDA_PROMPT_MODIFIER='\''(base) '\''
-export CONDA_EXE='\''/ihome/lchong/dty7/Apps/anaconda3/bin/conda'\''
-export _CE_M='\'''\''
-export _CE_CONDA='\'''\''
-export CONDA_PYTHON_EXE='\''/ihome/lchong/dty7/Apps/anaconda3/bin/python'\'''
+export CONDA_PROMPT_MODIFIER='\''(base) '\'''
++++++ PS1='(base) '
 +++++ export PATH=/ihome/lchong/dty7/Apps/anaconda3/bin:/ihome/lchong/dty7/Apps/anaconda3/condabin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/ihome/crc/pipx/bin:/ihome/lchong/dty7/.local/bin:/ihome/lchong/dty7/bin:/ihome/crc/pipx/bin
 +++++ PATH=/ihome/lchong/dty7/Apps/anaconda3/bin:/ihome/lchong/dty7/Apps/anaconda3/condabin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/ihome/crc/pipx/bin:/ihome/lchong/dty7/.local/bin:/ihome/lchong/dty7/bin:/ihome/crc/pipx/bin
-+++++ . /ihome/lchong/dty7/Apps/anaconda3/envs/wedap/etc/conda/deactivate.d/libglib_deactivate.sh
-++++++ export GSETTINGS_SCHEMA_DIR=
-++++++ GSETTINGS_SCHEMA_DIR=
-++++++ unset GSETTINGS_SCHEMA_DIR_CONDA_BACKUP
-++++++ '[' -z ']'
-++++++ unset GSETTINGS_SCHEMA_DIR
-+++++ unset CONDA_PREFIX_1
-+++++ PS1='(base) '
-+++++ export CONDA_PREFIX=/ihome/lchong/dty7/Apps/anaconda3
-+++++ CONDA_PREFIX=/ihome/lchong/dty7/Apps/anaconda3
 +++++ export CONDA_SHLVL=1
 +++++ CONDA_SHLVL=1
-+++++ export CONDA_DEFAULT_ENV=base
-+++++ CONDA_DEFAULT_ENV=base
 +++++ export 'CONDA_PROMPT_MODIFIER=(base) '
 +++++ CONDA_PROMPT_MODIFIER='(base) '
-+++++ export CONDA_EXE=/ihome/lchong/dty7/Apps/anaconda3/bin/conda
-+++++ CONDA_EXE=/ihome/lchong/dty7/Apps/anaconda3/bin/conda
-+++++ export _CE_M=
-+++++ _CE_M=
-+++++ export _CE_CONDA=
-+++++ _CE_CONDA=
-+++++ export CONDA_PYTHON_EXE=/ihome/lchong/dty7/Apps/anaconda3/bin/python
-+++++ CONDA_PYTHON_EXE=/ihome/lchong/dty7/Apps/anaconda3/bin/python
 ++++ __conda_hashr
 ++++ '[' -n '' ']'
 ++++ '[' -n '' ']'
@@ -643,8 +608,8 @@ Warning: When compiling code please add the following flags to nvcc:
 ++++ export PYTHONPATH=/ihome/crc/install/amber/amber22/amber22/lib/python3.9/site-packages
 ++++ PYTHONPATH=/ihome/crc/install/amber/amber22/amber22/lib/python3.9/site-packages
 ++++ '[' 0 = 1 ']'
-++ export NODELOC=/scratch/slurm-832993
-++ NODELOC=/scratch/slurm-832993
+++ export NODELOC=/scratch/slurm-879254
+++ NODELOC=/scratch/slurm-879254
 ++ export USE_LOCAL_SCRATCH=1
 ++ USE_LOCAL_SCRATCH=1
 ++ export WEST_SIM_ROOT=/ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01
@@ -712,176 +677,108 @@ Warning: When compiling code please add the following flags to nvcc:
 + sort
 + env
 + cd /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01
-+ SERVER_INFO=/ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-832993.json
++ SERVER_INFO=/ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-879254.json
 + which w_run
-+ w_run --work-manager=zmq --n-workers=0 --zmq-mode=master --zmq-write-host-info=/ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-832993.json --zmq-comm-mode=tcp
 + (( n=0 ))
 + (( n<60 ))
-+ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-832993.json ']'
++ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-879254.json ']'
++ w_run --work-manager=zmq --n-workers=0 --zmq-mode=master --zmq-write-host-info=/ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-879254.json --zmq-comm-mode=tcp
 + sleep 1
 + (( n++ ))
 + (( n<60 ))
-+ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-832993.json ']'
++ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-879254.json ']'
 + sleep 1
 + (( n++ ))
 + (( n<60 ))
-+ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-832993.json ']'
++ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-879254.json ']'
 + sleep 1
 + (( n++ ))
 + (( n<60 ))
-+ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-832993.json ']'
++ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-879254.json ']'
 + sleep 1
 + (( n++ ))
 + (( n<60 ))
-+ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-832993.json ']'
++ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-879254.json ']'
 + sleep 1
 + (( n++ ))
 + (( n<60 ))
-+ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-832993.json ']'
++ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-879254.json ']'
 + sleep 1
 + (( n++ ))
 + (( n<60 ))
-+ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-832993.json ']'
++ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-879254.json ']'
 + sleep 1
 + (( n++ ))
 + (( n<60 ))
-+ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-832993.json ']'
++ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-879254.json ']'
 + sleep 1
 + (( n++ ))
 + (( n<60 ))
-+ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-832993.json ']'
++ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-879254.json ']'
 + sleep 1
 + (( n++ ))
 + (( n<60 ))
-+ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-832993.json ']'
++ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-879254.json ']'
 + sleep 1
 + (( n++ ))
 + (( n<60 ))
-+ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-832993.json ']'
++ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-879254.json ']'
 + sleep 1
 + (( n++ ))
 + (( n<60 ))
-+ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-832993.json ']'
++ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-879254.json ']'
 + sleep 1
 + (( n++ ))
 + (( n<60 ))
-+ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-832993.json ']'
++ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-879254.json ']'
 + sleep 1
 + (( n++ ))
 + (( n<60 ))
-+ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-832993.json ']'
++ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-879254.json ']'
 + sleep 1
 + (( n++ ))
 + (( n<60 ))
-+ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-832993.json ']'
++ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-879254.json ']'
 + sleep 1
 + (( n++ ))
 + (( n<60 ))
-+ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-832993.json ']'
++ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-879254.json ']'
 + sleep 1
 + (( n++ ))
 + (( n<60 ))
-+ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-832993.json ']'
++ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-879254.json ']'
 + sleep 1
 + (( n++ ))
 + (( n<60 ))
-+ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-832993.json ']'
++ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-879254.json ']'
 + sleep 1
 + (( n++ ))
 + (( n<60 ))
-+ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-832993.json ']'
++ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-879254.json ']'
 + sleep 1
 + (( n++ ))
 + (( n<60 ))
-+ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-832993.json ']'
++ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-879254.json ']'
 + sleep 1
 + (( n++ ))
 + (( n<60 ))
-+ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-832993.json ']'
++ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-879254.json ']'
 + sleep 1
 + (( n++ ))
 + (( n<60 ))
-+ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-832993.json ']'
++ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-879254.json ']'
 + sleep 1
 + (( n++ ))
 + (( n<60 ))
-+ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-832993.json ']'
-+ sleep 1
-+ (( n++ ))
-+ (( n<60 ))
-+ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-832993.json ']'
-+ sleep 1
-+ (( n++ ))
-+ (( n<60 ))
-+ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-832993.json ']'
-+ sleep 1
-+ (( n++ ))
-+ (( n<60 ))
-+ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-832993.json ']'
-+ sleep 1
-+ (( n++ ))
-+ (( n<60 ))
-+ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-832993.json ']'
-+ sleep 1
-+ (( n++ ))
-+ (( n<60 ))
-+ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-832993.json ']'
-+ sleep 1
-+ (( n++ ))
-+ (( n<60 ))
-+ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-832993.json ']'
-+ sleep 1
-+ (( n++ ))
-+ (( n<60 ))
-+ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-832993.json ']'
-+ sleep 1
-+ (( n++ ))
-+ (( n<60 ))
-+ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-832993.json ']'
-+ sleep 1
-+ (( n++ ))
-+ (( n<60 ))
-+ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-832993.json ']'
-+ sleep 1
-+ (( n++ ))
-+ (( n<60 ))
-+ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-832993.json ']'
-+ sleep 1
-+ (( n++ ))
-+ (( n<60 ))
-+ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-832993.json ']'
-+ sleep 1
-+ (( n++ ))
-+ (( n<60 ))
-+ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-832993.json ']'
-+ sleep 1
-+ (( n++ ))
-+ (( n<60 ))
-+ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-832993.json ']'
-+ sleep 1
-+ (( n++ ))
-+ (( n<60 ))
-+ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-832993.json ']'
-+ sleep 1
-+ (( n++ ))
-+ (( n<60 ))
-+ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-832993.json ']'
-+ sleep 1
-+ (( n++ ))
-+ (( n<60 ))
-+ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-832993.json ']'
-+ sleep 1
-+ (( n++ ))
-+ (( n<60 ))
-+ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-832993.json ']'
-+ echo '== server info file /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-832993.json =='
-+ cat /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-832993.json
++ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-879254.json ']'
++ echo '== server info file /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-879254.json =='
++ cat /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-879254.json
 + break
-+ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-832993.json ']'
-++ scontrol show hostname gpu-n31
++ '[' -e /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-879254.json ']'
+++ scontrol show hostname gpu-n29
 + for node in '$(scontrol show hostname $SLURM_NODELIST)'
 + wait
-+ ssh -o StrictHostKeyChecking=no gpu-n31 /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/node.sh /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01 832993 gpu-n31 0,1,2,3,4,5,6,7 --work-manager=zmq --n-workers=8 --zmq-mode=client --zmq-read-host-info=/ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-832993.json --zmq-comm-mode=tcp
++ ssh -o StrictHostKeyChecking=no gpu-n29 /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/node.sh /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01 879254 gpu-n29 0,1,2,3,4,5,6,7 --work-manager=zmq --n-workers=8 --zmq-mode=client --zmq-read-host-info=/ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-879254.json --zmq-comm-mode=tcp
 + cd /ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01
 + shift
 + source env.sh
@@ -1405,11 +1302,11 @@ Warning: When compiling code please add the following flags to nvcc:
 ++ PMEMD=/ihome/crc/install/amber/amber22/amber22/bin/pmemd.cuda
 ++ export CPPTRAJ=/ihome/crc/install/amber/amber22/amber22/bin/cpptraj.cuda
 ++ CPPTRAJ=/ihome/crc/install/amber/amber22/amber22/bin/cpptraj.cuda
-+ export WEST_JOBID=832993
-+ WEST_JOBID=832993
++ export WEST_JOBID=879254
++ WEST_JOBID=879254
 + shift
-+ export SLURM_NODENAME=gpu-n31
-+ SLURM_NODENAME=gpu-n31
++ export SLURM_NODENAME=gpu-n29
++ SLURM_NODENAME=gpu-n29
 + shift
 + export CUDA_VISIBLE_DEVICES_ALLOCATED=0,1,2,3,4,5,6,7
 + CUDA_VISIBLE_DEVICES_ALLOCATED=0,1,2,3,4,5,6,7
@@ -1420,5 +1317,5 @@ Warning: When compiling code please add the following flags to nvcc:
 + echo 'environment is: '
 + env
 + sort
-+ w_run --work-manager=zmq --n-workers=8 --zmq-mode=client --zmq-read-host-info=/ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-832993.json --zmq-comm-mode=tcp
++ w_run --work-manager=zmq --n-workers=8 --zmq-mode=client --zmq-read-host-info=/ix/lchong/dty7/eg5/h2p-we/multi-mab_wmon_v01/west_zmq_info-879254.json --zmq-comm-mode=tcp
 + echo 'Shutting down.  Hopefully this was on purpose?'
