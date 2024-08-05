@@ -1,0 +1,23 @@
+-- INFO     [westpa.rc] -- loading system driver 'westpa.core.systems.WESTSystem'
+-- INFO     [westpa.rc] -- Loading system options from configuration file
+Updating system with the options from the configuration file
+-- INFO     [westpa.rc] -- Overwriting system option: pcoord_ndim
+-- INFO     [westpa.rc] -- Overwriting system option: pcoord_len
+-- INFO     [westpa.rc] -- Overwriting system option: pcoord_dtype
+-- INFO     [westpa.rc] -- Overwriting system option: bin_mapper
+-- INFO     [westpa.rc] -- Overwriting system option: bin_target_counts
+-- INFO     [westpa.core.we_driver] -- Adjust counts to exactly match target_counts: True
+-- INFO     [westpa.core.we_driver] -- Obey abolute weight thresholds: True
+-- INFO     [westpa.core.we_driver] -- Split threshold: 2.0
+-- INFO     [westpa.core.we_driver] -- Merge cutoff: 1.0
+-- INFO     [westpa.core.we_driver] -- Largest allowed weight: 0.1
+-- INFO     [westpa.core.we_driver] -- Smallest allowed_weight: 1e-129
+-- INFO     [westpa.work_managers.zeromq.core.ZMQWorker.4df8c72f-f829-475d-9756-7e43e26b16aa] -- This is ZMQWorker on c317-009.ls6.tacc.utexas.edu at PID 1336870
+-- INFO     [westpa.work_managers.zeromq.core.ZMQWorker.70d77c13-aaed-4f55-8743-762a9e186208] -- This is ZMQWorker on c317-009.ls6.tacc.utexas.edu at PID 1336870
+-- INFO     [westpa.work_managers.zeromq.core.ZMQExecutor.a8c9bd9a-8e9a-4b47-b09c-4186b6c0fdc2] -- This is ZMQExecutor on c317-009.ls6.tacc.utexas.edu at PID 1336875
+-- INFO     [westpa.work_managers.zeromq.core.ZMQExecutor.f14684e5-130d-416d-875b-5e0f9d96b63b] -- This is ZMQExecutor on c317-009.ls6.tacc.utexas.edu at PID 1336872
+-- INFO     [westpa.work_managers.zeromq.core.ZMQWorker.e3e7660e-c39c-4b6b-b3f5-4582cd572b68] -- This is ZMQWorker on c317-009.ls6.tacc.utexas.edu at PID 1336870
+-- INFO     [westpa.work_managers.zeromq.core.ZMQExecutor.c548b57c-5795-4f6c-b48e-6ea81a745b1c] -- This is ZMQExecutor on c317-009.ls6.tacc.utexas.edu at PID 1336886
+-- WARNING  [westpa.work_managers.zeromq.core] -- sending SIGKILL to worker process 1336872
+-- WARNING  [westpa.work_managers.zeromq.core] -- sending SIGKILL to worker process 1336875
+-- WARNING  [westpa.work_managers.zeromq.core] -- sending SIGKILL to worker process 1336886

@@ -1,0 +1,16 @@
+START 2024-02-25T17:49:00 1708904940
+JobID:    1538229
+User:     dty7
+Hostlist: c302-003,c317-[013-015]
+BEGIN INSIDE ENV.SH
+/work/09416/dty7/ls6/module_build_we_amber/modules/envwestpa/1.0_b/bin/python
+END   INSIDE ENV.SH
+ -> Finished launching master.
+== server info file /home1/09416/dty7/scratch/eg5/ls6-we/multi-mab_wmon_v01/west_zmq_info-1538229.json ==
+{"rr_endpoint": "tcp://c302-003.ls6.tacc.utexas.edu:47099", "ann_endpoint": "tcp://c302-003.ls6.tacc.utexas.edu:47289"} -> Found SERVER_INFO file, launching clients.
+ -> Found SERVER_INFO file, launching clients.
+ -> Launching client on c302-003.
+ -> Launching client on c317-013.
+ -> Launching client on c317-014.
+ -> Launching client on c317-015.
+ -> Launching Completed... .

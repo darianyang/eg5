@@ -1,0 +1,36 @@
+Resetting modules to system default. Resetting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
+BEGIN INSIDE ENV.SH
+
+Currently Loaded Modules:
+  1) cmake/3.24.2   6) impi/19.0.9          11) 
+Currently Loaded Modules:
+  1) cmake/3.24.2   6) impi/19.0.9          11) openmm/7.7.0_a
+  2) pmix/3.2.3     7) cuda/11.3       (g)  12) swig/4.1.1_b
+  3) xalt/2.10.32   8) conda/4.12.0_a       13) boost/1.72.0_a
+  4) TACC           9) envwestpa/1.0_b      14) amber/22_a
+  5) intel/19.1.1  10) /work/09416/dty7/ls6/module_build_we_amber/modules/envwestpa/1.0_b/bin/pyth/woEND   INSIDE ENV.SH
+starting WEST client processes on: 
+c317-014.ls6.tacc.utexas.edu
+current directory is /home1/09416/dty7/scratch/eg5/ls6-we/multi-mab_dl5_v01
+environment is: 
+CUDA_VISIBLE_DEVICES =  0,1,2
+-- INFO     [westpa.rc] -- loading system driver 'westpa.core.systems.WESTS-- INFO     [westpa.rc] -- loading system driver 'westpa.core.systems.WESTSystem'
+-- INFO     [westpa.rc] -- Loading system options from configuration file
+Updating system with the options from the configuration file
+-- INFO     [westpa.rc] -- Overwriting system option: pcoord_ndim
+-- INFO     [westpa.rc] -- Overwriting system option: pcoord_len
+-- INFO     [westpa.rc] -- Overwriting system option: pcoord_dtype
+-- INFO     [westpa.rc] -- Overwriting system option: bin_mapper
+-- INFO     [westpa.rc] -- Overwriting system option: bin_target_counts
+-- INFO     [westpa.core.we_driver] -- Adjust counts to exactly match target_counts: True
+-- INFO     [westpa.core.we_driver] -- Obey abolute weight thresholds: True
+-- INFO     [westpa.core.we_driver] -- Split threshold: 2.0
+-- INFO     [westpa.core.we_driver] -- Merge cutoff: 1.0
+-- INFO     [westpa.core.we_driver] -- Largest allowed weight: -- INFO     [westpa.work_managers.zeromq.core.ZMQWorker.9193452f-050d-4529--- INFO     [westpa.work_managers.zeromq.core.ZMQWorker.2782fa13-79f1-499d-a62d-39b58934181d] -- This is ZMQWorker on c317-016.ls6.tacc.utexas.edu at PID 164804
+-- INFO     [westpa.work_managers.zeromq.core.ZMQExecutor.2845bd1c-611d-4032-8aec-8dbea6f8e46e] -- This is ZMQExecutor on c317-016.ls6.tacc.utexas.edu at PID 164806
+-- INFO     [westpa.work_managers.zeromq.core.ZMQWorker.f42cd2b5-f58c-44fa-ac48-0f4e998b45af] -- This is ZMQWorker on c317-016.ls6.tacc.utexas.edu at PID 164804
+-- INFO     [westpa.work_managers.zeromq.core.ZMQExecutor.b81c9eed-c4f6-42ad-a0fd-e028b6323907] -- This is ZMQExecutor on c317-016.ls6.tacc.utexas.edu at PID 164813
+-- INFO     [westpa.work_managers.zeromq.core.ZMQWorker.5729a27b-3cdc-455b-acd0-c17c154e7fb3] -- This is ZMQWorker on c317-016.ls6.tacc.utexas.edu at PID 164804
+-- INFO     [westpa.work_managers.zeromq.core.ZMQExecutor.33c7ae5d-b89c-46b1-acfe-e75ad861-- WAR-- WARNING  [westpa.work_managers.zeromq.core] -- sending SIGKILL to -- WARNING  [wes-- WARN-- WARNING  [westpa.work_managers.zeromq.core] -- sending SIGKILL to-- WARNING  [wes-- WARNI-- WARNING  [westpa.work_managers.zeromq.core] -- sending SIGKILL t-- WARNING  [wesShutting Shutting down.  Hopefully this was on purpose?
+ker process 164820
+Shutting down.  Hopefully this was on purpose?

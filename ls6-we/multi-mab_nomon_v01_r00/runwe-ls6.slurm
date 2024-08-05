@@ -1,9 +1,9 @@
 #!/bin/bash
-#SBATCH -J eg5_wt_multi_mab_v01_r00
+#SBATCH -J r00_eg5_wt_multi_mab_v01
 #SBATCH -o job_logs/slurm_%j.out
 #SBATCH -e job_logs/slurm_%j.err
 #SBATCH -t 48:00:00
-#SBATCH -N 4
+#SBATCH -N 3
 #SBATCH --ntasks-per-node 3
 #SBATCH -p gpu-a100
 #SBATCH -A MCB23004

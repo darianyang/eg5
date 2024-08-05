@@ -1,0 +1,65 @@
+MPI startup(): PMI server not found. Please set I_MPI_PMI_LIBRARY variable if it is not a singleton case.
+-- INFO     [westpa.rc] -- loading system driver 'westpa.core.systems.WESTSystem'
+-- INFO     [westpa.rc] -- Loading system options from configuration file
+Updating system with the options from the configuration file
+-- INFO     [westpa.rc] -- Overwriting system option: pcoord_ndim
+-- INFO     [westpa.rc] -- Overwriting system option: pcoord_len
+-- INFO     [westpa.rc] -- Overwriting system option: pcoord_dtype
+-- INFO     [westpa.rc] -- Overwriting system option: bin_mapper
+-- INFO     [westpa.rc] -- Overwriting system option: bin_target_counts
+-- INFO     [westpa.core.we_driver] -- Adjust counts to exactly match target_counts: True
+-- INFO     [westpa.core.we_driver] -- Obey abolute weight thresholds: True
+-- INFO     [westpa.core.we_driver] -- Split threshold: 2.0
+-- INFO     [westpa.core.we_driver] -- Merge cutoff: 1.0
+-- INFO     [westpa.core.we_driver] -- Largest allowed weight: 0.1
+-- INFO     [westpa.core.we_driver] -- Smallest allowed_weight: 1e-129
+Maximum wallclock time: 3 days, 0:00:00
+
+Sat Feb 17 23:12:37 2024
+Iteration 107 (500 requested)
+Beginning iteration 107
+45 segments remain in iteration 107 (45 total)
+10 of 111 (9.009009%) active bins are populated
+per-bin minimum non-zero probability:       1.62751e-10
+per-bin maximum probability:                0.686708
+per-bin probability dynamic range (kT):     22.163
+per-segment minimum non-zero probability:   4.06877e-11
+per-segment maximum non-zero probability:   0.0888301
+per-segment probability dynamic range (kT): 21.5041
+norm = 1, error in norm = 0 (0*epsilon)
+MAB binning in use
+Bottleneck bin occupancy may not be accurately reported
+Waiting for segments to complete...
+-- ERROR    [westpa.core.sim_manager] -- propagation failed for 20 segment(s):
+4  
+12  
+13  
+14  
+15  
+16  
+17  
+18  
+19  
+20  
+29  
+32  
+33  
+35  
+36  
+37  
+38  
+39  
+40  
+41
+exception caught; shutting down
+-- ERROR    [w_run] -- error message: propagation failed for 20 segments
+-- ERROR    [w_run] -- Traceback (most recent call last):
+  File "/home1/09416/dty7/work/module_build_we_amber/modules/westpa/22.06_b/lib/python3.9/site-packages/westpa/cli/core/w_run.py", line 61, in run_simulation
+    sim_manager.run()
+  File "/home1/09416/dty7/work/module_build_we_amber/modules/westpa/22.06_b/lib/python3.9/site-packages/westpa/core/sim_manager.py", line 752, in run
+    self.check_propagation()
+  File "/home1/09416/dty7/work/module_build_we_amber/modules/westpa/22.06_b/lib/python3.9/site-packages/westpa/core/sim_manager.py", line 650, in check_propagation
+    raise PropagationError('propagation failed for {:d} segments'.format(len(failed_segments)))
+westpa.core.sim_manager.PropagationError: propagation failed for 20 segments
+
+-- INFO     [westpa.work_managers.zeromq.core.ZMQWorkManager.7bc9863a-8a41-487f-98c7-e885da84f4b0] -- shutting down

@@ -1,0 +1,1 @@
+w_run   --verbose --work-manager=zmq --n-workers=3 --zmq-mode=client --zmq-read-host-info=/home1/09416/dty7/scratch/eg5/ls6-we/multi-mab_wmon_v01/west_zmq_info-1577979.json --zmq-comm-mode=ipc

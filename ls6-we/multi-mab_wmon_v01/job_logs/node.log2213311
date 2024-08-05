@@ -1,0 +1,66 @@
+Resetting modules to system default. Resetting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
+BEGIN INSIDE ENV.SH
+
+Currently Loaded Modules:
+  1) cmake/3.24.2   6) impi/19.0.9          11) openmm/7.7.0_a
+  2) pmix/3.2.3     7) cuda/11.3       (g)  12) swig/4.1.1_b
+  3) xalt/2.10.32   8) conda/4.12.0_a       13) boost/1.72.0_a
+  4) TACC           9) envwestpa/1.0_b      14) amber/22_a
+  5) intel/19.1.1  10) fftw/3.3.10_a        15) westpa/22.06_b
+
+  Where:
+   g:  built for GPU
+
+ 
+
+/work/09416/dty7/ls6/module_build_we_amber/modules/envwestpa/1.0_b/bin/python
+END   INSIDE ENV.SH
+starting WEST client processes on: 
+c315-010.ls6.tacc.utexas.edu
+current directory is /home1/09416/dty7/scratch/eg5/ls6-we/multi-mab_wmon_v01
+environment is: 
+CUDA_VISIBLE_DEVICES =  0,1,2
+-- INFO     [westpa.rc] -- loading system driver 'westpa.core.systems.WESTSystem'
+-- INFO     [westpa.rc] -- Loading system options from configuration file
+Updating system with the options from the configuration file
+-- INFO     [westpa.rc] -- Overwriting system option: pcoord_ndim
+-- INFO     [westpa.rc] -- Overwriting system option: pcoord_len
+-- INFO     [westpa.rc] -- Overwriting system option: pcoord_dtype
+-- INFO     [westpa.rc] -- Overwriting system option: bin_mapper
+-- INFO     [westpa.rc] -- Overwriting system option: bin_target_counts
+-- INFO     [westpa.core.we_driver] -- Adjust counts to exactly match target_counts: True
+-- INFO     [westpa.core.we_driver] -- Obey abolute weight thresholds: True
+-- INFO     [westpa.core.we_driver] -- Split threshold: 2.0
+-- INFO     [westpa.core.we_driver] -- Merge cutoff: 1.0
+-- INFO     [westpa.core.we_driver] -- Largest allowed weight: 0.1
+-- INFO     [westpa.core.we_driver] -- Smallest allowed_weight: 1e-129
+-- INFO     [westpa.work_managers.zeromq.core.ZMQWorker.ad9985cb-d200-4b84-8c94-2f891452d827] -- This is ZMQWorker on c315-003.ls6.tacc.utexas.edu at PID 2933475
+-- INFO     [westpa.work_managers.zeromq.core.ZMQWorker.22a95031-99ed-4332-8a54-3e34d2d969c2] -- This is ZMQWorker on c315-003.ls6.tacc.utexas.edu at PID 2933475
+-- INFO     [westpa.work_managers.zeromq.core.ZMQExecutor.93e44291-8b49-47d4-b772-cd14852a463f] -- This is ZMQExecutor on c315-003.ls6.tacc.utexas.edu at PID 2933477
+-- INFO     [westpa.work_managers.zeromq.core.ZMQExecutor.e21431c3-d110-4db7-9e3a-1248653e5c58] -- This is ZMQExecutor on c315-003.ls6.tacc.utexas.edu at PID 2933480
+-- INFO     [westpa.work_managers.zeromq.core.ZMQWorker.f21ae3d4-263c-4618-824d-bb74905554eb] -- This is ZMQWorker on c315-003.ls6.tacc.utexas.edu at PID 2933475
+-- INFO     [westpa.work_managers.zeromq.core.ZMQExecutor.4e1a23ae-42de-46ca-87dc-0a538d946be3] -- This is ZMQExecutor on c315-003.ls6.tacc.utexas.edu at PID 29-- ERR-- WARNING  [westpa.work_managers.zeromq.core] -- sending SIGKILL to worker process 2903071
+-- WARNING  [westpa.work_managers.zeromq.core] -- sending SIGKILL to worker process 2903074
+Shutting down.  Hopefully this was on purpose?
+-- WARNING  [westpa.work_managers.zeromq.core] -- sending SIGKILL to worker process 2214146
+Shutting down.  Hopefully this was on purpose?
+uld not read pcoord from '/tmp/tmpnjxikj8y': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmpntxbtjb0': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmpa8109pnf': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmppq1odkln': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmpt09k0l67': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmpd89h0zm8': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmpcs_e42hx': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmp3m5htt5v': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmpf87a07pq': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmp50i8on20': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmpzcypew_b': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmp7dpw8n5j': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmp01okptvb': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmp1_qdmorw': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmpbdr7nft1': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmpitwyi3sa': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmp5gr_q5zd': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmpgj769ikb': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- WARNING  [westpa.work_managers.zeromq.core] -- sending SIGKILL to worker process 227628
+Shutting down.  Hopefully this was on purpose?

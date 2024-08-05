@@ -1,0 +1,25 @@
+-- INFO     [westpa.rc] -- loading system driver 'westpa.core.systems.WESTSystem'
+-- INFO     [westpa.rc] -- Loading system options from configuration file
+Updating system with the options from the configuration file
+-- INFO     [westpa.rc] -- Overwriting system option: pcoord_ndim
+-- INFO     [westpa.rc] -- Overwriting system option: pcoord_len
+-- INFO     [westpa.rc] -- Overwriting system option: pcoord_dtype
+-- INFO     [westpa.rc] -- Overwriting system option: bin_mapper
+-- INFO     [westpa.rc] -- Overwriting system option: bin_target_counts
+-- INFO     [westpa.core.we_driver] -- Adjust counts to exactly match target_counts: True
+-- INFO     [westpa.core.we_driver] -- Obey abolute weight thresholds: True
+-- INFO     [westpa.core.we_driver] -- Split threshold: 2.0
+-- INFO     [westpa.core.we_driver] -- Merge cutoff: 1.0
+-- INFO     [westpa.core.we_driver] -- Largest allowed weight: 0.1
+-- INFO     [westpa.core.we_driver] -- Smallest allowed_weight: 1e-129
+-- INFO     [westpa.work_managers.zeromq.core.ZMQWorker.1ba41e73-fef7-495f-bd23-de2f959bf889] -- This is ZMQWorker on c315-015.ls6.tacc.utexas.edu at PID 3761161
+-- INFO     [westpa.work_managers.zeromq.core.ZMQExecutor.5bebfba9-2525-41be-9720-2874a93cb287] -- This is ZMQExecutor on c315-015.ls6.tacc.utexas.edu at PID 3761163
+-- INFO     [westpa.work_managers.zeromq.core.ZMQWorker.16b8b85a-4a34-4146-b4ec-ae22a3dd4c30] -- This is ZMQWorker on c315-015.ls6.tacc.utexas.edu at PID 3761161
+-- INFO     [westpa.work_managers.zeromq.core.ZMQExecutor.985fda15-33ca-4688-befa-b571e4a0b7d6] -- This is ZMQExecutor on c315-015.ls6.tacc.utexas.edu at PID 3761170
+-- INFO     [westpa.work_managers.zeromq.core.ZMQWorker.af6aee61-d9c4-42b7-baeb-a6eca0e5ddb8] -- This is ZMQWorker on c315-015.ls6.tacc.utexas.edu at PID 3761161
+-- INFO     [westpa.work_managers.zeromq.core.ZMQExecutor.ddded45f-ea03-4f87-bd7a-de40ada37db1] -- This is ZMQExecutor on c315-015.ls6.tacc.utexas.edu at PID 3761177
+tar: seg_logs/000164-*.log: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+-- WARNING  [westpa.work_managers.zeromq.core] -- sending SIGKILL to worker process 3761163
+-- WARNING  [westpa.work_managers.zeromq.core] -- sending SIGKILL to worker process 3761170
+-- WARNING  [westpa.work_managers.zeromq.core] -- sending SIGKILL to worker process 3761177

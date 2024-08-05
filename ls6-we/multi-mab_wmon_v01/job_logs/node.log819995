@@ -1,0 +1,45 @@
+The system default contains no modules
+  (env var: LMOD_SYSTEM_DEFAULT_MODULES is empty)
+  No changes in loaded modules
+
+BEGIN INSIDE ENV.SH
+
+Currently Loaded Modules:
+  1) intel/19.1.1         5) envwestpa/1.0_b   9) boost/1.72.0_a
+  2) impi/19.0.9          6) fftw/3.3.10_a    10) amber/22_a
+  3) cuda/11.3      (g)   7) openmm/7.7.0_a   11) westpa/22.06_b
+  4) conda/4.12.0_a       8) swig/4.1.1_b
+
+  Where:
+   g:  built for GPU
+
+ 
+
+/work/09416/dty7/ls6/module_build_we_amber/modules/envwestpa/1.0_b/bin/python
+END   INSIDE ENV.SH
+starting WEST client processes on: 
+c317-005.ls6.tacc.utexas.edu
+current directory is /home1/09416/dty7/scratch/eg5/ls6-we/multi-mab_wmon_v01
+environment is: 
+CUDA_VISIBLE_DEVICES =  0,1,2
+-- INFO     [westpa.rc] -- loading system driver 'westpa.core.systems.WESTSystem'
+-- INFO     [westpa.rc] -- Loading system options from configuration file
+Updating system with the options from the configuration file
+-- INFO     [westpa.rc] -- Overwriting system option: pcoord_ndim
+-- INFO     [westpa.rc] -- Overwriting system option: pcoord_len
+-- INFO     [westpa.rc] -- Overwriting system option: pcoord_dtype
+-- INFO     [westpa.rc] -- Overwriting system option: bin_mapper
+-- INFO     [westpa.rc] -- Overwriting system option: bin_target_counts
+-- INFO     [westpa.core.we_driver] -- Adjust counts to exactly match target_counts: True
+-- INFO     [westpa.core.we_driver] -- Obey abolute weight thresholds: True
+-- INFO     [westpa.core.we_driver] -- Split threshold: 2.0
+-- INFO     [westpa.core.we_driver] -- Merge cutoff: 1.0
+-- INFO     [westpa.core.we_driver] -- Largest allowed weight: 0.1
+-- INFO     [westpa.core.we_driver] -- Smallest allowed_weight: 1e-129
+-- INFO     [westpa.work_managers.zeromq.core.ZMQWorker.27f2f4ab-8e5b-4dc3-92ee-1803b753a91f] -- This is ZMQWorker on c317-004.ls6.tacc.utexas.edu at PID 2948602
+-- INFO     [westpa.work_managers.zeromq.core.ZMQWorker.3629566a-b1cc-428a-969d-73a9c2ccdcb5] -- This is ZMQWorker on c317-004.ls6.tacc.utexas.edu at PID 2948602
+-- INFO     [westpa.work_managers.zeromq.core.ZMQExecutor.50c8969f-41f9-418e-a754-367f3457a826] -- This is ZMQExecutor on c317-004.ls6.tacc.utexas.edu at PID 2948735
+-- INFO     [westpa.work_managers.zeromq.core.ZMQExecutor.15b4b775-a0ac-40b9-8d0a-5f82b1886228] -- This is ZMQExecutor on c317-004.ls6.tacc.utexas.edu at PID 2948732
+-- INFO     [westpa.work_managers.zeromq.core.ZMQWorker.6ff09773-d5f8-4e09-aaba-b29d5e401edd] -- This is ZMQWorker on c317-004.ls6.tacc.utexas.edu at PID 2948602
+-- INFO     [westpa.work_managers.zeromq.core.ZMQExecutor.9ad02908-a20a-49eb-9ba8-8075a30c0d0d] -- This is ZMQExecutor on c317-004.ls6.tacc.utexas.edu at PID 29tar: seg_logs/000105-*.log: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors

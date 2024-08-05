@@ -1,0 +1,54 @@
+The system default contains no modules
+  (env var: LMOD_SYSTEM_DEFAULT_MODULES is empty)
+  No changes in loaded modules
+
+BEGIN INSIDE ENV.SH
+
+Currently Loaded Modules:
+  1) intel/19.1.1         5) envwestpa/1.0_b   9) boost/1.72.0_a
+  2) impi/19.0.9          6) fftw/3.3.10_a    10) amber/22_a
+  3) cuda/11.3      (g)   7) openmm/7.7.0_a   11) westpa/22.06_b
+  4) conda/4.12.0_a       8) swig/4.1.1_b
+
+  Where:
+   g:  built for GPU
+
+ 
+
+/work/09416/dty7/ls6/module_build_we_amber/modules/envwestpa/1.0_b/bin/python
+END   INSIDE ENV.SH
+starting WEST client processes on: 
+c317-011.ls6.tacc.utexas.edu
+current directory is /home1/09416/dty7/scratch/eg5/ls6-we/multi-mab_wmon_v01
+environment is: 
+CUDA_VISIBLE_DEVICES =  0,1,2
+-- INFO     [westpa.rc] -- loading system driver 'westpa.core.systems.WESTSystem'
+-- INFO     [westpa.rc] -- Loading system options from configuration file
+Updating system with the options from the configuration file
+-- INFO     [westpa.rc] -- Overwriting system option: pcoord_ndim
+-- INFO     [westpa.rc] -- Overwriting system option: pcoord_len
+-- INFO     [westpa.rc] -- Overwriting system option: pcoord_dtype
+-- INFO     [westpa.rc] -- Overwriting system option: bin_mapper
+-- INFO     [westpa.rc] -- Overwriting system option: bin_target_counts
+-- INFO     [westpa.core.we_driver] -- Adjust counts to exactly match target_counts: True
+-- INFO     [westpa.core.we_driver] -- Obey abolute weight thresholds: True
+-- INFO     [westpa.core.we_driver] -- Split threshold: 2.0
+-- INFO     [westpa.core.we_driver] -- Merge cutoff: 1.0
+-- INFO     [westpa.core.we_driver] -- Largest allowed weight: 0.1
+-- INFO     [westpa.core.we_driver] -- Smallest allowed_weight: 1e-129
+-- INFO     [westpa.work_managers.zeromq.core.ZMQWorker.c05e1d22-f5a6-4a68-97b3-e56a989817de] -- This is ZMQWorker on c317-011.ls6.tacc.utexas.edu at PID 576139
+-- INFO     [westpa.work_managers.zeromq.core.ZMQWorker.e07f9273-0e2c-4aed-a033-0af926b9bc21] -- This is ZMQWorker on c317-011.ls6.tacc.utexas.edu at PID 576139
+-- INFO     [westpa.work_managers.zeromq.core.ZMQExecutor.30ac33c4-4396-42dd-ad83-78557d5fa18a] -- This is ZMQExecutor on c317-011.ls6.tacc.utexas.edu at PID 576270
+-- INFO     [westpa.work_managers.zeromq.core.ZMQExecutor.d8a2f079-e300-4b17-8025-2a7769b86eb7] -- This is ZMQExecutor on c317-011.ls6.tacc.utexas.edu at PID 576267
+-- INFO     [westpa.work_managers.zeromq.core.ZMQWorker.7d5d2101-7048-4730-afe2-1afa8a5f2dae] -- This is ZMQWorker on c317-011.ls6.tacc.utexas.edu at PID 576139
+-- INFO     [westpa.work_managers.zeromq.core.ZMQExecutor.2443b02d-b0de-4dfe-aa96-633b646bd288] -- This is ZMQExecutor on c317-011.ls6.tacc.utexas.edu at PID 576281
+-- ERR-- WARNING  [westpa.work_managers.zeromq.core] -- sending SIGKILL to worker process 1220445
+-- WARNING  [westpa.work_managers.zeromq.core] -- sending SIGKILL to worker process 1220452
+-- WARNING  [westpa.work_managers.zeromq.core] -- sending SIGKILL to worker process 1220459
+Shutting down.  Hopefully this was on purpose?
+   [westpa.work_managers.zeromq.core.ZMQWorker.c05e1d22-f5a6-4a68-97b3-e56a989817de] -- startup phase elapsed with no contact from master; shutting down
+-- ERROR    [westpa.work_managers.zeromq.core.ZMQWorker.e07f9273-0e2c-4aed-a033-0af926b9bc21] -- startup phase elapsed with no contact from master; shutting down
+Shutting down.  Hopefully this was on purpose?
+MQWorker.e07f9273-0e2c-4aed-a033-0af926b9bc21] -- sending SIGKILL to worker process 576275
+-- WARNING  [westpa.work_managers.zeromq.core.ZMQWorker.c05e1d22-f5a6-4a68-97b3-e56a989817de] -- sending SIGKILL to worker process 576268
+Shutting down.  Hopefully this was on purpose?

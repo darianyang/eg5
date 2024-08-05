@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH -J eg5_wt_multi_mab_v01_r01
+#SBATCH -J r01_eg5_wt_multi_mab_v01
 #SBATCH -o job_logs/slurm_%j.out
 #SBATCH -e job_logs/slurm_%j.err
 #SBATCH -t 48:00:00
@@ -35,7 +35,7 @@ echo "Hostlist: ${SLURM_NODELIST}"
       --n-workers=0 \
       --zmq-mode=master \
       --zmq-write-host-info=$SERVER_INFO \
-      --zmq-comm-mode=tcp &> west-$SLURM_JOBID.log &
+      --zmq-comm-mode=ipc &> west-$SLURM_JOBID.log &
 
   echo " -> Finished launching master."
 
@@ -75,7 +75,7 @@ echo "Hostlist: ${SLURM_NODELIST}"
 	  --n-workers=$SLURM_NTASKS_PER_NODE \
           --zmq-mode=client \
           --zmq-read-host-info=$SERVER_INFO \
-          --zmq-comm-mode=tcp &> node.log$$ &
+          --zmq-comm-mode=ipc &> job_logs/node.log$$ &
   done
   echo " -> Launching Completed... ."
 

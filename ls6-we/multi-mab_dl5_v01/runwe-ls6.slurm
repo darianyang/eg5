@@ -83,3 +83,4 @@ echo "Hostlist: ${SLURM_NODELIST}"
 
 echo "END `date +"%Y"-%m-%dT%T` `date +"%s"`" 
 
+exit

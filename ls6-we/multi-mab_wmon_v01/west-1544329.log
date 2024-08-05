@@ -1,0 +1,47 @@
+MPI startup(): PMI server not found. Please set I_MPI_PMI_LIBRARY variable if it is not a singleton case.
+-- INFO     [westpa.rc] -- loading system driver 'westpa.core.systems.WESTSystem'
+-- INFO     [westpa.rc] -- Loading system options from configuration file
+Updating system with the options from the configuration file
+-- INFO     [westpa.rc] -- Overwriting system option: pcoord_ndim
+-- INFO     [westpa.rc] -- Overwriting system option: pcoord_len
+-- INFO     [westpa.rc] -- Overwriting system option: pcoord_dtype
+-- INFO     [westpa.rc] -- Overwriting system option: bin_mapper
+-- INFO     [westpa.rc] -- Overwriting system option: bin_target_counts
+-- INFO     [westpa.core.we_driver] -- Adjust counts to exactly match target_counts: True
+-- INFO     [westpa.core.we_driver] -- Obey abolute weight thresholds: True
+-- INFO     [westpa.core.we_driver] -- Split threshold: 2.0
+-- INFO     [westpa.core.we_driver] -- Merge cutoff: 1.0
+-- INFO     [westpa.core.we_driver] -- Largest allowed weight: 0.1
+-- INFO     [westpa.core.we_driver] -- Smallest allowed_weight: 1e-129
+Maximum wallclock time: 2 days, 0:00:00
+
+Fri Mar  1 22:09:33 2024
+Iteration 409 (1000 requested)
+Continuing iteration 409
+111 segments remain in iteration 409 (303 total)
+70 of 111 (63.063063%) active bins are populated
+per-bin minimum non-zero probability:       4.70435e-45
+per-bin maximum probability:                0.916671
+per-bin probability dynamic range (kT):     101.981
+per-segment minimum non-zero probability:   1.17609e-45
+per-segment maximum non-zero probability:   0.0833565
+per-segment probability dynamic range (kT): 100.97
+norm = 1, error in norm = 6.66134e-16 (3*epsilon)
+MAB binning in use
+Bottleneck bin occupancy may not be accurately reported
+Waiting for segments to complete...
+-- ERROR    [westpa.work_managers.zeromq.core.ZMQWorkManager.79c335a7-3f2c-428e-a19e-3dd1512ce343] -- startup phase elapsed with no contact from workers; shutting down
+exception caught; shutting down
+-- ERROR    [w_run] -- error message: no workers available
+-- ERROR    [w_run] -- Traceback (most recent call last):
+  File "/home1/09416/dty7/work/module_build_we_amber/modules/westpa/22.06_b/lib/python3.9/site-packages/westpa/cli/core/w_run.py", line 61, in run_simulation
+    sim_manager.run()
+  File "/home1/09416/dty7/work/module_build_we_amber/modules/westpa/22.06_b/lib/python3.9/site-packages/westpa/core/sim_manager.py", line 746, in run
+    self.prepare_iteration()
+  File "/home1/09416/dty7/work/module_build_we_amber/modules/westpa/22.06_b/lib/python3.9/site-packages/westpa/core/binning/mab_manager.py", line 195, in prepare_iteration
+    self.work_manager.submit(wm_ops.prep_iter, args=(self.n_iter, segments)).get_result()
+  File "/home1/09416/dty7/work/module_build_we_amber/modules/westpa/22.06_b/lib/python3.9/site-packages/westpa/work_managers/core.py", line 343, in get_result
+    raise self._exception.with_traceback(self._traceback)
+westpa.work_managers.zeromq.core.ZMQWorkerMissing: no workers available
+
+-- INFO     [westpa.work_managers.zeromq.core.ZMQWorkManager.79c335a7-3f2c-428e-a19e-3dd1512ce343] -- shutting down

@@ -1,0 +1,95 @@
+Resetting modules to system default. Resetting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
+BEGIN INSIDE ENV.SH
+
+Currently Loaded Modules:
+  1) cmake/3.24.2   6) impi/19.0.9          11) openmm/7.7.0_a
+  2) pmix/3.2.3     7) cuda/11.3       (g)  12) swig/4.1.1_b
+  3) xalt/2.10.32   8) conda/4.12.0_a       13) boost/1.72.0_a
+  4) TACC           9) envwestpa/1.0_b      14) amber/22_a
+  5) intel/19.1.1  10) fftw/3.3.10_a        15) westpa/22.06_b
+
+  Where:
+   g:  built for GPU
+
+ 
+
+/work/09416/dty7/ls6/module_build_we_amber/modules/envwestpa/1.0_b/bin/python
+END   INSIDE ENV.SH
+starting WEST client processes on: 
+c317-009.ls6.tacc.utexas.edu
+current directory is /home1/09416/dty7/scratch/eg5/ls6-we/multi-mab_dl5_v02
+environment is: 
+CUDA_VISIBLE_DEVICES =  0,1,2
+-- INFO     [westpa.rc] -- loading system driver 'westpa.core.systems.WESTSystem'
+-- INFO     [westpa.rc] -- Loading system options from configuration file
+Updating system with the options from the configuration file
+-- INFO     [westpa.rc] -- Overwriting system option: pcoord_ndim
+-- INFO     [westpa.rc] -- Overwriting system option: pcoord_len
+-- INFO     [westpa.rc] -- Overwriting system option: pcoord_dtype
+-- INFO     [westpa.rc] -- Overwriting system option: bin_mapper
+-- INFO     [westpa.rc] -- Overwriting system option: bin_target_counts
+-- INFO     [westpa.core.we_driver] -- Adjust counts to exactly match target_counts: True
+-- INFO     [westpa.core.we_driver] -- Obey abolute weight thresholds: True
+-- INFO     [westpa.core.we_driver] -- Split threshold: 2.0
+-- INFO     [westpa.core.we_driver] -- Merge cutoff: 1.0
+-- INFO     [westpa.core.we_driver] -- Largest allowed weight: 0.1
+-- INFO     [westpa.core.we_driver] -- Smallest allowed_weight: 1e-129
+-- INFO     [westpa.work_managers.zeromq.core.ZMQWorker.d9d09661-e2ee-40a0-9d48-bb7629b87ac8] -- This is ZMQWorker on c317-009.ls6.tacc.utexas.edu at PID 3146310
+-- INFO     [westpa.work_managers.zeromq.core.ZMQWorker.e83a209f-c4b7-4835-a304-191adf64f1cf] -- This is ZMQWorker on c317-009.ls6.tacc.utexas.edu at PID 3146310
+-- INFO     [westpa.work_managers.zeromq.core.ZMQExecutor.d54da8fd-d62a-4ee3-8480-b02d1b542ed0] -- This is ZMQExecutor on c317-009.ls6.tacc.utexas.edu at PID 3146313
+-- INFO     [westpa.work_managers.zeromq.core.ZMQExecutor.cbadf6b3-668b-4de3-942b-a301c7c86bd9] -- This is ZMQExecutor on c317-009.ls6.tacc.utexas.edu at PID 3146316
+-- INFO     [westpa.work_managers.zeromq.core.ZMQWorker.38d16ff4-4383-4760-9975-0bcf68d572ab] -- This is ZMQWorker on c317-009.ls6.tacc.utexas.edu at PID 3146310
+-- INFO     [westpa.work_managers.zeromq.core.ZMQExecutor.b9981f2c-0f24-4582-a4bb-6e7b1c9a5ff9] -- This is ZMQExecutor on c317-009.ls6.tacc.utexas.edu at PID 31-- WARNING  [westpa.work_managers.zeromq.core] -- sending SIGKILL to worker process 892049
+-- WARN-- WARNING  [westpa.work_managers.zeromq.core] -- sending SIGKILL to worker process -- WARNI-- WARNING  [westpa.work_managers.zeromq.core] -- sending SIGKILL to worker processShutting Shutting down.  Hopefully this was on purpose?
+Connection to c317-009 closed by remote host.
+ -- could not read pcoord from '/tmp/tmpqhs88anq': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmp15ow_92d': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmp0qh6y9ym': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmpswefb1p3': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmpztyy3l6k': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmp83rmupgm': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmpoyqw95l_': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmpoczm6iov': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmpz7go3kwg': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmp5_3vy3fj': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmpjrvhpkz4': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmp_g3emc4d': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmpys4ydkue': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmpknhf1v8b': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmpv41xxted': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmp3i9fqpqn': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmp93ljy_bv': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmp1m_531zf': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmpt_rl0uha': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmp6f6vn2w5': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmp0dx1se9b': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmpjv5db2nl': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmpld02_q72': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmp44rpfoae': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmpe4ievolk': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmpix1ypabo': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmpqbk_3znw': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmp6kzm40n4': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmpu3e5nf66': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmpzopjes52': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmpxo9sn0_s': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmp766yop0o': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmp3m577n7p': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmp9g4y_fri': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmp34f5c2lx': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmpm0yu3gms': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmplc2p_88e': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmp9y9koh7f': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmpa7mdyeb8': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmp2ovq5cki': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmpnqv9xid4': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmpszhl2rcv': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmpsxrggf2c': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmpi2ivcxot': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmp72zks2vc': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord from '/tmp/tmp4q5esjnm': ValueError('cannot reshape array of size 0 into shape (6,4)')
+-- WARNING  [westpa.work_managers.zeromq.core] -- sending SIGKILL to worker process 3074875
+-- WARNING  [westpa.work_managers.zeromq.core] -- sending SIGKILL to worker process 3074878
+-- WARNING  [westpa.work_managers.zeromq.core] -- sending SIGKILL to worker process 3074889
+Shutting down.  Hopefully this was on purpose?
+Connection to c317-011 closed by remote host.
