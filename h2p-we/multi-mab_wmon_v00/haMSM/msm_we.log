@@ -1,0 +1,39 @@
+INFO:westpa.work_managers:MPI work manager not available
+DEBUG:westpa.work_managers:traceback follows
+Traceback (most recent call last):
+  File "/ihome/lchong/dty7/Apps/anaconda3/envs/hamsm/lib/python3.10/site-packages/westpa/work_managers/__init__.py", line 36, in <module>
+    from . import mpi  # noqa
+  File "/ihome/lchong/dty7/Apps/anaconda3/envs/hamsm/lib/python3.10/site-packages/westpa/work_managers/mpi.py", line 11, in <module>
+    from mpi4py import MPI
+ModuleNotFoundError: No module named 'mpi4py'
+DEBUG:westpa.work_managers.serial:initializing serial work manager
+INFO:numexpr.utils:Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+DEBUG:matplotlib:matplotlib data path: /ihome/lchong/dty7/Apps/anaconda3/envs/hamsm/lib/python3.10/site-packages/matplotlib/mpl-data
+DEBUG:matplotlib:CONFIGDIR=/ihome/lchong/dty7/.config/matplotlib
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is linux
+DEBUG:matplotlib:CACHEDIR=/ihome/lchong/dty7/.cache/matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from /ihome/lchong/dty7/.cache/matplotlib/fontlist-v330.json
+INFO:root:
+
+
+START COLLECT COORDS: Preparing coordinates...
+DEBUG:root:Doing collectCoordinates on WE file west.h5
+INFO:root:Negative parent_id for ITER:1 SEG:0 (recycled)
+INFO:root:Negative parent_id for ITER:1 SEG:1 (recycled)
+INFO:root:Negative parent_id for ITER:1 SEG:2 (recycled)
+INFO:root:Negative parent_id for ITER:1 SEG:3 (recycled)
+INFO:root:Negative parent_id for ITER:1 SEG:4 (recycled)
+INFO:root:Negative parent_id for ITER:1 SEG:5 (recycled)
+INFO:root:Negative parent_id for ITER:1 SEG:6 (recycled)
+INFO:root:Negative parent_id for ITER:1 SEG:7 (recycled)
+INFO:root:Negative parent_id for ITER:1 SEG:8 (recycled)
+INFO:root:Negative parent_id for ITER:1 SEG:9 (recycled)
+INFO:root:Negative parent_id for ITER:1 SEG:10 (recycled)
+INFO:root:Negative parent_id for ITER:1 SEG:11 (recycled)
+INFO:root:Negative parent_id for ITER:246 SEG:43 (recycled)
+INFO:root:Negative parent_id for ITER:299 SEG:40 (recycled)
+INFO:root:Negative parent_id for ITER:346 SEG:37 (recycled)
+INFO:root:Negative parent_id for ITER:401 SEG:40 (recycled)
+INFO:root:Negative parent_id for ITER:406 SEG:39 (recycled)
+DEBUG:root:Wrote coords for 420 iterations.
