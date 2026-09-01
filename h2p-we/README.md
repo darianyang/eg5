@@ -14,7 +14,7 @@
     * with middle bin no directionality
 
 
-
+## WEVO run data was removed since they failed and were large
 * wevo_nomon_v01: wevo with eg5 + adp and no monastrol
 * this used wevo v03 as a template but I want to replace the basis state with the wt eg5, so no monastrol, maybe it will be easier to unbind
 * replaced bstate
