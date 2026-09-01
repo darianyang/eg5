@@ -1,0 +1,9 @@
+==================================================================
+ LPATH: nomon
+==================================================================
+  ./WIPA/FULLY_UNBOUND2/assign.h5 exists, skipping discretize
+lpath.lpath — [1;32mINFO[0m — Running LPATH version 1.0.7+27.ga2a2862.
+lpath.lpath — [1;32mINFO[0m — LPATH arguments: Namespace(step_name='extract', out_dir='succ_traj', stride=1, stats=False, debug=False, we=True, west_name='./west.h5', assign_name='./WIPA/FULLY_UNBOUND2/assign.h5', rcfile='west.cfg', extract_input='states.npy', extract_output='succ_traj/output.pickle', source_state_num=0, target_state_num=1, pcoord=True, featurization_name=None, feature_stride=1, trace_basis=False, exclude_short=0, use_ray=True, threads=0, first_iter=1, last_iter=0, hdf5=False, auxdata=['labels'], rewrite_weights=False, out_traj=False, out_traj_ext='.nc', out_state_ext='.ncrst', out_top='system.prmtop', func=<function main at 0x7faa1a050040>)
+lpath.io — [33;21mWARNING[0m — Folder ``succ_traj`` already exists. Files within might be overwritten.
+lpath.extract — [1;32mINFO[0m — Copying ./west.h5 as succ_traj/./west_succ.h5. This might take a while depending on file size...
+2026-09-01 08:58:32,258	INFO worker.py:2024 -- Started a local Ray instance.
