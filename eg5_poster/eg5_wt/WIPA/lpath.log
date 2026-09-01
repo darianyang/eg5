@@ -1,0 +1,28 @@
+2024-03-02 19:42:07,906 — lpath.plot — INFO — Defaulting to default LPATH plot layout
+2024-03-02 19:42:07,962 — lpath.plot — WARNING — Plot axes index not given. Plotting all into first N axes.
+2024-03-02 19:42:08,582 — lpath.plot — INFO — Outputted graph in plots/target_iteration.pdf.
+2024-03-02 19:42:09,216 — lpath.plot — INFO — Using default /Users/darian/anaconda3/envs/westpa/lib/python3.9/site-packages/lpath/data/styles/default.mplstyle
+2024-03-02 19:42:09,216 — lpath.plot — INFO — Defaulting to default LPATH plot layout
+2024-03-02 19:42:09,267 — lpath.plot — WARNING — Plot axes index not given. Plotting all into first N axes.
+2024-03-02 19:42:09,557 — lpath.plot — INFO — Outputted graph in plots/durations.pdf.
+2024-03-02 19:42:20,580 — lpath.lpath — INFO — Running LPATH version 1.0.1.
+2024-03-02 19:42:20,585 — lpath.lpath — INFO — LPATH arguments: Namespace(step_name='match', out_dir='succ_traj', stride=1, stats=True, debug=False, we=True, west_name='west.h5', assign_name='ANALYSIS/TEST/assign.h5', rcfile='west.cfg', extract_output='succ_traj/output.pickle', output_pickle='succ_traj/reassigned.pickle', cl_output='succ_traj/cluster_labels.npy', exclude_short=0, reassign_method='reassign_custom.reassign_custom', match_metric='longest_common_subsequence', match_vanilla=False, remove_ends=False, condense=2, dmatrix_remake=True, dmatrix_save='succ_traj/distmat.npy', dmatrix_parallel=None, clusters=None, export_h5=False, file_pattern='west_succ_c{}.h5', out_path='plots', mpl_styles='default', matplotlib_args='', mpl_colors=['tomato', 'dodgerblue', 'orchid', 'mediumseagreen', 'darkorange', 'mediumpurple', 'grey'], dendrogram_threshold=0.5, dendrogram_show=True, num_clusters=None, relabel_method='relabel_identity', func=<function main at 0x16801b0d0>)
+2024-03-02 19:42:20,585 — lpath.io — WARNING — Folder ``plots`` already exists. Files within might be overwritten.
+2024-03-02 19:42:20,587 — lpath.match — INFO — INFO: Replaced reassign() with reassign_custom.reassign_custom
+2024-03-02 19:44:33,219 — lpath.match — INFO — 
+===LPATH Pattern Matching Statistics===
+   Total Number of clusters: 4
+   Weight/count/unique count of cluster 0: 1.63002586e-55 / 46 / N/A
+   Weight/count/unique count of cluster 1: 4.87001194e-53 / 93 / N/A
+   Weight/count/unique count of cluster 2: 1.98027425e-54 / 25 / N/A
+   Weight/count/unique count of cluster 3: 2.49035201e-55 / 69 / N/A
+
+2024-03-02 19:44:33,220 — lpath.match — INFO — Outputting files
+2024-03-02 19:44:33,417 — lpath.match — INFO — cluster 0 representative weight: [548.0 302.0 2.0 24.000396728515625 -2.5908966064453125 6.093902587890625
+ 6.5597991943359375 2.0 4.0 2.750504803404569e-56]
+2024-03-02 19:44:33,502 — lpath.match — INFO — cluster 1 representative weight: [461.0 293.0 9.0 13.612709045410156 -13.613998413085938 6.025398254394531
+ 6.025398254394531 9.0 5.0 1.418863982726843e-53]
+2024-03-02 19:44:33,570 — lpath.match — INFO — cluster 2 representative weight: [468.0 6.0 2.0 16.00279998779297 -2.9445953369140625 6.076301574707031
+ 6.076301574707031 2.0 2.0 6.665408370299457e-55]
+2024-03-02 19:44:33,627 — lpath.match — INFO — cluster 3 representative weight: [526.0 300.0 2.0 17.829605102539062 -1.5574951171875 6.084197998046875
+ 6.084197998046875 2.0 5.0 5.064812742001885e-56]

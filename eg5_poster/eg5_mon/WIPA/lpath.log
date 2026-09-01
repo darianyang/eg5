@@ -1,0 +1,34 @@
+2024-03-02 18:58:58,485 — lpath.match — INFO — 
+===LPATH Pattern Matching Statistics===
+   Total Number of clusters: 4
+   Weight/count/unique count of cluster 0: 6.21402510e-49 / 111 / N/A
+   Weight/count/unique count of cluster 1: 5.04259998e-59 / 16 / N/A
+   Weight/count/unique count of cluster 2: 1.58317462e-49 / 20 / N/A
+   Weight/count/unique count of cluster 3: 1.21055613e-49 / 101 / N/A
+
+2024-03-02 18:58:58,487 — lpath.match — INFO — Outputting files
+2024-03-02 18:58:58,655 — lpath.match — INFO — cluster 0 representative weight: [319.0 298.0 1.0 13.877395629882812 -48.00880432128906 6.0503997802734375
+ 6.0503997802734375 1.0 2.0 1.6352862664918344e-49]
+2024-03-02 18:58:58,725 — lpath.match — INFO — cluster 1 representative weight: [269.0 173.0 1.0 11.1669921875 11.7056884765625 6.3279876708984375
+ 6.3279876708984375 1.0 3.0 4.901556332947349e-59]
+2024-03-02 18:58:58,752 — lpath.match — INFO — cluster 2 representative weight: [277.0 318.0 1.0 14.353805541992188 -46.06520080566406 6.926605224609375
+ 6.926605224609375 1.0 2.0 4.477807485995873e-50]
+2024-03-02 18:58:58,793 — lpath.match — INFO — cluster 3 representative weight: [291.0 276.0 1.0 14.254501342773438 -12.758499145507812 6.175506591796875
+ 6.175506591796875 1.0 2.0 5.8090129441274765e-50]
+2024-03-02 18:59:00,506 — lpath.lpath — INFO — Running LPATH version 1.0.1.
+2024-03-02 18:59:00,511 — lpath.lpath — INFO — LPATH arguments: Namespace(step_name='plot', out_dir='succ_traj', stride=1, stats=False, debug=False, we=False, west_name='west.h5', assign_name='ANALYSIS/TEST/assign.h5', rcfile='west.cfg', output_pickle='succ_traj/reassigned.pickle', cl_output=None, dmatrix_save=None, out_path='plots', mpl_styles='default', matplotlib_args='', mpl_colors=['tomato', 'dodgerblue', 'orchid', 'mediumseagreen', 'darkorange', 'mediumpurple', 'grey'], dendrogram_threshold=0.5, dendrogram_show=True, num_clusters=None, relabel_method='relabel_identity', func=<function main at 0x163f84e50>)
+2024-03-02 18:59:00,511 — lpath.io — WARNING — Folder ``plots`` already exists. Files within might be overwritten.
+2024-03-02 18:59:00,512 — lpath.plot — WARNING — Setting distance matrix output to default succ_traj/distmat.npy. Make sure you're sure of this, or remake the distance matrix with ``lpath match``.
+2024-03-02 18:59:00,512 — lpath.plot — INFO — Setting cluster label output to default succ_traj/cluster_labels.npy.
+2024-03-02 18:59:00,786 — lpath.plot — INFO — There are 248 pathways.
+2024-03-02 18:59:00,897 — lpath.plot — INFO — Using default /Users/darian/anaconda3/envs/westpa/lib/python3.9/site-packages/lpath/data/styles/default.mplstyle
+2024-03-02 18:59:02,755 — lpath.plot — INFO — Using default /Users/darian/anaconda3/envs/westpa/lib/python3.9/site-packages/lpath/data/styles/default.mplstyle
+2024-03-02 18:59:02,879 — lpath.plot — INFO — Outputted graph in plots/weight_histogram.pdf.
+2024-03-02 18:59:03,302 — lpath.plot — INFO — Using default /Users/darian/anaconda3/envs/westpa/lib/python3.9/site-packages/lpath/data/styles/default.mplstyle
+2024-03-02 18:59:03,303 — lpath.plot — INFO — Defaulting to default LPATH plot layout
+2024-03-02 18:59:03,358 — lpath.plot — WARNING — Plot axes index not given. Plotting all into first N axes.
+2024-03-02 18:59:03,945 — lpath.plot — INFO — Outputted graph in plots/target_iteration.pdf.
+2024-03-02 18:59:04,521 — lpath.plot — INFO — Using default /Users/darian/anaconda3/envs/westpa/lib/python3.9/site-packages/lpath/data/styles/default.mplstyle
+2024-03-02 18:59:04,521 — lpath.plot — INFO — Defaulting to default LPATH plot layout
+2024-03-02 18:59:04,577 — lpath.plot — WARNING — Plot axes index not given. Plotting all into first N axes.
+2024-03-02 18:59:04,889 — lpath.plot — INFO — Outputted graph in plots/durations.pdf.
