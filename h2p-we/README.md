@@ -60,6 +60,7 @@ multi-mab_nomon_v01:
             * small = 1e-129 (300kT) and large = 0.1
         * also, switched to <10 int ene boundary, after this goes to a min PO4 distance and int ene
             * before I used min PO4 and RMSD, but probably no need for RMSD after that point
+    * **successful**
 
     * started a WESS run off of this run (from iteration 585)
         * wess_v00_multi-mab_nomon_v01
@@ -80,6 +81,7 @@ multi-mab_wmon_v00:
         * then update these in the runseg and get_pcoord scripts
         * also added back aux data for monastrol RMSD, SASA, and energy calculations
         * note I had to change analyze_sasa py script to 1x88_solv as well
+    * **successful**
 
 # multi-mab with DL5
 multi-mab_dl5_v00:
