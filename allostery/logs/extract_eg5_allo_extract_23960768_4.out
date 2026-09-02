@@ -1,0 +1,4 @@
+COND=wmon task=4 iters 109-135 -> data/shards/wmon_04.h5 on smp-n226.crc.pitt.edu, 16 cpus
+  wmon 109-135: 0/3665 segs
+  wmon 109-135: 14660 movements (14563 in-cluster, 97 boundary), 0 missing segs -> data/shards/wmon_04.h5
+done task 4

@@ -1,0 +1,6 @@
+COND=nomon task=14 iters 519-555 -> data/shards/nomon_14.h5 on smp-n248.crc.pitt.edu, 16 cpus
+  nomon 519-555: 0/11882 segs
+  nomon 519-555: 5000/11882 segs
+  nomon 519-555: 10000/11882 segs
+  nomon 519-555: 47528 movements (44618 in-cluster, 2910 boundary), 0 missing segs -> data/shards/nomon_14.h5
+done task 14
