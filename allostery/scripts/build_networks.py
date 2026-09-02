@@ -28,43 +28,65 @@ import h5py
 sys.path.insert(0, os.path.dirname(__file__))
 from eg5_allostery import N_CLUSTERS  # noqa: E402
 
-from mdpath.src.mutual_information import NMICalculator
 from mdpath.src.structure import StructureCalculations
 from mdpath.src.graph import GraphBuilder
 
 
-def weighted_nmi(df, weights, num_bins=35, hist_range=(-180.0, 180.0)):
-    """WE-weighted NMI edge table, matching NMICalculator's output format.
+def compute_nmi(df, weights=None, num_bins=35, hist_range=(-180.0, 180.0)):
+    """Normalized Mutual Information edge table for all residue pairs.
 
-    Identical definition to mdpath's histogram NMI, but every movement (row)
-    contributes its normalized WE weight to the 1-D and 2-D histograms instead
-    of a unit count.  MI and entropy are scale-invariant in the histogram, so a
-    weighted contingency is a valid weighted MI estimate.
+    Numerically equivalent to mdpath's NMICalculator (fixed [-180,180) support,
+    ``num_bins`` bins, NMI = MI / sqrt(H_i H_j) in nats) but much faster and
+    weight-aware: each residue's movements are digitized to bin codes once, then
+    each pair's joint histogram is a single ``bincount`` over the shared codes.
+
+    ``weights`` (WE walker weights) are normalized and used as histogram weights;
+    ``None`` gives the pooled (unit-weight) network.  MI and entropy are computed
+    directly from the probability histograms with zeros masked out, so empty bins
+    -- common in weighted histograms -- are handled cleanly.
 
     Returns a DataFrame with columns ``Residue Pair`` (tuple of "Res u","Res v")
     and ``MI Difference`` -- the shape GraphBuilder expects.
     """
     from itertools import combinations
-    from scipy.stats import entropy
-    from sklearn.metrics import mutual_info_score
 
-    w = np.asarray(weights, dtype=np.float64)
-    w = w / w.sum()
     cols = df.columns.tolist()
-    rng = [hist_range, hist_range]
+    nb = num_bins
+    lo, hi = hist_range
+    edges = np.linspace(lo, hi, nb + 1)
 
-    hist1d, ent = {}, {}
+    n = len(df)
+    if weights is None:
+        w = np.full(n, 1.0 / n)
+    else:
+        w = np.asarray(weights, dtype=np.float64)
+        w = w / w.sum()
+
+    # digitize each residue's movements to bin codes 0..nb-1 once
+    codes, p1, ent = {}, {}, {}
     for c in cols:
-        h, _ = np.histogram(df[c].to_numpy(), bins=num_bins,
-                            range=hist_range, weights=w)
-        hist1d[c] = h
-        ent[c] = entropy(h)
+        x = df[c].to_numpy()
+        code = np.clip(np.searchsorted(edges, x, side="right") - 1, 0, nb - 1
+                       ).astype(np.int64)
+        codes[c] = code
+        p = np.bincount(code, weights=w, minlength=nb)
+        p1[c] = p
+        nz = p > 0
+        ent[c] = float(-(p[nz] * np.log(p[nz])).sum())
 
     rows = {}
     for c1, c2 in combinations(cols, 2):
-        hj, _, _ = np.histogram2d(df[c1].to_numpy(), df[c2].to_numpy(),
-                                  bins=num_bins, range=rng, weights=w)
-        mi = mutual_info_score(hist1d[c1], hist1d[c2], contingency=hj)
+        joint = np.bincount(codes[c1] * nb + codes[c2], weights=w,
+                            minlength=nb * nb).reshape(nb, nb)
+        pi = p1[c1]
+        pj = p1[c2]
+        mask = joint > 0
+        if mask.any():
+            jm = joint[mask]
+            outer = (pi[:, None] * pj[None, :])[mask]
+            mi = float((jm * np.log(jm / outer)).sum())
+        else:
+            mi = 0.0
         denom = np.sqrt(ent[c1] * ent[c2])
         nmi = mi / denom if denom > 0 else 0.0
         rows[(c1, c2)] = nmi
@@ -108,9 +130,9 @@ def build_one(cond, cluster, scheme, mov_h5, pdb, out_root,
         return None
 
     if scheme == "pooled":
-        nmi_df = NMICalculator(df, num_bins=num_bins, show_progress=False).nmi_df
+        nmi_df = compute_nmi(df, weights=None, num_bins=num_bins)
     elif scheme == "weighted":
-        nmi_df = weighted_nmi(df, w, num_bins=num_bins)
+        nmi_df = compute_nmi(df, weights=w, num_bins=num_bins)
     else:
         raise ValueError(scheme)
 
