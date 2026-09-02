@@ -1,0 +1,14 @@
+# mdpath allosteric pathway bundles for wmon cluster 4 (pooled)
+set bgColor white
+open /ix/lchong/dty7/eg5/allostery/data/ref_nomon.pdb
+hide atoms
+show cartoon
+color #1 gray(150)
+transparency #1 40 target c
+open cluster_meshes/cluster_1.stl
+color #2 rgb(31,119,180)
+open cluster_meshes/cluster_2.stl
+color #3 rgb(43,169,43)
+lighting soft
+graphics silhouettes true
+view

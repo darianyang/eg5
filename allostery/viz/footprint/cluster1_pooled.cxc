@@ -1,0 +1,10 @@
+# Monastrol allosteric footprint, cluster 1 (pooled)
+set bgColor white
+open /ix/lchong/dty7/eg5/allostery/data/ref_nomon.pdb
+hide atoms
+show cartoon
+open cluster1_pooled.defattr
+color byattribute dnmi_c1 palette 0,#dcdcdc:0.38709,#f4a000:0.774181,#b2182b target c
+lighting soft
+graphics silhouettes true
+view

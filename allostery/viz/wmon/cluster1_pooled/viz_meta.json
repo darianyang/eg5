@@ -1,0 +1,12 @@
+{
+  "cond": "wmon",
+  "cluster": 1,
+  "scheme": "pooled",
+  "n_paths_used": 200,
+  "n_bundles": 3,
+  "bundle_sizes": {
+    "2": 100,
+    "3": 89,
+    "1": 11
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "cond": "nomon",
+  "cluster": 3,
+  "scheme": "pooled",
+  "n_paths_used": 200,
+  "n_bundles": 6,
+  "bundle_sizes": {
+    "3": 92,
+    "4": 37,
+    "5": 31,
+    "6": 22,
+    "2": 12,
+    "1": 6
+  }
+}
