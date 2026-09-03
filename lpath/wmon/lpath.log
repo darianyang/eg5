@@ -1,23 +1,6 @@
-2026-09-03 04:54:44,743 — lpath.lpath — INFO — Running LPATH version 1.0.7+27.ga2a2862.
-2026-09-03 04:58:00,044 — lpath.lpath — INFO — Running LPATH version 1.0.7+27.ga2a2862.
-2026-09-03 04:58:02,492 — lpath.lpath — INFO — LPATH arguments: Namespace(step_name='extract', out_dir='succ_traj', stride=1, stats=False, debug=False, we=True, west_name='./west.h5', assign_name='./WIPA/FULLY_UNBOUND2/assign.h5', rcfile='west.cfg', extract_input='states.npy', extract_output='succ_traj/output.pickle', source_state_num=0, target_state_num=1, pcoord=True, featurization_name=None, feature_stride=1, trace_basis=False, exclude_short=0, use_ray=True, threads=0, first_iter=1, last_iter=0, hdf5=False, auxdata=['labels'], rewrite_weights=False, out_traj=False, out_traj_ext='.nc', out_state_ext='.ncrst', out_top='system.prmtop', func=<function main at 0x7f3cc4678680>)
-2026-09-03 04:58:05,865 — lpath.extract — INFO — Copying ./west.h5 as succ_traj/./west_succ.h5. This might take a while depending on file size...
-2026-09-03 05:04:58,628 — lpath.extract — INFO — States {np.uint8(0), np.uint8(1), np.uint8(2)} visited within all successful trajectories.
-2026-09-03 05:04:58,645 — lpath.extract — WARNING — Your trajectories visited only 3
-2026-09-03 05:05:02,666 — lpath.lpath — INFO — Running LPATH version 1.0.7+27.ga2a2862.
-2026-09-03 05:05:02,670 — lpath.lpath — INFO — LPATH arguments: Namespace(step_name='match', out_dir='succ_traj', stride=1, stats=False, debug=False, we=True, west_name='west.h5', assign_name='ANALYSIS/TEST/assign.h5', rcfile='west.cfg', extract_output='succ_traj/output.pickle', output_pickle='succ_traj/reassigned.pickle', cl_output='succ_traj/cluster_labels.npy', exclude_short=0, reassign_method='reassign_custom.reassign_custom', match_metric='longest_common_subsequence', match_vanilla=False, remove_ends=False, condense=1, dmatrix_remake=True, dmatrix_save='succ_traj/distmat.npy', dmatrix_parallel=None, clusters=None, export_h5=False, file_pattern='west_succ_c{}.h5', out_path='plots', mpl_styles='default', matplotlib_args='', mpl_colors=['tomato', 'dodgerblue', 'orchid', 'mediumseagreen', 'darkorange', 'mediumpurple', 'grey'], dendrogram_threshold=0.5, dendrogram_show=False, num_clusters=6, plot_timeout=5, relabel_method='relabel_identity', func=<function main at 0x7f4e8eb02c00>)
-2026-09-03 05:05:02,672 — lpath.io — WARNING — Folder ``plots`` already exists. Files within might be overwritten.
-2026-09-03 05:05:02,755 — lpath.match — INFO — INFO: Replaced reassign() with reassign_custom.reassign_custom
-2026-09-03 05:05:06,340 — lpath.match — INFO — Outputting files
-2026-09-03 05:05:06,491 — lpath.match — INFO — cluster 0 representative weight: [249.0 311.0 3.0 14.1748046875 4.184906005859375 6.2382049560546875
- 6.2382049560546875 4.0 2.0 6.465520635794873e-53]
-2026-09-03 05:05:06,496 — lpath.match — INFO — cluster 1 representative weight: [222.0 286.0 3.0 13.355300903320312 -24.059600830078125 6.053703308105469
+2026-09-03 10:01:12,221 — lpath.match — INFO — cluster 3 representative weight: [277.0 318.0 1.0 14.353805541992188 -46.06520080566406 6.926605224609375
+ 6.926605224609375 4.0 2.0 4.477807485995873e-50]
+2026-09-03 10:01:12,353 — lpath.match — INFO — cluster 4 representative weight: [222.0 286.0 1.0 13.355300903320312 -24.059600830078125 6.053703308105469
  6.053703308105469 4.0 2.0 1.4618567129377173e-51]
-2026-09-03 05:05:06,500 — lpath.match — INFO — cluster 2 representative weight: [319.0 298.0 3.0 13.877395629882812 -48.00880432128906 6.0503997802734375
- 6.0503997802734375 4.0 2.0 1.6352862664918344e-49]
-2026-09-03 05:05:06,505 — lpath.match — INFO — cluster 3 representative weight: [320.0 295.0 3.0 14.52679443359375 -41.907997131347656 6.1146087646484375
- 6.1146087646484375 4.0 2.0 1.4579837464504679e-49]
-2026-09-03 05:05:06,511 — lpath.match — INFO — cluster 4 representative weight: [366.0 6.0 3.0 17.169189453125 -46.801307678222656 6.1785888671875
- 7.690093994140625 4.0 3.0 6.602103255333042e-55]
-2026-09-03 05:05:06,517 — lpath.match — INFO — cluster 5 representative weight: [289.0 309.0 3.0 16.243698120117188 -2.464996337890625 6.1385955810546875
- 6.1385955810546875 4.0 5.0 1.5573281262242286e-50]
+2026-09-03 10:01:12,362 — lpath.match — INFO — cluster 5 representative weight: [291.0 276.0 1.0 14.254501342773438 -12.758499145507812 6.175506591796875
+ 6.175506591796875 4.0 2.0 5.8090129441274765e-50]

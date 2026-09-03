@@ -10,3 +10,20 @@
  6.277702331542969 4.0 3.0 3.637803500022065e-54]
 2026-09-03 04:54:38,220 — lpath.match — INFO — cluster 5 representative weight: [461.0 293.0 3.0 13.612709045410156 -13.613998413085938 6.025398254394531
  6.025398254394531 4.0 5.0 1.418863982726843e-53]
+2026-09-03 10:00:51,888 — lpath.lpath — INFO — Running LPATH version 1.0.7+27.ga2a2862.
+2026-09-03 10:00:51,893 — lpath.lpath — INFO — LPATH arguments: Namespace(step_name='match', out_dir='succ_traj', stride=1, stats=False, debug=False, we=True, west_name='west.h5', assign_name='ANALYSIS/TEST/assign.h5', rcfile='west.cfg', extract_output='succ_traj/output.pickle', output_pickle='succ_traj/reassigned_binned.pickle', cl_output='succ_traj/cluster_labels_binned.npy', exclude_short=0, reassign_method='reassign_binned.reassign_binned', match_metric='longest_common_subsequence', match_vanilla=False, remove_ends=False, condense=1, dmatrix_remake=True, dmatrix_save='succ_traj/distmat_binned.npy', dmatrix_parallel=None, clusters=None, export_h5=False, file_pattern='west_succ_c{}.h5', out_path='plots_binned', mpl_styles='default', matplotlib_args='', mpl_colors=['tomato', 'dodgerblue', 'orchid', 'mediumseagreen', 'darkorange', 'mediumpurple', 'grey'], dendrogram_threshold=0.5, dendrogram_show=False, num_clusters=6, plot_timeout=5, relabel_method='relabel_identity', func=<function main at 0x7fe63171eca0>)
+2026-09-03 10:00:51,911 — lpath.io — WARNING — Folder ``plots_binned`` already exists. Files within might be overwritten.
+2026-09-03 10:00:52,056 — lpath.match — INFO — INFO: Replaced reassign() with reassign_binned.reassign_binned
+2026-09-03 10:00:59,535 — lpath.match — INFO — Outputting files
+2026-09-03 10:01:00,604 — lpath.match — INFO — cluster 0 representative weight: [506.0 287.0 1.0 16.971298217773438 -21.674301147460938 6.06549072265625
+ 6.091094970703125 4.0 3.0 2.5375288199086823e-56]
+2026-09-03 10:01:00,613 — lpath.match — INFO — cluster 1 representative weight: [526.0 300.0 1.0 17.829605102539062 -1.5574951171875 6.084197998046875
+ 6.084197998046875 4.0 5.0 5.064812742001885e-56]
+2026-09-03 10:01:00,760 — lpath.match — INFO — cluster 2 representative weight: [468.0 6.0 1.0 16.00279998779297 -2.9445953369140625 6.076301574707031
+ 6.076301574707031 4.0 2.0 6.665408370299457e-55]
+2026-09-03 10:01:00,780 — lpath.match — INFO — cluster 3 representative weight: [548.0 302.0 1.0 24.000396728515625 -2.5908966064453125 6.093902587890625
+ 6.5597991943359375 4.0 4.0 2.750504803404569e-56]
+2026-09-03 10:01:00,788 — lpath.match — INFO — cluster 4 representative weight: [557.0 300.0 1.0 25.371002197265625 -100.17330169677734 6.2534942626953125
+ 6.2534942626953125 4.0 3.0 6.3967340357978074e-71]
+2026-09-03 10:01:00,796 — lpath.match — INFO — cluster 5 representative weight: [461.0 293.0 1.0 13.612709045410156 -13.613998413085938 6.025398254394531
+ 6.025398254394531 4.0 5.0 1.418863982726843e-53]
