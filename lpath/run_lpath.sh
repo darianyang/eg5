@@ -43,9 +43,13 @@ for RUN in nomon wmon; do
     lpath extract -we -W ./west.h5 -A "$ASSIGN" \
         -ss 0 -ts 1 -p -a labels
 
-    # 3. match with condensing of repeat pairs; states = shared cluster labels
-    lpath match -we -ra reassign_custom.reassign_custom \
-        -op succ_traj/reassigned.pickle --condense 2 \
+    # 3. match; states = shared cluster labels. condense=1 strips only
+    #    consecutive-duplicate dwell frames. --n-clusters bypasses the
+    #    interactive "how many clusters?" prompt; `printf 'n\n'` answers the
+    #    "regenerate dendrogram?" prompt (avoids timedinput EOFError when
+    #    stdin is not a TTY).
+    printf 'n\n' | lpath match -we -ra reassign_custom.reassign_custom \
+        -op succ_traj/reassigned.pickle --condense 1 --n-clusters 6 --timeout 5 \
         --plots-hide --plot-out-path plots
 
     popd > /dev/null
