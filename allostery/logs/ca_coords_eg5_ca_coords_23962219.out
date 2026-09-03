@@ -1,0 +1,43 @@
+COND=nomon max_frames=20000 -> data/ca_coords_nomon.h5 on smp-n217.crc.pitt.edu, 16 cpus
+[nomon] enumerating frames from /ix/lchong/dty7/eg5/lpath/nomon/west.h5
+  cluster 0: sampled 20000 of 304212 frames
+  cluster 1: sampled 5823 of 5823 frames
+  cluster 2: sampled 20000 of 79414 frames
+  cluster 3: sampled 20000 of 55499 frames
+  cluster 4: sampled 20000 of 20017 frames
+  cluster 5: sampled 20000 of 209490 frames
+[nomon] 105823 frames sampled total; loading Ca coords on 16 cpu(s)
+[nomon] 61858 segments to read
+  0/61858 segments read
+  2000/61858 segments read
+  4000/61858 segments read
+  6000/61858 segments read
+  8000/61858 segments read
+  10000/61858 segments read
+  12000/61858 segments read
+  14000/61858 segments read
+  16000/61858 segments read
+  18000/61858 segments read
+  20000/61858 segments read
+  22000/61858 segments read
+  24000/61858 segments read
+  26000/61858 segments read
+  28000/61858 segments read
+  30000/61858 segments read
+  32000/61858 segments read
+  34000/61858 segments read
+  36000/61858 segments read
+  38000/61858 segments read
+  40000/61858 segments read
+  42000/61858 segments read
+  44000/61858 segments read
+  46000/61858 segments read
+  48000/61858 segments read
+  50000/61858 segments read
+  52000/61858 segments read
+  54000/61858 segments read
+  56000/61858 segments read
+  58000/61858 segments read
+  60000/61858 segments read
+[nomon] wrote (105394, 368, 3) to data/ca_coords_nomon.h5 (259 missing segs); per-cluster: c0=20000, c1=5823, c2=19571, c3=20000, c4=20000, c5=20000
+done nomon

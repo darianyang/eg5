@@ -1,0 +1,43 @@
+COND=wmon max_frames=20000 -> data/ca_coords_wmon.h5 on smp-n219.crc.pitt.edu, 16 cpus
+[wmon] enumerating frames from /ix/lchong/dty7/eg5/lpath/wmon/west.h5
+  cluster 0: sampled 20000 of 179796 frames
+  cluster 1: sampled 7587 of 7587 frames
+  cluster 2: sampled 20000 of 64832 frames
+  cluster 3: sampled 20000 of 105450 frames
+  cluster 4: sampled 20000 of 31889 frames
+  cluster 5: sampled 20000 of 96821 frames
+[wmon] 107587 frames sampled total; loading Ca coords on 16 cpu(s)
+[wmon] 62265 segments to read
+  0/62265 segments read
+  2000/62265 segments read
+  4000/62265 segments read
+  6000/62265 segments read
+  8000/62265 segments read
+  10000/62265 segments read
+  12000/62265 segments read
+  14000/62265 segments read
+  16000/62265 segments read
+  18000/62265 segments read
+  20000/62265 segments read
+  22000/62265 segments read
+  26000/62265 segments read
+  28000/62265 segments read
+  30000/62265 segments read
+  32000/62265 segments read
+  34000/62265 segments read
+  36000/62265 segments read
+  38000/62265 segments read
+  40000/62265 segments read
+  42000/62265 segments read
+  44000/62265 segments read
+  46000/62265 segments read
+  48000/62265 segments read
+  50000/62265 segments read
+  52000/62265 segments read
+  54000/62265 segments read
+  56000/62265 segments read
+  58000/62265 segments read
+  60000/62265 segments read
+  62000/62265 segments read
+[wmon] wrote (107144, 368, 3) to data/ca_coords_wmon.h5 (235 missing segs); per-cluster: c0=20000, c1=7587, c2=19557, c3=20000, c4=20000, c5=20000
+done wmon
