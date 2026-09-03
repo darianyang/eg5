@@ -1,0 +1,11 @@
+open /ix/lchong/dty7/eg5/allostery/data/ref_nomon.pdb
+hide atoms
+show cartoon
+color light gray
+transparency 55 target c
+open /ix/lchong/dty7/eg5/allostery/viz/spm/nomon/cluster4.bild
+open /ix/lchong/dty7/eg5/allostery/viz/spm/wmon/cluster4.bild
+open /ix/lchong/dty7/eg5/allostery/viz/spm/delta/cluster4.bild
+set bgColor white
+lighting soft
+# models: 2=nomon SPM, 3=wmon SPM, 4=drug difference (red gained / blue lost)
